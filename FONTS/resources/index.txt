@@ -1,0 +1,23 @@
+SUBGRUP-PROP43.2
+
+Descripcio del directori: Arxius auxiliars per a l'execucio de l'aplicacio i la generacio de documentacio Doxygen.
+
+resources
+│
+├── catalan.txt    // Diccionari catala.
+├── castellano.txt // Diccionari castella.
+├── english.txt    // Diccionari angles.
+│
+├── letrascatalan.txt    // Joc de Fitxes catala.
+├── letrascastellano.txt // Joc de Fitxes castella.
+├── letrasenglish.txt    // Joc de Fitxes angles.
+│
+├── cat_*.png    // Imatges del joc de fitxes en catala.
+├── esp_*.png    // Imatges del joc de fitxes en castella.
+├── eng_*.png    // Imatges del joc de fitxes en angles.
+│
+├── normes.txt // Normes del joc
+│
+├── custom.css // Fulls d'estil per a la doumentacio Doxygen.
+├── icon.ico   // Icone per a l'accés des de la GUI de Windows.
+└── *.png      // Imatges Auxiliars per a la interficie grafica.

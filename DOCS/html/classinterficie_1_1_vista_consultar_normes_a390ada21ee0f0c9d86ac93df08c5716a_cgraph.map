@@ -1,0 +1,5 @@
+<map id="interficie.VistaConsultarNormes.carregarNormes" name="interficie.VistaConsultarNormes.carregarNormes">
+<area shape="rect" id="Node000001" title="Llegeix les normes des del fitxer de text i les mostra amb estil HTML." alt="" coords="5,5,170,48"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1_vista_consultar_normes.html#ad1a9a84d1daa2ec0cc320272d3752489" title="Mostra un missatge HTML alternatiu quan no es troba l&#39;arxiu de normes." alt="" coords="218,5,422,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,24,202,24,202,29,170,29"/>
+</map>

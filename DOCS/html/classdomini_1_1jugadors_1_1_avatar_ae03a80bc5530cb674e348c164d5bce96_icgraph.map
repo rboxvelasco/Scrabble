@@ -1,0 +1,10 @@
+<map id="domini.jugadors.Avatar.getPartides_abandonades" name="domini.jugadors.Avatar.getPartides_abandonades">
+<area shape="rect" id="Node000001" title="Obté el nombre de partides abandonades." alt="" coords="859,29,1036,72"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1_vista_consultar_estadistiques.html#a2d04a42f93b8d16629d5795a935ae87e" title="Mostra les estadístiques d’un avatar seleccionat a l’àrea d’estadístiques." alt="" coords="584,29,811,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="844,53,812,53,812,48,844,48"/>
+<area shape="rect" id="Node000003" href="$classinterficie_1_1_vista_consultar_estadistiques.html#a1f4f83c8a4fdc86e24ef38f338645fbf" title="Afegeix un listener a la llista per mostrar estadístiques quan es selecciona un avatar." alt="" coords="323,29,536,72"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="568,53,536,53,536,48,568,48"/>
+<area shape="rect" id="Node000004" href="$classinterficie_1_1_vista_consultar_estadistiques.html#a72ea2d682e9b49e5fa9a21c42187f581" title="Constructor principal de la vista." alt="" coords="5,29,275,72"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="307,53,275,53,275,48,307,48"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="188,16,170,10,140,8,112,10,95,15,89,21,91,28,86,29,84,19,93,10,112,5,140,3,171,5,189,11"/>
+</map>

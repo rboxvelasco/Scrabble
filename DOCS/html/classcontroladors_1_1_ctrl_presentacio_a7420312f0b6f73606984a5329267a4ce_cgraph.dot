@@ -1,0 +1,14 @@
+digraph "controladors.CtrlPresentacio.canviarCanviTorn"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="controladors.CtrlPresentacio.canviar\lCanviTorn",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Canvia a la vista de canvi de torn entre jugadors."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="domini.scrabble.Partida.get\lJugadorActual",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1scrabble_1_1_partida.html#a97c82dc47217e0515691e5c2ffaa3626",tooltip="Obté el jugador que està jugant el torn."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="controladors.CtrlPresentacio.get\lPartida",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#af18fe9d82387504c97bd73a19eaa15e8",tooltip="Retorna la instància de la partida actual en curs."];
+}

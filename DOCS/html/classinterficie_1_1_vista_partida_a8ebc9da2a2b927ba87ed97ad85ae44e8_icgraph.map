@@ -1,0 +1,27 @@
+<map id="interficie.VistaPartida.confirmarGuardar" name="interficie.VistaPartida.confirmarGuardar">
+<area shape="rect" id="Node000001" title="Confirma l&#39;acció de guardar la partida." alt="" coords="1157,207,1360,249"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1_vista_partida.html#a7855e7a9cc41e1450c37054781ba6309" title="Inicialitza els components de la interfície gràfica." alt="" coords="929,240,1109,267"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1142,243,1110,246,1109,241,1141,238"/>
+<area shape="rect" id="Node000003" href="$classinterficie_1_1_vista_partida.html#abce8626a6a3750affe851e1f8bea2cb3" title="Constructor de la classe VistaPartida." alt="" coords="731,181,881,224"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="913,240,864,227,865,222,914,235"/>
+<area shape="poly" id="edge13_Node000003_Node000001" title=" " alt="" coords="896,205,1156,220,1156,225,896,210"/>
+<area shape="poly" id="edge16_Node000003_Node000002" title=" " alt="" coords="896,213,988,237,986,242,895,218"/>
+<area shape="poly" id="edge17_Node000003_Node000003" title=" " alt="" coords="840,168,827,162,806,160,786,162,774,167,769,173,771,180,765,181,764,171,771,162,785,157,806,155,829,157,843,163"/>
+<area shape="rect" id="Node000004" href="$classinterficie_1_1_vista_partida.html#a6bd7550fc714ba5195c8b55ffe3d973c" title="Afegeix les fitxes d&#39;un jugador al seu rack." alt="" coords="502,240,683,283"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="717,230,673,242,672,237,716,225"/>
+<area shape="rect" id="Node000007" href="$classinterficie_1_1_vista_partida.html#ae6809bc2e7efc03077c111367571f788" title="Afegeix maquetes al rack de l&#39;oponent." alt="" coords="502,123,683,165"/>
+<area shape="poly" id="edge11_Node000003_Node000007" title=" " alt="" coords="716,181,672,168,673,163,717,176"/>
+<area shape="rect" id="Node000008" href="$classinterficie_1_1_vista_partida.html#ab47b596fbbd6a79289d4b9d7f5b5e068" title="Crea un panell amb la informació d&#39;un jugador." alt="" coords="265,5,443,48"/>
+<area shape="poly" id="edge14_Node000003_Node000008" title=" " alt="" coords="782,170,740,116,713,90,682,69,623,46,561,32,499,25,443,24,443,18,500,20,562,26,625,40,685,64,716,86,744,112,786,166"/>
+<area shape="rect" id="Node000005" href="$classinterficie_1_1_vista_partida.html#a0698d192124492ebfd8a3b029a6fa23c" title="Actualitza els racks dels jugadors." alt="" coords="254,181,454,224"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="488,238,443,227,444,222,489,233"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="394,232,444,266,473,281,503,292,567,306,634,312,701,312,766,306,884,287,972,265,974,270,885,292,767,312,701,317,634,317,567,311,501,297,470,286,441,270,391,236"/>
+<area shape="poly" id="edge10_Node000005_Node000003" title=" " alt="" coords="470,200,731,200,731,205,470,205"/>
+<area shape="rect" id="Node000006" href="$classinterficie_1_1_vista_partida.html#a485041b781e81c64fb5414207ff21d2a" title="Actualitza la informació de la partida." alt="" coords="5,123,206,165"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="245,180,198,169,200,163,246,175"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="151,172,200,204,255,234,322,265,375,287,430,303,502,317,608,334,692,340,775,335,880,315,943,292,994,265,997,270,945,297,881,320,776,340,692,346,608,339,502,323,429,309,373,292,320,270,252,238,197,208,148,177"/>
+<area shape="poly" id="edge9_Node000006_Node000003" title=" " alt="" coords="197,116,298,95,422,81,488,79,555,82,620,91,684,108,715,122,743,140,787,179,783,183,740,145,712,127,682,113,619,97,554,87,488,84,422,86,299,100,198,121"/>
+<area shape="poly" id="edge8_Node000006_Node000006" title=" " alt="" coords="146,110,131,104,105,101,82,103,68,108,62,114,64,122,59,123,57,113,65,104,81,98,106,96,132,98,148,105"/>
+<area shape="poly" id="edge12_Node000007_Node000005" title=" " alt="" coords="489,172,444,183,443,178,488,167"/>
+<area shape="poly" id="edge15_Node000008_Node000006" title=" " alt="" coords="283,57,255,69,147,125,144,120,253,64,281,52"/>
+</map>

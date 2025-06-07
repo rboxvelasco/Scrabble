@@ -1,0 +1,833 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ca">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Scrabble PROP: Referència de la Classe domini.jugadors.Maquina</title>
+<link rel="icon" href="icon2.png" type="image/x-icon" />
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Scrabble PROP
+   </div>
+   <div id="projectbrief">Subgrup 43.2: Raül Box, Aina Serra, Ada Peña &amp; Martina Cusidó</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat per Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classdomini_1_1jugadors_1_1_maquina.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregant...</div>
+<div class="SRStatus" id="Searching">Cercant...</div>
+<div class="SRStatus" id="NoMatches">Cap coincidència</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Mètodes públics</a> &#124;
+<a href="#pri-methods">Mètodes Privats</a> &#124;
+<a href="classdomini_1_1jugadors_1_1_maquina-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle"><div class="title">Referència de la Classe domini.jugadors.Maquina</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Representa un jugador controlat per la màquina.  
+ <a href="#details">Més...</a></p>
+<div class="dynheader">
+Diagrama d'Herència per a domini.jugadors.Maquina:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_maquina__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Diagrama de col·laboració per a domini.jugadors.Maquina:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_maquina__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Mètodes públics</h2></td></tr>
+<tr class="memitem:a65b0732e714ea5ca8c3e64a44c72cbb7" id="r_a65b0732e714ea5ca8c3e64a44c72cbb7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65b0732e714ea5ca8c3e64a44c72cbb7">Maquina</a> ()</td></tr>
+<tr class="memdesc:a65b0732e714ea5ca8c3e64a44c72cbb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor de la classe <a class="el" href="classdomini_1_1jugadors_1_1_maquina.html" title="Representa un jugador controlat per la màquina.">Maquina</a>.  <br /></td></tr>
+<tr class="separator:a65b0732e714ea5ca8c3e64a44c72cbb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b1f4889bc62ca862e4f87e55c66871e" id="r_a8b1f4889bc62ca862e4f87e55c66871e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdomini_1_1auxiliars_1_1_max_word.html">MaxWord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b1f4889bc62ca862e4f87e55c66871e">ferJugada</a> (<a class="el" href="classdomini_1_1scrabble_1_1_taulell.html">Taulell</a> t, <a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g.html">DAWG</a> d)</td></tr>
+<tr class="memdesc:a8b1f4889bc62ca862e4f87e55c66871e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Busca la paraula amb la puntuació més alta donats un taulell i un diccionari.  <br /></td></tr>
+<tr class="separator:a8b1f4889bc62ca862e4f87e55c66871e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classdomini_1_1jugadors_1_1_jugador"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classdomini_1_1jugadors_1_1_jugador')"><img src="closed.png" alt="-"/>&#160;Mètodes públics inherited from <a class="el" href="classdomini_1_1jugadors_1_1_jugador.html">domini.jugadors.Jugador</a></td></tr>
+<tr class="memitem:a1ec0271ac5579f7ac9e804e56e5f10ce inherit pub_methods_classdomini_1_1jugadors_1_1_jugador" id="r_a1ec0271ac5579f7ac9e804e56e5f10ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#a1ec0271ac5579f7ac9e804e56e5f10ce">Jugador</a> (int <a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#a1ac2dfbfd1d80eda33da3be88e0e7345">idJugador</a>, String <a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#af1a4daa770f5af01589e00246bd9f21b">nom</a>, String <a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#a2510ac45c30b46cbbe7107ec764494be">rutaImatge</a>)</td></tr>
+<tr class="memdesc:a1ec0271ac5579f7ac9e804e56e5f10ce inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor de la classe <a class="el" href="classdomini_1_1jugadors_1_1_jugador.html" title="Representa un jugador del joc de Scrabble.">Jugador</a>.  <br /></td></tr>
+<tr class="separator:a1ec0271ac5579f7ac9e804e56e5f10ce inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa999de0f50bb1671ac42dbe31388b01 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador" id="r_afa999de0f50bb1671ac42dbe31388b01"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#afa999de0f50bb1671ac42dbe31388b01">getIdJugador</a> ()</td></tr>
+<tr class="memdesc:afa999de0f50bb1671ac42dbe31388b01 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna l'identificador del jugador.  <br /></td></tr>
+<tr class="separator:afa999de0f50bb1671ac42dbe31388b01 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac629842bca37a6a17c8dbd5eb597e2e1 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador" id="r_ac629842bca37a6a17c8dbd5eb597e2e1"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#ac629842bca37a6a17c8dbd5eb597e2e1">getrutaImatge</a> ()</td></tr>
+<tr class="memdesc:ac629842bca37a6a17c8dbd5eb597e2e1 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obté a ruta a la imatge de l'avatar.  <br /></td></tr>
+<tr class="separator:ac629842bca37a6a17c8dbd5eb597e2e1 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd263319ed47cf1469e301659e15dd26 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador" id="r_abd263319ed47cf1469e301659e15dd26"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#abd263319ed47cf1469e301659e15dd26">getNom</a> ()</td></tr>
+<tr class="memdesc:abd263319ed47cf1469e301659e15dd26 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna el nom del jugador.  <br /></td></tr>
+<tr class="separator:abd263319ed47cf1469e301659e15dd26 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf9520ec234c3f2cc52e1b79b85a008e inherit pub_methods_classdomini_1_1jugadors_1_1_jugador" id="r_acf9520ec234c3f2cc52e1b79b85a008e"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#acf9520ec234c3f2cc52e1b79b85a008e">getFitxes_actuals</a> ()</td></tr>
+<tr class="memdesc:acf9520ec234c3f2cc52e1b79b85a008e inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna la llista amb les fitxes actuals del jugador.  <br /></td></tr>
+<tr class="separator:acf9520ec234c3f2cc52e1b79b85a008e inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae879e7f0bd87dc8b6e7cec537c00ac8f inherit pub_methods_classdomini_1_1jugadors_1_1_jugador" id="r_ae879e7f0bd87dc8b6e7cec537c00ac8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#ae879e7f0bd87dc8b6e7cec537c00ac8f">setFitxesActuals</a> (List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt; novesFitxes)</td></tr>
+<tr class="memdesc:ae879e7f0bd87dc8b6e7cec537c00ac8f inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigna una nova llista de fitxes al jugador.  <br /></td></tr>
+<tr class="separator:ae879e7f0bd87dc8b6e7cec537c00ac8f inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d77b2edccb47f99c509aff293a92ab9 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador" id="r_a6d77b2edccb47f99c509aff293a92ab9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#a6d77b2edccb47f99c509aff293a92ab9">buidarFitxesJugador</a> ()</td></tr>
+<tr class="memdesc:a6d77b2edccb47f99c509aff293a92ab9 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="mdescLeft">&#160;</td><td class="mdescRight">Buida totes les fitxes del jugador.  <br /></td></tr>
+<tr class="separator:a6d77b2edccb47f99c509aff293a92ab9 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5b78b5a60aa1845f6665113225281da inherit pub_methods_classdomini_1_1jugadors_1_1_jugador" id="r_af5b78b5a60aa1845f6665113225281da"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#af5b78b5a60aa1845f6665113225281da">getPuntuacio_actual</a> ()</td></tr>
+<tr class="memdesc:af5b78b5a60aa1845f6665113225281da inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna la puntuació actual del jugador.  <br /></td></tr>
+<tr class="separator:af5b78b5a60aa1845f6665113225281da inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac035aeae1fdd82b932fe2c717ae9b3d5 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador" id="r_ac035aeae1fdd82b932fe2c717ae9b3d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#ac035aeae1fdd82b932fe2c717ae9b3d5">incrementar_puntuacio_actual</a> (int punts)</td></tr>
+<tr class="memdesc:ac035aeae1fdd82b932fe2c717ae9b3d5 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="mdescLeft">&#160;</td><td class="mdescRight">Afegeix punts a la puntuació actual del jugador.  <br /></td></tr>
+<tr class="separator:ac035aeae1fdd82b932fe2c717ae9b3d5 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28fa4b7dcf1f5eabdc608591e61509ae inherit pub_methods_classdomini_1_1jugadors_1_1_jugador" id="r_a28fa4b7dcf1f5eabdc608591e61509ae"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#a28fa4b7dcf1f5eabdc608591e61509ae">afegirFitxa</a> (<a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> fitxa)</td></tr>
+<tr class="memdesc:a28fa4b7dcf1f5eabdc608591e61509ae inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="mdescLeft">&#160;</td><td class="mdescRight">El jugador afegeix una fitxa a la seva llista de fitxes.  <br /></td></tr>
+<tr class="separator:a28fa4b7dcf1f5eabdc608591e61509ae inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a958cd1f187802e5dcd496be3d60f5c30 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador" id="r_a958cd1f187802e5dcd496be3d60f5c30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#a958cd1f187802e5dcd496be3d60f5c30">eliminarFitxa</a> (String lletra)</td></tr>
+<tr class="memdesc:a958cd1f187802e5dcd496be3d60f5c30 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="mdescLeft">&#160;</td><td class="mdescRight">El jugador elimina una fitxa de la seva llista de fitxes.  <br /></td></tr>
+<tr class="separator:a958cd1f187802e5dcd496be3d60f5c30 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cc164a802db847d182dad2e8d799bbd inherit pub_methods_classdomini_1_1jugadors_1_1_jugador" id="r_a7cc164a802db847d182dad2e8d799bbd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#a7cc164a802db847d182dad2e8d799bbd">incrementarTornsPassatsConsecutius</a> ()</td></tr>
+<tr class="memdesc:a7cc164a802db847d182dad2e8d799bbd inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="mdescLeft">&#160;</td><td class="mdescRight">Incrementa el comptador de torns passats consecutius.  <br /></td></tr>
+<tr class="separator:a7cc164a802db847d182dad2e8d799bbd inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65f71c37c6890c64cc63ebf0a4d7e185 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador" id="r_a65f71c37c6890c64cc63ebf0a4d7e185"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#a65f71c37c6890c64cc63ebf0a4d7e185">reiniciarTornsPassatsConsecutius</a> ()</td></tr>
+<tr class="memdesc:a65f71c37c6890c64cc63ebf0a4d7e185 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reinicia el comptador de torns passats consecutius.  <br /></td></tr>
+<tr class="separator:a65f71c37c6890c64cc63ebf0a4d7e185 inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51e1ffeca2792578428eb24b63b35dba inherit pub_methods_classdomini_1_1jugadors_1_1_jugador" id="r_a51e1ffeca2792578428eb24b63b35dba"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#a51e1ffeca2792578428eb24b63b35dba">getTornsPassatsConsecutius</a> ()</td></tr>
+<tr class="memdesc:a51e1ffeca2792578428eb24b63b35dba inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna el nombre de torns passats consecutius.  <br /></td></tr>
+<tr class="separator:a51e1ffeca2792578428eb24b63b35dba inherit pub_methods_classdomini_1_1jugadors_1_1_jugador"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Mètodes Privats</h2></td></tr>
+<tr class="memitem:ae5ea3ad1e6cf736172f038349b70857d" id="r_ae5ea3ad1e6cf736172f038349b70857d"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5ea3ad1e6cf736172f038349b70857d">fitxes2String</a> (List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt; l)</td></tr>
+<tr class="memdesc:ae5ea3ad1e6cf736172f038349b70857d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converteix una llista de fitxes en una cadena de text.  <br /></td></tr>
+<tr class="separator:ae5ea3ad1e6cf736172f038349b70857d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d1379b7a857632d4bdcad6af82ef281" id="r_a7d1379b7a857632d4bdcad6af82ef281"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d1379b7a857632d4bdcad6af82ef281">rackContainsLetter</a> (List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt; rack, String let)</td></tr>
+<tr class="memdesc:a7d1379b7a857632d4bdcad6af82ef281"><td class="mdescLeft">&#160;</td><td class="mdescRight">Busca la posició d'una lletra en el rack de la màquina.  <br /></td></tr>
+<tr class="separator:a7d1379b7a857632d4bdcad6af82ef281"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80169174406c5da6922feb0f4c854ac8" id="r_a80169174406c5da6922feb0f4c854ac8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80169174406c5da6922feb0f4c854ac8">calcularPuntatge</a> (<a class="el" href="classdomini_1_1scrabble_1_1_taulell.html">Taulell</a> t, List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt; word, <a class="el" href="classdomini_1_1auxiliars_1_1_pair.html">Pair</a>&lt; Integer, Integer &gt; coords, boolean h)</td></tr>
+<tr class="memdesc:a80169174406c5da6922feb0f4c854ac8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calcula la puntuació d'una paraula col·locada en el taulell.  <br /></td></tr>
+<tr class="separator:a80169174406c5da6922feb0f4c854ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a247420aa69d81da6d3d1951d3b409a43" id="r_a247420aa69d81da6d3d1951d3b409a43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a247420aa69d81da6d3d1951d3b409a43">valorarParaula</a> (<a class="el" href="classdomini_1_1scrabble_1_1_taulell.html">Taulell</a> t, <a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g.html">DAWG</a> d, <a class="el" href="classdomini_1_1auxiliars_1_1_max_word.html">MaxWord</a> maxWord, List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt; partialWord, <a class="el" href="classdomini_1_1auxiliars_1_1_pair.html">Pair</a>&lt; Integer, Integer &gt; coords, boolean h)</td></tr>
+<tr class="memdesc:a247420aa69d81da6d3d1951d3b409a43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Valora una paraula i actualitza la millor paraula trobada si és millor.  <br /></td></tr>
+<tr class="separator:a247420aa69d81da6d3d1951d3b409a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe864f5cb4ab5895e149c5aad0235400" id="r_afe864f5cb4ab5895e149c5aad0235400"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe864f5cb4ab5895e149c5aad0235400">searchBestWord</a> (<a class="el" href="classdomini_1_1scrabble_1_1_taulell.html">Taulell</a> t, <a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g.html">DAWG</a> d, boolean h, <a class="el" href="classdomini_1_1auxiliars_1_1_max_word.html">MaxWord</a> maxWord)</td></tr>
+<tr class="memdesc:afe864f5cb4ab5895e149c5aad0235400"><td class="mdescLeft">&#160;</td><td class="mdescRight">Busca la millor paraula en una direcció específica (horitzontal o vertical).  <br /></td></tr>
+<tr class="separator:afe864f5cb4ab5895e149c5aad0235400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a408520f7aa4d96099ecfa1bae76728b5" id="r_a408520f7aa4d96099ecfa1bae76728b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a408520f7aa4d96099ecfa1bae76728b5">generateLeft</a> (<a class="el" href="classdomini_1_1scrabble_1_1_taulell.html">Taulell</a> t, <a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g.html">DAWG</a> d, <a class="el" href="classdomini_1_1auxiliars_1_1_max_word.html">MaxWord</a> maxWord, List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt; rack, List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt; partialWord, int node, int limit, <a class="el" href="classdomini_1_1auxiliars_1_1_pair.html">Pair</a>&lt; Integer, Integer &gt; anchor, boolean h)</td></tr>
+<tr class="memdesc:a408520f7aa4d96099ecfa1bae76728b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Genera totes les subparaules prefix possibles cap a l'esquerra d'una casella anchor.  <br /></td></tr>
+<tr class="separator:a408520f7aa4d96099ecfa1bae76728b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28fa4d863085aaaba920b95a47bf14b7" id="r_a28fa4d863085aaaba920b95a47bf14b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28fa4d863085aaaba920b95a47bf14b7">extendRight</a> (<a class="el" href="classdomini_1_1scrabble_1_1_taulell.html">Taulell</a> t, <a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g.html">DAWG</a> d, <a class="el" href="classdomini_1_1auxiliars_1_1_max_word.html">MaxWord</a> maxWord, List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt; rack, List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt; partialWord, int node, <a class="el" href="classdomini_1_1auxiliars_1_1_pair.html">Pair</a>&lt; Integer, Integer &gt; coords, boolean is_the_anchor, boolean h)</td></tr>
+<tr class="memdesc:a28fa4d863085aaaba920b95a47bf14b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Genera totes les paraules possibles a la dreta d'una subparaula prefix.  <br /></td></tr>
+<tr class="separator:a28fa4d863085aaaba920b95a47bf14b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57c533590571f4918ebd03a0b0d4819b" id="r_a57c533590571f4918ebd03a0b0d4819b"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57c533590571f4918ebd03a0b0d4819b">valid_traversals</a> (<a class="el" href="classdomini_1_1scrabble_1_1_taulell.html">Taulell</a> t, <a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g.html">DAWG</a> d, <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> f, <a class="el" href="classdomini_1_1auxiliars_1_1_pair.html">Pair</a>&lt; Integer, Integer &gt; coords)</td></tr>
+<tr class="memdesc:a57c533590571f4918ebd03a0b0d4819b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comprova si una lletra és vàlida per a una casella que formi paraula transversal vertical.  <br /></td></tr>
+<tr class="separator:a57c533590571f4918ebd03a0b0d4819b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classdomini_1_1jugadors_1_1_jugador"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classdomini_1_1jugadors_1_1_jugador')"><img src="closed.png" alt="-"/>&#160;Atributs Protegits inherited from <a class="el" href="classdomini_1_1jugadors_1_1_jugador.html">domini.jugadors.Jugador</a></td></tr>
+<tr class="memitem:a1ac2dfbfd1d80eda33da3be88e0e7345 inherit pro_attribs_classdomini_1_1jugadors_1_1_jugador" id="r_a1ac2dfbfd1d80eda33da3be88e0e7345"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#a1ac2dfbfd1d80eda33da3be88e0e7345">idJugador</a></td></tr>
+<tr class="separator:a1ac2dfbfd1d80eda33da3be88e0e7345 inherit pro_attribs_classdomini_1_1jugadors_1_1_jugador"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a4daa770f5af01589e00246bd9f21b inherit pro_attribs_classdomini_1_1jugadors_1_1_jugador" id="r_af1a4daa770f5af01589e00246bd9f21b"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#af1a4daa770f5af01589e00246bd9f21b">nom</a></td></tr>
+<tr class="separator:af1a4daa770f5af01589e00246bd9f21b inherit pro_attribs_classdomini_1_1jugadors_1_1_jugador"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0c00ca939055cad513503f53742c849 inherit pro_attribs_classdomini_1_1jugadors_1_1_jugador" id="r_aa0c00ca939055cad513503f53742c849"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#aa0c00ca939055cad513503f53742c849">puntuacio_actual</a></td></tr>
+<tr class="separator:aa0c00ca939055cad513503f53742c849 inherit pro_attribs_classdomini_1_1jugadors_1_1_jugador"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f9b1adee1015980de342b32b12fa277 inherit pro_attribs_classdomini_1_1jugadors_1_1_jugador" id="r_a8f9b1adee1015980de342b32b12fa277"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#a8f9b1adee1015980de342b32b12fa277">fitxes_actuals</a></td></tr>
+<tr class="separator:a8f9b1adee1015980de342b32b12fa277 inherit pro_attribs_classdomini_1_1jugadors_1_1_jugador"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ad8d549375fd3095bf24e0fc02d7d9c inherit pro_attribs_classdomini_1_1jugadors_1_1_jugador" id="r_a8ad8d549375fd3095bf24e0fc02d7d9c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#a8ad8d549375fd3095bf24e0fc02d7d9c">tornsPassatsConsecutius</a></td></tr>
+<tr class="separator:a8ad8d549375fd3095bf24e0fc02d7d9c inherit pro_attribs_classdomini_1_1jugadors_1_1_jugador"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_attribs_classdomini_1_1jugadors_1_1_jugador"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_classdomini_1_1jugadors_1_1_jugador')"><img src="closed.png" alt="-"/>&#160;Atributs Protegits Estàtics inherited from <a class="el" href="classdomini_1_1jugadors_1_1_jugador.html">domini.jugadors.Jugador</a></td></tr>
+<tr class="memitem:ab4a620e35c73ec500f8e63987ee66775 inherit pro_static_attribs_classdomini_1_1jugadors_1_1_jugador" id="r_ab4a620e35c73ec500f8e63987ee66775"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html#ab4a620e35c73ec500f8e63987ee66775">MAX_FITXES</a> = 7</td></tr>
+<tr class="separator:ab4a620e35c73ec500f8e63987ee66775 inherit pro_static_attribs_classdomini_1_1jugadors_1_1_jugador"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
+<div class="textblock"><p>Representa un jugador controlat per la màquina. </p>
+<p>La classe "Maquina" implementa la lògica necessària perquè la màquina pugui jugar de manera autònoma, incloent la cerca de paraules amb la puntuació més alta i la validació de moviments. </p>
+</div><h2 class="groupheader">Documentació del Constructor i el Destructor</h2>
+<a id="a65b0732e714ea5ca8c3e64a44c72cbb7" name="a65b0732e714ea5ca8c3e64a44c72cbb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65b0732e714ea5ca8c3e64a44c72cbb7">&#9670;&#160;</a></span>Maquina()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">domini.jugadors.Maquina.Maquina </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor de la classe <a class="el" href="classdomini_1_1jugadors_1_1_maquina.html" title="Representa un jugador controlat per la màquina.">Maquina</a>. </p>
+<p>Inicialitza la màquina amb un identificador predeterminat (-1), el nom "Maquina" i la contrasenya "*". </p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="a80169174406c5da6922feb0f4c854ac8" name="a80169174406c5da6922feb0f4c854ac8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80169174406c5da6922feb0f4c854ac8">&#9670;&#160;</a></span>calcularPuntatge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int domini.jugadors.Maquina.calcularPuntatge </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1scrabble_1_1_taulell.html">Taulell</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>word</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1auxiliars_1_1_pair.html">Pair</a>&lt; Integer, Integer &gt;</td>          <td class="paramname"><span class="paramname"><em>coords</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>h</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calcula la puntuació d'una paraula col·locada en el taulell. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">t</td><td>El taulell on es col·loca la paraula. </td></tr>
+    <tr><td class="paramname">word</td><td>La paraula de la qual es calcula la puntuació. </td></tr>
+    <tr><td class="paramname">coords</td><td>Les coordenades inicials de la paraula. </td></tr>
+    <tr><td class="paramname">h</td><td>Indica si la paraula és horitzontal (true) o vertical (false). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>La puntuació de la paraula. </dd></dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_maquina_a80169174406c5da6922feb0f4c854ac8_cgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_maquina_a80169174406c5da6922feb0f4c854ac8_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a28fa4d863085aaaba920b95a47bf14b7" name="a28fa4d863085aaaba920b95a47bf14b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28fa4d863085aaaba920b95a47bf14b7">&#9670;&#160;</a></span>extendRight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void domini.jugadors.Maquina.extendRight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1scrabble_1_1_taulell.html">Taulell</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g.html">DAWG</a></td>          <td class="paramname"><span class="paramname"><em>d</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1auxiliars_1_1_max_word.html">MaxWord</a></td>          <td class="paramname"><span class="paramname"><em>maxWord</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>rack</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>partialWord</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>node</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1auxiliars_1_1_pair.html">Pair</a>&lt; Integer, Integer &gt;</td>          <td class="paramname"><span class="paramname"><em>coords</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>is_the_anchor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>h</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Genera totes les paraules possibles a la dreta d'una subparaula prefix. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">t</td><td>El taulell on es busquen paraules. </td></tr>
+    <tr><td class="paramname">d</td><td>El diccionari de l'idioma. </td></tr>
+    <tr><td class="paramname">maxWord</td><td>Contenidor amb la informació de la millor paraula trobada. </td></tr>
+    <tr><td class="paramname">rack</td><td>Les fitxes disponibles al faristol. </td></tr>
+    <tr><td class="paramname">partialWord</td><td>La subparaula prefix generada. </td></tr>
+    <tr><td class="paramname">node</td><td>El node del <a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g.html" title="Representa un DAWG i implementa els mètodes per a generar-lo, modificar-lo i consultar-lo.">DAWG</a> des del qual es generen paraules. </td></tr>
+    <tr><td class="paramname">coords</td><td>Les coordenades inicials de la subparaula. </td></tr>
+    <tr><td class="paramname">is_the_anchor</td><td>Indica si la casella actual és una casella anchor. </td></tr>
+    <tr><td class="paramname">h</td><td>Indica si es busquen paraules horitzontals (true) o verticals (false). </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_maquina_a28fa4d863085aaaba920b95a47bf14b7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_maquina_a28fa4d863085aaaba920b95a47bf14b7_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a8b1f4889bc62ca862e4f87e55c66871e" name="a8b1f4889bc62ca862e4f87e55c66871e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b1f4889bc62ca862e4f87e55c66871e">&#9670;&#160;</a></span>ferJugada()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classdomini_1_1auxiliars_1_1_max_word.html">MaxWord</a> domini.jugadors.Maquina.ferJugada </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1scrabble_1_1_taulell.html">Taulell</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g.html">DAWG</a></td>          <td class="paramname"><span class="paramname"><em>d</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Busca la paraula amb la puntuació més alta donats un taulell i un diccionari. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">t</td><td>El taulell on es busquen paraules. </td></tr>
+    <tr><td class="paramname">d</td><td>El diccionari de l'idioma. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>La paraula de màxima puntuació amb els seus punts, coordenades i direcció. </dd></dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_maquina_a8b1f4889bc62ca862e4f87e55c66871e_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ae5ea3ad1e6cf736172f038349b70857d" name="ae5ea3ad1e6cf736172f038349b70857d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5ea3ad1e6cf736172f038349b70857d">&#9670;&#160;</a></span>fitxes2String()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String domini.jugadors.Maquina.fitxes2String </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>l</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converteix una llista de fitxes en una cadena de text. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">l</td><td>La llista de fitxes a convertir. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>La paraula en format String. </dd></dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_maquina_ae5ea3ad1e6cf736172f038349b70857d_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a408520f7aa4d96099ecfa1bae76728b5" name="a408520f7aa4d96099ecfa1bae76728b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a408520f7aa4d96099ecfa1bae76728b5">&#9670;&#160;</a></span>generateLeft()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void domini.jugadors.Maquina.generateLeft </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1scrabble_1_1_taulell.html">Taulell</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g.html">DAWG</a></td>          <td class="paramname"><span class="paramname"><em>d</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1auxiliars_1_1_max_word.html">MaxWord</a></td>          <td class="paramname"><span class="paramname"><em>maxWord</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>rack</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>partialWord</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>node</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>limit</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1auxiliars_1_1_pair.html">Pair</a>&lt; Integer, Integer &gt;</td>          <td class="paramname"><span class="paramname"><em>anchor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>h</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Genera totes les subparaules prefix possibles cap a l'esquerra d'una casella anchor. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">t</td><td>El taulell on es busquen paraules. </td></tr>
+    <tr><td class="paramname">d</td><td>El diccionari de l'idioma. </td></tr>
+    <tr><td class="paramname">maxWord</td><td>Contenidor amb la informació de la millor paraula trobada. </td></tr>
+    <tr><td class="paramname">rack</td><td>Les fitxes disponibles al faristol. </td></tr>
+    <tr><td class="paramname">partialWord</td><td>La subparaula parcial generada. </td></tr>
+    <tr><td class="paramname">node</td><td>El node del <a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g.html" title="Representa un DAWG i implementa els mètodes per a generar-lo, modificar-lo i consultar-lo.">DAWG</a> des del qual es generen paraules. </td></tr>
+    <tr><td class="paramname">limit</td><td>La longitud màxima de la subparaula generada. </td></tr>
+    <tr><td class="paramname">coords</td><td>Les coordenades inicials de la subparaula. </td></tr>
+    <tr><td class="paramname">h</td><td>Indica si es busquen paraules horitzontals (true) o verticals (false). </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_maquina_a408520f7aa4d96099ecfa1bae76728b5_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_maquina_a408520f7aa4d96099ecfa1bae76728b5_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a7d1379b7a857632d4bdcad6af82ef281" name="a7d1379b7a857632d4bdcad6af82ef281"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d1379b7a857632d4bdcad6af82ef281">&#9670;&#160;</a></span>rackContainsLetter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int domini.jugadors.Maquina.rackContainsLetter </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>rack</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>let</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Busca la posició d'una lletra en el rack de la màquina. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rack</td><td>El faristol de la màquina. </td></tr>
+    <tr><td class="paramname">let</td><td>La lletra a buscar. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>La posició de la lletra en el rack, o -1 si no es troba. </dd></dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_maquina_a7d1379b7a857632d4bdcad6af82ef281_icgraph.svg" width="100%" height="380"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="afe864f5cb4ab5895e149c5aad0235400" name="afe864f5cb4ab5895e149c5aad0235400"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe864f5cb4ab5895e149c5aad0235400">&#9670;&#160;</a></span>searchBestWord()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void domini.jugadors.Maquina.searchBestWord </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1scrabble_1_1_taulell.html">Taulell</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g.html">DAWG</a></td>          <td class="paramname"><span class="paramname"><em>d</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>h</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1auxiliars_1_1_max_word.html">MaxWord</a></td>          <td class="paramname"><span class="paramname"><em>maxWord</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Busca la millor paraula en una direcció específica (horitzontal o vertical). </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">t</td><td>El taulell on es busquen paraules. </td></tr>
+    <tr><td class="paramname">d</td><td>El diccionari de l'idioma. </td></tr>
+    <tr><td class="paramname">h</td><td>Indica si es busquen paraules horitzontals (true) o verticals (false). </td></tr>
+    <tr><td class="paramname">maxWord</td><td>Contenidor amb la informació de la millor paraula trobada. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_maquina_afe864f5cb4ab5895e149c5aad0235400_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_maquina_afe864f5cb4ab5895e149c5aad0235400_icgraph.svg" width="452" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a57c533590571f4918ebd03a0b0d4819b" name="a57c533590571f4918ebd03a0b0d4819b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57c533590571f4918ebd03a0b0d4819b">&#9670;&#160;</a></span>valid_traversals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean domini.jugadors.Maquina.valid_traversals </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1scrabble_1_1_taulell.html">Taulell</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g.html">DAWG</a></td>          <td class="paramname"><span class="paramname"><em>d</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a></td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1auxiliars_1_1_pair.html">Pair</a>&lt; Integer, Integer &gt;</td>          <td class="paramname"><span class="paramname"><em>coords</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Comprova si una lletra és vàlida per a una casella que formi paraula transversal vertical. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">t</td><td>El taulell. </td></tr>
+    <tr><td class="paramname">d</td><td>El diccionari de l'idioma. </td></tr>
+    <tr><td class="paramname">f</td><td>La fitxa a comprovar. </td></tr>
+    <tr><td class="paramname">coords</td><td>Les coordenades de la casella.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>true si la lletra és vàlida, false en cas contrari. </dd></dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_maquina_a57c533590571f4918ebd03a0b0d4819b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_maquina_a57c533590571f4918ebd03a0b0d4819b_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a247420aa69d81da6d3d1951d3b409a43" name="a247420aa69d81da6d3d1951d3b409a43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a247420aa69d81da6d3d1951d3b409a43">&#9670;&#160;</a></span>valorarParaula()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void domini.jugadors.Maquina.valorarParaula </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1scrabble_1_1_taulell.html">Taulell</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g.html">DAWG</a></td>          <td class="paramname"><span class="paramname"><em>d</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1auxiliars_1_1_max_word.html">MaxWord</a></td>          <td class="paramname"><span class="paramname"><em>maxWord</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>partialWord</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1auxiliars_1_1_pair.html">Pair</a>&lt; Integer, Integer &gt;</td>          <td class="paramname"><span class="paramname"><em>coords</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>h</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Valora una paraula i actualitza la millor paraula trobada si és millor. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">t</td><td>El taulell on es col·loca la paraula. </td></tr>
+    <tr><td class="paramname">d</td><td>El diccionari de l'idioma. </td></tr>
+    <tr><td class="paramname">maxWord</td><td>Contenidor amb la informació de la millor paraula trobada. </td></tr>
+    <tr><td class="paramname">partialWord</td><td>La paraula parcial a valorar. </td></tr>
+    <tr><td class="paramname">coords</td><td>Les coordenades inicials de la paraula. </td></tr>
+    <tr><td class="paramname">h</td><td>Indica si la paraula és horitzontal (true) o vertical (false). </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_maquina_a247420aa69d81da6d3d1951d3b409a43_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_maquina_a247420aa69d81da6d3d1951d3b409a43_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<hr/>La documentació d'aquesta classe es va generar a partir del següent fitxer:<ul>
+<li>FONTS/domini/jugadors/<a class="el" href="_maquina_8java.html">Maquina.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>domini</b></li><li class="navelem"><a class="el" href="namespacedomini_1_1jugadors.html">jugadors</a></li><li class="navelem"><a class="el" href="classdomini_1_1jugadors_1_1_maquina.html">Maquina</a></li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['racinferior_0',['racInferior',['../classinterficie_1_1_vista_partida.html#affdf2d0a16682947e41f274f71206aaf',1,'interficie::VistaPartida']]],
+  ['racrack_1',['racRack',['../classinterficie_1_1_vista_partida.html#a78198f9caf472f5184c6a7a7938dfed8',1,'interficie::VistaPartida']]],
+  ['racsuperior_2',['racSuperior',['../classinterficie_1_1_vista_partida.html#a2072d7577f8bbe63558ef89f545ed7fc',1,'interficie::VistaPartida']]],
+  ['ranking_3',['ranking',['../classcontroladors_1_1_ctrl_domini.html#a4702f8ee59aea9f17dcecea5b8396a8a',1,'controladors::CtrlDomini']]],
+  ['rankingglobal_4',['rankingGlobal',['../classdomini_1_1scrabble_1_1_ranking.html#a5923f7f0f66280d123d456fc34a34d89',1,'domini::scrabble::Ranking']]],
+  ['rankinglocal_5',['rankingLocal',['../classdomini_1_1scrabble_1_1_ranking.html#a22bb860b954b2c5da9b38483f4ceec3d',1,'domini::scrabble::Ranking']]],
+  ['red_6',['RED',['../classdomini_1_1auxiliars_1_1_color_terminal.html#ae8149619e603d8910d57dbb2e174be36',1,'domini.auxiliars.ColorTerminal.RED'],['../classinterficie_1_1utils_1_1_colors.html#a8937d23c5abd08c72ee6df7ce7e4ee06',1,'interficie.utils.Colors.RED']]],
+  ['red_5fbackground_7',['RED_BACKGROUND',['../classdomini_1_1auxiliars_1_1_color_terminal.html#af69814745eecea2697d0d52419ba0e7d',1,'domini::auxiliars::ColorTerminal']]],
+  ['red_5fbold_8',['RED_BOLD',['../classdomini_1_1auxiliars_1_1_color_terminal.html#a031b499c7cc86a1ebcf72882bff2391a',1,'domini::auxiliars::ColorTerminal']]],
+  ['red_5fborder_9',['RED_BORDER',['../classinterficie_1_1utils_1_1_colors.html#a6e221dbda4ef38ffc34a3cf707276ce0',1,'interficie::utils::Colors']]],
+  ['reprendre_5fpartida_5fheight_10',['REPRENDRE_PARTIDA_HEIGHT',['../classinterficie_1_1_vista_menu_joc.html#a75d438ac1cc106b366744f2de3ed806f',1,'interficie::VistaMenuJoc']]],
+  ['reprendre_5fpartida_5fwidth_11',['REPRENDRE_PARTIDA_WIDTH',['../classinterficie_1_1_vista_menu_joc.html#a981715ad61dc07555b943e8b015dfedb',1,'interficie::VistaMenuJoc']]],
+  ['reprendre_5fpartida_5fx_12',['REPRENDRE_PARTIDA_X',['../classinterficie_1_1_vista_menu_joc.html#af1a126996cc388822fd933166e8cc4d2',1,'interficie::VistaMenuJoc']]],
+  ['reprendre_5fpartida_5fy_13',['REPRENDRE_PARTIDA_Y',['../classinterficie_1_1_vista_menu_joc.html#ae3f20ee8c2605548aeeccf3bb6103a54',1,'interficie::VistaMenuJoc']]],
+  ['reset_14',['RESET',['../classdomini_1_1auxiliars_1_1_color_terminal.html#a42be7e01d60fab4ec160c42ec84c65d3',1,'domini::auxiliars::ColorTerminal']]],
+  ['rutaimatge_15',['rutaImatge',['../classdomini_1_1jugadors_1_1_jugador.html#a2510ac45c30b46cbbe7107ec764494be',1,'domini.jugadors.Jugador.rutaImatge'],['../classinterficie_1_1_vista_crear_avatar.html#a518c06770cfaeadefcc5034e6792a2b7',1,'interficie.VistaCrearAvatar.rutaImatge']]]
+];

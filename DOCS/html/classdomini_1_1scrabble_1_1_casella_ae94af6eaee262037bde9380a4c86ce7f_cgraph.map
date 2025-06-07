@@ -1,0 +1,5 @@
+<map id="domini.scrabble.Casella.afegirFitxa" name="domini.scrabble.Casella.afegirFitxa">
+<area shape="rect" id="Node000001" title="Afegeix una fitxa a la casella." alt="" coords="5,5,202,48"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1scrabble_1_1_casella.html#a45ad0a3aaeacf1bc4896a7a99c068dd3" title="Comprova si la casella està ocupada per una fitxa." alt="" coords="250,5,414,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,24,234,24,234,29,202,29"/>
+</map>

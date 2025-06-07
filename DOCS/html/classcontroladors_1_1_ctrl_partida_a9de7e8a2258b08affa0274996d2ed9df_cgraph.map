@@ -1,0 +1,5 @@
+<map id="controladors.CtrlPartida.posicioCorrecta" name="controladors.CtrlPartida.posicioCorrecta">
+<area shape="rect" id="Node000001" title="Comprova si la posició d&#39;una paraula és vàlida dins dels límits del taulell." alt="" coords="5,5,209,48"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1scrabble_1_1_taulell.html#afc2d8dcd225b683aa00af9ce2075ad79" title=" " alt="" coords="257,13,445,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,24,241,24,241,29,209,29"/>
+</map>

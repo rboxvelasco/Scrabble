@@ -1,0 +1,5 @@
+<map id="interficie.VistaCrearPerfil.PlaceholderTextField" name="interficie.VistaCrearPerfil.PlaceholderTextField">
+<area shape="rect" id="Node000001" title="Camp de text personalitzat que mostra un placeholder quan està buit i no té focus." alt="" coords="5,123,165,229"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="50,5,120,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,90,88,123,82,123,82,90"/>
+</map>

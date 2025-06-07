@@ -1,0 +1,9 @@
+<map id="domini.scrabble.Estat" name="domini.scrabble.Estat">
+<area shape="rect" id="Node000001" title="Classe abstracta que defineix el comportament genèric per als diferents estats d&#39;una partida." alt="" coords="242,5,379,181"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1scrabble_1_1_estat_en_curs.html" title="Representa l&#39;estat &#39;EnCurs&#39; d&#39;una partida." alt="" coords="5,229,186,405"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,177,181,232,177,228,230,174"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1scrabble_1_1_estat_finalitzada.html" title="Representa l&#39;estat &#39;Finalitzada&#39; d&#39;una partida." alt="" coords="210,240,410,395"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="313,196,313,240,308,240,308,196"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1scrabble_1_1_estat_pausada.html" title="Representa l&#39;estat &#39;Pausada&#39; d&#39;una partida." alt="" coords="434,240,622,395"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="391,173,455,238,451,242,387,176"/>
+</map>

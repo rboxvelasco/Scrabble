@@ -1,0 +1,9 @@
+[0;32m
+Jugador creat correctament: NOMPROVA[0m
+[0;35m
+Prem 'Enter' per continuar...[0m
+
+[0;32mJugador NOMPROVA eliminat correctament.[0m
+
+[0;35m
+Fi del fitxer

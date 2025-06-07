@@ -1,0 +1,11 @@
+<map id="controladors.CtrlDomini.eliminarUsuari" name="controladors.CtrlDomini.eliminarUsuari">
+<area shape="rect" id="Node000001" title="Elimina un usuari." alt="" coords="5,39,213,81"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_persistencia.html#a09020132c18c52085e84f9e4480bdb30" title="Elimina un jugador de l&#39;emmagatzematge persistent." alt="" coords="261,5,499,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,45,245,41,245,46,214,50"/>
+<area shape="rect" id="Node000004" href="$classcontroladors_1_1_ctrl_persistencia.html#ae1e8c88230469b75e9aece365028e9ad" title="Elimina un usuari de l&#39;emmagatzematge persistent." alt="" coords="261,72,499,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="214,70,245,74,245,79,213,75"/>
+<area shape="rect" id="Node000003" href="$classpersistencia_1_1_jugador_i_o.html#a33bb33e9446715359568286f85f9f307" title="Elimina un jugador esborrant el seu fitxer JSON." alt="" coords="547,5,751,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="499,24,531,24,531,29,499,29"/>
+<area shape="rect" id="Node000005" href="$classpersistencia_1_1_usuari_i_o.html#a69cfc343d143faa096f55b5476bb7231" title="Elimina un usuari esborrant el seu fitxer JSON." alt="" coords="551,72,747,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="499,91,536,91,536,96,499,96"/>
+</map>

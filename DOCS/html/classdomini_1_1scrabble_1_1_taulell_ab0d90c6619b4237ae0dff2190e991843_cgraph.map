@@ -1,0 +1,10 @@
+<map id="domini.scrabble.Taulell.inserirParaula" name="domini.scrabble.Taulell.inserirParaula">
+<area shape="rect" id="Node000001" title="Insereix una paraula al Taulell." alt="" coords="5,72,198,115"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1scrabble_1_1_taulell.html#a6ca2cf041414fa0a7c451cd03fbbfe4a" title="Mètode que calcula la puntuació que donaria col·locar una paraula en una determinada posició del taul..." alt="" coords="246,5,448,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,69,250,50,252,55,183,74"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1scrabble_1_1_taulell.html#a5be7b0143cecbce3e2f4dc4f53814879" title="Donades unes coordenades, retorna la Casella que es troba en aquelles coordenades." alt="" coords="259,72,434,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,91,244,91,244,96,198,96"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1scrabble_1_1_taulell.html#afc2d8dcd225b683aa00af9ce2075ad79" title=" " alt="" coords="496,109,684,136"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="183,113,246,124,367,131,481,128,481,134,367,136,245,129,182,118"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="435,101,481,107,480,112,435,107"/>
+</map>

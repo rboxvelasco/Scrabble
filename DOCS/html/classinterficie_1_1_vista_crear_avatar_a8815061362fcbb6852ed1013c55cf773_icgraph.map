@@ -1,0 +1,7 @@
+<map id="interficie.VistaCrearAvatar.mostrarSelectorImagenes" name="interficie.VistaCrearAvatar.mostrarSelectorImagenes">
+<area shape="rect" id="Node000001" title="Mostra un diàleg modal per seleccionar la imatge de perfil de l&#39;usuari." alt="" coords="232,29,454,72"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1_vista_crear_avatar.html#ae0d9f95418da2ecb046e19ce8d9f8d0b" title="Constructor de la finestra VistaCrearAvatar." alt="" coords="5,29,184,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,62,184,62,184,57,216,57"/>
+<area shape="poly" id="edge2_Node000002_Node000001" title=" " alt="" coords="199,39,231,39,231,44,199,44"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="135,16,120,10,94,8,71,10,57,15,51,21,53,28,48,29,46,19,54,10,70,5,95,3,121,5,137,11"/>
+</map>

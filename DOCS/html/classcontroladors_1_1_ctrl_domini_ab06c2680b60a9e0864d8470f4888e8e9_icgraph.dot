@@ -1,0 +1,26 @@
+digraph "controladors.CtrlDomini.inicialitzarUsuaris"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="controladors.CtrlDomini.inicialitzar\lUsuaris",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Carrega els usuaris cada cop que executem el joc."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="controladors.CtrlDomini.\lCtrlDomini",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_domini.html#a7648cc0064b988072993a90846e84d38",tooltip="Constructor de la classe Ctrl_Domini."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="controladors.CtrlDomini.get\lInstancia",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_domini.html#ab9f3147d91bf87174cee2fbad80eebd0",tooltip="Retorna la instancia del controlador de domini."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="controladors.CtrlPresentacio.get\lRanking",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#acaf9b6cf3f40d88428b5d77b735e8856",tooltip="Obté el rànquing global d'avatares limitat a un cert nombre."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="interficie.VistaConsultar\lRanking.carregarRanking",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_consultar_ranking.html#ac8bcd1db92441badfd8650cd3c54025b",tooltip="Carrega i mostra el rànquing a partir del límit indicat."];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="interficie.VistaConsultar\lRanking.VistaConsultarRanking",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_consultar_ranking.html#a86d8edbe84e816fcf7c14b51a8d2e214",tooltip="Constructor de la classe."];
+  Node6 -> Node5 [id="edge6_Node000006_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 -> Node6 [id="edge7_Node000006_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node7 [id="edge8_Node000003_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="controladors.CtrlPresentacio.launchApp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#ae660314487eb1c9764a52ac98b431108",tooltip="Inicialitza l'aplicació creant les instàncies del controlador de domini i de partida,..."];
+  Node7 -> Node8 [id="edge9_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="interficie.MainGUI.main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_main_g_u_i.html#ae12d6baaff26bc828aa5d7b411923165",tooltip="Punt d'entrada principal del programa."];
+}

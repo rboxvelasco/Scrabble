@@ -1,0 +1,7 @@
+<map id="controladors.CtrlDomini.inicialitzarUsuaris" name="controladors.CtrlDomini.inicialitzarUsuaris">
+<area shape="rect" id="Node000001" title="Carrega els usuaris cada cop que executem el joc." alt="" coords="5,5,226,48"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_persistencia.html#a06c847181ea13b0c7dde8a61b47f0a0b" title="Carrega els usuaris guardats a la capa de persistència." alt="" coords="274,5,514,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="226,24,258,24,258,29,226,29"/>
+<area shape="rect" id="Node000003" href="$classpersistencia_1_1_usuari_i_o.html#a29677f40d007ca66a5ec1b0926e16da4" title="Carrega un usuari des d&#39;un fitxer JSON." alt="" coords="562,5,737,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="514,24,546,24,546,29,514,29"/>
+</map>

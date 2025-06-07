@@ -1,0 +1,9 @@
+<map id="interficie.VistaPartida.refrescarRack" name="interficie.VistaPartida.refrescarRack">
+<area shape="rect" id="Node000001" title="Actualitza la visualització del rack del jugador actual." alt="" coords="5,80,237,107"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1jugadors_1_1_jugador.html#acf9520ec234c3f2cc52e1b79b85a008e" title="Retorna la llista amb les fitxes actuals del jugador." alt="" coords="297,5,481,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,77,285,50,286,55,179,82"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1scrabble_1_1_partida.html#a97c82dc47217e0515691e5c2ffaa3626" title="Obté el jugador que està jugant el torn." alt="" coords="299,72,478,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,91,284,91,284,96,237,96"/>
+<area shape="rect" id="Node000004" href="$classcontroladors_1_1_ctrl_presentacio.html#af18fe9d82387504c97bd73a19eaa15e8" title="Retorna la instància de la partida actual en curs." alt="" coords="285,139,493,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="179,105,286,132,285,137,177,110"/>
+</map>

@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ca">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Scrabble PROP: Referència de la Classe domini.diccionari.DAWG.Edge</title>
+<link rel="icon" href="icon2.png" type="image/x-icon" />
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Scrabble PROP
+   </div>
+   <div id="projectbrief">Subgrup 43.2: Raül Box, Aina Serra, Ada Peña &amp; Martina Cusidó</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat per Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classdomini_1_1diccionari_1_1_d_a_w_g_1_1_edge.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregant...</div>
+<div class="SRStatus" id="Searching">Cercant...</div>
+<div class="SRStatus" id="NoMatches">Cap coincidència</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pac-methods">Funcions de Paquet</a> &#124;
+<a href="#pac-attribs">Atributs de Paquet</a> &#124;
+<a href="classdomini_1_1diccionari_1_1_d_a_w_g_1_1_edge-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle"><div class="title">Referència de la Classe domini.diccionari.DAWG.Edge</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Representa una Arista del <a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g.html" title="Representa un DAWG i implementa els mètodes per a generar-lo, modificar-lo i consultar-lo.">DAWG</a> amb tota la informació necessària.  
+ <a href="#details">Més...</a></p>
+<div class="dynheader">
+Diagrama de col·laboració per a domini.diccionari.DAWG.Edge:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classdomini_1_1diccionari_1_1_d_a_w_g_1_1_edge__coll__graph.svg" width="198" height="123"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pac-methods" name="pac-methods"></a>
+Funcions de Paquet</h2></td></tr>
+<tr class="memitem:ac796a45c6ffa3876796d333daa3a2fef" id="r_ac796a45c6ffa3876796d333daa3a2fef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac796a45c6ffa3876796d333daa3a2fef">Edge</a> (String <a class="el" href="#a44e25759a02b36e4a672d57e08acf6c4">letter</a>, int <a class="el" href="#a2dd29f9d2c5f241702226b90a8c13b44">nextNode</a>, boolean <a class="el" href="#a06ed7282a0c1be39a667a5ee68a74e72">isTerminal</a>)</td></tr>
+<tr class="memdesc:ac796a45c6ffa3876796d333daa3a2fef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor de la classe <a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g_1_1_edge.html" title="Representa una Arista del DAWG amb tota la informació necessària.">Edge</a>.  <br /></td></tr>
+<tr class="separator:ac796a45c6ffa3876796d333daa3a2fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pac-attribs" name="pac-attribs"></a>
+Atributs de Paquet</h2></td></tr>
+<tr class="memitem:a44e25759a02b36e4a672d57e08acf6c4" id="r_a44e25759a02b36e4a672d57e08acf6c4"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44e25759a02b36e4a672d57e08acf6c4">letter</a></td></tr>
+<tr class="separator:a44e25759a02b36e4a672d57e08acf6c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dd29f9d2c5f241702226b90a8c13b44" id="r_a2dd29f9d2c5f241702226b90a8c13b44"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dd29f9d2c5f241702226b90a8c13b44">nextNode</a></td></tr>
+<tr class="separator:a2dd29f9d2c5f241702226b90a8c13b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06ed7282a0c1be39a667a5ee68a74e72" id="r_a06ed7282a0c1be39a667a5ee68a74e72"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06ed7282a0c1be39a667a5ee68a74e72">isTerminal</a></td></tr>
+<tr class="separator:a06ed7282a0c1be39a667a5ee68a74e72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
+<div class="textblock"><p>Representa una Arista del <a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g.html" title="Representa un DAWG i implementa els mètodes per a generar-lo, modificar-lo i consultar-lo.">DAWG</a> amb tota la informació necessària. </p>
+<p>Cada arista conté la següent informació: lletra que provoca la transició de node, <a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g_1_1_node.html" title="Representa un Node del DAWG.">Node</a> destí de la transició i un flag que indica si la transició duu a un <a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g_1_1_node.html" title="Representa un Node del DAWG.">Node</a> terminal (que accepta la paraula com a pertanyent al lèxic). </p>
+</div><h2 class="groupheader">Documentació del Constructor i el Destructor</h2>
+<a id="ac796a45c6ffa3876796d333daa3a2fef" name="ac796a45c6ffa3876796d333daa3a2fef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac796a45c6ffa3876796d333daa3a2fef">&#9670;&#160;</a></span>Edge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">domini.diccionari.DAWG.Edge.Edge </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>letter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>nextNode</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>isTerminal</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor de la classe <a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g_1_1_edge.html" title="Representa una Arista del DAWG amb tota la informació necessària.">Edge</a>. </p>
+<p>Inicialitza una arista amb la informació provista pels paràmetres.</p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">letter</td><td>Indica la lletra associada a la transició representada per l'arista </td></tr>
+    <tr><td class="paramname">nextNode</td><td>Indica l'índex del node destí al vector del <a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g.html" title="Representa un DAWG i implementa els mètodes per a generar-lo, modificar-lo i consultar-lo.">DAWG</a> al que pertany, en cas de ser -1, indica que la transició no duu a cap node representat. </td></tr>
+    <tr><td class="paramname">isTerminal</td><td>Indica si l'arista duu a un <a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g_1_1_node.html" title="Representa un Node del DAWG.">Node</a> acceptador (que accepta la paraula com a pertanyent al lèxic) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="a06ed7282a0c1be39a667a5ee68a74e72" name="a06ed7282a0c1be39a667a5ee68a74e72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06ed7282a0c1be39a667a5ee68a74e72">&#9670;&#160;</a></span>isTerminal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean domini.diccionari.DAWG.Edge.isTerminal</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44e25759a02b36e4a672d57e08acf6c4" name="a44e25759a02b36e4a672d57e08acf6c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44e25759a02b36e4a672d57e08acf6c4">&#9670;&#160;</a></span>letter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String domini.diccionari.DAWG.Edge.letter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2dd29f9d2c5f241702226b90a8c13b44" name="a2dd29f9d2c5f241702226b90a8c13b44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dd29f9d2c5f241702226b90a8c13b44">&#9670;&#160;</a></span>nextNode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int domini.diccionari.DAWG.Edge.nextNode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentació d'aquesta classe es va generar a partir del següent fitxer:<ul>
+<li>FONTS/domini/diccionari/<a class="el" href="_d_a_w_g_8java.html">DAWG.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>domini</b></li><li class="navelem"><a class="el" href="namespacedomini_1_1diccionari.html">diccionari</a></li><li class="navelem"><a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g.html">DAWG</a></li><li class="navelem"><a class="el" href="classdomini_1_1diccionari_1_1_d_a_w_g_1_1_edge.html">Edge</a></li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+  </ul>
+</div>
+</body>
+</html>

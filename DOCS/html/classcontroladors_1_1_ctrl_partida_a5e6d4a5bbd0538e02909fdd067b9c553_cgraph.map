@@ -1,0 +1,21 @@
+<map id="controladors.CtrlPartida.canviarFitxes" name="controladors.CtrlPartida.canviarFitxes">
+<area shape="rect" id="Node000001" title="Canvia un cert nombre de fitxes de la mà del jugador actual." alt="" coords="5,264,210,307"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1jugadors_1_1_jugador.html#a28fa4b7dcf1f5eabdc608591e61509ae" title="El jugador afegeix una fitxa a la seva llista de fitxes." alt="" coords="264,5,462,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,262,134,219,165,164,205,107,229,81,256,58,262,54,265,58,259,62,233,85,209,111,169,167,139,222,120,265"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1scrabble_1_1_bossa.html#a89707eebb134ecb159a2f7a001b027d0" title="Afegeix una nova fitxa a la bossa." alt="" coords="269,72,458,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="122,262,176,194,214,157,256,124,264,120,267,124,259,129,217,161,180,198,126,265"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1scrabble_1_1_bossa.html#afa53a19569d75ae80205a5fa5759f6b5" title="Retira una fitxa aleatòria de la bossa." alt="" coords="267,139,460,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="137,261,192,226,257,191,271,185,273,190,259,196,194,231,140,266"/>
+<area shape="rect" id="Node000005" href="$classdomini_1_1jugadors_1_1_jugador.html#a958cd1f187802e5dcd496be3d60f5c30" title="El jugador elimina una fitxa de la seva llista de fitxes." alt="" coords="258,205,469,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="203,261,252,249,253,255,204,266"/>
+<area shape="rect" id="Node000006" href="$classdomini_1_1scrabble_1_1_fitxa.html#ac71d738d062e9b3bff05145c171240c3" title="Retorna el identificador de la fitxa." alt="" coords="274,272,452,299"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="210,283,259,283,259,288,210,288"/>
+<area shape="rect" id="Node000007" href="$classdomini_1_1scrabble_1_1_fitxa.html#a3ee9b39d600851a00c4ce541339ba90e" title="Retorna la lletra associada a la fitxa." alt="" coords="280,323,447,365"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="204,305,265,319,264,324,203,310"/>
+<area shape="rect" id="Node000008" href="$classdomini_1_1scrabble_1_1_bossa.html#a58c8a4207e37d1b10159b73ed131c2c2" title="Obté el nombre total de fitxes disponibles a la bossa." alt="" coords="276,389,451,432"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="140,305,194,340,259,375,273,381,271,386,257,380,192,345,137,309"/>
+<area shape="rect" id="Node000009" href="$classdomini_1_1scrabble_1_1_fitxa.html#af8169852ecf1df6524e8b13a2fd171ec" title="Retorna la puntuació associada a la fitxa." alt="" coords="280,456,447,499"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="126,305,180,373,217,410,259,442,267,446,264,451,256,446,214,414,176,376,122,309"/>
+<area shape="rect" id="Node000010" href="$classdomini_1_1jugadors_1_1_jugador.html#a65f71c37c6890c64cc63ebf0a4d7e185" title="Reinicia el comptador de torns passats consecutius." alt="" coords="258,523,469,565"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="120,306,139,349,169,403,209,460,233,486,259,509,265,512,262,517,256,513,229,490,205,463,165,406,134,351,115,308"/>
+</map>

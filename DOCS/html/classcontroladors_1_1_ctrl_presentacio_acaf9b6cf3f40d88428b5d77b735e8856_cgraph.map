@@ -1,0 +1,15 @@
+<map id="controladors.CtrlPresentacio.getRanking" name="controladors.CtrlPresentacio.getRanking">
+<area shape="rect" id="Node000001" title="Obté el rànquing global d&#39;avatares limitat a un cert nombre." alt="" coords="5,39,214,81"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_domini.html#ab9f3147d91bf87174cee2fbad80eebd0" title="Retorna la instancia del controlador de domini." alt="" coords="262,5,442,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,43,246,39,247,44,215,48"/>
+<area shape="rect" id="Node000007" href="$classcontroladors_1_1_ctrl_domini.html#af193b59e8b449c485c7a1b299f5f250e" title="Obté el ranking del numero de jugadors indicat." alt="" coords="262,72,442,115"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="215,72,247,76,246,81,214,77"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_domini.html#a7648cc0064b988072993a90846e84d38" title="Constructor de la classe Ctrl_Domini." alt="" coords="490,5,652,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="443,24,474,24,474,29,443,29"/>
+<area shape="rect" id="Node000004" href="$classcontroladors_1_1_ctrl_domini.html#ab06c2680b60a9e0864d8470f4888e8e9" title="Carrega els usuaris cada cop que executem el joc." alt="" coords="700,5,921,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="653,24,684,24,684,29,653,29"/>
+<area shape="rect" id="Node000005" href="$classcontroladors_1_1_ctrl_persistencia.html#a06c847181ea13b0c7dde8a61b47f0a0b" title="Carrega els usuaris guardats a la capa de persistència." alt="" coords="969,5,1209,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="921,24,953,24,953,29,921,29"/>
+<area shape="rect" id="Node000006" href="$classpersistencia_1_1_usuari_i_o.html#a29677f40d007ca66a5ec1b0926e16da4" title="Carrega un usuari des d&#39;un fitxer JSON." alt="" coords="1257,5,1432,48"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1209,24,1241,24,1241,29,1209,29"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Jerarquia Gràfica de la Classe" name="Jerarquia Gràfica de la Classe">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,13,97,40"/>
+<area shape="rect" id="Node000001" href="$classdomini_1_1scrabble_1_1_ranking_1_1_jugador_puntuacio.html" title="Classe interna que representa un jugador amb la seva puntuació." alt="" coords="145,5,313,48"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="112,24,144,24,144,29,112,29"/>
+</map>

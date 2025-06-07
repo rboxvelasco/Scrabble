@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['t_0',['t',['../classinterficie_1_1_vista_partida.html#a24a212dbe14344c40e64fa023b6234b1',1,'interficie::VistaPartida']]],
+  ['tancar_5fsessio_5fx_1',['TANCAR_SESSIO_X',['../classinterficie_1_1_vista_menu_joc.html#a0fae88293fc38accf0071da507b72a03',1,'interficie::VistaMenuJoc']]],
+  ['tancar_5fsessio_5fy_2',['TANCAR_SESSIO_Y',['../classinterficie_1_1_vista_menu_joc.html#ab27f0b1806543a85640e4b6f365ea7fa',1,'interficie::VistaMenuJoc']]],
+  ['tancarsessio_3',['tancarSessio',['../classcontroladors_1_1_ctrl_domini.html#af2548caf15c0ac424b6f3c73b4f019a7',1,'controladors.CtrlDomini.tancarSessio()'],['../classcontroladors_1_1_ctrl_presentacio.html#aa71bca5e297b5775bf22b0e9a0d00ced',1,'controladors.CtrlPresentacio.tancarSessio()'],['../classinterficie_1_1_vista_menu_joc.html#a62e98338bf23c9ce19e3c7ec87f3cca8',1,'interficie.VistaMenuJoc.tancarSessio()']]],
+  ['taulell_4',['Taulell',['../classdomini_1_1scrabble_1_1_taulell.html',1,'domini.scrabble.Taulell'],['../classdomini_1_1scrabble_1_1_taulell.html#a2f2deb612c9af047decb87cc0d7e85d1',1,'domini.scrabble.Taulell.Taulell()']]],
+  ['taulell_5',['taulell',['../classdomini_1_1scrabble_1_1_partida.html#a560a2b815f34aebb1e5471e0ab26fcac',1,'domini.scrabble.Partida.taulell'],['../classdomini_1_1scrabble_1_1_taulell.html#a53572cfaf5092a92f39bc932c73f1af4',1,'domini.scrabble.Taulell.taulell']]],
+  ['taulell_2ejava_6',['Taulell.java',['../_taulell_8java.html',1,'']]],
+  ['tipus_7',['tipus',['../classdomini_1_1jugadors_1_1_jugador.html#a93cb8964afb91a0b5d3a738675ca097a',1,'domini::jugadors::Jugador']]],
+  ['tocalletra_8',['tocaLletra',['../classcontroladors_1_1_ctrl_partida.html#ab2365dd846883b62c30985d553d5e0da',1,'controladors::CtrlPartida']]],
+  ['togglejugador2_9',['toggleJugador2',['../classinterficie_1_1_vista_crear_partida.html#aa98d9506a67c02b747a12eeccd605bd2',1,'interficie::VistaCrearPartida']]],
+  ['tokenize_10',['tokenize',['../classcontroladors_1_1_ctrl_partida.html#ad67666cc359a9cb6bd8eed674e25a2a4',1,'controladors.CtrlPartida.tokenize()'],['../classdomini_1_1diccionari_1_1_d_a_w_g.html#ad5db7cc629d77068e51ccae18f9bfebd',1,'domini.diccionari.DAWG.tokenize()']]],
+  ['tools_11',['Tools',['../classinterficie_1_1utils_1_1_tools.html',1,'interficie::utils']]],
+  ['tools_2ejava_12',['Tools.java',['../_tools_8java.html',1,'']]],
+  ['torn_13',['torn',['../classdomini_1_1scrabble_1_1_partida.html#ab184461d61044565ad3dedf582ebfb57',1,'domini::scrabble::Partida']]],
+  ['tornar_14',['tornar',['../classcontroladors_1_1_ctrl_presentacio.html#a66901a833c124fd1acc592cea93f4e6d',1,'controladors::CtrlPresentacio']]],
+  ['tornarpartida_15',['tornarPartida',['../classcontroladors_1_1_ctrl_presentacio.html#a500ed9c7c2d95aa7268fbb5845ce4f6c',1,'controladors::CtrlPresentacio']]],
+  ['tornspassatsconsecutius_16',['tornsPassatsConsecutius',['../classdomini_1_1jugadors_1_1_jugador.html#a8ad8d549375fd3095bf24e0fc02d7d9c',1,'domini::jugadors::Jugador']]],
+  ['tostring_17',['toString',['../classdomini_1_1auxiliars_1_1_fast_delete_list.html#a89c71b8f19fdfa59ed32ff848157f398',1,'domini.auxiliars.FastDeleteList.toString()'],['../classdomini_1_1auxiliars_1_1_pair.html#adde5c5bebf3fce6ccc543748bca39b6a',1,'domini.auxiliars.Pair.toString()']]],
+  ['transpose_18',['transpose',['../classdomini_1_1scrabble_1_1_taulell.html#a622ab57cc924ec4c3ff2345698c746e2',1,'domini::scrabble::Taulell']]],
+  ['triple_5flletra_19',['TRIPLE_LLETRA',['../enumdomini_1_1scrabble_1_1_multiplicador.html#ad895761aa312922bd10b33496c07a431',1,'domini::scrabble::Multiplicador']]],
+  ['triple_5fparaula_20',['TRIPLE_PARAULA',['../enumdomini_1_1scrabble_1_1_multiplicador.html#a3c2de5defff977b2578dfbf62add6fc4',1,'domini::scrabble::Multiplicador']]]
+];

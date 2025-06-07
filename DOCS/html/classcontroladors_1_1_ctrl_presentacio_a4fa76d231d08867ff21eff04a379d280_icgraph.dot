@@ -1,0 +1,16 @@
+digraph "controladors.CtrlPresentacio.crearAvatar"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="controladors.CtrlPresentacio.crear\lAvatar",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Crea un nou avatar amb el nom i la imatge especificats."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="interficie.VistaCrearAvatar.\lVistaCrearAvatar",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_crear_avatar.html#ae0d9f95418da2ecb046e19ce8d9f8d0b",tooltip="Constructor de la finestra VistaCrearAvatar."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="interficie.VistaCrearAvatar.mostrar\lSelectorImagenes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_crear_avatar.html#a8815061362fcbb6852ed1013c55cf773",tooltip="Mostra un diàleg modal per seleccionar la imatge de perfil de l'usuari."];
+  Node3 -> Node2 [id="edge3_Node000003_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node2 [id="edge4_Node000002_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

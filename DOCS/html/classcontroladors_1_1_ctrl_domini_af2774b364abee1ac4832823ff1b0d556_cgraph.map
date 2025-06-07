@@ -1,0 +1,28 @@
+<map id="controladors.CtrlDomini.actualitzarRanking" name="controladors.CtrlDomini.actualitzarRanking">
+<area shape="rect" id="Node000001" title="Actualitza el rànquing després d&#39;una partida." alt="" coords="5,240,228,283"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_domini.html#a9b8102ac23ea03ea525c42517a8dbbbc" title="Actualitza les dades globals dels jugadors després d&#39;una partida." alt="" coords="276,93,498,136"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,237,331,141,334,146,159,242"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1jugadors_1_1_jugador.html#afa999de0f50bb1671ac42dbe31388b01" title="Retorna l&#39;identificador del jugador." alt="" coords="828,207,1013,249"/>
+<area shape="poly" id="edge8_Node000001_Node000004" title=" " alt="" coords="206,237,275,225,421,215,567,212,813,218,813,224,567,217,421,220,276,231,207,242"/>
+<area shape="rect" id="Node000006" href="$classcontroladors_1_1_ctrl_domini.html#aac72588aa6810f2eb705116646a3a40b" title="Comprova si la partida és contra la màquina." alt="" coords="299,240,475,283"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="228,259,283,259,283,264,228,264"/>
+<area shape="rect" id="Node000007" href="$classcontroladors_1_1_ctrl_domini.html#aa3baef8745a51c1b1f73035104f72446" title="Comprova que els jugadors registrats siguin valids." alt="" coords="281,307,492,349"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="206,281,283,300,282,305,205,286"/>
+<area shape="rect" id="Node000008" href="$classcontroladors_1_1_ctrl_domini.html#a635aeffb46f12e2188110476c797a038" title="Processa els resultats d&#39;una partida contra la màquina." alt="" coords="277,392,496,435"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="151,281,277,359,324,383,321,387,274,364,148,285"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_domini.html#a96336985c6a802beb79a7a9a9f82b3d4" title="Actualitza les dades globals d&#39;un jugador." alt="" coords="552,5,774,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="456,90,579,51,581,56,457,95"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="498,91,564,84,636,83,710,90,781,108,815,125,846,146,894,193,890,197,842,150,812,129,779,113,709,95,636,88,564,89,499,96"/>
+<area shape="rect" id="Node000005" href="$classdomini_1_1jugadors_1_1_jugador.html#ac035aeae1fdd82b932fe2c717ae9b3d5" title="Afegeix punts a la puntuació actual del jugador." alt="" coords="546,123,780,165"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="499,124,531,127,530,133,498,129"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="747,46,782,64,818,94,851,128,900,192,896,195,847,131,815,98,779,69,744,51"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="475,253,813,232,813,237,475,259"/>
+<area shape="poly" id="edge10_Node000007_Node000004" title=" " alt="" coords="493,307,780,253,812,247,813,252,781,259,494,312"/>
+<area shape="poly" id="edge12_Node000008_Node000004" title=" " alt="" coords="493,389,631,353,706,330,779,303,827,280,871,255,874,260,830,285,781,308,708,335,633,358,495,394"/>
+<area shape="rect" id="Node000009" href="$classdomini_1_1jugadors_1_1_jugador.html#af5b78b5a60aa1845f6665113225281da" title="Retorna la puntuació actual del jugador." alt="" coords="571,392,755,435"/>
+<area shape="poly" id="edge13_Node000008_Node000009" title=" " alt="" coords="497,411,555,411,555,416,497,416"/>
+<area shape="rect" id="Node000010" href="$classdomini_1_1jugadors_1_1_avatar.html#aae510bc2635d40405e60a218b1b7c097" title="Incrementa el nombre de partides guanyades contra la màquina." alt="" coords="550,459,776,501"/>
+<area shape="poly" id="edge14_Node000008_Node000010" title=" " alt="" coords="479,433,558,452,556,457,478,438"/>
+<area shape="rect" id="Node000011" href="$classdomini_1_1jugadors_1_1_avatar.html#a11001791e000608d3ae4e7698bfd3b72" title="Incrementa el nombre de partides jugades contra la màquina." alt="" coords="550,525,776,568"/>
+<area shape="poly" id="edge15_Node000008_Node000011" title=" " alt="" coords="418,433,476,472,547,511,562,517,560,522,545,516,474,477,415,437"/>
+</map>

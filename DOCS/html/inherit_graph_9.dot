@@ -1,0 +1,10 @@
+digraph "Jerarquia Gràfica de la Classe"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="domini.diccionari.DAWG",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1diccionari_1_1_d_a_w_g.html",tooltip="Representa un DAWG i implementa els mètodes per a generar-lo, modificar-lo i consultar-lo."];
+}

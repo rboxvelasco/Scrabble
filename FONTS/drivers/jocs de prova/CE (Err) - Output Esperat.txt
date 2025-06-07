@@ -1,0 +1,5 @@
+[0;31mError: El jugador 'NOMPROVA' no existeix.[0m
+[0;35m
+Prem 'Enter' per continuar...[0m
+[0;35m
+Fi del fitxer

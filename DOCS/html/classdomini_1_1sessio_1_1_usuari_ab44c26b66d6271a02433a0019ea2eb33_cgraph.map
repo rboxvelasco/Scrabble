@@ -1,0 +1,5 @@
+<map id="domini.sessio.Usuari.afegirPartida" name="domini.sessio.Usuari.afegirPartida">
+<area shape="rect" id="Node000001" title="Afegim una partida a la llista de partides de l&#39;usuari." alt="" coords="5,5,185,48"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1scrabble_1_1_partida.html#a03cd12bf28ab36064af9e9d952c9edc6" title="Retorna l&#39;identificador de la partida." alt="" coords="233,5,412,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,24,217,24,217,29,185,29"/>
+</map>

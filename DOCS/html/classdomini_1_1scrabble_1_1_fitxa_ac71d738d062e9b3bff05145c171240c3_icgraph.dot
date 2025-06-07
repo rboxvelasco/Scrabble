@@ -1,0 +1,16 @@
+digraph "domini.scrabble.Fitxa.getId"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="domini.scrabble.Fitxa.getId",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Retorna el identificador de la fitxa."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="controladors.CtrlPartida.canviar\lFitxes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_partida.html#a5e6d4a5bbd0538e02909fdd067b9c553",tooltip="Canvia un cert nombre de fitxes de la mà del jugador actual."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="controladors.CtrlPartida.colocar\lParaula",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_partida.html#ad0f7d5edb502bc4956cfd54612209ea7",tooltip="Col·loca una paraula al taulell."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="controladors.CtrlPartida.fer\lJugadaMaquina",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_partida.html#afa4340f6a2cb198455d536ccaf87717b",tooltip="Gestiona el desenvolupament de la jugada de la màquina."];
+}

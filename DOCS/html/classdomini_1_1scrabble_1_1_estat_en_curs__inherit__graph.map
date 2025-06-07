@@ -1,0 +1,5 @@
+<map id="domini.scrabble.EstatEnCurs" name="domini.scrabble.EstatEnCurs">
+<area shape="rect" id="Node000001" title="Representa l&#39;estat &#39;EnCurs&#39; d&#39;una partida." alt="" coords="5,229,186,405"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1scrabble_1_1_estat.html" title="Classe abstracta que defineix el comportament genèric per als diferents estats d&#39;una partida." alt="" coords="27,5,164,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,196,98,230,93,230,93,196"/>
+</map>

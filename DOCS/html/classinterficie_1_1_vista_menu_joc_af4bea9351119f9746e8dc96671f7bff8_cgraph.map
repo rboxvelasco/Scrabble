@@ -1,0 +1,13 @@
+<map id="interficie.VistaMenuJoc.reprendrePartida" name="interficie.VistaMenuJoc.reprendrePartida">
+<area shape="rect" id="Node000001" title="Lògica per reprendre una partida." alt="" coords="5,72,221,115"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1_selector_partida.html#abe61b878316263ec68854ac732c19187" title="Retorna l&#39;identificador de la partida seleccionada per reprendre." alt="" coords="298,5,484,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,69,284,50,285,55,205,74"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_presentacio.html#a7d80b96fb70eecd976aa1b1ba530d7a7" title="Retorna el nom de l&#39;usuari que té la sessió iniciada." alt="" coords="287,72,495,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,91,271,91,271,96,221,96"/>
+<area shape="rect" id="Node000004" href="$classcontroladors_1_1_ctrl_presentacio.html#ad0c6a8a429d767f53f2e0fa4c6f8a5dc" title="Reprèn una partida existent identificada pel seu ID." alt="" coords="269,139,513,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="205,113,285,132,284,137,204,118"/>
+<area shape="rect" id="Node000005" href="$classdomini_1_1scrabble_1_1_partida.html#a74ab1a1330297b7e2a8c16121db79faa" title="Retorna l&#39;idioma de la partida." alt="" coords="576,105,755,148"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="513,142,560,137,560,142,514,148"/>
+<area shape="rect" id="Node000006" href="$classcontroladors_1_1_ctrl_presentacio.html#af18fe9d82387504c97bd73a19eaa15e8" title="Retorna la instància de la partida actual en curs." alt="" coords="561,172,769,215"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="514,172,546,176,545,181,513,178"/>
+</map>

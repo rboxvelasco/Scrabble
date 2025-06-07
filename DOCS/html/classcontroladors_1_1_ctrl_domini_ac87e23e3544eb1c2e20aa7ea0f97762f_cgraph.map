@@ -1,0 +1,7 @@
+<map id="controladors.CtrlDomini.eliminarPartida" name="controladors.CtrlDomini.eliminarPartida">
+<area shape="rect" id="Node000001" title="Elimina el .json de la partida indicada al paràmetre." alt="" coords="5,5,213,48"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_persistencia.html#a3daeaccbdea3d7d1f4cae106f952bb70" title="Elimina una partida de l&#39;emmagatzematge persistent." alt="" coords="261,5,499,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,24,245,24,245,29,213,29"/>
+<area shape="rect" id="Node000003" href="$classpersistencia_1_1_partida_i_o.html#a5c2c99bab58abf77d06e20995a12080f" title="Elimina una partida esborrant el seu fitxer JSON." alt="" coords="547,5,746,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="499,24,532,24,532,29,499,29"/>
+</map>

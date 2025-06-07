@@ -1,0 +1,923 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ca">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Scrabble PROP: Referència de la Classe interficie.VistaPartida</title>
+<link rel="icon" href="icon2.png" type="image/x-icon" />
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Scrabble PROP
+   </div>
+   <div id="projectbrief">Subgrup 43.2: Raül Box, Aina Serra, Ada Peña &amp; Martina Cusidó</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat per Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classinterficie_1_1_vista_partida.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregant...</div>
+<div class="SRStatus" id="Searching">Cercant...</div>
+<div class="SRStatus" id="NoMatches">Cap coincidència</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Mètodes públics</a> &#124;
+<a href="#pub-static-methods">Mètodes Públics Estàtics</a> &#124;
+<a href="#pri-methods">Mètodes Privats</a> &#124;
+<a href="#pri-attribs">Atributs Privats</a> &#124;
+<a href="classinterficie_1_1_vista_partida-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle"><div class="title">Referència de la Classe interficie.VistaPartida</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Classe que representa la interfície gràfica d'una partida de Scrabble.  
+ <a href="#details">Més...</a></p>
+<div class="dynheader">
+Diagrama d'Herència per a interficie.VistaPartida:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida__inherit__graph.svg" width="178" height="603"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Diagrama de col·laboració per a interficie.VistaPartida:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida__coll__graph.svg" width="500" height="1520"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Mètodes públics</h2></td></tr>
+<tr class="memitem:abce8626a6a3750affe851e1f8bea2cb3" id="r_abce8626a6a3750affe851e1f8bea2cb3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abce8626a6a3750affe851e1f8bea2cb3">VistaPartida</a> (JFrame menuJoc, String <a class="el" href="#ae79f9af1b735a2b5754dc77a8863e4d9">id</a>)</td></tr>
+<tr class="memdesc:abce8626a6a3750affe851e1f8bea2cb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor de la classe <a class="el" href="classinterficie_1_1_vista_partida.html" title="Classe que representa la interfície gràfica d&#39;una partida de Scrabble.">VistaPartida</a>.  <br /></td></tr>
+<tr class="separator:abce8626a6a3750affe851e1f8bea2cb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a338cec676072419cb1cdf74a8c57ece5" id="r_a338cec676072419cb1cdf74a8c57ece5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a338cec676072419cb1cdf74a8c57ece5">refrescarRack</a> ()</td></tr>
+<tr class="memdesc:a338cec676072419cb1cdf74a8c57ece5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actualitza la visualització del rack del jugador actual.  <br /></td></tr>
+<tr class="separator:a338cec676072419cb1cdf74a8c57ece5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f0d9c59b7bc013b948846f280acba77" id="r_a9f0d9c59b7bc013b948846f280acba77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f0d9c59b7bc013b948846f280acba77">refrescarTaulell</a> ()</td></tr>
+<tr class="memdesc:a9f0d9c59b7bc013b948846f280acba77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actualitza la visualització del taulell de joc.  <br /></td></tr>
+<tr class="separator:a9f0d9c59b7bc013b948846f280acba77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a485041b781e81c64fb5414207ff21d2a" id="r_a485041b781e81c64fb5414207ff21d2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a485041b781e81c64fb5414207ff21d2a">refrescarInformacio</a> ()</td></tr>
+<tr class="memdesc:a485041b781e81c64fb5414207ff21d2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actualitza la informació de la partida.  <br /></td></tr>
+<tr class="separator:a485041b781e81c64fb5414207ff21d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0698d192124492ebfd8a3b029a6fa23c" id="r_a0698d192124492ebfd8a3b029a6fa23c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0698d192124492ebfd8a3b029a6fa23c">refrescarRackJugadors</a> ()</td></tr>
+<tr class="memdesc:a0698d192124492ebfd8a3b029a6fa23c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actualitza els racks dels jugadors.  <br /></td></tr>
+<tr class="separator:a0698d192124492ebfd8a3b029a6fa23c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Mètodes Públics Estàtics</h2></td></tr>
+<tr class="memitem:a86821668768e62ba113cb745f9be5a2e" id="r_a86821668768e62ba113cb745f9be5a2e"><td class="memItemLeft" align="right" valign="top">static JPanel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86821668768e62ba113cb745f9be5a2e">crearEtiquetaColor</a> (Color color, String text)</td></tr>
+<tr class="memdesc:a86821668768e62ba113cb745f9be5a2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crea un component visual amb un quadrat de color i un text descriptiu.  <br /></td></tr>
+<tr class="separator:a86821668768e62ba113cb745f9be5a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Mètodes Privats</h2></td></tr>
+<tr class="memitem:a7855e7a9cc41e1450c37054781ba6309" id="r_a7855e7a9cc41e1450c37054781ba6309"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7855e7a9cc41e1450c37054781ba6309">initUI</a> ()</td></tr>
+<tr class="memdesc:a7855e7a9cc41e1450c37054781ba6309"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inicialitza els components de la interfície gràfica.  <br /></td></tr>
+<tr class="separator:a7855e7a9cc41e1450c37054781ba6309"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc96652063e859fc2d8d0345dfd381d5" id="r_acc96652063e859fc2d8d0345dfd381d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc96652063e859fc2d8d0345dfd381d5">confirmarAbandonar</a> ()</td></tr>
+<tr class="memdesc:acc96652063e859fc2d8d0345dfd381d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Confirma l'acció d'abandonar la partida.  <br /></td></tr>
+<tr class="separator:acc96652063e859fc2d8d0345dfd381d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ebc9da2a2b927ba87ed97ad85ae44e8" id="r_a8ebc9da2a2b927ba87ed97ad85ae44e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ebc9da2a2b927ba87ed97ad85ae44e8">confirmarGuardar</a> ()</td></tr>
+<tr class="memdesc:a8ebc9da2a2b927ba87ed97ad85ae44e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Confirma l'acció de guardar la partida.  <br /></td></tr>
+<tr class="separator:a8ebc9da2a2b927ba87ed97ad85ae44e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab47b596fbbd6a79289d4b9d7f5b5e068" id="r_ab47b596fbbd6a79289d4b9d7f5b5e068"><td class="memItemLeft" align="right" valign="top">JPanel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab47b596fbbd6a79289d4b9d7f5b5e068">crearPanelJugador</a> (<a class="el" href="classdomini_1_1jugadors_1_1_jugador.html">Jugador</a> jugador, int puntuacion)</td></tr>
+<tr class="memdesc:ab47b596fbbd6a79289d4b9d7f5b5e068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crea un panell amb la informació d'un jugador.  <br /></td></tr>
+<tr class="separator:ab47b596fbbd6a79289d4b9d7f5b5e068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bd7550fc714ba5195c8b55ffe3d973c" id="r_a6bd7550fc714ba5195c8b55ffe3d973c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bd7550fc714ba5195c8b55ffe3d973c">afegirFitxesARack</a> (JPanel rac, <a class="el" href="classdomini_1_1jugadors_1_1_jugador.html">Jugador</a> jugador)</td></tr>
+<tr class="memdesc:a6bd7550fc714ba5195c8b55ffe3d973c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Afegeix les fitxes d'un jugador al seu rack.  <br /></td></tr>
+<tr class="separator:a6bd7550fc714ba5195c8b55ffe3d973c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6809bc2e7efc03077c111367571f788" id="r_ae6809bc2e7efc03077c111367571f788"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6809bc2e7efc03077c111367571f788">afegirMaquetesARack</a> (JPanel rac, <a class="el" href="classdomini_1_1jugadors_1_1_jugador.html">Jugador</a> jugador)</td></tr>
+<tr class="memdesc:ae6809bc2e7efc03077c111367571f788"><td class="mdescLeft">&#160;</td><td class="mdescRight">Afegeix maquetes al rack de l'oponent.  <br /></td></tr>
+<tr class="separator:ae6809bc2e7efc03077c111367571f788"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atributs Privats</h2></td></tr>
+<tr class="memitem:a24a212dbe14344c40e64fa023b6234b1" id="r_a24a212dbe14344c40e64fa023b6234b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdomini_1_1scrabble_1_1_taulell.html">Taulell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24a212dbe14344c40e64fa023b6234b1">t</a></td></tr>
+<tr class="separator:a24a212dbe14344c40e64fa023b6234b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab06fa6d3429421701fcd5f1af717a614" id="r_ab06fa6d3429421701fcd5f1af717a614"><td class="memItemLeft" align="right" valign="top">JPanel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab06fa6d3429421701fcd5f1af717a614">boardContainer</a></td></tr>
+<tr class="separator:ab06fa6d3429421701fcd5f1af717a614"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2072d7577f8bbe63558ef89f545ed7fc" id="r_a2072d7577f8bbe63558ef89f545ed7fc"><td class="memItemLeft" align="right" valign="top">JPanel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2072d7577f8bbe63558ef89f545ed7fc">racSuperior</a></td></tr>
+<tr class="separator:a2072d7577f8bbe63558ef89f545ed7fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affdf2d0a16682947e41f274f71206aaf" id="r_affdf2d0a16682947e41f274f71206aaf"><td class="memItemLeft" align="right" valign="top">JPanel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affdf2d0a16682947e41f274f71206aaf">racInferior</a></td></tr>
+<tr class="separator:affdf2d0a16682947e41f274f71206aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae8c929bc8e06a4640fc922b9545589b" id="r_aae8c929bc8e06a4640fc922b9545589b"><td class="memItemLeft" align="right" valign="top">JPanel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae8c929bc8e06a4640fc922b9545589b">puntuacionsPanel</a></td></tr>
+<tr class="separator:aae8c929bc8e06a4640fc922b9545589b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78198f9caf472f5184c6a7a7938dfed8" id="r_a78198f9caf472f5184c6a7a7938dfed8"><td class="memItemLeft" align="right" valign="top">JPanel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78198f9caf472f5184c6a7a7938dfed8">racRack</a></td></tr>
+<tr class="separator:a78198f9caf472f5184c6a7a7938dfed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e66832352fab4579cc5979acc8cdacc" id="r_a0e66832352fab4579cc5979acc8cdacc"><td class="memItemLeft" align="right" valign="top">JLabel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e66832352fab4579cc5979acc8cdacc">lblTorn</a></td></tr>
+<tr class="separator:a0e66832352fab4579cc5979acc8cdacc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07df67d3c4ba45ad11c0b90aacb741b3" id="r_a07df67d3c4ba45ad11c0b90aacb741b3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07df67d3c4ba45ad11c0b90aacb741b3">idioma</a></td></tr>
+<tr class="separator:a07df67d3c4ba45ad11c0b90aacb741b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae79f9af1b735a2b5754dc77a8863e4d9" id="r_ae79f9af1b735a2b5754dc77a8863e4d9"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae79f9af1b735a2b5754dc77a8863e4d9">id</a></td></tr>
+<tr class="separator:ae79f9af1b735a2b5754dc77a8863e4d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
+<div class="textblock"><p>Classe que representa la interfície gràfica d'una partida de Scrabble. </p>
+<p>Aquesta classe gestiona la visualització del taulell, els racks dels jugadors, la informació de la partida i els botons d'interacció. S'encarrega de mostrar i actualitzar els elements visuals durant el transcurs del joc, com el taulell, les fitxes, les puntuacions i els torns, així com de gestionar les accions dels jugadors (col·locar paraules, canviar fitxes, abandonar, etc.). </p>
+</div><h2 class="groupheader">Documentació del Constructor i el Destructor</h2>
+<a id="abce8626a6a3750affe851e1f8bea2cb3" name="abce8626a6a3750affe851e1f8bea2cb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abce8626a6a3750affe851e1f8bea2cb3">&#9670;&#160;</a></span>VistaPartida()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">interficie.VistaPartida.VistaPartida </td>
+          <td>(</td>
+          <td class="paramtype">JFrame</td>          <td class="paramname"><span class="paramname"><em>menuJoc</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor de la classe <a class="el" href="classinterficie_1_1_vista_partida.html" title="Classe que representa la interfície gràfica d&#39;una partida de Scrabble.">VistaPartida</a>. </p>
+<p>Inicialitza la finestra de la partida amb la mateixa mida i posició que el menú principal, configura l'ícona de l'aplicació, inicialitza el taulell i l'idioma, i crida els mètodes per configurar la interfície i actualitzar els elements visuals.</p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">menuJoc</td><td>Finestra del menú principal per obtenir mida i posició. </td></tr>
+    <tr><td class="paramname">id</td><td>Identificador de l'idioma de la partida. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_abce8626a6a3750affe851e1f8bea2cb3_cgraph.svg" width="1504" height="1551"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_abce8626a6a3750affe851e1f8bea2cb3_icgraph.svg" width="1118" height="400"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="a6bd7550fc714ba5195c8b55ffe3d973c" name="a6bd7550fc714ba5195c8b55ffe3d973c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bd7550fc714ba5195c8b55ffe3d973c">&#9670;&#160;</a></span>afegirFitxesARack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void interficie.VistaPartida.afegirFitxesARack </td>
+          <td>(</td>
+          <td class="paramtype">JPanel</td>          <td class="paramname"><span class="paramname"><em>rac</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html">Jugador</a></td>          <td class="paramname"><span class="paramname"><em>jugador</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Afegeix les fitxes d'un jugador al seu rack. </p>
+<p>Carrega les imatges de les fitxes del jugador segons l'idioma i les afegeix al panell corresponent, juntament amb l'avatar del jugador. Si no es pot carregar una imatge, es mostra una representació de text.</p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rac</td><td>Panell on es mostren les fitxes. </td></tr>
+    <tr><td class="paramname">jugador</td><td><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html" title="Representa un jugador del joc de Scrabble.">Jugador</a> del qual es mostren les fitxes. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_a6bd7550fc714ba5195c8b55ffe3d973c_cgraph.svg" width="1734" height="1571"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_a6bd7550fc714ba5195c8b55ffe3d973c_icgraph.svg" width="1366" height="299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae6809bc2e7efc03077c111367571f788" name="ae6809bc2e7efc03077c111367571f788"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6809bc2e7efc03077c111367571f788">&#9670;&#160;</a></span>afegirMaquetesARack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void interficie.VistaPartida.afegirMaquetesARack </td>
+          <td>(</td>
+          <td class="paramtype">JPanel</td>          <td class="paramname"><span class="paramname"><em>rac</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html">Jugador</a></td>          <td class="paramname"><span class="paramname"><em>jugador</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Afegeix maquetes al rack de l'oponent. </p>
+<p>Afegeix imatges de maquetes per representar les fitxes de l'oponent, juntament amb el seu avatar, sense revelar les lletres reals.</p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rac</td><td>Panell on es mostren les maquetes. </td></tr>
+    <tr><td class="paramname">jugador</td><td><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html" title="Representa un jugador del joc de Scrabble.">Jugador</a> del qual es mostren les maquetes. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_ae6809bc2e7efc03077c111367571f788_cgraph.svg" width="1734" height="1571"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_ae6809bc2e7efc03077c111367571f788_icgraph.svg" width="1366" height="299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="acc96652063e859fc2d8d0345dfd381d5" name="acc96652063e859fc2d8d0345dfd381d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc96652063e859fc2d8d0345dfd381d5">&#9670;&#160;</a></span>confirmarAbandonar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void interficie.VistaPartida.confirmarAbandonar </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Confirma l'acció d'abandonar la partida. </p>
+<p>Mostra un diàleg de confirmació i, si l'usuari accepta, crida el controlador per abandonar la partida i actualitzar el rànquing. </p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_acc96652063e859fc2d8d0345dfd381d5_cgraph.svg" width="770" height="320"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_acc96652063e859fc2d8d0345dfd381d5_icgraph.svg" width="1388" height="402"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a8ebc9da2a2b927ba87ed97ad85ae44e8" name="a8ebc9da2a2b927ba87ed97ad85ae44e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ebc9da2a2b927ba87ed97ad85ae44e8">&#9670;&#160;</a></span>confirmarGuardar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void interficie.VistaPartida.confirmarGuardar </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Confirma l'acció de guardar la partida. </p>
+<p>Mostra un diàleg de confirmació i, si l'usuari accepta, crida el controlador per guardar l'estat de la partida i tornar al menú principal. </p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_a8ebc9da2a2b927ba87ed97ad85ae44e8_cgraph.svg" width="1839" height="1495"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_a8ebc9da2a2b927ba87ed97ad85ae44e8_icgraph.svg" width="1366" height="350"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a86821668768e62ba113cb745f9be5a2e" name="a86821668768e62ba113cb745f9be5a2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86821668768e62ba113cb745f9be5a2e">&#9670;&#160;</a></span>crearEtiquetaColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static JPanel interficie.VistaPartida.crearEtiquetaColor </td>
+          <td>(</td>
+          <td class="paramtype">Color</td>          <td class="paramname"><span class="paramname"><em>color</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>text</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Crea un component visual amb un quadrat de color i un text descriptiu. </p>
+<p>Aquest mètode és utilitzat per generar les etiquetes de la llegenda dels multiplicadors del taulell.</p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">color</td><td>Color del quadrat. </td></tr>
+    <tr><td class="paramname">text</td><td>Text descriptiu del multiplicador. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Un JPanel amb un quadrat de color i una etiqueta de text. </dd></dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_a86821668768e62ba113cb745f9be5a2e_icgraph.svg" width="1363" height="402"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ab47b596fbbd6a79289d4b9d7f5b5e068" name="ab47b596fbbd6a79289d4b9d7f5b5e068"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab47b596fbbd6a79289d4b9d7f5b5e068">&#9670;&#160;</a></span>crearPanelJugador()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JPanel interficie.VistaPartida.crearPanelJugador </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html">Jugador</a></td>          <td class="paramname"><span class="paramname"><em>jugador</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>puntuacion</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Crea un panell amb la informació d'un jugador. </p>
+<p>Genera un panell amb l'avatar i el nom del jugador, així com la seva puntuació actual.</p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">jugador</td><td><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html" title="Representa un jugador del joc de Scrabble.">Jugador</a> del qual es mostra la informació. </td></tr>
+    <tr><td class="paramname">puntuacion</td><td>Puntuació actual del jugador. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Un JPanel amb l'avatar i la informació del jugador. </dd></dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_ab47b596fbbd6a79289d4b9d7f5b5e068_cgraph.svg" width="1727" height="1592"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_ab47b596fbbd6a79289d4b9d7f5b5e068_icgraph.svg" width="1363" height="323"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a7855e7a9cc41e1450c37054781ba6309" name="a7855e7a9cc41e1450c37054781ba6309"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7855e7a9cc41e1450c37054781ba6309">&#9670;&#160;</a></span>initUI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void interficie.VistaPartida.initUI </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inicialitza els components de la interfície gràfica. </p>
+<p>Configura el layout de la finestra, crea els panells per al taulell, els racks, la informació de la partida i els botons d'interacció. També afegeix una llegenda per als multiplicadors del taulell i associa els listeners als botons per gestionar les accions del joc. </p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_a7855e7a9cc41e1450c37054781ba6309_cgraph.svg" width="1868" height="1384"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_a7855e7a9cc41e1450c37054781ba6309_icgraph.svg" width="1136" height="402"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a485041b781e81c64fb5414207ff21d2a" name="a485041b781e81c64fb5414207ff21d2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a485041b781e81c64fb5414207ff21d2a">&#9670;&#160;</a></span>refrescarInformacio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void interficie.VistaPartida.refrescarInformacio </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Actualitza la informació de la partida. </p>
+<p>Actualitza el text del torn actual i les puntuacions dels jugadors. Si el torn és de la màquina, executa la jugada de la màquina i actualitza el taulell, la informació i els racks. </p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_a485041b781e81c64fb5414207ff21d2a_cgraph.svg" width="1747" height="1895"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_a485041b781e81c64fb5414207ff21d2a_icgraph.svg" width="1136" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a338cec676072419cb1cdf74a8c57ece5" name="a338cec676072419cb1cdf74a8c57ece5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a338cec676072419cb1cdf74a8c57ece5">&#9670;&#160;</a></span>refrescarRack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void interficie.VistaPartida.refrescarRack </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Actualitza la visualització del rack del jugador actual. </p>
+<p>Carrega les imatges de les fitxes del jugador actual segons l'idioma de la partida i les mostra al panell <code>racRack</code>. Si no es pot carregar una imatge, es mostra una representació de text com a alternativa. </p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_a338cec676072419cb1cdf74a8c57ece5_cgraph.svg" width="499" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_a338cec676072419cb1cdf74a8c57ece5_icgraph.svg" width="1416" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a0698d192124492ebfd8a3b029a6fa23c" name="a0698d192124492ebfd8a3b029a6fa23c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0698d192124492ebfd8a3b029a6fa23c">&#9670;&#160;</a></span>refrescarRackJugadors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void interficie.VistaPartida.refrescarRackJugadors </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Actualitza els racks dels jugadors. </p>
+<p>Mostra les fitxes del jugador actual i maquetes per a les fitxes de l'oponent, alternant els panells superior i inferior segons el torn. </p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_a0698d192124492ebfd8a3b029a6fa23c_cgraph.svg" width="1751" height="1782"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_a0698d192124492ebfd8a3b029a6fa23c_icgraph.svg" width="1136" height="350"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a9f0d9c59b7bc013b948846f280acba77" name="a9f0d9c59b7bc013b948846f280acba77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f0d9c59b7bc013b948846f280acba77">&#9670;&#160;</a></span>refrescarTaulell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void interficie.VistaPartida.refrescarTaulell </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Actualitza la visualització del taulell de joc. </p>
+<p>Reconstrueix el taulell amb les caselles i les seves fitxes, aplicant els colors corresponents als multiplicadors i mostrant les imatges de les fitxes o una representació de text si no es poden carregar. També afegeix etiquetes de files i columnes per facilitar la navegació. </p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_a9f0d9c59b7bc013b948846f280acba77_cgraph.svg" width="442" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_partida_a9f0d9c59b7bc013b948846f280acba77_icgraph.svg" width="1386" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="ab06fa6d3429421701fcd5f1af717a614" name="ab06fa6d3429421701fcd5f1af717a614"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab06fa6d3429421701fcd5f1af717a614">&#9670;&#160;</a></span>boardContainer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JPanel interficie.VistaPartida.boardContainer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae79f9af1b735a2b5754dc77a8863e4d9" name="ae79f9af1b735a2b5754dc77a8863e4d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae79f9af1b735a2b5754dc77a8863e4d9">&#9670;&#160;</a></span>id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String interficie.VistaPartida.id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07df67d3c4ba45ad11c0b90aacb741b3" name="a07df67d3c4ba45ad11c0b90aacb741b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07df67d3c4ba45ad11c0b90aacb741b3">&#9670;&#160;</a></span>idioma</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int interficie.VistaPartida.idioma</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0e66832352fab4579cc5979acc8cdacc" name="a0e66832352fab4579cc5979acc8cdacc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e66832352fab4579cc5979acc8cdacc">&#9670;&#160;</a></span>lblTorn</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JLabel interficie.VistaPartida.lblTorn</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aae8c929bc8e06a4640fc922b9545589b" name="aae8c929bc8e06a4640fc922b9545589b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae8c929bc8e06a4640fc922b9545589b">&#9670;&#160;</a></span>puntuacionsPanel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JPanel interficie.VistaPartida.puntuacionsPanel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="affdf2d0a16682947e41f274f71206aaf" name="affdf2d0a16682947e41f274f71206aaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affdf2d0a16682947e41f274f71206aaf">&#9670;&#160;</a></span>racInferior</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JPanel interficie.VistaPartida.racInferior</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a78198f9caf472f5184c6a7a7938dfed8" name="a78198f9caf472f5184c6a7a7938dfed8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78198f9caf472f5184c6a7a7938dfed8">&#9670;&#160;</a></span>racRack</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JPanel interficie.VistaPartida.racRack</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2072d7577f8bbe63558ef89f545ed7fc" name="a2072d7577f8bbe63558ef89f545ed7fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2072d7577f8bbe63558ef89f545ed7fc">&#9670;&#160;</a></span>racSuperior</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JPanel interficie.VistaPartida.racSuperior</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a24a212dbe14344c40e64fa023b6234b1" name="a24a212dbe14344c40e64fa023b6234b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24a212dbe14344c40e64fa023b6234b1">&#9670;&#160;</a></span>t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classdomini_1_1scrabble_1_1_taulell.html">Taulell</a> interficie.VistaPartida.t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentació d'aquesta classe es va generar a partir del següent fitxer:<ul>
+<li>FONTS/interficie/<a class="el" href="_vista_partida_8java.html">VistaPartida.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceinterficie.html">interficie</a></li><li class="navelem"><a class="el" href="classinterficie_1_1_vista_partida.html">VistaPartida</a></li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+  </ul>
+</div>
+</body>
+</html>

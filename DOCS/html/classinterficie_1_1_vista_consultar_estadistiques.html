@@ -1,0 +1,554 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ca">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Scrabble PROP: Referència de la Classe interficie.VistaConsultarEstadistiques</title>
+<link rel="icon" href="icon2.png" type="image/x-icon" />
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Scrabble PROP
+   </div>
+   <div id="projectbrief">Subgrup 43.2: Raül Box, Aina Serra, Ada Peña &amp; Martina Cusidó</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat per Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classinterficie_1_1_vista_consultar_estadistiques.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregant...</div>
+<div class="SRStatus" id="Searching">Cercant...</div>
+<div class="SRStatus" id="NoMatches">Cap coincidència</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-methods">Mètodes públics</a> &#124;
+<a href="#pri-methods">Mètodes Privats</a> &#124;
+<a href="#pri-attribs">Atributs Privats</a> &#124;
+<a href="classinterficie_1_1_vista_consultar_estadistiques-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle"><div class="title">Referència de la Classe interficie.VistaConsultarEstadistiques</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Mostra una finestra amb les estadístiques dels avatars de l'usuari registrat.  
+ <a href="#details">Més...</a></p>
+<div class="dynheader">
+Diagrama d'Herència per a interficie.VistaConsultarEstadistiques:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_consultar_estadistiques__inherit__graph.svg" width="208" height="448"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Diagrama de col·laboració per a interficie.VistaConsultarEstadistiques:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_consultar_estadistiques__coll__graph.svg" width="208" height="448"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinterficie_1_1_vista_consultar_estadistiques_1_1_avatar_renderer.html">AvatarRenderer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renderer personalitzat per mostrar l’avatar amb imatge i nom.  <a href="classinterficie_1_1_vista_consultar_estadistiques_1_1_avatar_renderer.html#details">Més...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Mètodes públics</h2></td></tr>
+<tr class="memitem:a72ea2d682e9b49e5fa9a21c42187f581" id="r_a72ea2d682e9b49e5fa9a21c42187f581"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72ea2d682e9b49e5fa9a21c42187f581">VistaConsultarEstadistiques</a> (JFrame menuOriginal)</td></tr>
+<tr class="memdesc:a72ea2d682e9b49e5fa9a21c42187f581"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor principal de la vista.  <br /></td></tr>
+<tr class="separator:a72ea2d682e9b49e5fa9a21c42187f581"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Mètodes Privats</h2></td></tr>
+<tr class="memitem:a1750040263d1dc3000d715a201aee3b2" id="r_a1750040263d1dc3000d715a201aee3b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1750040263d1dc3000d715a201aee3b2">carregarAvatars</a> ()</td></tr>
+<tr class="memdesc:a1750040263d1dc3000d715a201aee3b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carrega els avatars dels jugadors registrats al model de la llista.  <br /></td></tr>
+<tr class="separator:a1750040263d1dc3000d715a201aee3b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f4f83c8a4fdc86e24ef38f338645fbf" id="r_a1f4f83c8a4fdc86e24ef38f338645fbf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f4f83c8a4fdc86e24ef38f338645fbf">afegirListenerLlista</a> ()</td></tr>
+<tr class="memdesc:a1f4f83c8a4fdc86e24ef38f338645fbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Afegeix un listener a la llista per mostrar estadístiques quan es selecciona un avatar.  <br /></td></tr>
+<tr class="separator:a1f4f83c8a4fdc86e24ef38f338645fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d04a42f93b8d16629d5795a935ae87e" id="r_a2d04a42f93b8d16629d5795a935ae87e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d04a42f93b8d16629d5795a935ae87e">mostrarEstadistiques</a> (<a class="el" href="classdomini_1_1jugadors_1_1_avatar.html">Avatar</a> avatar)</td></tr>
+<tr class="memdesc:a2d04a42f93b8d16629d5795a935ae87e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mostra les estadístiques d’un avatar seleccionat a l’àrea d’estadístiques.  <br /></td></tr>
+<tr class="separator:a2d04a42f93b8d16629d5795a935ae87e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atributs Privats</h2></td></tr>
+<tr class="memitem:a3d0a5299cfc48b6442bb7b30619bace5" id="r_a3d0a5299cfc48b6442bb7b30619bace5"><td class="memItemLeft" align="right" valign="top">JList&lt; <a class="el" href="classdomini_1_1jugadors_1_1_avatar.html">Avatar</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d0a5299cfc48b6442bb7b30619bace5">llistaAvatars</a></td></tr>
+<tr class="separator:a3d0a5299cfc48b6442bb7b30619bace5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a148e2a44b25c733a0426950c73180bfa" id="r_a148e2a44b25c733a0426950c73180bfa"><td class="memItemLeft" align="right" valign="top">JEditorPane&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a148e2a44b25c733a0426950c73180bfa">areaEstadistiques</a></td></tr>
+<tr class="separator:a148e2a44b25c733a0426950c73180bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57a35be4f3c8b90fd635ae7f12f775c9" id="r_a57a35be4f3c8b90fd635ae7f12f775c9"><td class="memItemLeft" align="right" valign="top">DefaultListModel&lt; <a class="el" href="classdomini_1_1jugadors_1_1_avatar.html">Avatar</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57a35be4f3c8b90fd635ae7f12f775c9">modelLlista</a></td></tr>
+<tr class="separator:a57a35be4f3c8b90fd635ae7f12f775c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8212e56fa8dfeec6849c5c90de6597d1" id="r_a8212e56fa8dfeec6849c5c90de6597d1"><td class="memItemLeft" align="right" valign="top">ImageIcon&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8212e56fa8dfeec6849c5c90de6597d1">imatgeLogo</a></td></tr>
+<tr class="separator:a8212e56fa8dfeec6849c5c90de6597d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7900baa3959417d6a5b7e16a30c8487e" id="r_a7900baa3959417d6a5b7e16a30c8487e"><td class="memItemLeft" align="right" valign="top">JLabel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7900baa3959417d6a5b7e16a30c8487e">labelLogo</a></td></tr>
+<tr class="separator:a7900baa3959417d6a5b7e16a30c8487e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0055f4ef11aec35414180a6c846fc655" id="r_a0055f4ef11aec35414180a6c846fc655"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0055f4ef11aec35414180a6c846fc655">LOGO_WIDTH</a> = 50</td></tr>
+<tr class="separator:a0055f4ef11aec35414180a6c846fc655"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7740113c92b4e66433c691b6296a734e" id="r_a7740113c92b4e66433c691b6296a734e"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7740113c92b4e66433c691b6296a734e">LOGO_HEIGHT</a> = 50</td></tr>
+<tr class="separator:a7740113c92b4e66433c691b6296a734e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01a74ad3b30ca7532f2613f3311f1319" id="r_a01a74ad3b30ca7532f2613f3311f1319"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01a74ad3b30ca7532f2613f3311f1319">WIDTH_BASE</a> = 1000</td></tr>
+<tr class="separator:a01a74ad3b30ca7532f2613f3311f1319"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a209501abe116f06ffca5665da94a2100" id="r_a209501abe116f06ffca5665da94a2100"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a209501abe116f06ffca5665da94a2100">HEIGHT_BASE</a> = 600</td></tr>
+<tr class="separator:a209501abe116f06ffca5665da94a2100"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
+<div class="textblock"><p>Mostra una finestra amb les estadístiques dels avatars de l'usuari registrat. </p>
+<p>Aquesta vista permet seleccionar un avatar d'una llista i veure les seves estadístiques de joc. També inclou un botó per tornar al menú anterior. </p>
+</div><h2 class="groupheader">Documentació del Constructor i el Destructor</h2>
+<a id="a72ea2d682e9b49e5fa9a21c42187f581" name="a72ea2d682e9b49e5fa9a21c42187f581"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72ea2d682e9b49e5fa9a21c42187f581">&#9670;&#160;</a></span>VistaConsultarEstadistiques()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">interficie.VistaConsultarEstadistiques.VistaConsultarEstadistiques </td>
+          <td>(</td>
+          <td class="paramtype">JFrame</td>          <td class="paramname"><span class="paramname"><em>menuOriginal</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor principal de la vista. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">menuOriginal</td><td>Referència al JFrame del menú anterior per copiar mida i posició. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_consultar_estadistiques_a72ea2d682e9b49e5fa9a21c42187f581_cgraph.svg" width="1087" height="571"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_consultar_estadistiques_a72ea2d682e9b49e5fa9a21c42187f581_icgraph.svg" width="280" height="78"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="a1f4f83c8a4fdc86e24ef38f338645fbf" name="a1f4f83c8a4fdc86e24ef38f338645fbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f4f83c8a4fdc86e24ef38f338645fbf">&#9670;&#160;</a></span>afegirListenerLlista()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void interficie.VistaConsultarEstadistiques.afegirListenerLlista </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Afegeix un listener a la llista per mostrar estadístiques quan es selecciona un avatar. </p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_consultar_estadistiques_a1f4f83c8a4fdc86e24ef38f338645fbf_cgraph.svg" width="760" height="571"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_consultar_estadistiques_a1f4f83c8a4fdc86e24ef38f338645fbf_icgraph.svg" width="542" height="78"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a1750040263d1dc3000d715a201aee3b2" name="a1750040263d1dc3000d715a201aee3b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1750040263d1dc3000d715a201aee3b2">&#9670;&#160;</a></span>carregarAvatars()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void interficie.VistaConsultarEstadistiques.carregarAvatars </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Carrega els avatars dels jugadors registrats al model de la llista. </p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_consultar_estadistiques_a1750040263d1dc3000d715a201aee3b2_cgraph.svg" width="464" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_consultar_estadistiques_a1750040263d1dc3000d715a201aee3b2_icgraph.svg" width="524" height="78"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a2d04a42f93b8d16629d5795a935ae87e" name="a2d04a42f93b8d16629d5795a935ae87e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d04a42f93b8d16629d5795a935ae87e">&#9670;&#160;</a></span>mostrarEstadistiques()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void interficie.VistaConsultarEstadistiques.mostrarEstadistiques </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1jugadors_1_1_avatar.html">Avatar</a></td>          <td class="paramname"><span class="paramname"><em>avatar</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mostra les estadístiques d’un avatar seleccionat a l’àrea d’estadístiques. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">avatar</td><td>L’avatar del qual es mostraran les estadístiques. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_consultar_estadistiques_a2d04a42f93b8d16629d5795a935ae87e_cgraph.svg" width="499" height="571"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_consultar_estadistiques_a2d04a42f93b8d16629d5795a935ae87e_icgraph.svg" width="818" height="78"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="a148e2a44b25c733a0426950c73180bfa" name="a148e2a44b25c733a0426950c73180bfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a148e2a44b25c733a0426950c73180bfa">&#9670;&#160;</a></span>areaEstadistiques</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JEditorPane interficie.VistaConsultarEstadistiques.areaEstadistiques</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a209501abe116f06ffca5665da94a2100" name="a209501abe116f06ffca5665da94a2100"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a209501abe116f06ffca5665da94a2100">&#9670;&#160;</a></span>HEIGHT_BASE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int interficie.VistaConsultarEstadistiques.HEIGHT_BASE = 600</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8212e56fa8dfeec6849c5c90de6597d1" name="a8212e56fa8dfeec6849c5c90de6597d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8212e56fa8dfeec6849c5c90de6597d1">&#9670;&#160;</a></span>imatgeLogo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ImageIcon interficie.VistaConsultarEstadistiques.imatgeLogo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7900baa3959417d6a5b7e16a30c8487e" name="a7900baa3959417d6a5b7e16a30c8487e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7900baa3959417d6a5b7e16a30c8487e">&#9670;&#160;</a></span>labelLogo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JLabel interficie.VistaConsultarEstadistiques.labelLogo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3d0a5299cfc48b6442bb7b30619bace5" name="a3d0a5299cfc48b6442bb7b30619bace5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d0a5299cfc48b6442bb7b30619bace5">&#9670;&#160;</a></span>llistaAvatars</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JList&lt;<a class="el" href="classdomini_1_1jugadors_1_1_avatar.html">Avatar</a>&gt; interficie.VistaConsultarEstadistiques.llistaAvatars</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7740113c92b4e66433c691b6296a734e" name="a7740113c92b4e66433c691b6296a734e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7740113c92b4e66433c691b6296a734e">&#9670;&#160;</a></span>LOGO_HEIGHT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int interficie.VistaConsultarEstadistiques.LOGO_HEIGHT = 50</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0055f4ef11aec35414180a6c846fc655" name="a0055f4ef11aec35414180a6c846fc655"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0055f4ef11aec35414180a6c846fc655">&#9670;&#160;</a></span>LOGO_WIDTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int interficie.VistaConsultarEstadistiques.LOGO_WIDTH = 50</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a57a35be4f3c8b90fd635ae7f12f775c9" name="a57a35be4f3c8b90fd635ae7f12f775c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57a35be4f3c8b90fd635ae7f12f775c9">&#9670;&#160;</a></span>modelLlista</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DefaultListModel&lt;<a class="el" href="classdomini_1_1jugadors_1_1_avatar.html">Avatar</a>&gt; interficie.VistaConsultarEstadistiques.modelLlista</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a01a74ad3b30ca7532f2613f3311f1319" name="a01a74ad3b30ca7532f2613f3311f1319"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01a74ad3b30ca7532f2613f3311f1319">&#9670;&#160;</a></span>WIDTH_BASE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int interficie.VistaConsultarEstadistiques.WIDTH_BASE = 1000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentació d'aquesta classe es va generar a partir del següent fitxer:<ul>
+<li>FONTS/interficie/<a class="el" href="_vista_consultar_estadistiques_8java.html">VistaConsultarEstadistiques.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceinterficie.html">interficie</a></li><li class="navelem"><a class="el" href="classinterficie_1_1_vista_consultar_estadistiques.html">VistaConsultarEstadistiques</a></li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+  </ul>
+</div>
+</body>
+</html>

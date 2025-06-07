@@ -1,0 +1,17 @@
+<map id="FONTS/interficie/VistaIniciarSessio.java" name="FONTS/interficie/VistaIniciarSessio.java">
+<area shape="rect" id="Node000001" title=" " alt="" coords="438,5,626,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,105,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="438,45,121,98,120,93,437,40"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="128,96,315,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="453,51,286,94,285,89,452,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="339,96,454,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="499,51,432,90,429,85,496,46"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="479,96,586,123"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="535,49,535,80,530,80,530,49"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="610,96,689,123"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="564,46,620,85,617,89,561,51"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="713,96,797,123"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="591,46,707,88,705,93,589,51"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="821,96,956,123"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="625,46,818,89,817,95,623,51"/>
+</map>

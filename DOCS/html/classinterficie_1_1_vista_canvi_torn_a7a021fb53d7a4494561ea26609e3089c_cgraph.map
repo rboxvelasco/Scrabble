@@ -1,0 +1,5 @@
+<map id="interficie.VistaCanviTorn.escalarComponents" name="interficie.VistaCanviTorn.escalarComponents">
+<area shape="rect" id="Node000001" title="Escala i posiciona els components segons la mida actual." alt="" coords="5,5,215,48"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1utils_1_1_tools.html#aad14ef36a2a433a18d49c46a83531892" title="Actualitza la imatge d&#39;un JLabel redimensionant&#45;la per adaptar&#45;se a les mides màximes indicades mante..." alt="" coords="263,5,460,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,24,247,24,247,29,215,29"/>
+</map>

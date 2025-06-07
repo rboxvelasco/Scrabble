@@ -1,0 +1,20 @@
+digraph "controladors.CtrlDomini.eliminarJugador"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="controladors.CtrlDomini.eliminar\lJugador",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Elimina un jugador registrat del sistema."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="controladors.CtrlPersistencia.eliminar\lJugador",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_persistencia.html#a09020132c18c52085e84f9e4480bdb30",tooltip="Elimina un jugador de l'emmagatzematge persistent."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="persistencia.JugadorIO.eliminar\lJugador",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpersistencia_1_1_jugador_i_o.html#a33bb33e9446715359568286f85f9f307",tooltip="Elimina un jugador esborrant el seu fitxer JSON."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="controladors.CtrlPersistencia.guardar\lUsuari",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_persistencia.html#a3e338a9b45aaa502d95cb1816545b734",tooltip="Desa un usuari a l'emmagatzematge persistent."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="persistencia.UsuariIO.save\lUsuari",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpersistencia_1_1_usuari_i_o.html#adae8b6b62d1b4cbbff286eaa19877937",tooltip="Desa un usuari a un fitxer JSON."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="controladors.CtrlDomini.obtenir\lIdJugador",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_domini.html#a06fdbc3f2ea636aedeb64b9265678f32",tooltip="Obté l'identificador d'un jugador registrat."];
+}

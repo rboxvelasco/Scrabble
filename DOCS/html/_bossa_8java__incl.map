@@ -1,0 +1,17 @@
+<map id="FONTS/domini/scrabble/Bossa.java" name="FONTS/domini/scrabble/Bossa.java">
+<area shape="rect" id="Node000001" title=" " alt="" coords="673,5,834,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,104,201,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="673,39,464,64,213,99,184,103,183,98,212,93,464,59,672,34"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="224,104,424,131"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="673,47,401,103,400,98,672,42"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="448,96,635,139"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="705,51,606,92,604,87,703,46"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="660,96,847,139"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="756,48,756,81,751,81,751,48"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="872,96,1059,139"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="804,46,903,87,901,92,802,51"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="1084,104,1152,131"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="835,38,948,61,1072,93,1077,95,1076,100,1070,99,947,66,834,43"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="1176,104,1251,131"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="835,33,989,55,1078,72,1165,93,1173,96,1171,101,1164,99,1077,77,988,60,834,39"/>
+</map>

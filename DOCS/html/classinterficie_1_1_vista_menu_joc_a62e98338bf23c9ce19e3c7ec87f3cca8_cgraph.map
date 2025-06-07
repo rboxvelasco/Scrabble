@@ -1,0 +1,5 @@
+<map id="interficie.VistaMenuJoc.tancarSessio" name="interficie.VistaMenuJoc.tancarSessio">
+<area shape="rect" id="Node000001" title="Lògica per tancar la sessió." alt="" coords="5,5,203,48"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_presentacio.html#aa71bca5e297b5775bf22b0e9a0d00ced" title="Tanca la sessió de l&#39;usuari actual i retorna a la vista principal." alt="" coords="251,5,477,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,24,235,24,235,29,203,29"/>
+</map>

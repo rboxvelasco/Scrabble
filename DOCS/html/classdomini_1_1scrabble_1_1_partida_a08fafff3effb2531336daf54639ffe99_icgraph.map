@@ -1,0 +1,5 @@
+<map id="domini.scrabble.Partida.encurs" name="domini.scrabble.Partida.encurs">
+<area shape="rect" id="Node000001" title="Reanuda la partida si està en pausa." alt="" coords="270,13,470,40"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_domini.html#a8f8379a74fba56b9e4e82d4c5743360e" title="Continuar partida." alt="" coords="5,5,222,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="254,29,222,29,222,24,254,24"/>
+</map>

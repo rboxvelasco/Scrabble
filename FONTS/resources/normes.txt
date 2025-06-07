@@ -1,0 +1,49 @@
+============================== OBJECTIU ===========================
+
+Obtenir la màxima quantitat de punts formant paraules al tauler.           
+                                                                               
+============================== ELEMENTS ===========================
+
+- 1 tauler de joc                                                           
+- 100 fitxes de lletres                                                     
+- 2 faristols per a jugadors                                                
+- 1 bossa per a les fitxes                                                  
+- 1 reglament oficial                                                       
+                                                                               
+======================= LLETRES I PUNTUACIONS =====================
+
+[A] (12)  [B] (2)   [C] (4)   [CH] (1)  [D] (5)                                
+[E] (12)  [F] (1)   [G] (2)   [H] (2)   [I] (6)                                
+[J] (1)   [L] (4)   [LL] (1)  [M] (2)   [N] (5)                                
+[NY] (1)  [O] (0)   [P] (2)   [Q] (1)   [R] (5)                                
+[RR] (1)  [S] (6)   [T] (4)   [U] (5)   [V] (1)                                
+[X] (1)   [Y] (1)   [Z] (1)   [COMODÍ] (2)                                    
+                                                                               
+============================= PREPARACIÓ ==========================
+
+1. Col·locar el tauler al centre.                                            
+2. Cada jugador agafa un faristol.                                           
+3. Barrejar totes les fitxes dins la bossa.                                  
+4. Sortegar el primer torn (lletra més propera a la "A").                    
+5. Cada jugador agafa 7 fitxes.                                              
+                                                                               
+=========================== REGLAMENT BÀSIC =======================
+
+- Formar paraules horitzontalment o verticalment.                            
+- La primera paraula ha de passar pel centre.                                
+- No es permeten paraules en diagonal.                                       
+- Les paraules han d'existir al diccionari.                                  
+- Es poden utilitzar comodins com qualsevol lletra.                          
+                                                                              
+============================== PUNTUACIÓ ==========================
+
+- Sumar els valors de les lletres.                                           
+- Les caselles especials multipliquen els punts.                             
+- 50 punts extres per usar les 7 fitxes.                                     
+- Restar punts de les fitxes no utilitzades al final.                        
+                                                                              
+======================== FINAL DE LA PARTIDA ======================
+
+- Quan un jugador fa servir totes les fitxes.                                
+- Quan no queden moviments possibles.                                        
+- Quan tots passen 2 vegades seguides.                                       

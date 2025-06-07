@@ -1,0 +1,11 @@
+<map id="domini.scrabble.Partida.Partida" name="domini.scrabble.Partida.Partida">
+<area shape="rect" id="Node000001" title="Constructor de la classe &quot;Partida&quot;." alt="" coords="5,105,167,148"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1jugadors_1_1_avatar.html#a432efefa00f2e041526ffcbae52ec852" title="Incrementa el nombre total de partides jugades." alt="" coords="215,5,441,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,102,214,58,231,51,233,56,216,62,126,107"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1jugadors_1_1_avatar.html#a65d01b9bd8f828cf8de23bacc46533ee" title="Incrementa el nombre de partides jugades contra altres jugadors." alt="" coords="215,72,441,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="167,113,199,108,200,114,167,118"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1jugadors_1_1_avatar.html#a11001791e000608d3ae4e7698bfd3b72" title="Incrementa el nombre de partides jugades contra la màquina." alt="" coords="215,139,441,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="167,135,200,140,199,145,167,140"/>
+<area shape="rect" id="Node000005" href="$classdomini_1_1scrabble_1_1_partida.html#a39f7e60e50d27fe08e844b2ed78df14c" title="Reinicia la puntuació de la partida per al jugador actual." alt="" coords="225,205,431,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="126,146,216,191,233,198,231,203,214,196,123,151"/>
+</map>

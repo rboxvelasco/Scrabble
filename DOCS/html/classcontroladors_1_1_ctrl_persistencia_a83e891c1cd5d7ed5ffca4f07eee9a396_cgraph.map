@@ -1,0 +1,13 @@
+<map id="controladors.CtrlPersistencia.carregarPartida" name="controladors.CtrlPersistencia.carregarPartida">
+<area shape="rect" id="Node000001" title="Carrega una partida de l&#39;emmagatzematge persistent." alt="" coords="5,105,246,148"/>
+<area shape="rect" id="Node000002" href="$classpersistencia_1_1_partida_i_o.html#a7b9bdae6d9736a012e584b268b0bcb86" title="Carrega una partida des d&#39;un fitxer JSON." alt="" coords="294,105,472,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="246,124,278,124,278,129,246,129"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1scrabble_1_1_partida.html#a02bdb9c41da95458503bb9d1967ea9e8" title="Retorna la instància de la bossa." alt="" coords="520,5,699,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="425,102,519,58,533,52,535,57,521,62,427,107"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1scrabble_1_1_partida.html#a719791835f1334957e59dcfe4d2a4cec" title="Retorna l&#39;estat actual de la partida." alt="" coords="520,72,699,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="472,111,504,106,505,111,473,116"/>
+<area shape="rect" id="Node000005" href="$classdomini_1_1scrabble_1_1_bossa.html#aa72b114802328935e32718821a3322ce" title="Obté les fitxes de la bossa." alt="" coords="522,139,697,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="473,137,507,142,506,147,472,142"/>
+<area shape="rect" id="Node000006" href="$classdomini_1_1scrabble_1_1_estat.html#acb727a684104d60ab770231bebdcc9c6" title="Mètode que assigna la partida del paràmetre a l&#39;estat." alt="" coords="525,205,694,248"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="427,146,521,191,535,197,533,202,519,196,425,151"/>
+</map>

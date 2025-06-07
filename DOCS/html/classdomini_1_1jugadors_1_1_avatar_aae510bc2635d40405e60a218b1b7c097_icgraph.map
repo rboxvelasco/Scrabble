@@ -1,0 +1,17 @@
+<map id="domini.jugadors.Avatar.incrementarPartidesGuanyadesMaquina" name="domini.jugadors.Avatar.incrementarPartidesGuanyadesMaquina">
+<area shape="rect" id="Node000001" title="Incrementa el nombre de partides guanyades contra la màquina." alt="" coords="775,105,1002,148"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_partida.html#a15489fe587b7fe577bd1c4be09c58e6e" title="El jugador actual abandona la partida." alt="" coords="505,5,727,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="824,101,726,63,693,51,694,46,728,57,826,96"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_partida.html#a7478be76eed4811d7b93e3d8865b8622" title="Finalitza la partida si les fitxes s&#39;han esgotat." alt="" coords="510,72,722,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="759,114,722,109,723,104,760,108"/>
+<area shape="rect" id="Node000004" href="$classcontroladors_1_1_ctrl_partida.html#a98e85139630d752ac3e94d8a540aba0c" title="Finalitza la partida si s&#39;han passat torns consecutius sense acció." alt="" coords="510,139,722,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="760,145,723,150,722,144,759,140"/>
+<area shape="rect" id="Node000007" href="$classcontroladors_1_1_ctrl_domini.html#a635aeffb46f12e2188110476c797a038" title="Processa els resultats d&#39;una partida contra la màquina." alt="" coords="506,205,726,248"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="826,157,728,196,694,207,693,202,726,191,824,152"/>
+<area shape="rect" id="Node000005" href="$classcontroladors_1_1_ctrl_partida.html#a2c8fdc3b9f3ee33aae30bd0e0d1f09b7" title="Passa el torn al següent jugador." alt="" coords="231,147,457,173"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="495,163,457,163,457,157,495,157"/>
+<area shape="rect" id="Node000006" href="$classcontroladors_1_1_ctrl_partida.html#afa4340f6a2cb198455d536ccaf87717b" title="Gestiona el desenvolupament de la jugada de la màquina." alt="" coords="5,139,183,181"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="215,163,183,163,183,157,215,157"/>
+<area shape="rect" id="Node000008" href="$classcontroladors_1_1_ctrl_domini.html#af2774b364abee1ac4832823ff1b0d556" title="Actualitza el rànquing després d&#39;una partida." alt="" coords="233,205,455,248"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="491,229,455,229,455,224,491,224"/>
+</map>

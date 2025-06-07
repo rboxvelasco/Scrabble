@@ -1,0 +1,9 @@
+<map id="domini.excepcions.ExcepcioDomini" name="domini.excepcions.ExcepcioDomini">
+<area shape="rect" id="Node000001" title="Excepció arrel de tot el paquet domini." alt="" coords="105,123,282,229"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1excepcions_1_1_excepcio_arxiu_bossa.html" title="Problemes al carregar el fitxer del set de fitxes." alt="" coords="5,277,182,363"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="150,243,125,279,121,276,146,240"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1excepcions_1_1_excepcio_arxiu_diccionari.html" title="Problemes al carregar el fitxer de diccionari." alt="" coords="207,277,383,363"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="242,240,268,276,263,279,237,243"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="159,5,228,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,90,196,123,191,123,191,90"/>
+</map>

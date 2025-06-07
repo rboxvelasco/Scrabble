@@ -1,0 +1,613 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ca">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Scrabble PROP: Referència de la Classe interficie.VistaConsultarNormes</title>
+<link rel="icon" href="icon2.png" type="image/x-icon" />
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Scrabble PROP
+   </div>
+   <div id="projectbrief">Subgrup 43.2: Raül Box, Aina Serra, Ada Peña &amp; Martina Cusidó</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat per Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classinterficie_1_1_vista_consultar_normes.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregant...</div>
+<div class="SRStatus" id="Searching">Cercant...</div>
+<div class="SRStatus" id="NoMatches">Cap coincidència</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Mètodes públics</a> &#124;
+<a href="#pri-methods">Mètodes Privats</a> &#124;
+<a href="#pri-attribs">Atributs Privats</a> &#124;
+<a href="#pri-static-attribs">Atributs Privats Estàtics</a> &#124;
+<a href="classinterficie_1_1_vista_consultar_normes-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle"><div class="title">Referència de la Classe interficie.VistaConsultarNormes</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Mostra una finestra amb les normes del joc Scrabble en format HTML.  
+ <a href="#details">Més...</a></p>
+<div class="dynheader">
+Diagrama d'Herència per a interficie.VistaConsultarNormes:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_consultar_normes__inherit__graph.svg" width="176" height="491"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Diagrama de col·laboració per a interficie.VistaConsultarNormes:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_consultar_normes__coll__graph.svg" width="176" height="491"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Mètodes públics</h2></td></tr>
+<tr class="memitem:adfd2eba4d3f7f6f2d67a1655b14be2de" id="r_adfd2eba4d3f7f6f2d67a1655b14be2de"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfd2eba4d3f7f6f2d67a1655b14be2de">VistaConsultarNormes</a> (JFrame menuPrincipal, JFrame menuJoc)</td></tr>
+<tr class="memdesc:adfd2eba4d3f7f6f2d67a1655b14be2de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructora.  <br /></td></tr>
+<tr class="separator:adfd2eba4d3f7f6f2d67a1655b14be2de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Mètodes Privats</h2></td></tr>
+<tr class="memitem:aa2b3d841acae7945dad388f04b002967" id="r_aa2b3d841acae7945dad388f04b002967"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2b3d841acae7945dad388f04b002967">initComponents</a> ()</td></tr>
+<tr class="memdesc:aa2b3d841acae7945dad388f04b002967"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inicialitza els components gràfics de la vista.  <br /></td></tr>
+<tr class="separator:aa2b3d841acae7945dad388f04b002967"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88dfdf548beb79bf8b7350c52bf4ac94" id="r_a88dfdf548beb79bf8b7350c52bf4ac94"><td class="memItemLeft" align="right" valign="top">JButton&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88dfdf548beb79bf8b7350c52bf4ac94">createStyledButton</a> (String text)</td></tr>
+<tr class="memdesc:a88dfdf548beb79bf8b7350c52bf4ac94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crea un botó estilitzat amb comportament visual quan el ratolí entra i surt.  <br /></td></tr>
+<tr class="separator:a88dfdf548beb79bf8b7350c52bf4ac94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a390ada21ee0f0c9d86ac93df08c5716a" id="r_a390ada21ee0f0c9d86ac93df08c5716a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a390ada21ee0f0c9d86ac93df08c5716a">carregarNormes</a> ()</td></tr>
+<tr class="memdesc:a390ada21ee0f0c9d86ac93df08c5716a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Llegeix les normes des del fitxer de text i les mostra amb estil HTML.  <br /></td></tr>
+<tr class="separator:a390ada21ee0f0c9d86ac93df08c5716a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1a9a84d1daa2ec0cc320272d3752489" id="r_ad1a9a84d1daa2ec0cc320272d3752489"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1a9a84d1daa2ec0cc320272d3752489">showFallbackMessage</a> ()</td></tr>
+<tr class="memdesc:ad1a9a84d1daa2ec0cc320272d3752489"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mostra un missatge HTML alternatiu quan no es troba l'arxiu de normes.  <br /></td></tr>
+<tr class="separator:ad1a9a84d1daa2ec0cc320272d3752489"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atributs Privats</h2></td></tr>
+<tr class="memitem:a091ed026f7e27edf293801d16939e516" id="r_a091ed026f7e27edf293801d16939e516"><td class="memItemLeft" align="right" valign="top">JPanel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a091ed026f7e27edf293801d16939e516">panell</a></td></tr>
+<tr class="separator:a091ed026f7e27edf293801d16939e516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfa9b8ea47edbcaefa481c15d21071ae" id="r_abfa9b8ea47edbcaefa481c15d21071ae"><td class="memItemLeft" align="right" valign="top">JTextPane&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfa9b8ea47edbcaefa481c15d21071ae">areaNormes</a></td></tr>
+<tr class="separator:abfa9b8ea47edbcaefa481c15d21071ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29664359d363f62d9751df15928aac43" id="r_a29664359d363f62d9751df15928aac43"><td class="memItemLeft" align="right" valign="top">JScrollPane&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29664359d363f62d9751df15928aac43">scrollPane</a></td></tr>
+<tr class="separator:a29664359d363f62d9751df15928aac43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada05180829e08c706a24b7558d8c00d2" id="r_ada05180829e08c706a24b7558d8c00d2"><td class="memItemLeft" align="right" valign="top">JButton&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada05180829e08c706a24b7558d8c00d2">botoTornar</a></td></tr>
+<tr class="separator:ada05180829e08c706a24b7558d8c00d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5169dfd6e5c439dbec30b91886e6950" id="r_aa5169dfd6e5c439dbec30b91886e6950"><td class="memItemLeft" align="right" valign="top">JLabel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5169dfd6e5c439dbec30b91886e6950">labelLogo</a></td></tr>
+<tr class="separator:aa5169dfd6e5c439dbec30b91886e6950"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af64a22c89b1987089781b04abf360dd5" id="r_af64a22c89b1987089781b04abf360dd5"><td class="memItemLeft" align="right" valign="top">ImageIcon&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af64a22c89b1987089781b04abf360dd5">imatgeLogo</a></td></tr>
+<tr class="separator:af64a22c89b1987089781b04abf360dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Atributs Privats Estàtics</h2></td></tr>
+<tr class="memitem:a00ea6e693e0dac150c493f6c7336d3ec" id="r_a00ea6e693e0dac150c493f6c7336d3ec"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00ea6e693e0dac150c493f6c7336d3ec">WIDTH_BOTONS</a> = 100</td></tr>
+<tr class="separator:a00ea6e693e0dac150c493f6c7336d3ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f0cde020dd658cc512cee4fe4b78ecb" id="r_a2f0cde020dd658cc512cee4fe4b78ecb"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f0cde020dd658cc512cee4fe4b78ecb">HEIGHT_BOTONS</a> = 40</td></tr>
+<tr class="separator:a2f0cde020dd658cc512cee4fe4b78ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9aca717fe9ba65e32639564b792f055" id="r_af9aca717fe9ba65e32639564b792f055"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9aca717fe9ba65e32639564b792f055">LOGO_WIDTH</a> = 50</td></tr>
+<tr class="separator:af9aca717fe9ba65e32639564b792f055"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3838f43f101891362ae4ce7e9ce18836" id="r_a3838f43f101891362ae4ce7e9ce18836"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3838f43f101891362ae4ce7e9ce18836">LOGO_HEIGHT</a> = 50</td></tr>
+<tr class="separator:a3838f43f101891362ae4ce7e9ce18836"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
+<div class="textblock"><p>Mostra una finestra amb les normes del joc Scrabble en format HTML. </p>
+<p>Aquesta vista permet a l'usuari consultar les normes llegides des d'un fitxer. També conté un botó per tornar enrere i un petit logotip. </p>
+</div><h2 class="groupheader">Documentació del Constructor i el Destructor</h2>
+<a id="adfd2eba4d3f7f6f2d67a1655b14be2de" name="adfd2eba4d3f7f6f2d67a1655b14be2de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfd2eba4d3f7f6f2d67a1655b14be2de">&#9670;&#160;</a></span>VistaConsultarNormes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">interficie.VistaConsultarNormes.VistaConsultarNormes </td>
+          <td>(</td>
+          <td class="paramtype">JFrame</td>          <td class="paramname"><span class="paramname"><em>menuPrincipal</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">JFrame</td>          <td class="paramname"><span class="paramname"><em>menuJoc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructora. </p>
+<p>Inicialitza i mostra la finestra amb les normes del joc.</p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">menuPrincipal</td><td>Finestra del menú principal. </td></tr>
+    <tr><td class="paramname">menuJoc</td><td>Finestra del menú del joc. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_consultar_normes_adfd2eba4d3f7f6f2d67a1655b14be2de_cgraph.svg" width="698" height="238"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_consultar_normes_adfd2eba4d3f7f6f2d67a1655b14be2de_icgraph.svg" width="424" height="78"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="a390ada21ee0f0c9d86ac93df08c5716a" name="a390ada21ee0f0c9d86ac93df08c5716a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a390ada21ee0f0c9d86ac93df08c5716a">&#9670;&#160;</a></span>carregarNormes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void interficie.VistaConsultarNormes.carregarNormes </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Llegeix les normes des del fitxer de text i les mostra amb estil HTML. </p>
+<p>El fitxer esperat és <code>resources/normes.txt</code>. Si no existeix, es mostra un missatge de reserva. </p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_consultar_normes_a390ada21ee0f0c9d86ac93df08c5716a_cgraph.svg" width="428" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_consultar_normes_a390ada21ee0f0c9d86ac93df08c5716a_icgraph.svg" width="638" height="78"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a88dfdf548beb79bf8b7350c52bf4ac94" name="a88dfdf548beb79bf8b7350c52bf4ac94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88dfdf548beb79bf8b7350c52bf4ac94">&#9670;&#160;</a></span>createStyledButton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JButton interficie.VistaConsultarNormes.createStyledButton </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>text</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Crea un botó estilitzat amb comportament visual quan el ratolí entra i surt. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>Text que mostrarà el botó. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>JButton creat amb l'estil aplicat. </dd></dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_consultar_normes_a88dfdf548beb79bf8b7350c52bf4ac94_icgraph.svg" width="655" height="78"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aa2b3d841acae7945dad388f04b002967" name="aa2b3d841acae7945dad388f04b002967"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2b3d841acae7945dad388f04b002967">&#9670;&#160;</a></span>initComponents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void interficie.VistaConsultarNormes.initComponents </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inicialitza els components gràfics de la vista. </p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_consultar_normes_aa2b3d841acae7945dad388f04b002967_cgraph.svg" width="910" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_consultar_normes_aa2b3d841acae7945dad388f04b002967_icgraph.svg" width="424" height="78"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ad1a9a84d1daa2ec0cc320272d3752489" name="ad1a9a84d1daa2ec0cc320272d3752489"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1a9a84d1daa2ec0cc320272d3752489">&#9670;&#160;</a></span>showFallbackMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void interficie.VistaConsultarNormes.showFallbackMessage </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mostra un missatge HTML alternatiu quan no es troba l'arxiu de normes. </p>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classinterficie_1_1_vista_consultar_normes_ad1a9a84d1daa2ec0cc320272d3752489_icgraph.svg" width="890" height="78"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="abfa9b8ea47edbcaefa481c15d21071ae" name="abfa9b8ea47edbcaefa481c15d21071ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfa9b8ea47edbcaefa481c15d21071ae">&#9670;&#160;</a></span>areaNormes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JTextPane interficie.VistaConsultarNormes.areaNormes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada05180829e08c706a24b7558d8c00d2" name="ada05180829e08c706a24b7558d8c00d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada05180829e08c706a24b7558d8c00d2">&#9670;&#160;</a></span>botoTornar</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JButton interficie.VistaConsultarNormes.botoTornar</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2f0cde020dd658cc512cee4fe4b78ecb" name="a2f0cde020dd658cc512cee4fe4b78ecb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f0cde020dd658cc512cee4fe4b78ecb">&#9670;&#160;</a></span>HEIGHT_BOTONS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int interficie.VistaConsultarNormes.HEIGHT_BOTONS = 40</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af64a22c89b1987089781b04abf360dd5" name="af64a22c89b1987089781b04abf360dd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af64a22c89b1987089781b04abf360dd5">&#9670;&#160;</a></span>imatgeLogo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ImageIcon interficie.VistaConsultarNormes.imatgeLogo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5169dfd6e5c439dbec30b91886e6950" name="aa5169dfd6e5c439dbec30b91886e6950"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5169dfd6e5c439dbec30b91886e6950">&#9670;&#160;</a></span>labelLogo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JLabel interficie.VistaConsultarNormes.labelLogo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3838f43f101891362ae4ce7e9ce18836" name="a3838f43f101891362ae4ce7e9ce18836"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3838f43f101891362ae4ce7e9ce18836">&#9670;&#160;</a></span>LOGO_HEIGHT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int interficie.VistaConsultarNormes.LOGO_HEIGHT = 50</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9aca717fe9ba65e32639564b792f055" name="af9aca717fe9ba65e32639564b792f055"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9aca717fe9ba65e32639564b792f055">&#9670;&#160;</a></span>LOGO_WIDTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int interficie.VistaConsultarNormes.LOGO_WIDTH = 50</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a091ed026f7e27edf293801d16939e516" name="a091ed026f7e27edf293801d16939e516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a091ed026f7e27edf293801d16939e516">&#9670;&#160;</a></span>panell</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JPanel interficie.VistaConsultarNormes.panell</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a29664359d363f62d9751df15928aac43" name="a29664359d363f62d9751df15928aac43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29664359d363f62d9751df15928aac43">&#9670;&#160;</a></span>scrollPane</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JScrollPane interficie.VistaConsultarNormes.scrollPane</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a00ea6e693e0dac150c493f6c7336d3ec" name="a00ea6e693e0dac150c493f6c7336d3ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00ea6e693e0dac150c493f6c7336d3ec">&#9670;&#160;</a></span>WIDTH_BOTONS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int interficie.VistaConsultarNormes.WIDTH_BOTONS = 100</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentació d'aquesta classe es va generar a partir del següent fitxer:<ul>
+<li>FONTS/interficie/<a class="el" href="_vista_consultar_normes_8java.html">VistaConsultarNormes.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceinterficie.html">interficie</a></li><li class="navelem"><a class="el" href="classinterficie_1_1_vista_consultar_normes.html">VistaConsultarNormes</a></li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+  </ul>
+</div>
+</body>
+</html>

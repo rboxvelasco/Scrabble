@@ -1,0 +1,9 @@
+<map id="controladors.CtrlPresentacio.crearAvatar" name="controladors.CtrlPresentacio.crearAvatar">
+<area shape="rect" id="Node000001" title="Crea un nou avatar amb el nom i la imatge especificats." alt="" coords="502,29,721,72"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1_vista_crear_avatar.html#ae0d9f95418da2ecb046e19ce8d9f8d0b" title="Constructor de la finestra VistaCrearAvatar." alt="" coords="276,29,454,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="486,53,454,53,454,48,486,48"/>
+<area shape="poly" id="edge4_Node000002_Node000002" title=" " alt="" coords="405,16,390,10,365,8,341,10,327,15,321,21,323,28,318,29,316,19,324,10,340,5,365,3,391,5,407,11"/>
+<area shape="rect" id="Node000003" href="$classinterficie_1_1_vista_crear_avatar.html#a8815061362fcbb6852ed1013c55cf773" title="Mostra un diàleg modal per seleccionar la imatge de perfil de l&#39;usuari." alt="" coords="5,29,228,72"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="260,62,228,62,228,57,260,57"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="243,39,275,39,275,45,243,44"/>
+</map>

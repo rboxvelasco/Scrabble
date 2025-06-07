@@ -1,0 +1,7 @@
+<map id="controladors.CtrlPartida.finalitzarPerTornsConsecutius" name="controladors.CtrlPartida.finalitzarPerTornsConsecutius">
+<area shape="rect" id="Node000001" title="Finalitza la partida si s&#39;han passat torns consecutius sense acció." alt="" coords="505,5,716,48"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_partida.html#a2c8fdc3b9f3ee33aae30bd0e0d1f09b7" title="Passa el torn al següent jugador." alt="" coords="231,13,457,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="489,29,458,29,458,24,489,24"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_partida.html#afa4340f6a2cb198455d536ccaf87717b" title="Gestiona el desenvolupament de la jugada de la màquina." alt="" coords="5,5,183,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="215,29,183,29,183,24,215,24"/>
+</map>

@@ -1,0 +1,815 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ca">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Scrabble PROP: Referència de la Classe domini.auxiliars.ColorTerminal</title>
+<link rel="icon" href="icon2.png" type="image/x-icon" />
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Scrabble PROP
+   </div>
+   <div id="projectbrief">Subgrup 43.2: Raül Box, Aina Serra, Ada Peña &amp; Martina Cusidó</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat per Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classdomini_1_1auxiliars_1_1_color_terminal.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregant...</div>
+<div class="SRStatus" id="Searching">Cercant...</div>
+<div class="SRStatus" id="NoMatches">Cap coincidència</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-static-methods">Mètodes Públics Estàtics</a> &#124;
+<a href="#pub-static-attribs">Atributs Públics Estàtics</a> &#124;
+<a href="classdomini_1_1auxiliars_1_1_color_terminal-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle"><div class="title">Referència de la Classe domini.auxiliars.ColorTerminal</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Classe per gestionar els colors de la terminal utilitzant codis ANSI.  
+ <a href="#details">Més...</a></p>
+<div class="dynheader">
+Diagrama de col·laboració per a domini.auxiliars.ColorTerminal:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classdomini_1_1auxiliars_1_1_color_terminal__coll__graph.svg" width="196" height="294"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Mètodes Públics Estàtics</h2></td></tr>
+<tr class="memitem:a2fe2444decaa0df626b98d7e35637dbb" id="r_a2fe2444decaa0df626b98d7e35637dbb"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fe2444decaa0df626b98d7e35637dbb">centerText</a> (String text, int width)</td></tr>
+<tr class="memdesc:a2fe2444decaa0df626b98d7e35637dbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Centra el text en una línia de la terminal.  <br /></td></tr>
+<tr class="separator:a2fe2444decaa0df626b98d7e35637dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Atributs Públics Estàtics</h2></td></tr>
+<tr class="memitem:a42be7e01d60fab4ec160c42ec84c65d3" id="r_a42be7e01d60fab4ec160c42ec84c65d3"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42be7e01d60fab4ec160c42ec84c65d3">RESET</a> = &quot;\033[0m&quot;</td></tr>
+<tr class="separator:a42be7e01d60fab4ec160c42ec84c65d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70aa00beddbefdfc5008fe49c1923d22" id="r_a70aa00beddbefdfc5008fe49c1923d22"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70aa00beddbefdfc5008fe49c1923d22">BLACK</a> = &quot;\033[0;30m&quot;</td></tr>
+<tr class="separator:a70aa00beddbefdfc5008fe49c1923d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8149619e603d8910d57dbb2e174be36" id="r_ae8149619e603d8910d57dbb2e174be36"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8149619e603d8910d57dbb2e174be36">RED</a> = &quot;\033[0;31m&quot;</td></tr>
+<tr class="separator:ae8149619e603d8910d57dbb2e174be36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb67fa284dab58e40260a126cc3efb4d" id="r_adb67fa284dab58e40260a126cc3efb4d"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb67fa284dab58e40260a126cc3efb4d">GREEN</a> = &quot;\033[0;32m&quot;</td></tr>
+<tr class="separator:adb67fa284dab58e40260a126cc3efb4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae10beeb4dfa66128fd5f0bdd3554cb6a" id="r_ae10beeb4dfa66128fd5f0bdd3554cb6a"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae10beeb4dfa66128fd5f0bdd3554cb6a">YELLOW</a> = &quot;\033[0;33m&quot;</td></tr>
+<tr class="separator:ae10beeb4dfa66128fd5f0bdd3554cb6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a103ce541bf893589fd48288093591b29" id="r_a103ce541bf893589fd48288093591b29"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a103ce541bf893589fd48288093591b29">BLUE</a> = &quot;\033[0;34m&quot;</td></tr>
+<tr class="separator:a103ce541bf893589fd48288093591b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe5e357f1f260f7b4a4431a972d23f22" id="r_afe5e357f1f260f7b4a4431a972d23f22"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe5e357f1f260f7b4a4431a972d23f22">MAGENTA</a> = &quot;\033[0;35m&quot;</td></tr>
+<tr class="separator:afe5e357f1f260f7b4a4431a972d23f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae232629a454d4b2a437db275ae3aa9ce" id="r_ae232629a454d4b2a437db275ae3aa9ce"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae232629a454d4b2a437db275ae3aa9ce">CYAN</a> = &quot;\033[0;36m&quot;</td></tr>
+<tr class="separator:ae232629a454d4b2a437db275ae3aa9ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab304957c1dbde8bf7f89492f0681db80" id="r_ab304957c1dbde8bf7f89492f0681db80"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab304957c1dbde8bf7f89492f0681db80">WHITE</a> = &quot;\033[0;37m&quot;</td></tr>
+<tr class="separator:ab304957c1dbde8bf7f89492f0681db80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac65f3e4fc614a499976d19759e882959" id="r_ac65f3e4fc614a499976d19759e882959"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac65f3e4fc614a499976d19759e882959">PURPLE</a> = &quot;\033[0;35m&quot;</td></tr>
+<tr class="separator:ac65f3e4fc614a499976d19759e882959"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ede320725b61ee066ec21d8fd4dfb86" id="r_a3ede320725b61ee066ec21d8fd4dfb86"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ede320725b61ee066ec21d8fd4dfb86">BLACK_BOLD</a> = &quot;\033[1;30m&quot;</td></tr>
+<tr class="separator:a3ede320725b61ee066ec21d8fd4dfb86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a031b499c7cc86a1ebcf72882bff2391a" id="r_a031b499c7cc86a1ebcf72882bff2391a"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a031b499c7cc86a1ebcf72882bff2391a">RED_BOLD</a> = &quot;\033[1;31m&quot;</td></tr>
+<tr class="separator:a031b499c7cc86a1ebcf72882bff2391a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0eb4990aefc7bc71bb60c9c7d78aa2d" id="r_ae0eb4990aefc7bc71bb60c9c7d78aa2d"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0eb4990aefc7bc71bb60c9c7d78aa2d">GREEN_BOLD</a> = &quot;\033[1;32m&quot;</td></tr>
+<tr class="separator:ae0eb4990aefc7bc71bb60c9c7d78aa2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6ee9e355bab7df245891095109421ee" id="r_ac6ee9e355bab7df245891095109421ee"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6ee9e355bab7df245891095109421ee">YELLOW_BOLD</a> = &quot;\033[1;33m&quot;</td></tr>
+<tr class="separator:ac6ee9e355bab7df245891095109421ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dfd2f5fc5a30b65c02aedb2f5e0f3be" id="r_a7dfd2f5fc5a30b65c02aedb2f5e0f3be"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dfd2f5fc5a30b65c02aedb2f5e0f3be">BLUE_BOLD</a> = &quot;\033[1;34m&quot;</td></tr>
+<tr class="separator:a7dfd2f5fc5a30b65c02aedb2f5e0f3be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fc3be6768bd8062839ed064f06895bc" id="r_a2fc3be6768bd8062839ed064f06895bc"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fc3be6768bd8062839ed064f06895bc">MAGENTA_BOLD</a> = &quot;\033[1;35m&quot;</td></tr>
+<tr class="separator:a2fc3be6768bd8062839ed064f06895bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fd8c04ebb6dc9b7f41a3e7d030bf0df" id="r_a2fd8c04ebb6dc9b7f41a3e7d030bf0df"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fd8c04ebb6dc9b7f41a3e7d030bf0df">CYAN_BOLD</a> = &quot;\033[1;36m&quot;</td></tr>
+<tr class="separator:a2fd8c04ebb6dc9b7f41a3e7d030bf0df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fd569c0e590b26312ef383004f7f573" id="r_a9fd569c0e590b26312ef383004f7f573"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fd569c0e590b26312ef383004f7f573">WHITE_BOLD</a> = &quot;\033[1;37m&quot;</td></tr>
+<tr class="separator:a9fd569c0e590b26312ef383004f7f573"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea63f4d6cc970f1d0b8e3e1d250cf58c" id="r_aea63f4d6cc970f1d0b8e3e1d250cf58c"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea63f4d6cc970f1d0b8e3e1d250cf58c">BLACK_BACKGROUND</a> = &quot;\033[40m&quot;</td></tr>
+<tr class="separator:aea63f4d6cc970f1d0b8e3e1d250cf58c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af69814745eecea2697d0d52419ba0e7d" id="r_af69814745eecea2697d0d52419ba0e7d"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af69814745eecea2697d0d52419ba0e7d">RED_BACKGROUND</a> = &quot;\033[41m&quot;</td></tr>
+<tr class="separator:af69814745eecea2697d0d52419ba0e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35b60e06fd18edc1cb6891470b4ddd2d" id="r_a35b60e06fd18edc1cb6891470b4ddd2d"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35b60e06fd18edc1cb6891470b4ddd2d">GREEN_BACKGROUND</a> = &quot;\033[42m&quot;</td></tr>
+<tr class="separator:a35b60e06fd18edc1cb6891470b4ddd2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca301de5c621d2a4a071615aa2236da4" id="r_aca301de5c621d2a4a071615aa2236da4"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca301de5c621d2a4a071615aa2236da4">YELLOW_BACKGROUND</a> = &quot;\033[43m&quot;</td></tr>
+<tr class="separator:aca301de5c621d2a4a071615aa2236da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad5828dcf29457d87000841b66538808" id="r_aad5828dcf29457d87000841b66538808"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad5828dcf29457d87000841b66538808">BLUE_BACKGROUND</a> = &quot;\033[44m&quot;</td></tr>
+<tr class="separator:aad5828dcf29457d87000841b66538808"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade94aae2e33388d4c19a670f72388c54" id="r_ade94aae2e33388d4c19a670f72388c54"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade94aae2e33388d4c19a670f72388c54">MAGENTA_BACKGROUND</a> = &quot;\033[45m&quot;</td></tr>
+<tr class="separator:ade94aae2e33388d4c19a670f72388c54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02f32c5b824760bb5277b02e9b82f946" id="r_a02f32c5b824760bb5277b02e9b82f946"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02f32c5b824760bb5277b02e9b82f946">CYAN_BACKGROUND</a> = &quot;\033[46m&quot;</td></tr>
+<tr class="separator:a02f32c5b824760bb5277b02e9b82f946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afac1812c87861e3d51819ac7986fd212" id="r_afac1812c87861e3d51819ac7986fd212"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afac1812c87861e3d51819ac7986fd212">WHITE_BACKGROUND</a> = &quot;\033[47m&quot;</td></tr>
+<tr class="separator:afac1812c87861e3d51819ac7986fd212"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
+<div class="textblock"><p>Classe per gestionar els colors de la terminal utilitzant codis ANSI. </p>
+<p>Inclou mètodes per centrar text i constants per a diferents colors. </p>
+</div><h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="a2fe2444decaa0df626b98d7e35637dbb" name="a2fe2444decaa0df626b98d7e35637dbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fe2444decaa0df626b98d7e35637dbb">&#9670;&#160;</a></span>centerText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String domini.auxiliars.ColorTerminal.centerText </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>text</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>width</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Centra el text en una línia de la terminal. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>El text a centrar. </td></tr>
+    <tr><td class="paramname">width</td><td>L'amplada de la línia. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>El text centrat. </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="a70aa00beddbefdfc5008fe49c1923d22" name="a70aa00beddbefdfc5008fe49c1923d22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70aa00beddbefdfc5008fe49c1923d22">&#9670;&#160;</a></span>BLACK</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.BLACK = &quot;\033[0;30m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aea63f4d6cc970f1d0b8e3e1d250cf58c" name="aea63f4d6cc970f1d0b8e3e1d250cf58c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea63f4d6cc970f1d0b8e3e1d250cf58c">&#9670;&#160;</a></span>BLACK_BACKGROUND</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.BLACK_BACKGROUND = &quot;\033[40m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3ede320725b61ee066ec21d8fd4dfb86" name="a3ede320725b61ee066ec21d8fd4dfb86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ede320725b61ee066ec21d8fd4dfb86">&#9670;&#160;</a></span>BLACK_BOLD</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.BLACK_BOLD = &quot;\033[1;30m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a103ce541bf893589fd48288093591b29" name="a103ce541bf893589fd48288093591b29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a103ce541bf893589fd48288093591b29">&#9670;&#160;</a></span>BLUE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.BLUE = &quot;\033[0;34m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad5828dcf29457d87000841b66538808" name="aad5828dcf29457d87000841b66538808"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad5828dcf29457d87000841b66538808">&#9670;&#160;</a></span>BLUE_BACKGROUND</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.BLUE_BACKGROUND = &quot;\033[44m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7dfd2f5fc5a30b65c02aedb2f5e0f3be" name="a7dfd2f5fc5a30b65c02aedb2f5e0f3be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dfd2f5fc5a30b65c02aedb2f5e0f3be">&#9670;&#160;</a></span>BLUE_BOLD</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.BLUE_BOLD = &quot;\033[1;34m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae232629a454d4b2a437db275ae3aa9ce" name="ae232629a454d4b2a437db275ae3aa9ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae232629a454d4b2a437db275ae3aa9ce">&#9670;&#160;</a></span>CYAN</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.CYAN = &quot;\033[0;36m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a02f32c5b824760bb5277b02e9b82f946" name="a02f32c5b824760bb5277b02e9b82f946"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02f32c5b824760bb5277b02e9b82f946">&#9670;&#160;</a></span>CYAN_BACKGROUND</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.CYAN_BACKGROUND = &quot;\033[46m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2fd8c04ebb6dc9b7f41a3e7d030bf0df" name="a2fd8c04ebb6dc9b7f41a3e7d030bf0df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fd8c04ebb6dc9b7f41a3e7d030bf0df">&#9670;&#160;</a></span>CYAN_BOLD</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.CYAN_BOLD = &quot;\033[1;36m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb67fa284dab58e40260a126cc3efb4d" name="adb67fa284dab58e40260a126cc3efb4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb67fa284dab58e40260a126cc3efb4d">&#9670;&#160;</a></span>GREEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.GREEN = &quot;\033[0;32m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a35b60e06fd18edc1cb6891470b4ddd2d" name="a35b60e06fd18edc1cb6891470b4ddd2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35b60e06fd18edc1cb6891470b4ddd2d">&#9670;&#160;</a></span>GREEN_BACKGROUND</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.GREEN_BACKGROUND = &quot;\033[42m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0eb4990aefc7bc71bb60c9c7d78aa2d" name="ae0eb4990aefc7bc71bb60c9c7d78aa2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0eb4990aefc7bc71bb60c9c7d78aa2d">&#9670;&#160;</a></span>GREEN_BOLD</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.GREEN_BOLD = &quot;\033[1;32m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe5e357f1f260f7b4a4431a972d23f22" name="afe5e357f1f260f7b4a4431a972d23f22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe5e357f1f260f7b4a4431a972d23f22">&#9670;&#160;</a></span>MAGENTA</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.MAGENTA = &quot;\033[0;35m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ade94aae2e33388d4c19a670f72388c54" name="ade94aae2e33388d4c19a670f72388c54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade94aae2e33388d4c19a670f72388c54">&#9670;&#160;</a></span>MAGENTA_BACKGROUND</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.MAGENTA_BACKGROUND = &quot;\033[45m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2fc3be6768bd8062839ed064f06895bc" name="a2fc3be6768bd8062839ed064f06895bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fc3be6768bd8062839ed064f06895bc">&#9670;&#160;</a></span>MAGENTA_BOLD</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.MAGENTA_BOLD = &quot;\033[1;35m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac65f3e4fc614a499976d19759e882959" name="ac65f3e4fc614a499976d19759e882959"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac65f3e4fc614a499976d19759e882959">&#9670;&#160;</a></span>PURPLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.PURPLE = &quot;\033[0;35m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8149619e603d8910d57dbb2e174be36" name="ae8149619e603d8910d57dbb2e174be36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8149619e603d8910d57dbb2e174be36">&#9670;&#160;</a></span>RED</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.RED = &quot;\033[0;31m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af69814745eecea2697d0d52419ba0e7d" name="af69814745eecea2697d0d52419ba0e7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af69814745eecea2697d0d52419ba0e7d">&#9670;&#160;</a></span>RED_BACKGROUND</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.RED_BACKGROUND = &quot;\033[41m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a031b499c7cc86a1ebcf72882bff2391a" name="a031b499c7cc86a1ebcf72882bff2391a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a031b499c7cc86a1ebcf72882bff2391a">&#9670;&#160;</a></span>RED_BOLD</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.RED_BOLD = &quot;\033[1;31m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42be7e01d60fab4ec160c42ec84c65d3" name="a42be7e01d60fab4ec160c42ec84c65d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42be7e01d60fab4ec160c42ec84c65d3">&#9670;&#160;</a></span>RESET</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.RESET = &quot;\033[0m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab304957c1dbde8bf7f89492f0681db80" name="ab304957c1dbde8bf7f89492f0681db80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab304957c1dbde8bf7f89492f0681db80">&#9670;&#160;</a></span>WHITE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.WHITE = &quot;\033[0;37m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afac1812c87861e3d51819ac7986fd212" name="afac1812c87861e3d51819ac7986fd212"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afac1812c87861e3d51819ac7986fd212">&#9670;&#160;</a></span>WHITE_BACKGROUND</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.WHITE_BACKGROUND = &quot;\033[47m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9fd569c0e590b26312ef383004f7f573" name="a9fd569c0e590b26312ef383004f7f573"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fd569c0e590b26312ef383004f7f573">&#9670;&#160;</a></span>WHITE_BOLD</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.WHITE_BOLD = &quot;\033[1;37m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae10beeb4dfa66128fd5f0bdd3554cb6a" name="ae10beeb4dfa66128fd5f0bdd3554cb6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae10beeb4dfa66128fd5f0bdd3554cb6a">&#9670;&#160;</a></span>YELLOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.YELLOW = &quot;\033[0;33m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca301de5c621d2a4a071615aa2236da4" name="aca301de5c621d2a4a071615aa2236da4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca301de5c621d2a4a071615aa2236da4">&#9670;&#160;</a></span>YELLOW_BACKGROUND</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.YELLOW_BACKGROUND = &quot;\033[43m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6ee9e355bab7df245891095109421ee" name="ac6ee9e355bab7df245891095109421ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6ee9e355bab7df245891095109421ee">&#9670;&#160;</a></span>YELLOW_BOLD</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String domini.auxiliars.ColorTerminal.YELLOW_BOLD = &quot;\033[1;33m&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentació d'aquesta classe es va generar a partir del següent fitxer:<ul>
+<li>FONTS/domini/auxiliars/<a class="el" href="_color_terminal_8java.html">ColorTerminal.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>domini</b></li><li class="navelem"><a class="el" href="namespacedomini_1_1auxiliars.html">auxiliars</a></li><li class="navelem"><a class="el" href="classdomini_1_1auxiliars_1_1_color_terminal.html">ColorTerminal</a></li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+  </ul>
+</div>
+</body>
+</html>

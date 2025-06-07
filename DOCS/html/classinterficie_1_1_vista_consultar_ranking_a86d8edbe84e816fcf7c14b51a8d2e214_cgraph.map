@@ -1,0 +1,25 @@
+<map id="interficie.VistaConsultarRanking.VistaConsultarRanking" name="interficie.VistaConsultarRanking.VistaConsultarRanking">
+<area shape="rect" id="Node000001" title="Constructor de la classe." alt="" coords="5,72,213,115"/>
+<area shape="poly" id="edge12_Node000001_Node000001" title=" " alt="" coords="59,72,57,62,66,53,83,47,109,45,137,48,154,54,152,59,136,53,109,51,84,53,69,57,63,63,65,71"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1utils_1_1_tools.html#aad14ef36a2a433a18d49c46a83531892" title="Actualitza la imatge d&#39;un JLabel redimensionant&#45;la per adaptar&#45;se a les mides màximes indicades mante..." alt="" coords="274,5,471,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,69,270,50,271,55,197,74"/>
+<area shape="rect" id="Node000003" href="$classinterficie_1_1_vista_consultar_ranking.html#ac8bcd1db92441badfd8650cd3c54025b" title="Carrega i mostra el rànquing a partir del límit indicat." alt="" coords="288,72,456,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="213,99,272,99,272,105,213,105"/>
+<area shape="rect" id="Node000011" href="$classcontroladors_1_1_ctrl_presentacio.html#a66901a833c124fd1acc592cea93f4e6d" title="Torna a la vista anterior a l&#39;actual." alt="" coords="261,139,484,165"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="208,113,295,132,294,137,207,118"/>
+<area shape="poly" id="edge10_Node000003_Node000001" title=" " alt="" coords="288,88,228,87,228,82,288,82"/>
+<area shape="rect" id="Node000004" href="$classcontroladors_1_1_ctrl_presentacio.html#acaf9b6cf3f40d88428b5d77b735e8856" title="Obté el rànquing global d&#39;avatares limitat a un cert nombre." alt="" coords="532,72,740,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="457,91,516,91,516,96,457,96"/>
+<area shape="rect" id="Node000005" href="$classcontroladors_1_1_ctrl_domini.html#ab9f3147d91bf87174cee2fbad80eebd0" title="Retorna la instancia del controlador de domini." alt="" coords="788,39,969,81"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="741,76,772,72,773,77,741,82"/>
+<area shape="rect" id="Node000010" href="$classcontroladors_1_1_ctrl_domini.html#af193b59e8b449c485c7a1b299f5f250e" title="Obté el ranking del numero de jugadors indicat." alt="" coords="788,105,969,148"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="741,105,773,110,772,115,741,110"/>
+<area shape="rect" id="Node000006" href="$classcontroladors_1_1_ctrl_domini.html#a7648cc0064b988072993a90846e84d38" title="Constructor de la classe Ctrl_Domini." alt="" coords="1017,39,1179,81"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="969,57,1001,57,1001,63,969,63"/>
+<area shape="rect" id="Node000007" href="$classcontroladors_1_1_ctrl_domini.html#ab06c2680b60a9e0864d8470f4888e8e9" title="Carrega els usuaris cada cop que executem el joc." alt="" coords="1227,39,1447,81"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1179,57,1211,57,1211,63,1179,63"/>
+<area shape="rect" id="Node000008" href="$classcontroladors_1_1_ctrl_persistencia.html#a06c847181ea13b0c7dde8a61b47f0a0b" title="Carrega els usuaris guardats a la capa de persistència." alt="" coords="1495,39,1736,81"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="1448,57,1480,57,1480,63,1448,63"/>
+<area shape="rect" id="Node000009" href="$classpersistencia_1_1_usuari_i_o.html#a29677f40d007ca66a5ec1b0926e16da4" title="Carrega un usuari des d&#39;un fitxer JSON." alt="" coords="1784,39,1959,81"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1736,57,1768,57,1768,63,1736,63"/>
+</map>

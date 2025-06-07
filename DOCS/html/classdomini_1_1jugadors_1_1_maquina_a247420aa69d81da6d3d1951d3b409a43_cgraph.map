@@ -1,0 +1,34 @@
+<map id="domini.jugadors.Maquina.valorarParaula" name="domini.jugadors.Maquina.valorarParaula">
+<area shape="rect" id="Node000001" title="Valora una paraula i actualitza la millor paraula trobada si és millor." alt="" coords="5,373,214,416"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1jugadors_1_1_maquina.html#a80169174406c5da6922feb0f4c854ac8" title="Calcula la puntuació d&#39;una paraula col·locada en el taulell." alt="" coords="266,139,480,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,371,177,295,216,250,260,210,298,186,301,191,263,214,220,254,181,298,126,374"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1scrabble_1_1_taulell.html#afc2d8dcd225b683aa00af9ce2075ad79" title=" " alt="" coords="796,176,985,203"/>
+<area shape="poly" id="edge13_Node000001_Node000004" title=" " alt="" coords="140,370,195,337,261,308,333,290,396,281,452,279,505,281,557,283,613,282,676,274,748,257,805,235,854,209,856,213,807,240,749,263,676,280,614,287,557,288,504,286,452,285,396,286,334,295,263,313,197,342,143,375"/>
+<area shape="rect" id="Node000005" href="$classdomini_1_1auxiliars_1_1_pair.html#af9fc7c6b0fb531c4b59cdb1048897164" title="Obté el primer element de la parella." alt="" coords="560,5,720,48"/>
+<area shape="poly" id="edge10_Node000001_Node000005" title=" " alt="" coords="114,372,131,321,160,254,203,184,230,152,260,125,293,102,328,84,402,56,477,38,544,29,545,34,478,44,404,61,330,89,295,107,263,129,233,156,207,187,165,256,136,323,119,374"/>
+<area shape="rect" id="Node000007" href="$classdomini_1_1auxiliars_1_1_pair.html#af70cd15a3a6fe17c25fbae3a08955565" title="Obté el segon element de la parella." alt="" coords="560,205,720,248"/>
+<area shape="poly" id="edge12_Node000001_Node000007" title=" " alt="" coords="127,371,182,316,219,287,261,264,332,241,407,227,480,220,544,219,544,224,480,225,408,232,334,246,263,269,222,291,186,320,131,375"/>
+<area shape="rect" id="Node000008" href="$classdomini_1_1diccionari_1_1_d_a_w_g.html#acf204a82f6e4f5cebf3313611e57b714" title="Comprova si una paraula està reconeguda pel DAWG." alt="" coords="265,323,481,349"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="208,370,294,351,295,356,209,375"/>
+<area shape="rect" id="Node000010" href="$classdomini_1_1jugadors_1_1_maquina.html#ae5ea3ad1e6cf736172f038349b70857d" title="Converteix una llista de fitxes en una cadena de text." alt="" coords="269,373,477,416"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="214,392,253,392,253,397,214,397"/>
+<area shape="rect" id="Node000011" href="$classdomini_1_1auxiliars_1_1_max_word.html#a095b18721ed654f8c136b6fd2b9a4f6d" title="Obté la puntuació de la paraula." alt="" coords="277,440,469,483"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="197,414,272,433,270,438,196,419"/>
+<area shape="rect" id="Node000012" href="$classdomini_1_1auxiliars_1_1_max_word.html#a946a8835bbce29ef90f8c76455735c0d" title="Assigna unes noves coordenades inicials a la paraula." alt="" coords="277,507,469,549"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="140,414,195,454,263,492,276,498,274,503,260,497,192,458,137,419"/>
+<area shape="rect" id="Node000013" href="$classdomini_1_1auxiliars_1_1_max_word.html#adb214547721bf7d9bb1a04c97827d0b0" title="Defineix la direcció de la paraula." alt="" coords="277,573,469,616"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="127,415,181,486,220,525,263,559,271,564,269,569,260,564,216,529,177,489,123,418"/>
+<area shape="rect" id="Node000014" href="$classdomini_1_1auxiliars_1_1_max_word.html#ae599f47659f48bcc17daf17b83bd7255" title="Assigna una nova puntuació a la paraula." alt="" coords="277,640,469,683"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="121,415,140,460,171,516,212,575,236,602,263,626,269,630,266,634,260,630,233,606,208,579,166,519,136,462,116,417"/>
+<area shape="rect" id="Node000015" href="$classdomini_1_1auxiliars_1_1_max_word.html#a452955f9d5f0cfedcab85fd1c74609c6" title="Assigna una nova llista de fitxes a la paraula." alt="" coords="262,707,484,733"/>
+<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="118,416,132,472,160,548,179,588,203,626,231,662,263,693,269,697,266,701,260,697,227,666,199,629,175,590,155,550,127,474,113,417"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1scrabble_1_1_taulell.html#a5be7b0143cecbce3e2f4dc4f53814879" title="Donades unes coordenades, retorna la Casella que es troba en aquelles coordenades." alt="" coords="552,72,728,115"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="461,135,537,116,538,121,462,141"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="402,136,460,97,531,58,545,51,547,56,533,62,463,101,405,141"/>
+<area shape="rect" id="Node000006" href="$classdomini_1_1scrabble_1_1_casella.html#a2ce7db6c414e455606dfbd8ee8056a3b" title="Retorna el multiplicador de la casella." alt="" coords="549,139,731,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="480,157,533,157,533,163,480,163"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="462,179,545,200,544,206,461,185"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="716,113,749,124,848,167,846,171,747,129,715,118"/>
+<area shape="rect" id="Node000009" href="$classdomini_1_1diccionari_1_1_d_a_w_g.html#ad5db7cc629d77068e51ccae18f9bfebd" title="Genera una llista amb les lletres i dígrafs de la paraula paràmetre." alt="" coords="532,323,748,349"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="481,333,516,333,516,339,481,339"/>
+</map>

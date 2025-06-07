@@ -1,0 +1,9 @@
+<map id="interficie.VistaPartida.refrescarTaulell" name="interficie.VistaPartida.refrescarTaulell">
+<area shape="rect" id="Node000001" title="Actualitza la visualització del taulell de joc." alt="" coords="5,72,206,115"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1scrabble_1_1_casella.html#ad6fa4e60f906cde260a175354e4fda22" title="Retorna la fitxa de la casella." alt="" coords="254,5,436,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,69,250,50,252,55,185,74"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1scrabble_1_1_fitxa.html#a3ee9b39d600851a00c4ce541339ba90e" title="Retorna la lletra associada a la fitxa." alt="" coords="261,72,428,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="206,91,245,91,245,96,206,96"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1scrabble_1_1_casella.html#a2ce7db6c414e455606dfbd8ee8056a3b" title="Retorna el multiplicador de la casella." alt="" coords="254,139,436,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="185,113,252,131,250,137,184,118"/>
+</map>

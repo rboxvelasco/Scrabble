@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['campcontrasenya_0',['campContrasenya',['../classinterficie_1_1_vista_crear_perfil.html#a748d413e82f92eeb3630813bfb572de4',1,'interficie.VistaCrearPerfil.campContrasenya'],['../classinterficie_1_1_vista_iniciar_sessio.html#a5fcca2346705bc09e66d09b2069ebb64',1,'interficie.VistaIniciarSessio.campContrasenya']]],
+  ['campusuari_1',['campUsuari',['../classinterficie_1_1_vista_crear_avatar.html#a89fc7e40f932d303eea8959631a7db47',1,'interficie.VistaCrearAvatar.campUsuari'],['../classinterficie_1_1_vista_crear_perfil.html#a2d0061e29ad5785e8c1cd4f2ea742ee6',1,'interficie.VistaCrearPerfil.campUsuari']]],
+  ['cap_2',['CAP',['../enumdomini_1_1scrabble_1_1_multiplicador.html#ac67c447ebbdde42e7fc715308a210a4b',1,'domini::scrabble::Multiplicador']]],
+  ['consultas_5fespacio_5fvertical_3',['CONSULTAS_ESPACIO_VERTICAL',['../classinterficie_1_1_vista_menu_joc.html#aab74e68e5b3ec642ce7e053c39c3158e',1,'interficie::VistaMenuJoc']]],
+  ['consultas_5fheight_4',['CONSULTAS_HEIGHT',['../classinterficie_1_1_vista_menu_joc.html#aff0000436ebc170a16043422f5576a54',1,'interficie::VistaMenuJoc']]],
+  ['consultas_5fwidth_5',['CONSULTAS_WIDTH',['../classinterficie_1_1_vista_menu_joc.html#a6ab37a0a9706c8e5d2c93fb7f4d937b3',1,'interficie::VistaMenuJoc']]],
+  ['consultas_5fx_6',['CONSULTAS_X',['../classinterficie_1_1_vista_menu_joc.html#a52823eeb8bd21f0deaefca4cdaa9f676',1,'interficie::VistaMenuJoc']]],
+  ['consultas_5fy_5finicial_7',['CONSULTAS_Y_INICIAL',['../classinterficie_1_1_vista_menu_joc.html#a4bc3c5a5c9d5cda6b20ffbdef6eb869b',1,'interficie::VistaMenuJoc']]],
+  ['contrasenya_8',['contrasenya',['../classdomini_1_1sessio_1_1_usuari.html#aa9e8fd049bc135e488ee8f5cba3af0ee',1,'domini::sessio::Usuari']]],
+  ['coordenades_9',['coordenades',['../classdomini_1_1scrabble_1_1_casella.html#a8c9f360f0909b56f96d7c3964addecd2',1,'domini::scrabble::Casella']]],
+  ['coordinates_10',['coordinates',['../classdomini_1_1auxiliars_1_1_max_word.html#a0868c1fb1816c4c41328f5caa6ec4bb4',1,'domini::auxiliars::MaxWord']]],
+  ['crear_5fpartida_5fheight_11',['CREAR_PARTIDA_HEIGHT',['../classinterficie_1_1_vista_menu_joc.html#a15d6abd4e6bf6c3a43be16f8a0d15cf7',1,'interficie::VistaMenuJoc']]],
+  ['crear_5fpartida_5fwidth_12',['CREAR_PARTIDA_WIDTH',['../classinterficie_1_1_vista_menu_joc.html#ab84091a8edd72682715ee532d1956333',1,'interficie::VistaMenuJoc']]],
+  ['crear_5fpartida_5fx_13',['CREAR_PARTIDA_X',['../classinterficie_1_1_vista_menu_joc.html#ab6fe41be96cd6b22ede1e823ae935b19',1,'interficie::VistaMenuJoc']]],
+  ['crear_5fpartida_5fy_14',['CREAR_PARTIDA_Y',['../classinterficie_1_1_vista_menu_joc.html#a22a4f585917f3f69753822c81b8c5f6e',1,'interficie::VistaMenuJoc']]],
+  ['cross_5fchecks_15',['cross_checks',['../classdomini_1_1scrabble_1_1_casella.html#aef5bf03b17b75cf44b0389b3b2036e89',1,'domini::scrabble::Casella']]],
+  ['ctrldomini_16',['CtrlDomini',['../classcontroladors_1_1_ctrl_partida.html#a8e356e03da269422dbedbb979c15d949',1,'controladors::CtrlPartida']]],
+  ['ctrldomini_17',['ctrlDomini',['../classcontroladors_1_1_ctrl_presentacio.html#a6c1cb2f1dc2f98f7f1addc7939552979',1,'controladors::CtrlPresentacio']]],
+  ['ctrlpartida_18',['CtrlPartida',['../classcontroladors_1_1_ctrl_domini.html#ae321af20a3708e596eb657309e0d3b51',1,'controladors::CtrlDomini']]],
+  ['ctrlpartida_19',['ctrlPartida',['../classcontroladors_1_1_ctrl_presentacio.html#a1c5196a282115deba278beff121d4e03',1,'controladors::CtrlPresentacio']]],
+  ['ctrlpresentacio_20',['ctrlPresentacio',['../classinterficie_1_1_vista_canvi_torn.html#a8fa0f57c2a4e58957ba89cd4a21d9b10',1,'interficie::VistaCanviTorn']]],
+  ['cyan_21',['CYAN',['../classdomini_1_1auxiliars_1_1_color_terminal.html#ae232629a454d4b2a437db275ae3aa9ce',1,'domini::auxiliars::ColorTerminal']]],
+  ['cyan_5fbackground_22',['CYAN_BACKGROUND',['../classdomini_1_1auxiliars_1_1_color_terminal.html#a02f32c5b824760bb5277b02e9b82f946',1,'domini::auxiliars::ColorTerminal']]],
+  ['cyan_5fbold_23',['CYAN_BOLD',['../classdomini_1_1auxiliars_1_1_color_terminal.html#a2fd8c04ebb6dc9b7f41a3e7d030bf0df',1,'domini::auxiliars::ColorTerminal']]]
+];

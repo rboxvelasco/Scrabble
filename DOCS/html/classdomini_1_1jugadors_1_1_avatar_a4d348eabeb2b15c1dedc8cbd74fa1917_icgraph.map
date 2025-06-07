@@ -1,0 +1,5 @@
+<map id="domini.jugadors.Avatar.incrementarPartidesAbandonades" name="domini.jugadors.Avatar.incrementarPartidesAbandonades">
+<area shape="rect" id="Node000001" title="Incrementa el nombre de partides abandonades." alt="" coords="276,5,502,48"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_partida.html#a15489fe587b7fe577bd1c4be09c58e6e" title="El jugador actual abandona la partida." alt="" coords="5,5,228,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="260,29,228,29,228,24,260,24"/>
+</map>

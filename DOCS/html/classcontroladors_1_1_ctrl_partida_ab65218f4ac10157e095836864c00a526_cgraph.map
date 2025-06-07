@@ -1,0 +1,9 @@
+<map id="controladors.CtrlPartida.paraula_centre" name="controladors.CtrlPartida.paraula_centre">
+<area shape="rect" id="Node000001" title="Comprova si una paraula col·locada passa pel centre del taulell." alt="" coords="5,72,210,115"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1scrabble_1_1_taulell.html#a28a346ace920ef6a74f94825249d671c" title="Mètode que calcula les coordenades del centre del taulell." alt="" coords="258,5,433,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,69,251,50,253,55,187,74"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1auxiliars_1_1_pair.html#af9fc7c6b0fb531c4b59cdb1048897164" title="Obté el primer element de la parella." alt="" coords="265,72,426,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="210,91,250,91,250,96,210,96"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1auxiliars_1_1_pair.html#af70cd15a3a6fe17c25fbae3a08955565" title="Obté el segon element de la parella." alt="" coords="265,139,426,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="187,113,253,131,251,137,185,118"/>
+</map>

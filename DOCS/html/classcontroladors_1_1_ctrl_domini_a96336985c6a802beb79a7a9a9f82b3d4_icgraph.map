@@ -1,0 +1,7 @@
+<map id="controladors.CtrlDomini.actualitzarJugadorGlobal" name="controladors.CtrlDomini.actualitzarJugadorGlobal">
+<area shape="rect" id="Node000001" title="Actualitza les dades globals d&#39;un jugador." alt="" coords="546,5,768,48"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_domini.html#a9b8102ac23ea03ea525c42517a8dbbbc" title="Actualitza les dades globals dels jugadors després d&#39;una partida." alt="" coords="276,5,498,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="530,29,498,29,498,24,530,24"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_domini.html#af2774b364abee1ac4832823ff1b0d556" title="Actualitza el rànquing després d&#39;una partida." alt="" coords="5,5,228,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="260,29,228,29,228,24,260,24"/>
+</map>

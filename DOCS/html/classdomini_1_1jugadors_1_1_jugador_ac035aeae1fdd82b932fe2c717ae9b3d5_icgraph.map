@@ -1,0 +1,9 @@
+<map id="domini.jugadors.Jugador.incrementar_puntuacio_actual" name="domini.jugadors.Jugador.incrementar_puntuacio_actual">
+<area shape="rect" id="Node000001" title="Afegeix punts a la puntuació actual del jugador." alt="" coords="546,39,780,81"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_domini.html#a9b8102ac23ea03ea525c42517a8dbbbc" title="Actualitza les dades globals dels jugadors després d&#39;una partida." alt="" coords="276,5,498,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="530,47,498,43,499,37,531,41"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1scrabble_1_1_partida.html#a6ccabc3836d6c8c400042b24b077c064" title="Incrementa la puntuació del jugador actual." alt="" coords="290,72,484,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="531,79,484,84,484,79,530,73"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_domini.html#af2774b364abee1ac4832823ff1b0d556" title="Actualitza el rànquing després d&#39;una partida." alt="" coords="5,5,228,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="260,29,228,29,228,24,260,24"/>
+</map>

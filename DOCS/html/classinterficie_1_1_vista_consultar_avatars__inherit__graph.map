@@ -1,0 +1,5 @@
+<map id="interficie.VistaConsultarAvatars" name="interficie.VistaConsultarAvatars">
+<area shape="rect" id="Node000001" title="Mostra una finestra llistant els avatars disponibles." alt="" coords="5,123,168,379"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="60,5,114,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,90,90,123,84,123,84,90"/>
+</map>

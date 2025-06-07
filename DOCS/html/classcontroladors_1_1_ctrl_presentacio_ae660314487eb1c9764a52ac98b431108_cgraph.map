@@ -1,0 +1,17 @@
+<map id="controladors.CtrlPresentacio.launchApp" name="controladors.CtrlPresentacio.launchApp">
+<area shape="rect" id="Node000001" title="Inicialitza l&#39;aplicació creant les instàncies del controlador de domini i de partida,..." alt="" coords="5,47,257,73"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_domini.html#ab9f3147d91bf87174cee2fbad80eebd0" title="Retorna la instancia del controlador de domini." alt="" coords="305,5,485,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,43,289,37,290,43,242,49"/>
+<area shape="rect" id="Node000007" href="$classcontroladors_1_1_ctrl_partida.html#acc3f8d0c1620b0c1befc2c1a550a23a8" title="Obté la instància única del controlador de partida." alt="" coords="305,72,485,115"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="242,71,290,77,289,83,242,77"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_domini.html#a7648cc0064b988072993a90846e84d38" title="Constructor de la classe Ctrl_Domini." alt="" coords="533,5,695,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="486,24,517,24,517,29,486,29"/>
+<area shape="rect" id="Node000004" href="$classcontroladors_1_1_ctrl_domini.html#ab06c2680b60a9e0864d8470f4888e8e9" title="Carrega els usuaris cada cop que executem el joc." alt="" coords="743,5,964,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="696,24,727,24,727,29,696,29"/>
+<area shape="rect" id="Node000005" href="$classcontroladors_1_1_ctrl_persistencia.html#a06c847181ea13b0c7dde8a61b47f0a0b" title="Carrega els usuaris guardats a la capa de persistència." alt="" coords="1012,5,1252,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="964,24,996,24,996,29,964,29"/>
+<area shape="rect" id="Node000006" href="$classpersistencia_1_1_usuari_i_o.html#a29677f40d007ca66a5ec1b0926e16da4" title="Carrega un usuari des d&#39;un fitxer JSON." alt="" coords="1300,5,1475,48"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1252,24,1284,24,1284,29,1252,29"/>
+<area shape="rect" id="Node000008" href="$classcontroladors_1_1_ctrl_partida.html#a8f5583dd87ab70723d68c87c1fefb5f4" title="Constructor del controlador de la partida." alt="" coords="533,72,695,115"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="486,91,517,91,517,96,486,96"/>
+</map>

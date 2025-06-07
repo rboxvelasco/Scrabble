@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['magenta_0',['MAGENTA',['../classdomini_1_1auxiliars_1_1_color_terminal.html#afe5e357f1f260f7b4a4431a972d23f22',1,'domini::auxiliars::ColorTerminal']]],
+  ['magenta_5fbackground_1',['MAGENTA_BACKGROUND',['../classdomini_1_1auxiliars_1_1_color_terminal.html#ade94aae2e33388d4c19a670f72388c54',1,'domini::auxiliars::ColorTerminal']]],
+  ['magenta_5fbold_2',['MAGENTA_BOLD',['../classdomini_1_1auxiliars_1_1_color_terminal.html#a2fc3be6768bd8062839ed064f06895bc',1,'domini::auxiliars::ColorTerminal']]],
+  ['main_3',['main',['../classinterficie_1_1_main_g_u_i.html#ae12d6baaff26bc828aa5d7b411923165',1,'interficie::MainGUI']]],
+  ['maingui_4',['MainGUI',['../classinterficie_1_1_main_g_u_i.html',1,'interficie']]],
+  ['maingui_2ejava_5',['MainGUI.java',['../_main_g_u_i_8java.html',1,'']]],
+  ['mapapuntuacions_6',['mapaPuntuacions',['../classdomini_1_1scrabble_1_1_bossa.html#a2e24fa510f678d09736ae7f5b23992b4',1,'domini::scrabble::Bossa']]],
+  ['maquina_7',['Maquina',['../classdomini_1_1jugadors_1_1_maquina.html',1,'domini.jugadors.Maquina'],['../classdomini_1_1jugadors_1_1_maquina.html#a65b0732e714ea5ca8c3e64a44c72cbb7',1,'domini.jugadors.Maquina.Maquina()']]],
+  ['maquina_2ejava_8',['Maquina.java',['../_maquina_8java.html',1,'']]],
+  ['margin_9',['MARGIN',['../classinterficie_1_1_vista_canvi_torn.html#ad2df838a73ad79589f5f6a9616a07831',1,'interficie::VistaCanviTorn']]],
+  ['max_5ffitxes_10',['MAX_FITXES',['../classdomini_1_1jugadors_1_1_jugador.html#ab4a620e35c73ec500f8e63987ee66775',1,'domini::jugadors::Jugador']]],
+  ['max_5fimage_5fwidth_11',['MAX_IMAGE_WIDTH',['../classinterficie_1_1_vista_crear_partida.html#a59bc2eed0936b99b47ebb6b14eb42cb2',1,'interficie::VistaCrearPartida']]],
+  ['maxword_12',['MaxWord',['../classdomini_1_1auxiliars_1_1_max_word.html',1,'domini.auxiliars.MaxWord'],['../classdomini_1_1auxiliars_1_1_max_word.html#abcc32ff3988d040f3163efd1e805602c',1,'domini.auxiliars.MaxWord.MaxWord()']]],
+  ['maxword_2ejava_13',['MaxWord.java',['../_max_word_8java.html',1,'']]],
+  ['mida_14',['mida',['../classcontroladors_1_1_ctrl_partida.html#aab9bb968e427448102eb7ab1e6a691d9',1,'controladors::CtrlPartida']]],
+  ['modelllista_15',['modelLlista',['../classinterficie_1_1_vista_consultar_avatars.html#afdd08ff45a71ca562ff3d31ed3202703',1,'interficie.VistaConsultarAvatars.modelLlista'],['../classinterficie_1_1_vista_consultar_estadistiques.html#a57a35be4f3c8b90fd635ae7f12f775c9',1,'interficie.VistaConsultarEstadistiques.modelLlista']]],
+  ['mostrarestadistiques_16',['mostrarEstadistiques',['../classinterficie_1_1_vista_consultar_estadistiques.html#a2d04a42f93b8d16629d5795a935ae87e',1,'interficie::VistaConsultarEstadistiques']]],
+  ['mostrarselectorimagenes_17',['mostrarSelectorImagenes',['../classinterficie_1_1_vista_crear_avatar.html#a8815061362fcbb6852ed1013c55cf773',1,'interficie::VistaCrearAvatar']]],
+  ['multiplicador_18',['Multiplicador',['../enumdomini_1_1scrabble_1_1_multiplicador.html',1,'domini.scrabble.Multiplicador'],['../enumdomini_1_1scrabble_1_1_multiplicador.html#a58be371c86176a66c3915feb82bf94d4',1,'domini.scrabble.Multiplicador.Multiplicador()']]],
+  ['multiplicador_19',['multiplicador',['../classdomini_1_1scrabble_1_1_casella.html#a2ae6927a666f86e589a583d9f6760b8a',1,'domini.scrabble.Casella.multiplicador'],['../enumdomini_1_1scrabble_1_1_multiplicador.html#ac45253ee58de3aea4336f6ebdea25067',1,'domini.scrabble.Multiplicador.multiplicador']]],
+  ['multiplicador_2ejava_20',['Multiplicador.java',['../_multiplicador_8java.html',1,'']]]
+];

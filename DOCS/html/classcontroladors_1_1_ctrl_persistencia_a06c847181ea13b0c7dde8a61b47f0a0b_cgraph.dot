@@ -1,0 +1,12 @@
+digraph "controladors.CtrlPersistencia.carregarUsuarisRegistrats"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="controladors.CtrlPersistencia.carregar\lUsuarisRegistrats",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Carrega els usuaris guardats a la capa de persistència."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="persistencia.UsuariIO.load\lUsuari",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpersistencia_1_1_usuari_i_o.html#a29677f40d007ca66a5ec1b0926e16da4",tooltip="Carrega un usuari des d'un fitxer JSON."];
+}

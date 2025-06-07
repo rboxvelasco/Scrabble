@@ -1,0 +1,50 @@
+<map id="controladors.CtrlPartida.comprova_paraula" name="controladors.CtrlPartida.comprova_paraula">
+<area shape="rect" id="Node000001" title="Comprova si una paraula és vàlida." alt="" coords="5,308,225,351"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_partida.html#a55c08c7767d17dd7d8b4ae00d33b1fe7" title="Comprova si una lletra és vàlida per a una casella que formi paraula transversal vertical." alt="" coords="273,459,496,501"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,349,199,397,236,422,274,444,286,450,284,455,271,449,233,427,196,401,138,353"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1scrabble_1_1_casella.html#a45ad0a3aaeacf1bc4896a7a99c068dd3" title="Comprova si la casella està ocupada per una fitxa." alt="" coords="564,119,728,161"/>
+<area shape="poly" id="edge11_Node000001_Node000003" title=" " alt="" coords="122,307,141,262,172,206,215,151,242,127,271,108,303,95,330,88,356,85,381,87,432,98,496,108,549,116,548,121,496,113,431,103,380,93,356,91,331,93,304,100,274,113,245,132,219,155,176,209,145,264,126,309"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1scrabble_1_1_taulell.html#a5be7b0143cecbce3e2f4dc4f53814879" title="Donades unes coordenades, retorna la Casella que es troba en aquelles coordenades." alt="" coords="558,185,733,228"/>
+<area shape="poly" id="edge12_Node000001_Node000004" title=" " alt="" coords="179,305,272,277,413,246,542,221,543,226,414,251,273,283,181,310"/>
+<area shape="rect" id="Node000005" href="$classdomini_1_1scrabble_1_1_taulell.html#afc2d8dcd225b683aa00af9ce2075ad79" title=" " alt="" coords="795,289,984,316"/>
+<area shape="poly" id="edge16_Node000001_Node000005" title=" " alt="" coords="125,350,144,399,174,462,217,525,244,554,274,578,316,599,372,617,439,632,510,643,582,648,648,647,704,639,746,622,780,593,809,558,832,518,850,476,873,395,883,331,888,332,878,396,855,478,837,521,813,561,784,597,749,626,706,644,648,652,581,654,510,648,438,638,371,622,314,604,271,582,240,558,213,529,169,464,139,401,120,352"/>
+<area shape="rect" id="Node000007" href="$classdomini_1_1scrabble_1_1_casella.html#ad6fa4e60f906cde260a175354e4fda22" title="Retorna la fitxa de la casella." alt="" coords="554,252,737,295"/>
+<area shape="poly" id="edge13_Node000001_Node000007" title=" " alt="" coords="225,312,272,307,539,280,539,285,273,312,226,318"/>
+<area shape="rect" id="Node000008" href="$classdomini_1_1scrabble_1_1_fitxa.html#a3ee9b39d600851a00c4ce541339ba90e" title="Retorna la lletra associada a la fitxa." alt="" coords="562,319,729,361"/>
+<area shape="poly" id="edge15_Node000001_Node000008" title=" " alt="" coords="225,325,496,327,547,329,546,335,496,332,225,330"/>
+<area shape="rect" id="Node000010" href="$classdomini_1_1scrabble_1_1_taulell.html#a268ce8c62ca09000409a18be258fbc89" title="Comprova si el taulell està completament buit (cap casella ocupada)." alt="" coords="282,341,487,368"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="225,337,266,341,266,346,225,342"/>
+<area shape="rect" id="Node000011" href="$classdomini_1_1jugadors_1_1_jugador.html#acf9520ec234c3f2cc52e1b79b85a008e" title="Retorna la llista amb les fitxes actuals del jugador." alt="" coords="292,392,476,435"/>
+<area shape="poly" id="edge14_Node000001_Node000011" title=" " alt="" coords="184,349,273,377,296,384,294,390,272,383,182,354"/>
+<area shape="rect" id="Node000012" href="$classcontroladors_1_1_ctrl_partida.html#ab65218f4ac10157e095836864c00a526" title="Comprova si una paraula col·locada passa pel centre del taulell." alt="" coords="282,525,486,568"/>
+<area shape="poly" id="edge17_Node000001_Node000012" title=" " alt="" coords="131,350,154,385,187,429,227,473,274,511,282,516,279,521,271,516,224,477,182,432,150,388,127,352"/>
+<area shape="rect" id="Node000014" href="$classcontroladors_1_1_ctrl_partida.html#a9de7e8a2258b08affa0274996d2ed9df" title="Comprova si la posició d&#39;una paraula és vàlida dins dels límits del taulell." alt="" coords="283,5,486,48"/>
+<area shape="poly" id="edge21_Node000001_Node000014" title=" " alt="" coords="121,307,140,257,171,193,215,124,241,93,271,65,288,53,291,57,274,69,245,96,219,128,176,195,145,260,126,309"/>
+<area shape="rect" id="Node000015" href="$classcontroladors_1_1_ctrl_partida.html#ab2365dd846883b62c30985d553d5e0da" title="Comprova si una paraula col·locada toca alguna lletra existent al taulell." alt="" coords="291,123,478,165"/>
+<area shape="poly" id="edge23_Node000001_Node000015" title=" " alt="" coords="133,306,191,245,229,212,271,182,295,169,297,174,274,186,233,216,194,249,136,310"/>
+<area shape="rect" id="Node000017" href="$classdomini_1_1scrabble_1_1_taulell.html#a622ab57cc924ec4c3ff2345698c746e2" title="Retorna la transposició del taulell actual." alt="" coords="277,695,492,721"/>
+<area shape="poly" id="edge27_Node000001_Node000017" title=" " alt="" coords="123,350,138,412,166,497,186,542,211,587,240,629,274,666,306,686,303,691,271,670,236,632,206,590,182,544,161,499,133,413,118,352"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="481,456,494,445,516,411,524,378,523,344,518,311,512,277,511,242,520,207,542,172,549,164,553,168,546,175,525,209,517,243,518,276,523,310,529,344,529,378,521,413,498,448,485,460"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="481,456,494,445,512,420,519,395,520,369,518,344,515,318,516,292,524,265,542,238,544,236,548,240,546,242,529,267,521,292,521,318,523,343,525,369,524,396,516,422,498,448,484,460"/>
+<area shape="poly" id="edge9_Node000002_Node000005" title=" " alt="" coords="462,456,495,444,543,422,600,405,645,396,690,388,746,371,802,347,850,322,853,326,804,352,748,376,692,393,646,402,601,410,545,426,497,449,464,461"/>
+<area shape="rect" id="Node000006" href="$classdomini_1_1auxiliars_1_1_pair.html#af9fc7c6b0fb531c4b59cdb1048897164" title="Obté el primer element de la parella." alt="" coords="566,436,726,479"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="496,468,550,463,550,468,497,473"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="479,456,494,445,507,428,514,411,518,377,521,341,528,323,542,305,545,302,548,306,546,308,533,325,526,342,523,377,519,413,512,431,498,449,482,460"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="475,456,494,445,510,429,518,413,526,395,542,378,560,366,563,371,546,382,531,398,523,415,514,432,498,449,478,460"/>
+<area shape="rect" id="Node000009" href="$classdomini_1_1auxiliars_1_1_pair.html#af70cd15a3a6fe17c25fbae3a08955565" title="Obté el segon element de la parella." alt="" coords="566,503,726,545"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="497,496,550,505,550,511,496,501"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="717,226,748,238,847,280,845,285,746,242,715,231"/>
+<area shape="poly" id="edge19_Node000012_Node000006" title=" " alt="" coords="462,522,495,511,543,488,560,482,562,487,545,493,497,516,464,527"/>
+<area shape="poly" id="edge20_Node000012_Node000009" title=" " alt="" coords="487,535,550,530,551,535,487,540"/>
+<area shape="rect" id="Node000013" href="$classdomini_1_1scrabble_1_1_taulell.html#a28a346ace920ef6a74f94825249d671c" title="Mètode que calcula les coordenades del centre del taulell." alt="" coords="558,569,733,612"/>
+<area shape="poly" id="edge18_Node000012_Node000013" title=" " alt="" coords="488,561,543,571,542,576,487,567"/>
+<area shape="poly" id="edge22_Node000014_Node000005" title=" " alt="" coords="486,8,549,5,617,10,686,25,718,37,749,54,777,76,802,102,841,163,868,224,884,273,879,275,863,226,837,165,798,106,774,80,746,58,716,42,684,30,616,15,549,11,487,14"/>
+<area shape="poly" id="edge24_Node000015_Node000003" title=" " alt="" coords="478,140,548,139,548,144,478,145"/>
+<area shape="poly" id="edge25_Node000015_Node000004" title=" " alt="" coords="477,163,544,180,542,185,476,169"/>
+<area shape="rect" id="Node000016" href="$classdomini_1_1scrabble_1_1_taulell.html#a6df3c705440324d9c2ca283a464a3a8f" title="Retorna el nombre de files/columnes del taulell." alt="" coords="544,68,747,95"/>
+<area shape="poly" id="edge26_Node000015_Node000016" title=" " alt="" coords="476,119,571,96,573,101,477,125"/>
+<area shape="rect" id="Node000018" href="$classdomini_1_1scrabble_1_1_taulell.html#a10eef6a9fe59fa18f5b2d6d311c6356c" title="Retorna la casella de la posició indicada." alt="" coords="558,687,733,729"/>
+<area shape="poly" id="edge28_Node000017_Node000018" title=" " alt="" coords="492,705,543,705,543,711,492,711"/>
+<area shape="rect" id="Node000019" href="$classdomini_1_1scrabble_1_1_taulell.html#a2f2deb612c9af047decb87cc0d7e85d1" title="Constructora de la classe Taulell." alt="" coords="567,753,724,796"/>
+<area shape="poly" id="edge29_Node000017_Node000019" title=" " alt="" coords="441,719,553,748,551,753,439,725"/>
+</map>

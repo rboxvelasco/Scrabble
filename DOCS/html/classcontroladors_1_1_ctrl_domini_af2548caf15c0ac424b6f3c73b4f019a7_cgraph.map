@@ -1,0 +1,7 @@
+<map id="controladors.CtrlDomini.tancarSessio" name="controladors.CtrlDomini.tancarSessio">
+<area shape="rect" id="Node000001" title="Es tanca la sessió de l&#39;usuari." alt="" coords="5,5,204,48"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_persistencia.html#a087f94cda6a408396c8faa53f84a1e0e" title="Desa un jugador a l&#39;emmagatzematge persistent." alt="" coords="252,5,488,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,24,236,24,236,29,204,29"/>
+<area shape="rect" id="Node000003" href="$classpersistencia_1_1_jugador_i_o.html#aeb13d0e82937696c7c053612278c6ee9" title="Desa un jugador a un fitxer JSON." alt="" coords="536,5,723,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="488,24,520,24,520,29,488,29"/>
+</map>

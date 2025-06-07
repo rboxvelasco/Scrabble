@@ -1,0 +1,20 @@
+digraph "interficie.VistaMenuJoc.reprendrePartida"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="interficie.VistaMenuJoc.reprendre\lPartida",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Lògica per reprendre una partida."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="interficie.SelectorPartida.get\lIdPartida",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_selector_partida.html#abe61b878316263ec68854ac732c19187",tooltip="Retorna l'identificador de la partida seleccionada per reprendre."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="controladors.CtrlPresentacio.get\lNomUsuariActiu",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#a7d80b96fb70eecd976aa1b1ba530d7a7",tooltip="Retorna el nom de l'usuari que té la sessió iniciada."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="controladors.CtrlPresentacio.reprendre\lPartida",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#ad0c6a8a429d767f53f2e0fa4c6f8a5dc",tooltip="Reprèn una partida existent identificada pel seu ID."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="domini.scrabble.Partida.get\lIdioma",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1scrabble_1_1_partida.html#a74ab1a1330297b7e2a8c16121db79faa",tooltip="Retorna l'idioma de la partida."];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="controladors.CtrlPresentacio.get\lPartida",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#af18fe9d82387504c97bd73a19eaa15e8",tooltip="Retorna la instància de la partida actual en curs."];
+}

@@ -1,0 +1,5 @@
+<map id="domini.diccionari.DAWG.contains" name="domini.diccionari.DAWG.contains">
+<area shape="rect" id="Node000001" title="Comprova si una paraula està reconeguda pel DAWG." alt="" coords="5,5,222,32"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1diccionari_1_1_d_a_w_g.html#ad5db7cc629d77068e51ccae18f9bfebd" title="Genera una llista amb les lletres i dígrafs de la paraula paràmetre." alt="" coords="270,5,486,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,16,254,16,254,21,222,21"/>
+</map>

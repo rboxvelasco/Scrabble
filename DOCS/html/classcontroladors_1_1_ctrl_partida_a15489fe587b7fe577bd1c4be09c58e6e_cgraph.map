@@ -1,0 +1,13 @@
+<map id="controladors.CtrlPartida.abandonarPartida" name="controladors.CtrlPartida.abandonarPartida">
+<area shape="rect" id="Node000001" title="El jugador actual abandona la partida." alt="" coords="5,139,228,181"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1jugadors_1_1_jugador.html#afa999de0f50bb1671ac42dbe31388b01" title="Retorna l&#39;identificador del jugador." alt="" coords="297,5,481,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,136,203,97,275,58,289,51,291,56,277,62,206,101,148,140"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1jugadors_1_1_avatar.html#a4d348eabeb2b15c1dedc8cbd74fa1917" title="Incrementa el nombre de partides abandonades." alt="" coords="276,72,502,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="206,135,283,116,285,122,207,141"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1jugadors_1_1_avatar.html#a44e5e6a2ee9245697351fe390849b810" title="Incrementa el nombre total de partides guanyades." alt="" coords="276,139,502,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="228,157,260,157,260,163,228,163"/>
+<area shape="rect" id="Node000005" href="$classdomini_1_1jugadors_1_1_avatar.html#a750332bc2deadb604d43d1a0936a09d2" title="Incrementa el nombre de partides guanyades contra altres jugadors." alt="" coords="276,205,502,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="207,179,285,198,283,204,206,185"/>
+<area shape="rect" id="Node000006" href="$classdomini_1_1jugadors_1_1_avatar.html#aae510bc2635d40405e60a218b1b7c097" title="Incrementa el nombre de partides guanyades contra la màquina." alt="" coords="276,272,502,315"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="148,180,206,219,277,258,291,264,289,269,275,262,203,223,145,184"/>
+</map>

@@ -1,0 +1,12 @@
+digraph "controladors.CtrlPersistencia.eliminarUsuari"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="controladors.CtrlPersistencia.eliminar\lUsuari",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Elimina un usuari de l'emmagatzematge persistent."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="persistencia.UsuariIO.eliminar\lUsuari",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpersistencia_1_1_usuari_i_o.html#a69cfc343d143faa096f55b5476bb7231",tooltip="Elimina un usuari esborrant el seu fitxer JSON."];
+}

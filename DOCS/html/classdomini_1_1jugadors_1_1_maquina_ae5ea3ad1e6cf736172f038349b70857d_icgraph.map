@@ -1,0 +1,15 @@
+<map id="domini.jugadors.Maquina.fitxes2String" name="domini.jugadors.Maquina.fitxes2String">
+<area shape="rect" id="Node000001" title="Converteix una llista de fitxes en una cadena de text." alt="" coords="1296,29,1504,72"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1jugadors_1_1_maquina.html#a247420aa69d81da6d3d1951d3b409a43" title="Valora una paraula i actualitza la millor paraula trobada si és millor." alt="" coords="1040,29,1248,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1281,53,1249,53,1249,48,1281,48"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1jugadors_1_1_maquina.html#a28fa4d863085aaaba920b95a47bf14b7" title="Genera totes les paraules possibles a la dreta d&#39;una subparaula prefix." alt="" coords="783,29,992,72"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1024,53,992,53,992,48,1024,48"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="929,16,914,10,887,8,863,10,848,15,842,21,844,28,839,29,837,19,845,10,862,5,888,3,915,5,931,11"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1jugadors_1_1_maquina.html#a408520f7aa4d96099ecfa1bae76728b5" title="Genera totes les subparaules prefix possibles cap a l&#39;esquerra d&#39;una casella anchor." alt="" coords="494,37,735,64"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="768,53,736,53,736,48,768,48"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="662,25,646,19,615,16,586,18,570,23,566,28,573,35,569,39,561,29,567,19,585,13,615,11,647,13,664,20"/>
+<area shape="rect" id="Node000005" href="$classdomini_1_1jugadors_1_1_maquina.html#afe864f5cb4ab5895e149c5aad0235400" title="Busca la millor paraula en una direcció específica (horitzontal o vertical)." alt="" coords="238,29,446,72"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="478,53,446,53,446,48,478,48"/>
+<area shape="rect" id="Node000006" href="$classdomini_1_1jugadors_1_1_maquina.html#a8b1f4889bc62ca862e4f87e55c66871e" title="Busca la paraula amb la puntuació més alta donats un taulell i un diccionari." alt="" coords="5,29,190,72"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="222,53,190,53,190,48,222,48"/>
+</map>

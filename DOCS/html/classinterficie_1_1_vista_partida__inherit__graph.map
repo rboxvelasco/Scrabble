@@ -1,0 +1,5 @@
+<map id="interficie.VistaPartida" name="interficie.VistaPartida">
+<area shape="rect" id="Node000001" title="Classe que representa la interfície gràfica d&#39;una partida de Scrabble." alt="" coords="5,123,172,597"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="62,5,116,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,89,92,123,86,123,86,89"/>
+</map>

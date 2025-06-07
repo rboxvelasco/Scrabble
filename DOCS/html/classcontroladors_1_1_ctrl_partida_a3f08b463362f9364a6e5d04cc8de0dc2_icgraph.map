@@ -1,0 +1,7 @@
+<map id="controladors.CtrlPartida.getDictionaryFileName" name="controladors.CtrlPartida.getDictionaryFileName">
+<area shape="rect" id="Node000001" title="Obté el nom del fitxer del diccionari segons l&#39;idioma." alt="" coords="263,39,443,81"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_partida.html#ae82dd6941d4bf290e5b0c9d0433a6e11" title="Carrega una partida existent." alt="" coords="5,5,215,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,48,215,44,215,38,248,43"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_partida.html#a0db48d25e2ed2a796bc221f62d84aec5" title="Crea una nova partida." alt="" coords="14,72,206,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="247,77,206,83,206,78,247,72"/>
+</map>

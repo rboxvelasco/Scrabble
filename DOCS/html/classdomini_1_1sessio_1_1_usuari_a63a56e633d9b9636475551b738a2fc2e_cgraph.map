@@ -1,0 +1,15 @@
+<map id="domini.sessio.Usuari.getPartides" name="domini.sessio.Usuari.getPartides">
+<area shape="rect" id="Node000001" title="Retorna les partides jugades de l&#39;usuari." alt="" coords="5,76,171,119"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1sessio_1_1_usuari.html#a0268a823e2a2431d8260cddc9f3b522e" title="Retorna el nom de l&#39;usuari." alt="" coords="219,55,412,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,84,203,80,203,85,171,89"/>
+<area shape="rect" id="Node000003" href="$classpersistencia_1_1_partida_i_o.html#a7b9bdae6d9736a012e584b268b0bcb86" title="Carrega una partida des d&#39;un fitxer JSON." alt="" coords="226,105,404,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,105,211,111,211,116,171,111"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1scrabble_1_1_partida.html#a02bdb9c41da95458503bb9d1967ea9e8" title="Retorna la instància de la bossa." alt="" coords="460,5,639,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="385,102,411,91,435,75,459,58,470,52,472,57,461,62,438,79,413,96,387,107"/>
+<area shape="rect" id="Node000005" href="$classdomini_1_1scrabble_1_1_partida.html#a719791835f1334957e59dcfe4d2a4cec" title="Retorna l&#39;estat actual de la partida." alt="" coords="460,72,639,115"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="405,111,444,106,445,111,405,117"/>
+<area shape="rect" id="Node000006" href="$classdomini_1_1scrabble_1_1_bossa.html#aa72b114802328935e32718821a3322ce" title="Obté les fitxes de la bossa." alt="" coords="462,139,637,181"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="405,137,447,143,446,148,405,142"/>
+<area shape="rect" id="Node000007" href="$classdomini_1_1scrabble_1_1_estat.html#acb727a684104d60ab770231bebdcc9c6" title="Mètode que assigna la partida del paràmetre a l&#39;estat." alt="" coords="465,205,634,248"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="363,146,461,191,475,197,473,202,459,196,360,151"/>
+</map>

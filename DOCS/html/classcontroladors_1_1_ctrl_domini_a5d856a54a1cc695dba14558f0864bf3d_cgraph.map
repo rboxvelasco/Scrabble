@@ -1,0 +1,24 @@
+<map id="controladors.CtrlDomini.iniciarSessioUser" name="controladors.CtrlDomini.iniciarSessioUser">
+<area shape="rect" id="Node000001" title="Inicia la sessio d&#39;un usuari." alt="" coords="5,72,202,115"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1sessio_1_1_usuari.html#ae9376c33de8cba992f2d77ff4cbd5c8e" title="Retorna la contrasenya de l&#39;usuari." alt="" coords="250,5,415,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,69,241,50,243,55,180,74"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1sessio_1_1_usuari.html#a1ab85f635a4fa35f1757dde3efcca989" title="Retorna els jugadors que té guardats l&#39;usuari." alt="" coords="250,72,415,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,91,234,91,234,96,202,96"/>
+<area shape="rect" id="Node000006" href="$classdomini_1_1sessio_1_1_usuari.html#a63a56e633d9b9636475551b738a2fc2e" title="Retorna les partides jugades de l&#39;usuari." alt="" coords="250,139,415,181"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="180,113,243,131,241,136,178,118"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1sessio_1_1_usuari.html#a0268a823e2a2431d8260cddc9f3b522e" title="Retorna el nom de l&#39;usuari." alt="" coords="463,113,656,140"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="416,103,450,108,449,113,415,108"/>
+<area shape="rect" id="Node000005" href="$classpersistencia_1_1_jugador_i_o.html#a106d66ddcbb5a4af122f1630f5aaad6c" title="Carrega un jugador des d&#39;un fitxer JSON." alt="" coords="468,47,651,89"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="415,81,452,77,453,83,416,87"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="415,145,449,140,450,145,416,151"/>
+<area shape="rect" id="Node000007" href="$classpersistencia_1_1_partida_i_o.html#a7b9bdae6d9736a012e584b268b0bcb86" title="Carrega una partida des d&#39;un fitxer JSON." alt="" coords="470,164,649,207"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="416,167,456,171,455,176,415,172"/>
+<area shape="rect" id="Node000008" href="$classdomini_1_1scrabble_1_1_partida.html#a02bdb9c41da95458503bb9d1967ea9e8" title="Retorna la instància de la bossa." alt="" coords="704,64,884,107"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="630,161,655,150,679,133,703,116,714,111,716,116,706,121,682,138,658,154,632,166"/>
+<area shape="rect" id="Node000009" href="$classdomini_1_1scrabble_1_1_partida.html#a719791835f1334957e59dcfe4d2a4cec" title="Retorna l&#39;estat actual de la partida." alt="" coords="704,131,884,173"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="649,170,689,164,689,170,650,175"/>
+<area shape="rect" id="Node000010" href="$classdomini_1_1scrabble_1_1_bossa.html#aa72b114802328935e32718821a3322ce" title="Obté les fitxes de la bossa." alt="" coords="706,197,882,240"/>
+<area shape="poly" id="edge10_Node000007_Node000010" title=" " alt="" coords="650,195,691,201,691,207,649,201"/>
+<area shape="rect" id="Node000011" href="$classdomini_1_1scrabble_1_1_estat.html#acb727a684104d60ab770231bebdcc9c6" title="Mètode que assigna la partida del paràmetre a l&#39;estat." alt="" coords="709,264,879,307"/>
+<area shape="poly" id="edge11_Node000007_Node000011" title=" " alt="" coords="607,205,705,250,719,255,717,260,703,254,605,210"/>
+</map>

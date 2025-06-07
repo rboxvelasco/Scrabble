@@ -1,0 +1,7 @@
+<map id="interficie.VistaConsultarEstadistiques.AvatarRenderer" name="interficie.VistaConsultarEstadistiques.AvatarRenderer">
+<area shape="rect" id="Node000001" title="Renderer personalitzat per mostrar l’avatar amb imatge i nom." alt="" coords="5,123,219,208"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="21,5,70,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,86,92,121,88,124,68,89"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="95,5,263,75"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="156,89,137,124,132,121,152,86"/>
+</map>

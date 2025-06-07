@@ -1,0 +1,3 @@
+SUBGRUP-PROP43.2
+
+Descripcio del directori: Codis de constants i funcions utilitzats per a la capa de presentació.

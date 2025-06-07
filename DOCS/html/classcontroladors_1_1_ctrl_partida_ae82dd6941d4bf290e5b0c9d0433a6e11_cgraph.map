@@ -1,0 +1,11 @@
+<map id="controladors.CtrlPartida.carregarPartida" name="controladors.CtrlPartida.carregarPartida">
+<area shape="rect" id="Node000001" title="Carrega una partida existent." alt="" coords="5,27,215,69"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1diccionari_1_1_d_a_w_g.html#a0e940935fc1a6e9b34df72a5f2a78c85" title="Genera un DAWG a partir d&#39;un fitxer amb un format específic." alt="" coords="263,5,534,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,35,247,31,247,37,216,40"/>
+<area shape="rect" id="Node000005" href="$classcontroladors_1_1_ctrl_partida.html#a3f08b463362f9364a6e5d04cc8de0dc2" title="Obté el nom del fitxer del diccionari segons l&#39;idioma." alt="" coords="308,56,488,99"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="216,56,293,64,292,69,215,61"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1diccionari_1_1_d_a_w_g.html#a4556b78b36bb9abd60c62c0c67b65c94" title="Modifica el DAWG perquè reconegui la paraula d&#39;entrada com a pertanyent al lèxic." alt="" coords="582,5,811,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="535,16,566,16,566,21,535,21"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1diccionari_1_1_d_a_w_g.html#ad5db7cc629d77068e51ccae18f9bfebd" title="Genera una llista amb les lletres i dígrafs de la paraula paràmetre." alt="" coords="859,5,1076,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="812,16,844,16,844,21,812,21"/>
+</map>

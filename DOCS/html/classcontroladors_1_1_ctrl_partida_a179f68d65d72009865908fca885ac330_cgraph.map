@@ -1,0 +1,5 @@
+<map id="controladors.CtrlPartida.jugador_controladorNOM" name="controladors.CtrlPartida.jugador_controladorNOM">
+<area shape="rect" id="Node000001" title="Obté el nom del jugador actual." alt="" coords="5,5,210,48"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1jugadors_1_1_jugador.html#abd263319ed47cf1469e301659e15dd26" title="Retorna el nom del jugador." alt="" coords="258,13,470,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,24,242,24,242,29,210,29"/>
+</map>

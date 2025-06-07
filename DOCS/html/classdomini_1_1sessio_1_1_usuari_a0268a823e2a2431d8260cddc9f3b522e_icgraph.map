@@ -1,0 +1,10 @@
+<map id="domini.sessio.Usuari.getNom" name="domini.sessio.Usuari.getNom">
+<area shape="rect" id="Node000001" title="Retorna el nom de l&#39;usuari." alt="" coords="463,47,656,73"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1sessio_1_1_usuari.html#a1ab85f635a4fa35f1757dde3efcca989" title="Retorna els jugadors que té guardats l&#39;usuari." alt="" coords="250,5,415,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="449,46,415,41,416,36,450,41"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1sessio_1_1_usuari.html#a63a56e633d9b9636475551b738a2fc2e" title="Retorna les partides jugades de l&#39;usuari." alt="" coords="250,72,415,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="450,79,416,84,415,79,449,74"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_domini.html#a5d856a54a1cc695dba14558f0864bf3d" title="Inicia la sessio d&#39;un usuari." alt="" coords="5,39,202,81"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="235,44,203,48,202,43,234,38"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="234,82,202,77,203,72,235,76"/>
+</map>

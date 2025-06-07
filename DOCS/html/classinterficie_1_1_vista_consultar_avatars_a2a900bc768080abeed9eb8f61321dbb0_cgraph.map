@@ -1,0 +1,9 @@
+<map id="interficie.VistaConsultarAvatars.carregarAvatars" name="interficie.VistaConsultarAvatars.carregarAvatars">
+<area shape="rect" id="Node000001" title="Carrega i mostra visualment tots els avatars registrats en un panell donat." alt="" coords="5,64,168,107"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_presentacio.html#a1d233e08aadf10e279ffef4b329ffd8a" title="Retorna el conjunt de jugadors registrats al sistema." alt="" coords="218,5,426,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,63,218,50,219,55,169,68"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1jugadors_1_1_jugador.html#abd263319ed47cf1469e301659e15dd26" title="Retorna el nom del jugador." alt="" coords="216,72,428,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,83,200,83,200,88,168,88"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1jugadors_1_1_jugador.html#ac629842bca37a6a17c8dbd5eb597e2e1" title="Obté a ruta a la imatge de l&#39;avatar." alt="" coords="219,123,425,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="169,103,219,116,218,121,167,108"/>
+</map>

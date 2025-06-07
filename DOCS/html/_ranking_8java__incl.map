@@ -1,0 +1,9 @@
+<map id="FONTS/domini/scrabble/Ranking.java" name="FONTS/domini/scrabble/Ranking.java">
+<area shape="rect" id="Node000001" title=" " alt="" coords="85,5,246,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,81,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,51,76,90,73,85,133,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="105,96,226,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,49,168,80,163,80,163,49"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="251,96,446,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="214,46,307,87,305,92,212,51"/>
+</map>

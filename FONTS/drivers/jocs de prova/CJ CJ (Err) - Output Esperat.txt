@@ -1,0 +1,13 @@
+[0;32m
+Jugador creat correctament: NOMPROVA[0m
+[0;35m
+Prem 'Enter' per continuar...[0m
+
+[0;31mError: Ja existeix un jugador registrat amb el nom "NOMPROVA".[0m
+[0;32m
+Jugador creat correctament: NOMPROVA[0m
+[0;35m
+Prem 'Enter' per continuar...[0m
+
+[0;35m
+Fi del fitxer

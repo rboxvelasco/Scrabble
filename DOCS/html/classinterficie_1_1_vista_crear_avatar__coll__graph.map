@@ -1,0 +1,9 @@
+<map id="interficie.VistaCrearAvatar" name="interficie.VistaCrearAvatar">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,295,196,620"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="30,143,84,212"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,226,78,295,73,296,62,227"/>
+<area shape="rect" id="Node000003" href="$classinterficie_1_1_vista_crear_avatar_1_1_placeholder_text_field.html" title="JTextField amb suport per a un text placeholder." alt="" coords="108,124,275,231"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,231,161,280,156,278,172,229"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="156,5,227,75"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="194,90,194,124,189,124,189,90"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="interficie.VistaIniciarSessio.escalarComponentes" name="interficie.VistaIniciarSessio.escalarComponentes">
+<area shape="rect" id="Node000001" title="Escala i recol·loca els components en funció de la mida actual de la finestra." alt="" coords="5,5,231,48"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1utils_1_1_tools.html#aad14ef36a2a433a18d49c46a83531892" title="Actualitza la imatge d&#39;un JLabel redimensionant&#45;la per adaptar&#45;se a les mides màximes indicades mante..." alt="" coords="279,5,476,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,24,263,24,263,29,231,29"/>
+</map>

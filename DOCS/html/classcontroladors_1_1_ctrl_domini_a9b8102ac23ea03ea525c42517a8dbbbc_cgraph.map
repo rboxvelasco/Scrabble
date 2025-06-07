@@ -1,0 +1,10 @@
+<map id="controladors.CtrlDomini.actualitzarDadesGlobals" name="controladors.CtrlDomini.actualitzarDadesGlobals">
+<area shape="rect" id="Node000001" title="Actualitza les dades globals dels jugadors després d&#39;una partida." alt="" coords="5,64,228,107"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_domini.html#a96336985c6a802beb79a7a9a9f82b3d4" title="Actualitza les dades globals d&#39;un jugador." alt="" coords="282,5,504,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,61,273,49,275,54,221,66"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1jugadors_1_1_jugador.html#afa999de0f50bb1671ac42dbe31388b01" title="Retorna l&#39;identificador del jugador." alt="" coords="558,35,742,77"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="228,77,542,59,543,65,228,82"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1jugadors_1_1_jugador.html#ac035aeae1fdd82b932fe2c717ae9b3d5" title="Afegeix punts a la puntuació actual del jugador." alt="" coords="276,123,510,165"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="221,105,275,116,273,121,220,110"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="505,37,543,41,542,46,504,42"/>
+</map>

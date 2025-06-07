@@ -1,0 +1,9 @@
+<map id="domini.scrabble.Bossa.clearBossa" name="domini.scrabble.Bossa.clearBossa">
+<area shape="rect" id="Node000001" title="Buida la bossa i l&#39;omple amb les fitxes proporcionades." alt="" coords="5,39,191,81"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1auxiliars_1_1_fast_delete_list.html#a980586fffd42cc58377054b38c75a05f" title="Afegeix tots els elements de la llista proporcionada." alt="" coords="239,5,418,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,44,223,39,224,45,192,49"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1auxiliars_1_1_fast_delete_list.html#ac75d0a7d1aa033c7c42d59468bb3d955" title="Elimina tots els elements de la lista." alt="" coords="239,72,418,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="192,71,224,75,223,81,191,76"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1auxiliars_1_1_fast_delete_list.html#a29d6683c418cf18c5462bb4b30949cb1" title="Afegeix un element al final de la llista." alt="" coords="466,5,645,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="418,24,450,24,450,29,418,29"/>
+</map>

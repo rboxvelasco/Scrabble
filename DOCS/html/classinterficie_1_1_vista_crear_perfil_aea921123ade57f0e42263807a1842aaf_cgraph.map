@@ -1,0 +1,15 @@
+<map id="interficie.VistaCrearPerfil.VistaCrearPerfil" name="interficie.VistaCrearPerfil.VistaCrearPerfil">
+<area shape="rect" id="Node000001" title="Constructor que crea la finestra per crear un perfil." alt="" coords="5,101,176,144"/>
+<area shape="poly" id="edge7_Node000001_Node000001" title=" " alt="" coords="44,101,42,91,50,82,66,77,91,75,117,77,132,83,130,88,115,82,90,80,67,82,53,87,47,93,49,100"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1utils_1_1_tools.html#aad14ef36a2a433a18d49c46a83531892" title="Actualitza la imatge d&#39;un JLabel redimensionant&#45;la per adaptar&#45;se a les mides màximes indicades mante..." alt="" coords="496,39,693,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,99,158,56,189,36,223,20,260,10,299,5,378,5,452,16,517,31,515,36,451,21,378,10,300,10,262,15,225,25,192,40,161,60,113,103"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_presentacio.html#ac1e59448659f7308cb047c74c5ab1416" title="Crea un nou perfil d&#39;usuari amb el nom i la contrasenya proporcionats." alt="" coords="226,35,446,77"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,98,239,79,241,84,172,103"/>
+<area shape="rect" id="Node000004" href="$classinterficie_1_1_vista_crear_perfil.html#ab2dea48a192f08da5032b8c03bdaa697" title="Escala i reubica els components segons la mida actual de la finestra, mantenint proporcions relatives..." alt="" coords="230,101,442,144"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="176,120,214,120,214,125,176,125"/>
+<area shape="rect" id="Node000005" href="$classcontroladors_1_1_ctrl_presentacio.html#ada9c0d9a25124701e9b640403d3ffd6c" title="Inicia una sessió amb l&#39;usuari especificat." alt="" coords="224,168,448,211"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="172,142,241,161,239,166,171,147"/>
+<area shape="rect" id="Node000006" href="$classcontroladors_1_1_ctrl_presentacio.html#a66901a833c124fd1acc592cea93f4e6d" title="Torna a la vista anterior a l&#39;actual." alt="" coords="224,235,448,261"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="116,142,164,182,193,203,225,220,241,227,239,232,223,225,191,207,161,187,112,146"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="426,98,488,83,490,88,427,103"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="controladors.CtrlDomini.esPartidaContraMaquina" name="controladors.CtrlDomini.esPartidaContraMaquina">
+<area shape="rect" id="Node000001" title="Comprova si la partida és contra la màquina." alt="" coords="5,5,182,48"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1jugadors_1_1_jugador.html#afa999de0f50bb1671ac42dbe31388b01" title="Retorna l&#39;identificador del jugador." alt="" coords="230,5,414,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,24,214,24,214,29,182,29"/>
+</map>

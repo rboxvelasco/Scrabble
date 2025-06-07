@@ -1,0 +1,8 @@
+SUBGRUP-PROP43.2
+
+Descripcio del directori: Codis font de les classes de presentacio i classes auxiliars.
+
+
+interficie
+│
+└── utils  // Package amb classes d'ajuda.

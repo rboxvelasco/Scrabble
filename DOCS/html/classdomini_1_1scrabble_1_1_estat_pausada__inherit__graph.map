@@ -1,0 +1,5 @@
+<map id="domini.scrabble.EstatPausada" name="domini.scrabble.EstatPausada">
+<area shape="rect" id="Node000001" title="Representa l&#39;estat &#39;Pausada&#39; d&#39;una partida." alt="" coords="5,229,193,384"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1scrabble_1_1_estat.html" title="Classe abstracta que defineix el comportament genèric per als diferents estats d&#39;una partida." alt="" coords="31,5,168,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,196,102,230,96,230,96,196"/>
+</map>

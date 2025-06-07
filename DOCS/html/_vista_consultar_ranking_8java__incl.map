@@ -1,0 +1,31 @@
+<map id="FONTS/interficie/VistaConsultarRanking.java" name="FONTS/interficie/VistaConsultarRanking.java">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1137,5,1346,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,187,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1136,33,961,39,731,51,469,70,202,98,202,93,469,65,730,46,961,34,1136,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="211,96,392,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1137,35,815,56,614,74,408,98,407,93,613,69,814,51,1136,30"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="416,104,587,131"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1137,39,891,62,599,99,573,103,572,98,598,93,890,56,1136,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="611,96,784,139"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1137,45,799,98,799,93,1136,40"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="808,104,907,131"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1137,50,1031,72,919,99,909,102,907,96,918,93,1030,66,1135,45"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="931,104,1117,131"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1191,51,1070,100,1068,95,1189,46"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="1142,104,1221,131"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1230,50,1200,93,1196,90,1225,47"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="1245,104,1360,131"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1258,47,1288,90,1283,93,1253,50"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="1384,104,1469,131"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1286,46,1387,94,1385,99,1284,51"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="1492,104,1628,131"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1317,46,1500,97,1499,102,1315,51"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="1652,104,1743,131"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1347,38,1487,61,1641,93,1651,96,1649,101,1639,99,1486,66,1346,44"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="1767,104,1921,131"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1347,37,1537,60,1755,93,1777,98,1776,103,1754,99,1537,65,1346,42"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="1945,104,2052,131"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="1347,29,1467,36,1614,48,1775,67,1934,93,1948,97,1947,102,1933,99,1774,72,1614,54,1467,41,1346,34"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="2077,104,2230,131"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="1347,29,1668,49,1866,68,2064,93,2088,98,2087,103,2064,99,1866,73,1668,55,1346,35"/>
+</map>

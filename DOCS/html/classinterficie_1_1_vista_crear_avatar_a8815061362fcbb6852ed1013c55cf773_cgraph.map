@@ -1,0 +1,16 @@
+<map id="interficie.VistaCrearAvatar.mostrarSelectorImagenes" name="interficie.VistaCrearAvatar.mostrarSelectorImagenes">
+<area shape="rect" id="Node000001" title="Mostra un diàleg modal per seleccionar la imatge de perfil de l&#39;usuari." alt="" coords="5,64,228,107"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1_vista_crear_avatar.html#ae0d9f95418da2ecb046e19ce8d9f8d0b" title="Constructor de la finestra VistaCrearAvatar." alt="" coords="276,64,454,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,92,260,92,260,97,228,97"/>
+<area shape="poly" id="edge6_Node000002_Node000001" title=" " alt="" coords="275,80,243,79,243,74,275,74"/>
+<area shape="poly" id="edge8_Node000002_Node000002" title=" " alt="" coords="318,64,316,54,324,45,340,40,365,38,391,40,407,46,405,51,390,45,365,43,341,45,327,50,321,56,323,63"/>
+<area shape="rect" id="Node000003" href="$classinterficie_1_1utils_1_1_tools.html#aad14ef36a2a433a18d49c46a83531892" title="Actualitza la imatge d&#39;un JLabel redimensionant&#45;la per adaptar&#45;se a les mides màximes indicades mante..." alt="" coords="773,35,971,78"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="398,61,446,36,501,16,564,5,613,3,726,16,786,28,785,33,725,22,613,9,564,10,503,22,448,41,401,66"/>
+<area shape="rect" id="Node000004" href="$classcontroladors_1_1_ctrl_presentacio.html#a4fa76d231d08867ff21eff04a379d280" title="Crea un nou avatar amb el nom i la imatge especificats." alt="" coords="504,31,723,74"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="454,71,488,66,489,72,455,76"/>
+<area shape="rect" id="Node000005" href="$classinterficie_1_1_vista_crear_avatar.html#a275c320ec75c735937be368a8becfb46" title="Escala i posiciona els components segons la mida actual." alt="" coords="504,98,724,140"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="455,95,488,100,488,105,454,100"/>
+<area shape="rect" id="Node000006" href="$classcontroladors_1_1_ctrl_presentacio.html#a66901a833c124fd1acc592cea93f4e6d" title="Torna a la vista anterior a l&#39;actual." alt="" coords="502,164,725,191"/>
+<area shape="poly" id="edge7_Node000002_Node000006" title=" " alt="" coords="406,105,451,128,503,150,527,157,525,162,501,155,449,133,403,110"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="704,95,766,79,767,85,705,100"/>
+</map>

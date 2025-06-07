@@ -1,0 +1,9 @@
+<map id="controladors.CtrlPartida.finalitzarPerLletresEsgotades" name="controladors.CtrlPartida.finalitzarPerLletresEsgotades">
+<area shape="rect" id="Node000001" title="Finalitza la partida si les fitxes s&#39;han esgotat." alt="" coords="5,72,217,115"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1jugadors_1_1_jugador.html#afa999de0f50bb1671ac42dbe31388b01" title="Retorna l&#39;identificador del jugador." alt="" coords="286,5,470,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,69,274,50,275,55,200,74"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1jugadors_1_1_avatar.html#a44e5e6a2ee9245697351fe390849b810" title="Incrementa el nombre total de partides guanyades." alt="" coords="265,72,491,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="217,91,249,91,249,96,217,96"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1jugadors_1_1_avatar.html#aae510bc2635d40405e60a218b1b7c097" title="Incrementa el nombre de partides guanyades contra la màquina." alt="" coords="265,139,491,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="200,113,275,132,274,137,199,118"/>
+</map>

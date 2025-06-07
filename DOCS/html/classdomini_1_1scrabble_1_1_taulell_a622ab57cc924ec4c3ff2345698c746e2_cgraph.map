@@ -1,0 +1,7 @@
+<map id="domini.scrabble.Taulell.transpose" name="domini.scrabble.Taulell.transpose">
+<area shape="rect" id="Node000001" title="Retorna la transposició del taulell actual." alt="" coords="5,47,220,73"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1scrabble_1_1_taulell.html#a10eef6a9fe59fa18f5b2d6d311c6356c" title="Retorna la casella de la posició indicada." alt="" coords="268,5,443,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,43,252,38,253,43,215,49"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1scrabble_1_1_taulell.html#a2f2deb612c9af047decb87cc0d7e85d1" title="Constructora de la classe Taulell." alt="" coords="277,72,434,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="215,71,261,78,261,83,214,77"/>
+</map>

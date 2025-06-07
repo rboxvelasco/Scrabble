@@ -1,0 +1,13 @@
+<map id="FONTS/interficie/SelectorPartida.java" name="FONTS/interficie/SelectorPartida.java">
+<area shape="rect" id="Node000001" title=" " alt="" coords="204,5,375,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,105,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="230,51,107,93,105,88,228,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="129,96,208,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="260,51,202,89,199,85,257,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="232,96,347,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="292,49,292,80,287,80,287,49"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="372,96,456,123"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="323,46,383,85,380,90,320,51"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="480,96,603,123"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="355,46,488,88,487,93,354,51"/>
+</map>

@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['savejugador_0',['saveJugador',['../classpersistencia_1_1_jugador_i_o.html#aeb13d0e82937696c7c053612278c6ee9',1,'persistencia::JugadorIO']]],
+  ['savepartida_1',['savePartida',['../classpersistencia_1_1_partida_i_o.html#a67252911821e967acb539aa350b4f488',1,'persistencia::PartidaIO']]],
+  ['saveusuari_2',['saveUsuari',['../classpersistencia_1_1_usuari_i_o.html#adae8b6b62d1b4cbbff286eaa19877937',1,'persistencia::UsuariIO']]],
+  ['searchbestword_3',['searchBestWord',['../classdomini_1_1jugadors_1_1_maquina.html#afe864f5cb4ab5895e149c5aad0235400',1,'domini::jugadors::Maquina']]],
+  ['searchprefixes_4',['searchPrefixes',['../classdomini_1_1diccionari_1_1_d_a_w_g.html#a397402b953b7c4200f89fa2e01c08e08',1,'domini::diccionari::DAWG']]],
+  ['searchsufixes_5',['searchSufixes',['../classdomini_1_1diccionari_1_1_d_a_w_g.html#a4b0f1b2cd2137dd02c82c2e380668186',1,'domini::diccionari::DAWG']]],
+  ['selectorpartida_6',['SelectorPartida',['../classinterficie_1_1_selector_partida.html#afde965f301c6266f3f395e3aa9b42357',1,'interficie::SelectorPartida']]],
+  ['serialize_7',['serialize',['../classpersistencia_1_1_jugador_serializer.html#a1bfe7ffbe57e20656afad793361fbefb',1,'persistencia::JugadorSerializer']]],
+  ['setanchor_8',['setAnchor',['../classdomini_1_1scrabble_1_1_casella.html#add2c913eb7c346cc651b14b5b2b0a541',1,'domini::scrabble::Casella']]],
+  ['setcasella_9',['setCasella',['../classdomini_1_1scrabble_1_1_taulell.html#a10eef6a9fe59fa18f5b2d6d311c6356c',1,'domini::scrabble::Taulell']]],
+  ['setcoordinates_10',['setCoordinates',['../classdomini_1_1auxiliars_1_1_max_word.html#a946a8835bbce29ef90f8c76455735c0d',1,'domini::auxiliars::MaxWord']]],
+  ['setfitxesactuals_11',['setFitxesActuals',['../classdomini_1_1jugadors_1_1_jugador.html#ae879e7f0bd87dc8b6e7cec537c00ac8f',1,'domini::jugadors::Jugador']]],
+  ['sethorizontal_12',['setHorizontal',['../classdomini_1_1auxiliars_1_1_max_word.html#adb214547721bf7d9bb1a04c97827d0b0',1,'domini::auxiliars::MaxWord']]],
+  ['setimage_13',['setImage',['../classinterficie_1_1_image_button.html#a22f465362dec7a0c649a1b7d0489c543',1,'interficie::ImageButton']]],
+  ['setmultiplicador_14',['setMultiplicador',['../classdomini_1_1scrabble_1_1_casella.html#ab4777c8d207856ac173fe16784487243',1,'domini::scrabble::Casella']]],
+  ['setparaulamesllarga_15',['setParaulaMesLlarga',['../classdomini_1_1jugadors_1_1_avatar.html#aa9cf4df66a900a3ecb2d10dd18d678a8',1,'domini::jugadors::Avatar']]],
+  ['setpartida_16',['setPartida',['../classdomini_1_1scrabble_1_1_estat.html#acb727a684104d60ab770231bebdcc9c6',1,'domini::scrabble::Estat']]],
+  ['setplaceholder_17',['setPlaceholder',['../classinterficie_1_1_vista_crear_avatar_1_1_placeholder_text_field.html#a27995aadab3a842f352d8f8024e9a4dc',1,'interficie.VistaCrearAvatar.PlaceholderTextField.setPlaceholder()'],['../classinterficie_1_1_vista_crear_partida_1_1_placeholder_text_field.html#a3bd23c6ec82dd745cfff840762c9904f',1,'interficie.VistaCrearPartida.PlaceholderTextField.setPlaceholder()'],['../classinterficie_1_1_vista_crear_perfil_1_1_placeholder_text_field.html#a488435b83cd475f4a57523da8da7729c',1,'interficie.VistaCrearPerfil.PlaceholderTextField.setPlaceholder()'],['../classinterficie_1_1_vista_iniciar_sessio_1_1_placeholder_text_field.html#a4ea5492510e5e0fa948ae59b04477524',1,'interficie.VistaIniciarSessio.PlaceholderTextField.setPlaceholder()']]],
+  ['setpoints_18',['setPoints',['../classdomini_1_1auxiliars_1_1_max_word.html#ae599f47659f48bcc17daf17b83bd7255',1,'domini::auxiliars::MaxWord']]],
+  ['setword_19',['setWord',['../classdomini_1_1auxiliars_1_1_max_word.html#a452955f9d5f0cfedcab85fd1c74609c6',1,'domini::auxiliars::MaxWord']]],
+  ['showfallbackmessage_20',['showFallbackMessage',['../classinterficie_1_1_vista_consultar_normes.html#ad1a9a84d1daa2ec0cc320272d3752489',1,'interficie::VistaConsultarNormes']]],
+  ['size_21',['size',['../classdomini_1_1auxiliars_1_1_fast_delete_list.html#ae08f04c14054d74f14ab6241e023b95a',1,'domini::auxiliars::FastDeleteList']]],
+  ['sortir_22',['sortir',['../classcontroladors_1_1_ctrl_presentacio.html#a633464b50c83730927c14ed2356bb43c',1,'controladors::CtrlPresentacio']]]
+];

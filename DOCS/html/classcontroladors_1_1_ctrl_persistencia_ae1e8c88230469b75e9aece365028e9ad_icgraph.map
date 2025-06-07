@@ -1,0 +1,5 @@
+<map id="controladors.CtrlPersistencia.eliminarUsuari" name="controladors.CtrlPersistencia.eliminarUsuari">
+<area shape="rect" id="Node000001" title="Elimina un usuari de l&#39;emmagatzematge persistent." alt="" coords="261,5,499,48"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_domini.html#a34432049ad1864a2b638b590d38b343d" title="Elimina un usuari." alt="" coords="5,5,213,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="245,29,213,29,213,24,245,24"/>
+</map>

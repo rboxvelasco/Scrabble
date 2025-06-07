@@ -1,0 +1,5 @@
+<map id="interficie.VistaMenuJoc.eliminarAvatar" name="interficie.VistaMenuJoc.eliminarAvatar">
+<area shape="rect" id="Node000001" title="Lògica per eliminar un avatar." alt="" coords="5,5,212,48"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_presentacio.html#aad294011837fffb35248b3d654be5102" title="Elimina un avatar del sistema." alt="" coords="260,5,495,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,24,244,24,244,29,212,29"/>
+</map>

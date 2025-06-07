@@ -1,0 +1,7 @@
+<map id="domini.scrabble.Partida.finalitzarPerTornsConsecutius" name="domini.scrabble.Partida.finalitzarPerTornsConsecutius">
+<area shape="rect" id="Node000001" title="Finalitza la partida per torns consecutius passats." alt="" coords="5,5,216,48"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1scrabble_1_1_partida.html#acf60a856f124c361384e0fc1456a4f37" title="Calcula la puntuació total de les fitxes restants d&#39;un jugador." alt="" coords="264,5,470,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,24,248,24,248,29,216,29"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1jugadors_1_1_jugador.html#acf9520ec234c3f2cc52e1b79b85a008e" title="Retorna la llista amb les fitxes actuals del jugador." alt="" coords="518,5,702,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="471,24,502,24,502,29,471,29"/>
+</map>

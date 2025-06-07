@@ -1,0 +1,5 @@
+<map id="controladors.CtrlPersistencia.guardarPartida" name="controladors.CtrlPersistencia.guardarPartida">
+<area shape="rect" id="Node000001" title="Desa una partida a l&#39;emmagatzematge persistent." alt="" coords="259,5,495,48"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_domini.html#a233e7ea2f0d9e991a6107dfaab6e106f" title="Es guarda la partida actual." alt="" coords="5,5,211,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,29,211,29,211,24,243,24"/>
+</map>

@@ -1,0 +1,13 @@
+digraph "interficie.VistaCrearPerfil.escalarComponentes"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="interficie.VistaCrearPerfil.escalar\lComponentes",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Escala i reubica els components segons la mida actual de la finestra, mantenint proporcions relatives..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="interficie.VistaCrearPerfil.\lVistaCrearPerfil",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_crear_perfil.html#aea921123ade57f0e42263807a1842aaf",tooltip="Constructor que crea la finestra per crear un perfil."];
+  Node2 -> Node2 [id="edge2_Node000002_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

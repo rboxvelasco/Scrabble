@@ -1,0 +1,16 @@
+digraph "domini.jugadors.Jugador.incrementar_puntuacio_actual"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="domini.jugadors.Jugador.incrementar\l_puntuacio_actual",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Afegeix punts a la puntuació actual del jugador."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="controladors.CtrlDomini.actualitzar\lDadesGlobals",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_domini.html#a9b8102ac23ea03ea525c42517a8dbbbc",tooltip="Actualitza les dades globals dels jugadors després d'una partida."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="controladors.CtrlDomini.actualitzar\lRanking",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_domini.html#af2774b364abee1ac4832823ff1b0d556",tooltip="Actualitza el rànquing després d'una partida."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="domini.scrabble.Partida.afegir\lPuntsJugadorActual",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1scrabble_1_1_partida.html#a6ccabc3836d6c8c400042b24b077c064",tooltip="Incrementa la puntuació del jugador actual."];
+}

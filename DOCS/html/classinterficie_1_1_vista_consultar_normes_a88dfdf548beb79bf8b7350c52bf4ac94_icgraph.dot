@@ -1,0 +1,16 @@
+digraph "interficie.VistaConsultarNormes.createStyledButton"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="interficie.VistaConsultar\lNormes.createStyledButton",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Crea un botó estilitzat amb comportament visual quan el ratolí entra i surt."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="interficie.VistaConsultar\lNormes.initComponents",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_consultar_normes.html#aa2b3d841acae7945dad388f04b002967",tooltip="Inicialitza els components gràfics de la vista."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="interficie.VistaConsultar\lNormes.VistaConsultarNormes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_consultar_normes.html#adfd2eba4d3f7f6f2d67a1655b14be2de",tooltip="Constructora."];
+  Node3 -> Node2 [id="edge3_Node000003_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node3 [id="edge4_Node000003_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

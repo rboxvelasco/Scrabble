@@ -1,0 +1,56 @@
+digraph "domini.jugadors.Jugador.getNom"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="domini.jugadors.Jugador.getNom",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Retorna el nom del jugador."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="interficie.VistaConsultar\lAvatars.carregarAvatars",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_consultar_avatars.html#a2a900bc768080abeed9eb8f61321dbb0",tooltip="Carrega i mostra visualment tots els avatars registrats en un panell donat."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="interficie.VistaConsultar\lAvatars.VistaConsultarAvatars",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_consultar_avatars.html#aad0f3c358880880d6c374569d93117cd",tooltip="Constructor de la vista que mostra la llista d'avatares registrats."];
+  Node3 -> Node3 [id="edge3_Node000003_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node4 [id="edge4_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="interficie.VistaPartida.crear\lPanelJugador",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_partida.html#ab47b596fbbd6a79289d4b9d7f5b5e068",tooltip="Crea un panell amb la informació d'un jugador."];
+  Node4 -> Node5 [id="edge5_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="interficie.VistaPartida.refrescar\lInformacio",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_partida.html#a485041b781e81c64fb5414207ff21d2a",tooltip="Actualitza la informació de la partida."];
+  Node5 -> Node6 [id="edge6_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="interficie.VistaPartida.initUI",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_partida.html#a7855e7a9cc41e1450c37054781ba6309",tooltip="Inicialitza els components de la interfície gràfica."];
+  Node6 -> Node7 [id="edge7_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="interficie.VistaPartida.\lVistaPartida",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_partida.html#abce8626a6a3750affe851e1f8bea2cb3",tooltip="Constructor de la classe VistaPartida."];
+  Node7 -> Node8 [id="edge8_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="interficie.VistaPartida.afegir\lFitxesARack",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_partida.html#a6bd7550fc714ba5195c8b55ffe3d973c",tooltip="Afegeix les fitxes d'un jugador al seu rack."];
+  Node8 -> Node9 [id="edge9_Node000008_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="interficie.VistaPartida.refrescar\lRackJugadors",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_partida.html#a0698d192124492ebfd8a3b029a6fa23c",tooltip="Actualitza els racks dels jugadors."];
+  Node9 -> Node6 [id="edge10_Node000009_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 -> Node5 [id="edge11_Node000009_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 -> Node7 [id="edge12_Node000009_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node10 [id="edge13_Node000007_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="interficie.VistaPartida.afegir\lMaquetesARack",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_partida.html#ae6809bc2e7efc03077c111367571f788",tooltip="Afegeix maquetes al rack de l'oponent."];
+  Node10 -> Node9 [id="edge14_Node000010_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node11 [id="edge15_Node000007_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="interficie.VistaPartida.confirmar\lGuardar",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_partida.html#a8ebc9da2a2b927ba87ed97ad85ae44e8",tooltip="Confirma l'acció de guardar la partida."];
+  Node11 -> Node6 [id="edge16_Node000011_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node4 [id="edge17_Node000007_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node6 [id="edge18_Node000007_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node7 [id="edge19_Node000007_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 -> Node5 [id="edge20_Node000005_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 -> Node7 [id="edge21_Node000005_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node12 [id="edge22_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="interficie.VistaConsultar\lEstadistiques.AvatarRenderer.get\lListCellRendererComponent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_consultar_estadistiques_1_1_avatar_renderer.html#ac65c84e86f810db5624e9cc60ac61047",tooltip=" "];
+  Node1 -> Node6 [id="edge23_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node13 [id="edge24_Node000001_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="controladors.CtrlPartida.jugador\l_controladorNOM",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_partida.html#a179f68d65d72009865908fca885ac330",tooltip="Obté el nom del jugador actual."];
+  Node1 -> Node14 [id="edge25_Node000001_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="controladors.CtrlPartida.jugador\lNoActual_controladorNOM",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_partida.html#a61fb4e56de4f9925e7931e2d86d90fc7",tooltip="Obté el nom del jugador no actual."];
+  Node1 -> Node15 [id="edge26_Node000001_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="interficie.VistaConsultar\lEstadistiques.mostrarEstadistiques",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_consultar_estadistiques.html#a2d04a42f93b8d16629d5795a935ae87e",tooltip="Mostra les estadístiques d’un avatar seleccionat a l’àrea d’estadístiques."];
+  Node15 -> Node16 [id="edge27_Node000015_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="interficie.VistaConsultar\lEstadistiques.afegirListenerLlista",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_consultar_estadistiques.html#a1f4f83c8a4fdc86e24ef38f338645fbf",tooltip="Afegeix un listener a la llista per mostrar estadístiques quan es selecciona un avatar."];
+  Node16 -> Node17 [id="edge28_Node000016_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="interficie.VistaConsultar\lEstadistiques.VistaConsultarEstadistiques",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_consultar_estadistiques.html#a72ea2d682e9b49e5fa9a21c42187f581",tooltip="Constructor principal de la vista."];
+  Node17 -> Node17 [id="edge29_Node000017_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge30_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

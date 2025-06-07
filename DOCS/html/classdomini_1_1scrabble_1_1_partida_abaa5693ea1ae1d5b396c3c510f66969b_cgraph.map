@@ -1,0 +1,7 @@
+<map id="domini.scrabble.Partida.reomplirFitxesJugador" name="domini.scrabble.Partida.reomplirFitxesJugador">
+<area shape="rect" id="Node000001" title="Reomple les fitxes d&#39;un jugador fins al màxim permès." alt="" coords="5,39,213,81"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1jugadors_1_1_jugador.html#a28fa4b7dcf1f5eabdc608591e61509ae" title="El jugador afegeix una fitxa a la seva llista de fitxes." alt="" coords="261,5,459,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,44,245,39,246,45,213,49"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1jugadors_1_1_jugador.html#acf9520ec234c3f2cc52e1b79b85a008e" title="Retorna la llista amb les fitxes actuals del jugador." alt="" coords="268,72,452,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="213,71,253,76,252,82,213,76"/>
+</map>

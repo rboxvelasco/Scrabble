@@ -1,0 +1,11 @@
+SUBGRUP-PROP43.2
+
+Descripcio del directori: Directori amb documentacio. Conte tota la documentacio relativa a l'aplicacio. Informacio tecnica, conceptual i d'ajuda per a l'usuari.
+
+
+├── DOCS
+├── html                  // Arxius necessaris per a la documentacio Doxygen.
+├── Documentacio Doxygen  // Documentacio navegable dels codis generada amb Doxygen.
+├── Documentacio          // Documentacio del projecte (Jocs de Prova i Relació de treball).
+├── Manual d'Usuari       // Manual d'usuari.
+└── index.txt

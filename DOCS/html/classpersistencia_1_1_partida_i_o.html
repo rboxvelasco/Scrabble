@@ -1,0 +1,389 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ca">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Scrabble PROP: Referència de la Classe persistencia.PartidaIO</title>
+<link rel="icon" href="icon2.png" type="image/x-icon" />
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Scrabble PROP
+   </div>
+   <div id="projectbrief">Subgrup 43.2: Raül Box, Aina Serra, Ada Peña &amp; Martina Cusidó</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat per Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classpersistencia_1_1_partida_i_o.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregant...</div>
+<div class="SRStatus" id="Searching">Cercant...</div>
+<div class="SRStatus" id="NoMatches">Cap coincidència</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-static-methods">Mètodes Públics Estàtics</a> &#124;
+<a href="#pub-static-attribs">Atributs Públics Estàtics</a> &#124;
+<a href="#pri-methods">Mètodes Privats</a> &#124;
+<a href="#pri-static-attribs">Atributs Privats Estàtics</a> &#124;
+<a href="classpersistencia_1_1_partida_i_o-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle"><div class="title">Referència de la Classe persistencia.PartidaIO</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Gestor de persistència per a partides.  
+ <a href="#details">Més...</a></p>
+<div class="dynheader">
+Diagrama de col·laboració per a persistencia.PartidaIO:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classpersistencia_1_1_partida_i_o__coll__graph.svg" width="158" height="166"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Mètodes Públics Estàtics</h2></td></tr>
+<tr class="memitem:a7b9bdae6d9736a012e584b268b0bcb86" id="r_a7b9bdae6d9736a012e584b268b0bcb86"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classdomini_1_1scrabble_1_1_partida.html">Partida</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b9bdae6d9736a012e584b268b0bcb86">loadPartida</a> (Integer idPartida, String idUsuari)  throws IOException </td></tr>
+<tr class="memdesc:a7b9bdae6d9736a012e584b268b0bcb86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carrega una partida des d'un fitxer JSON.  <br /></td></tr>
+<tr class="separator:a7b9bdae6d9736a012e584b268b0bcb86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67252911821e967acb539aa350b4f488" id="r_a67252911821e967acb539aa350b4f488"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67252911821e967acb539aa350b4f488">savePartida</a> (<a class="el" href="classdomini_1_1scrabble_1_1_partida.html">Partida</a> partida, String idUsuari)  throws IOException </td></tr>
+<tr class="memdesc:a67252911821e967acb539aa350b4f488"><td class="mdescLeft">&#160;</td><td class="mdescRight">Desa una partida a un fitxer JSON.  <br /></td></tr>
+<tr class="separator:a67252911821e967acb539aa350b4f488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c2c99bab58abf77d06e20995a12080f" id="r_a5c2c99bab58abf77d06e20995a12080f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c2c99bab58abf77d06e20995a12080f">eliminarPartida</a> (Integer idPartida, String idUsuari)  throws IOException </td></tr>
+<tr class="memdesc:a5c2c99bab58abf77d06e20995a12080f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Elimina una partida esborrant el seu fitxer JSON.  <br /></td></tr>
+<tr class="separator:a5c2c99bab58abf77d06e20995a12080f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Atributs Públics Estàtics</h2></td></tr>
+<tr class="memitem:af749b8a714a2206a0bea0ef7d75ea7f8" id="r_af749b8a714a2206a0bea0ef7d75ea7f8"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af749b8a714a2206a0bea0ef7d75ea7f8">BASE_DIRECTORY</a> = &quot;data/partides&quot;</td></tr>
+<tr class="separator:af749b8a714a2206a0bea0ef7d75ea7f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Mètodes Privats</h2></td></tr>
+<tr class="memitem:a2ba6449f8a5fb1302ac02fb37c73c36a" id="r_a2ba6449f8a5fb1302ac02fb37c73c36a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ba6449f8a5fb1302ac02fb37c73c36a">PartidaIO</a> ()</td></tr>
+<tr class="memdesc:a2ba6449f8a5fb1302ac02fb37c73c36a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor de la classe Gestor_Partida.  <br /></td></tr>
+<tr class="separator:a2ba6449f8a5fb1302ac02fb37c73c36a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Atributs Privats Estàtics</h2></td></tr>
+<tr class="memitem:a4b521f285f01b4c00aa8fc99fa010b05" id="r_a4b521f285f01b4c00aa8fc99fa010b05"><td class="memItemLeft" align="right" valign="top">static final Gson&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b521f285f01b4c00aa8fc99fa010b05">gson</a> = new Gson()</td></tr>
+<tr class="separator:a4b521f285f01b4c00aa8fc99fa010b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
+<div class="textblock"><p>Gestor de persistència per a partides. </p>
+<p>Proporciona funcionalitats per guardar, carregar, afegir, eliminar i modificar partides a l'emmagatzematge persistent en format JSON. </p>
+</div><h2 class="groupheader">Documentació del Constructor i el Destructor</h2>
+<a id="a2ba6449f8a5fb1302ac02fb37c73c36a" name="a2ba6449f8a5fb1302ac02fb37c73c36a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ba6449f8a5fb1302ac02fb37c73c36a">&#9670;&#160;</a></span>PartidaIO()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">persistencia.PartidaIO.PartidaIO </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor de la classe Gestor_Partida. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="a5c2c99bab58abf77d06e20995a12080f" name="a5c2c99bab58abf77d06e20995a12080f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c2c99bab58abf77d06e20995a12080f">&#9670;&#160;</a></span>eliminarPartida()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void persistencia.PartidaIO.eliminarPartida </td>
+          <td>(</td>
+          <td class="paramtype">Integer</td>          <td class="paramname"><span class="paramname"><em>idPartida</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>idUsuari</em></span>&#160;) throws IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Elimina una partida esborrant el seu fitxer JSON. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idPartida</td><td>Identificador de la partida que es vol eliminar. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classpersistencia_1_1_partida_i_o_a5c2c99bab58abf77d06e20995a12080f_icgraph.svg" width="762" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a7b9bdae6d9736a012e584b268b0bcb86" name="a7b9bdae6d9736a012e584b268b0bcb86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b9bdae6d9736a012e584b268b0bcb86">&#9670;&#160;</a></span>loadPartida()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classdomini_1_1scrabble_1_1_partida.html">Partida</a> persistencia.PartidaIO.loadPartida </td>
+          <td>(</td>
+          <td class="paramtype">Integer</td>          <td class="paramname"><span class="paramname"><em>idPartida</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>idUsuari</em></span>&#160;) throws IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Carrega una partida des d'un fitxer JSON. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idPartida</td><td>Identificador de la partida que es vol carregar. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepcions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td>Si hi ha un error d'entrada/sortida. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>La partida carregada. </dd></dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classpersistencia_1_1_partida_i_o_a7b9bdae6d9736a012e584b268b0bcb86_cgraph.svg" width="416" height="254"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classpersistencia_1_1_partida_i_o_a7b9bdae6d9736a012e584b268b0bcb86_icgraph.svg" width="742" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a67252911821e967acb539aa350b4f488" name="a67252911821e967acb539aa350b4f488"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67252911821e967acb539aa350b4f488">&#9670;&#160;</a></span>savePartida()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void persistencia.PartidaIO.savePartida </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1scrabble_1_1_partida.html">Partida</a></td>          <td class="paramname"><span class="paramname"><em>partida</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>idUsuari</em></span>&#160;) throws IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Desa una partida a un fitxer JSON. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">partida</td><td>partida que es vol desar. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepcions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td>Si hi ha un error d'entrada/sortida. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classpersistencia_1_1_partida_i_o_a67252911821e967acb539aa350b4f488_icgraph.svg" width="731" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="af749b8a714a2206a0bea0ef7d75ea7f8" name="af749b8a714a2206a0bea0ef7d75ea7f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af749b8a714a2206a0bea0ef7d75ea7f8">&#9670;&#160;</a></span>BASE_DIRECTORY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String persistencia.PartidaIO.BASE_DIRECTORY = &quot;data/partides&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4b521f285f01b4c00aa8fc99fa010b05" name="a4b521f285f01b4c00aa8fc99fa010b05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b521f285f01b4c00aa8fc99fa010b05">&#9670;&#160;</a></span>gson</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final Gson persistencia.PartidaIO.gson = new Gson()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentació d'aquesta classe es va generar a partir del següent fitxer:<ul>
+<li>FONTS/persistencia/<a class="el" href="_partida_i_o_8java.html">PartidaIO.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacepersistencia.html">persistencia</a></li><li class="navelem"><a class="el" href="classpersistencia_1_1_partida_i_o.html">PartidaIO</a></li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+  </ul>
+</div>
+</body>
+</html>

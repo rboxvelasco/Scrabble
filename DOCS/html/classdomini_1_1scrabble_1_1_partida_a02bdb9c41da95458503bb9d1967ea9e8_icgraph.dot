@@ -1,0 +1,20 @@
+digraph "domini.scrabble.Partida.getBossa"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="domini.scrabble.Partida.get\lBossa",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Retorna la instància de la bossa."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="persistencia.PartidaIO.load\lPartida",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpersistencia_1_1_partida_i_o.html#a7b9bdae6d9736a012e584b268b0bcb86",tooltip="Carrega una partida des d'un fitxer JSON."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="controladors.CtrlPersistencia.carregar\lPartida",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_persistencia.html#a83e891c1cd5d7ed5ffca4f07eee9a396",tooltip="Carrega una partida de l'emmagatzematge persistent."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="controladors.CtrlDomini.reprendre\lPartida",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_domini.html#a8f8379a74fba56b9e4e82d4c5743360e",tooltip="Continuar partida."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="domini.sessio.Usuari.get\lPartides",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1sessio_1_1_usuari.html#a63a56e633d9b9636475551b738a2fc2e",tooltip="Retorna les partides jugades de l'usuari."];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="controladors.CtrlDomini.iniciar\lSessioUser",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_domini.html#a5d856a54a1cc695dba14558f0864bf3d",tooltip="Inicia la sessio d'un usuari."];
+}

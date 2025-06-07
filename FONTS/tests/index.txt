@@ -1,0 +1,13 @@
+SUBGRUP-PROP43.2
+
+Descripcio del directori: Test Unitaris de les classes de Domini organitzats en packages.
+
+Es compilen i executen des del directori FONTS
+
+tests
+├── controladors
+└── domini
+     ├── auxiliars
+     ├── jugadors
+     ├── scrabble
+     └── diccionari

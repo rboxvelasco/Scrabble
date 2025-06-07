@@ -1,0 +1,18 @@
+digraph "domini.scrabble.Taulell.Taulell"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="domini.scrabble.Taulell.\lTaulell",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Constructora de la classe Taulell."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="domini.scrabble.Taulell.transpose",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1scrabble_1_1_taulell.html#a622ab57cc924ec4c3ff2345698c746e2",tooltip="Retorna la transposició del taulell actual."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="controladors.CtrlPartida.comprova\l_paraula",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_partida.html#a11dd5c5c7252681872e3ba7baf8213a8",tooltip="Comprova si una paraula és vàlida."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="controladors.CtrlPartida.colocar\lParaula",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_partida.html#ad0f7d5edb502bc4956cfd54612209ea7",tooltip="Col·loca una paraula al taulell."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="domini.jugadors.Maquina.fer\lJugada",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1jugadors_1_1_maquina.html#a8b1f4889bc62ca862e4f87e55c66871e",tooltip="Busca la paraula amb la puntuació més alta donats un taulell i un diccionari."];
+}

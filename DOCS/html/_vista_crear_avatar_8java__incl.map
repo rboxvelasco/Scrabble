@@ -1,0 +1,19 @@
+<map id="FONTS/interficie/VistaCrearAvatar.java" name="FONTS/interficie/VistaCrearAvatar.java">
+<area shape="rect" id="Node000001" title=" " alt="" coords="469,5,654,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,105,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="469,44,120,98,120,93,468,38"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="128,96,315,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="475,51,291,94,290,89,473,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="339,96,446,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="519,51,434,91,432,87,517,46"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="470,96,549,123"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="551,50,528,84,524,81,546,47"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="573,96,657,123"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="578,47,600,81,596,84,573,50"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="681,96,816,123"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="611,46,706,87,704,92,609,51"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="841,96,960,123"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="649,46,833,89,831,94,648,51"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="984,96,1099,123"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="655,41,969,93,968,98,654,46"/>
+</map>

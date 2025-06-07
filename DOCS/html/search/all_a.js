@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['jugador_0',['Jugador',['../classdomini_1_1jugadors_1_1_jugador.html',1,'domini.jugadors.Jugador'],['../classdomini_1_1jugadors_1_1_jugador.html#a1ec0271ac5579f7ac9e804e56e5f10ce',1,'domini.jugadors.Jugador.Jugador()']]],
+  ['jugador_2ejava_1',['Jugador.java',['../_jugador_8java.html',1,'']]],
+  ['jugador1_2',['jugador1',['../classcontroladors_1_1_ctrl_partida.html#a7db50d9d990f0c46a195df3edc2fc77e',1,'controladors.CtrlPartida.jugador1'],['../classdomini_1_1scrabble_1_1_partida.html#a9fc8b843a9d232cc74e209e6b5e91be3',1,'domini.scrabble.Partida.jugador1']]],
+  ['jugador2_3',['jugador2',['../classcontroladors_1_1_ctrl_partida.html#a95fa7bf8f557670fa0b950c01347ea20',1,'controladors.CtrlPartida.jugador2'],['../classdomini_1_1scrabble_1_1_partida.html#a0788e2ef3ff64a981c7e0fd05e8ac923',1,'domini.scrabble.Partida.jugador2']]],
+  ['jugador_5fcontroladorid_4',['jugador_controladorID',['../classcontroladors_1_1_ctrl_partida.html#a418a06894a327cb03d3ad62185c714b9',1,'controladors::CtrlPartida']]],
+  ['jugador_5fcontroladornom_5',['jugador_controladorNOM',['../classcontroladors_1_1_ctrl_partida.html#a179f68d65d72009865908fca885ac330',1,'controladors::CtrlPartida']]],
+  ['jugador_5fcontroladornum_5ffitxes_6',['jugador_controladorNUM_FITXES',['../classcontroladors_1_1_ctrl_partida.html#a61496d909625ed12db90142ec907388a',1,'controladors::CtrlPartida']]],
+  ['jugadordeserializer_7',['JugadorDeserializer',['../classpersistencia_1_1_jugador_deserializer.html',1,'persistencia']]],
+  ['jugadordeserializer_2ejava_8',['JugadorDeserializer.java',['../_jugador_deserializer_8java.html',1,'']]],
+  ['jugadorio_9',['JugadorIO',['../classpersistencia_1_1_jugador_i_o.html',1,'persistencia.JugadorIO'],['../classpersistencia_1_1_jugador_i_o.html#aa08aedf0bec150730893180a24f41670',1,'persistencia.JugadorIO.JugadorIO()']]],
+  ['jugadorio_2ejava_10',['JugadorIO.java',['../_jugador_i_o_8java.html',1,'']]],
+  ['jugadornoactual_5fcontroladornom_11',['jugadorNoActual_controladorNOM',['../classcontroladors_1_1_ctrl_partida.html#a61fb4e56de4f9925e7931e2d86d90fc7',1,'controladors::CtrlPartida']]],
+  ['jugadorpuntuacio_12',['JugadorPuntuacio',['../classdomini_1_1scrabble_1_1_ranking_1_1_jugador_puntuacio.html',1,'domini.scrabble.Ranking.JugadorPuntuacio'],['../classdomini_1_1scrabble_1_1_ranking_1_1_jugador_puntuacio.html#a722e8f1196ae0ff9a69d8cc23b546423',1,'domini.scrabble.Ranking.JugadorPuntuacio.JugadorPuntuacio()']]],
+  ['jugadors_5fregistrats_13',['jugadors_registrats',['../classcontroladors_1_1_ctrl_domini.html#a0da4afa039db033871429e5b05038987',1,'controladors::CtrlDomini']]],
+  ['jugadors_5fusuari_14',['jugadors_usuari',['../classdomini_1_1sessio_1_1_usuari.html#a73ea5d67f7c9a9702bbbd681d7a56fa3',1,'domini::sessio::Usuari']]],
+  ['jugadorserializer_15',['JugadorSerializer',['../classpersistencia_1_1_jugador_serializer.html',1,'persistencia']]],
+  ['jugadorserializer_2ejava_16',['JugadorSerializer.java',['../_jugador_serializer_8java.html',1,'']]],
+  ['jugadorsregistrats_17',['jugadorsRegistrats',['../classdomini_1_1scrabble_1_1_ranking.html#a96223219f28f92f3a3ebbf8f1bd0ba7b',1,'domini::scrabble::Ranking']]],
+  ['jugadorsregistratsvalids_18',['jugadorsRegistratsValids',['../classcontroladors_1_1_ctrl_domini.html#aa3baef8745a51c1b1f73035104f72446',1,'controladors::CtrlDomini']]]
+];

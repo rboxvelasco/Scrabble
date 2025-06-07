@@ -1,0 +1,5 @@
+<map id="interficie.VistaCanviTorn" name="interficie.VistaCanviTorn">
+<area shape="rect" id="Node000001" title="Mostra una finestra indicant que un jugador ha de passar el dispositiu a un altre." alt="" coords="5,123,158,448"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="54,5,109,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,90,84,123,79,123,79,90"/>
+</map>

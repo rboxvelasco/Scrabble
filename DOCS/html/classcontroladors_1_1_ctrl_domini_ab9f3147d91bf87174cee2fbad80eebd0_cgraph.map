@@ -1,0 +1,11 @@
+<map id="controladors.CtrlDomini.getInstancia" name="controladors.CtrlDomini.getInstancia">
+<area shape="rect" id="Node000001" title="Retorna la instancia del controlador de domini." alt="" coords="5,5,186,48"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_domini.html#a7648cc0064b988072993a90846e84d38" title="Constructor de la classe Ctrl_Domini." alt="" coords="234,5,396,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,24,218,24,218,29,186,29"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_domini.html#ab06c2680b60a9e0864d8470f4888e8e9" title="Carrega els usuaris cada cop que executem el joc." alt="" coords="444,5,664,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="396,24,428,24,428,29,396,29"/>
+<area shape="rect" id="Node000004" href="$classcontroladors_1_1_ctrl_persistencia.html#a06c847181ea13b0c7dde8a61b47f0a0b" title="Carrega els usuaris guardats a la capa de persistència." alt="" coords="712,5,953,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="665,24,697,24,697,29,665,29"/>
+<area shape="rect" id="Node000005" href="$classpersistencia_1_1_usuari_i_o.html#a29677f40d007ca66a5ec1b0926e16da4" title="Carrega un usuari des d&#39;un fitxer JSON." alt="" coords="1001,5,1176,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="953,24,985,24,985,29,953,29"/>
+</map>

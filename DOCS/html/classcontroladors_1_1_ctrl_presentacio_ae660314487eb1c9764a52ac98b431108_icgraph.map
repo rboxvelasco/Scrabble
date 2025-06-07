@@ -1,0 +1,5 @@
+<map id="controladors.CtrlPresentacio.launchApp" name="controladors.CtrlPresentacio.launchApp">
+<area shape="rect" id="Node000001" title="Inicialitza l&#39;aplicació creant les instàncies del controlador de domini i de partida,..." alt="" coords="212,5,463,32"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1_main_g_u_i.html#ae12d6baaff26bc828aa5d7b411923165" title="Punt d&#39;entrada principal del programa." alt="" coords="5,5,164,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,21,164,21,164,16,196,16"/>
+</map>

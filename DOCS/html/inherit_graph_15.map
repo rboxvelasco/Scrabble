@@ -1,0 +1,9 @@
+<map id="Jerarquia Gràfica de la Classe" name="Jerarquia Gràfica de la Classe">
+<area shape="rect" id="Node000000" href="$classdomini_1_1scrabble_1_1_estat.html" title="Classe abstracta que defineix el comportament genèric per als diferents estats d&#39;una partida." alt="" coords="5,56,153,83"/>
+<area shape="rect" id="Node000001" href="$classdomini_1_1scrabble_1_1_estat_en_curs.html" title="Representa l&#39;estat &#39;EnCurs&#39; d&#39;una partida." alt="" coords="210,5,402,32"/>
+<area shape="poly" id="edge4_Node000000_Node000001" title=" " alt="" coords="156,49,242,30,243,35,158,55"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1scrabble_1_1_estat_finalitzada.html" title="Representa l&#39;estat &#39;Finalitzada&#39; d&#39;una partida." alt="" coords="201,56,411,83"/>
+<area shape="poly" id="edge5_Node000000_Node000002" title=" " alt="" coords="168,67,200,67,200,72,168,72"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1scrabble_1_1_estat_pausada.html" title="Representa l&#39;estat &#39;Pausada&#39; d&#39;una partida." alt="" coords="207,107,405,133"/>
+<area shape="poly" id="edge6_Node000000_Node000003" title=" " alt="" coords="158,84,243,103,242,109,156,89"/>
+</map>

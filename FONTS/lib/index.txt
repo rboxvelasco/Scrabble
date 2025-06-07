@@ -1,0 +1,3 @@
+SUBGRUP-PROP43.2
+
+Descripcio del directori: Llibreries necessaries per als tests unitaris amb JUnit i la persistencia amb JSON.

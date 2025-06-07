@@ -1,0 +1,43 @@
+<map id="domini.scrabble.Partida.getJugadorActual" name="domini.scrabble.Partida.getJugadorActual">
+<area shape="rect" id="Node000001" title="Obté el jugador que està jugant el torn." alt="" coords="1459,189,1639,232"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1scrabble_1_1_partida.html#a6ccabc3836d6c8c400042b24b077c064" title="Incrementa la puntuació del jugador actual." alt="" coords="1198,5,1392,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1522,179,1473,123,1443,94,1410,69,1374,51,1377,46,1413,64,1446,90,1477,119,1526,175"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_presentacio.html#a7420312f0b6f73606984a5329267a4ce" title="Canvia a la vista de canvi de torn entre jugadors." alt="" coords="1179,189,1411,232"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1444,213,1412,213,1412,208,1444,208"/>
+<area shape="rect" id="Node000004" href="$classinterficie_1_1_vista_partida.html#a7855e7a9cc41e1450c37054781ba6309" title="Inicialitza els components de la interfície gràfica." alt="" coords="951,264,1131,291"/>
+<area shape="poly" id="edge22_Node000001_Node000004" title=" " alt="" coords="1453,239,1412,247,1264,265,1132,276,1131,270,1264,260,1411,241,1451,233"/>
+<area shape="rect" id="Node000007" href="$classinterficie_1_1_vista_partida.html#a0698d192124492ebfd8a3b029a6fa23c" title="Actualitza els racks dels jugadors." alt="" coords="254,363,454,405"/>
+<area shape="poly" id="edge28_Node000001_Node000007" title=" " alt="" coords="1450,188,1411,180,1227,148,1146,141,1042,139,827,139,731,142,657,155,587,183,503,230,462,261,425,298,372,364,368,361,421,294,458,257,501,226,585,178,655,150,730,137,827,133,1042,133,1147,136,1228,143,1412,175,1451,183"/>
+<area shape="rect" id="Node000008" href="$classinterficie_1_1_vista_partida.html#a485041b781e81c64fb5414207ff21d2a" title="Actualitza la informació de la partida." alt="" coords="5,384,206,427"/>
+<area shape="poly" id="edge23_Node000001_Node000008" title=" " alt="" coords="1499,183,1457,161,1410,143,1310,113,1229,96,1148,89,1042,88,602,88,562,91,522,98,444,124,371,163,304,209,245,259,194,308,126,385,122,382,190,304,241,255,301,205,368,158,442,119,520,93,561,85,602,83,1042,83,1148,84,1230,91,1311,107,1412,137,1459,156,1501,179"/>
+<area shape="rect" id="Node000012" href="$classdomini_1_1scrabble_1_1_partida.html#a2cfb2a0e022254c8d75b439f3a9589d7" title="Retorna la llista de fitxes actuals del jugador que té el torn." alt="" coords="1206,357,1385,400"/>
+<area shape="poly" id="edge21_Node000001_Node000012" title=" " alt="" coords="1524,246,1476,298,1446,325,1413,348,1386,360,1384,356,1410,343,1442,321,1472,294,1520,242"/>
+<area shape="rect" id="Node000013" href="$classinterficie_1_1_vista_partida.html#a338cec676072419cb1cdf74a8c57ece5" title="Actualitza la visualització del rack del jugador actual." alt="" coords="1180,307,1411,333"/>
+<area shape="poly" id="edge24_Node000001_Node000013" title=" " alt="" coords="1503,243,1460,268,1412,290,1358,309,1356,304,1410,286,1457,263,1501,238"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1197,239,1096,266,1094,261,1196,234"/>
+<area shape="rect" id="Node000005" href="$classinterficie_1_1_vista_partida.html#abce8626a6a3750affe851e1f8bea2cb3" title="Constructor de la classe VistaPartida." alt="" coords="753,349,903,392"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1008,301,899,351,897,346,1006,296"/>
+<area shape="poly" id="edge19_Node000005_Node000004" title=" " alt="" coords="876,340,990,289,992,294,878,344"/>
+<area shape="poly" id="edge20_Node000005_Node000005" title=" " alt="" coords="862,336,849,330,828,328,808,330,796,335,791,341,793,348,787,349,786,339,793,330,807,325,828,323,851,325,865,331"/>
+<area shape="rect" id="Node000006" href="$classinterficie_1_1_vista_partida.html#a6bd7550fc714ba5195c8b55ffe3d973c" title="Afegeix les fitxes d&#39;un jugador al seu rack." alt="" coords="513,341,694,384"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="738,370,695,369,695,363,738,365"/>
+<area shape="rect" id="Node000009" href="$classinterficie_1_1_vista_partida.html#ae6809bc2e7efc03077c111367571f788" title="Afegeix maquetes al rack de l&#39;oponent." alt="" coords="513,459,694,501"/>
+<area shape="poly" id="edge13_Node000005_Node000009" title=" " alt="" coords="780,403,707,442,665,461,663,456,704,438,777,398"/>
+<area shape="rect" id="Node000010" href="$classinterficie_1_1_vista_partida.html#a8ebc9da2a2b927ba87ed97ad85ae44e8" title="Confirma l&#39;acció de guardar la partida." alt="" coords="502,275,705,317"/>
+<area shape="poly" id="edge15_Node000005_Node000010" title=" " alt="" coords="748,346,704,332,671,321,672,315,706,327,749,341"/>
+<area shape="rect" id="Node000011" href="$classinterficie_1_1_vista_partida.html#ab47b596fbbd6a79289d4b9d7f5b5e068" title="Crea un panell amb la informació d&#39;un jugador." alt="" coords="265,468,443,511"/>
+<area shape="poly" id="edge17_Node000005_Node000011" title=" " alt="" coords="811,407,793,435,769,466,740,494,707,516,670,529,632,537,593,540,554,539,481,529,418,514,419,509,482,524,555,534,593,534,631,531,669,524,704,511,737,490,766,462,789,432,807,404"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="497,374,455,378,454,373,497,369"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="381,349,433,300,465,277,501,260,566,242,634,231,703,228,770,229,893,242,986,261,985,266,892,248,770,234,703,233,635,237,568,247,503,265,468,282,436,304,385,353"/>
+<area shape="poly" id="edge12_Node000007_Node000005" title=" " alt="" coords="470,393,584,398,705,393,753,386,754,391,706,399,584,404,470,398"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="238,397,206,399,206,394,238,391"/>
+<area shape="poly" id="edge9_Node000008_Node000004" title=" " alt="" coords="155,373,221,337,306,295,402,255,502,225,691,215,820,213,903,217,965,237,1016,261,1014,266,963,242,902,223,820,218,692,220,502,231,403,261,308,300,223,342,157,378"/>
+<area shape="poly" id="edge11_Node000008_Node000005" title=" " alt="" coords="138,436,190,482,221,503,255,520,379,567,432,583,483,592,533,594,585,586,641,569,704,540,726,526,745,509,778,468,801,426,817,391,822,393,806,429,782,471,749,513,729,531,707,545,643,574,586,592,533,599,482,598,431,589,377,573,253,525,218,508,186,486,135,440"/>
+<area shape="poly" id="edge10_Node000008_Node000008" title=" " alt="" coords="146,371,131,365,105,363,82,365,68,369,62,375,64,383,59,384,57,374,65,365,81,359,106,357,132,360,148,366"/>
+<area shape="poly" id="edge14_Node000009_Node000007" title=" " alt="" coords="531,455,410,408,412,403,533,450"/>
+<area shape="poly" id="edge16_Node000010_Node000004" title=" " alt="" coords="721,288,950,278,951,284,721,294"/>
+<area shape="poly" id="edge18_Node000011_Node000008" title=" " alt="" coords="273,465,170,430,172,425,275,460"/>
+<area shape="poly" id="edge25_Node000013_Node000004" title=" " alt="" coords="1196,306,1124,294,1125,289,1197,301"/>
+<area shape="poly" id="edge27_Node000013_Node000005" title=" " alt="" coords="1164,337,903,365,903,360,1164,332"/>
+<area shape="poly" id="edge26_Node000013_Node000008" title=" " alt="" coords="1196,341,1180,348,1149,366,1122,386,1078,431,1044,480,1014,528,983,572,946,609,923,623,896,634,865,640,829,643,602,643,501,647,420,650,382,647,343,638,300,623,252,598,227,581,204,560,164,513,134,466,114,428,119,426,138,464,168,510,207,557,230,577,255,594,302,618,344,633,383,641,420,644,501,641,602,637,829,637,864,635,894,628,920,618,942,605,979,569,1010,525,1040,477,1074,428,1118,382,1146,361,1178,343,1193,336"/>
+</map>

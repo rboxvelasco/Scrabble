@@ -1,0 +1,5 @@
+<map id="controladors.CtrlPartida.comprova_crosschecks" name="controladors.CtrlPartida.comprova_crosschecks">
+<area shape="rect" id="Node000001" title="Comprova si totes les lletres d&#39;una paraula col·locada són vàlides segons els crosschecks de les case..." alt="" coords="5,5,225,48"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_partida.html#aee35fee57630d66878b88e1c277c7f09" title="Comprova si una lletra està present en els crosschecks d&#39;una casella." alt="" coords="273,5,464,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,24,257,24,257,29,225,29"/>
+</map>

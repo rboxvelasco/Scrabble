@@ -1,0 +1,9 @@
+<map id="domini.scrabble.Casella" name="domini.scrabble.Casella">
+<area shape="rect" id="Node000001" title="Representa una casella del tauler d&#39;Scrabble." alt="" coords="160,283,332,629"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1auxiliars_1_1_pair.html" title=" " alt="" coords="5,5,133,219"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,217,155,273,150,275,121,220"/>
+<area shape="rect" id="Node000003" href="$enumdomini_1_1scrabble_1_1_multiplicador.html" title="Representa els diferents tipus de multiplicadors d&#39;Scrabble." alt="" coords="157,13,336,211"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="249,210,249,266,244,266,244,210"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1scrabble_1_1_fitxa.html" title="Representa una fitxa d&#39;Scrabble." alt="" coords="360,13,495,211"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="379,211,343,279,338,276,374,209"/>
+</map>

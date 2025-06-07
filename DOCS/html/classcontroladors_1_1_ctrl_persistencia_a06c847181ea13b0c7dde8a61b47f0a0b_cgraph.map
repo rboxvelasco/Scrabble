@@ -1,0 +1,5 @@
+<map id="controladors.CtrlPersistencia.carregarUsuarisRegistrats" name="controladors.CtrlPersistencia.carregarUsuarisRegistrats">
+<area shape="rect" id="Node000001" title="Carrega els usuaris guardats a la capa de persistència." alt="" coords="5,5,246,48"/>
+<area shape="rect" id="Node000002" href="$classpersistencia_1_1_usuari_i_o.html#a29677f40d007ca66a5ec1b0926e16da4" title="Carrega un usuari des d&#39;un fitxer JSON." alt="" coords="294,5,469,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="246,24,278,24,278,29,246,29"/>
+</map>

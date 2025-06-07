@@ -1,0 +1,5 @@
+<map id="interficie.VistaConsultarEstadistiques.carregarAvatars" name="interficie.VistaConsultarEstadistiques.carregarAvatars">
+<area shape="rect" id="Node000001" title="Carrega els avatars dels jugadors registrats al model de la llista." alt="" coords="5,5,202,48"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_presentacio.html#a1d233e08aadf10e279ffef4b329ffd8a" title="Retorna el conjunt de jugadors registrats al sistema." alt="" coords="250,5,458,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,24,234,24,234,29,202,29"/>
+</map>

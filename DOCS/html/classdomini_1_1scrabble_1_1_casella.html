@@ -1,0 +1,771 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ca">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Scrabble PROP: Referència de la Classe domini.scrabble.Casella</title>
+<link rel="icon" href="icon2.png" type="image/x-icon" />
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Scrabble PROP
+   </div>
+   <div id="projectbrief">Subgrup 43.2: Raül Box, Aina Serra, Ada Peña &amp; Martina Cusidó</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat per Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classdomini_1_1scrabble_1_1_casella.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregant...</div>
+<div class="SRStatus" id="Searching">Cercant...</div>
+<div class="SRStatus" id="NoMatches">Cap coincidència</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Mètodes públics</a> &#124;
+<a href="#pri-attribs">Atributs Privats</a> &#124;
+<a href="classdomini_1_1scrabble_1_1_casella-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle"><div class="title">Referència de la Classe domini.scrabble.Casella</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Representa una casella del tauler d'Scrabble.  
+ <a href="#details">Més...</a></p>
+<div class="dynheader">
+Diagrama de col·laboració per a domini.scrabble.Casella:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1scrabble_1_1_casella__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Mètodes públics</h2></td></tr>
+<tr class="memitem:af1152210738e385817ab45542a6d1dfc" id="r_af1152210738e385817ab45542a6d1dfc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1152210738e385817ab45542a6d1dfc">Casella</a> (int eix_x, int eix_y, int midaTaulell)</td></tr>
+<tr class="memdesc:af1152210738e385817ab45542a6d1dfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor de la classe <a class="el" href="classdomini_1_1scrabble_1_1_casella.html" title="Representa una casella del tauler d&#39;Scrabble.">Casella</a>.  <br /></td></tr>
+<tr class="separator:af1152210738e385817ab45542a6d1dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4777c8d207856ac173fe16784487243" id="r_ab4777c8d207856ac173fe16784487243"><td class="memItemLeft" align="right" valign="top"><a class="el" href="enumdomini_1_1scrabble_1_1_multiplicador.html">Multiplicador</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4777c8d207856ac173fe16784487243">setMultiplicador</a> (int i, int j, int n)</td></tr>
+<tr class="memdesc:ab4777c8d207856ac173fe16784487243"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigna un multiplicador a la casella.  <br /></td></tr>
+<tr class="separator:ab4777c8d207856ac173fe16784487243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45ad0a3aaeacf1bc4896a7a99c068dd3" id="r_a45ad0a3aaeacf1bc4896a7a99c068dd3"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45ad0a3aaeacf1bc4896a7a99c068dd3">EstaOcupat</a> ()</td></tr>
+<tr class="memdesc:a45ad0a3aaeacf1bc4896a7a99c068dd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comprova si la casella està ocupada per una fitxa.  <br /></td></tr>
+<tr class="separator:a45ad0a3aaeacf1bc4896a7a99c068dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae94af6eaee262037bde9380a4c86ce7f" id="r_ae94af6eaee262037bde9380a4c86ce7f"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae94af6eaee262037bde9380a4c86ce7f">afegirFitxa</a> (<a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> <a class="el" href="#abad3307a93ff95ff34a355563ce8728f">fitxa</a>)</td></tr>
+<tr class="memdesc:ae94af6eaee262037bde9380a4c86ce7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Afegeix una fitxa a la casella.  <br /></td></tr>
+<tr class="separator:ae94af6eaee262037bde9380a4c86ce7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add2c913eb7c346cc651b14b5b2b0a541" id="r_add2c913eb7c346cc651b14b5b2b0a541"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add2c913eb7c346cc651b14b5b2b0a541">setAnchor</a> (boolean <a class="el" href="#a40cc02046c25b9411dbfe14e6523c09f">anchor</a>)</td></tr>
+<tr class="memdesc:add2c913eb7c346cc651b14b5b2b0a541"><td class="mdescLeft">&#160;</td><td class="mdescRight">Canvia el valor de anchor.  <br /></td></tr>
+<tr class="separator:add2c913eb7c346cc651b14b5b2b0a541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ed8e8ca20184dfafc007cf7b85a9e4e" id="r_a1ed8e8ca20184dfafc007cf7b85a9e4e"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ed8e8ca20184dfafc007cf7b85a9e4e">isAnchor</a> ()</td></tr>
+<tr class="memdesc:a1ed8e8ca20184dfafc007cf7b85a9e4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mètode que indica si la casella es anchor.  <br /></td></tr>
+<tr class="separator:a1ed8e8ca20184dfafc007cf7b85a9e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04a05f1900b428d60a3dd7abaf5f22da" id="r_a04a05f1900b428d60a3dd7abaf5f22da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdomini_1_1auxiliars_1_1_pair.html">Pair</a>&lt; Integer, Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04a05f1900b428d60a3dd7abaf5f22da">getCoord</a> ()</td></tr>
+<tr class="memdesc:a04a05f1900b428d60a3dd7abaf5f22da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna l'identificador de la casella.  <br /></td></tr>
+<tr class="separator:a04a05f1900b428d60a3dd7abaf5f22da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ce7db6c414e455606dfbd8ee8056a3b" id="r_a2ce7db6c414e455606dfbd8ee8056a3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="enumdomini_1_1scrabble_1_1_multiplicador.html">Multiplicador</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ce7db6c414e455606dfbd8ee8056a3b">getMultiplicador</a> ()</td></tr>
+<tr class="memdesc:a2ce7db6c414e455606dfbd8ee8056a3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna el multiplicador de la casella.  <br /></td></tr>
+<tr class="separator:a2ce7db6c414e455606dfbd8ee8056a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6fa4e60f906cde260a175354e4fda22" id="r_ad6fa4e60f906cde260a175354e4fda22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6fa4e60f906cde260a175354e4fda22">getFitxa</a> ()</td></tr>
+<tr class="memdesc:ad6fa4e60f906cde260a175354e4fda22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna la fitxa de la casella.  <br /></td></tr>
+<tr class="separator:ad6fa4e60f906cde260a175354e4fda22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88e3c9b33749333aa3ec4df8c8bbd806" id="r_a88e3c9b33749333aa3ec4df8c8bbd806"><td class="memItemLeft" align="right" valign="top">boolean[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88e3c9b33749333aa3ec4df8c8bbd806">getCrossChecks</a> ()</td></tr>
+<tr class="memdesc:a88e3c9b33749333aa3ec4df8c8bbd806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna el vector de cross_checks.  <br /></td></tr>
+<tr class="separator:a88e3c9b33749333aa3ec4df8c8bbd806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71d23296f7f301798dbbfa78632f37af" id="r_a71d23296f7f301798dbbfa78632f37af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71d23296f7f301798dbbfa78632f37af">actualitzarCrossChecks</a> (boolean[] new_cross)</td></tr>
+<tr class="memdesc:a71d23296f7f301798dbbfa78632f37af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actualitza els cross_checks després d'inserir una <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html" title="Representa una fitxa d&#39;Scrabble.">Fitxa</a>.  <br /></td></tr>
+<tr class="separator:a71d23296f7f301798dbbfa78632f37af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7570b2b0babf8052e4bad2e197de4ef1" id="r_a7570b2b0babf8052e4bad2e197de4ef1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7570b2b0babf8052e4bad2e197de4ef1">reiniciarCrossCheck</a> ()</td></tr>
+<tr class="memdesc:a7570b2b0babf8052e4bad2e197de4ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reinicia els cross_cheks després de retirar una <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html" title="Representa una fitxa d&#39;Scrabble.">Fitxa</a>.  <br /></td></tr>
+<tr class="separator:a7570b2b0babf8052e4bad2e197de4ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5404796578555563e719f875b3b8239" id="r_aa5404796578555563e719f875b3b8239"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5404796578555563e719f875b3b8239">retirarFitxa</a> (<a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> fitxaARetirar)</td></tr>
+<tr class="memdesc:aa5404796578555563e719f875b3b8239"><td class="mdescLeft">&#160;</td><td class="mdescRight">Treure fitxa de la casella.  <br /></td></tr>
+<tr class="separator:aa5404796578555563e719f875b3b8239"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atributs Privats</h2></td></tr>
+<tr class="memitem:a8c9f360f0909b56f96d7c3964addecd2" id="r_a8c9f360f0909b56f96d7c3964addecd2"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classdomini_1_1auxiliars_1_1_pair.html">Pair</a>&lt; Integer, Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c9f360f0909b56f96d7c3964addecd2">coordenades</a></td></tr>
+<tr class="separator:a8c9f360f0909b56f96d7c3964addecd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ae6927a666f86e589a583d9f6760b8a" id="r_a2ae6927a666f86e589a583d9f6760b8a"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="enumdomini_1_1scrabble_1_1_multiplicador.html">Multiplicador</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ae6927a666f86e589a583d9f6760b8a">multiplicador</a></td></tr>
+<tr class="separator:a2ae6927a666f86e589a583d9f6760b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abad3307a93ff95ff34a355563ce8728f" id="r_abad3307a93ff95ff34a355563ce8728f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abad3307a93ff95ff34a355563ce8728f">fitxa</a></td></tr>
+<tr class="separator:abad3307a93ff95ff34a355563ce8728f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef5bf03b17b75cf44b0389b3b2036e89" id="r_aef5bf03b17b75cf44b0389b3b2036e89"><td class="memItemLeft" align="right" valign="top">boolean[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef5bf03b17b75cf44b0389b3b2036e89">cross_checks</a></td></tr>
+<tr class="separator:aef5bf03b17b75cf44b0389b3b2036e89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40cc02046c25b9411dbfe14e6523c09f" id="r_a40cc02046c25b9411dbfe14e6523c09f"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40cc02046c25b9411dbfe14e6523c09f">anchor</a></td></tr>
+<tr class="separator:a40cc02046c25b9411dbfe14e6523c09f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
+<div class="textblock"><p>Representa una casella del tauler d'Scrabble. </p>
+<p>Cada casella té una posició específica al tauler, un multiplicador de lletra o de paraula i pot contenir una fitxa o estar buida. </p>
+</div><h2 class="groupheader">Documentació del Constructor i el Destructor</h2>
+<a id="af1152210738e385817ab45542a6d1dfc" name="af1152210738e385817ab45542a6d1dfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1152210738e385817ab45542a6d1dfc">&#9670;&#160;</a></span>Casella()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">domini.scrabble.Casella.Casella </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>eix_x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>eix_y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>midaTaulell</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor de la classe <a class="el" href="classdomini_1_1scrabble_1_1_casella.html" title="Representa una casella del tauler d&#39;Scrabble.">Casella</a>. </p>
+<p>Inicialitza una casella amb unes coordenades, i un multiplicador de puntuació. Al principi, la casella no conté cap fitxa, i el vector de cross_checks s'inicialitza a cert.</p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">eix_x</td><td>La posició x de la casella en el tauler. </td></tr>
+    <tr><td class="paramname">eix_y</td><td>La posició y de la casella en el tauler. </td></tr>
+    <tr><td class="paramname">midaTaulell</td><td>La mida del tauler de joc. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classdomini_1_1scrabble_1_1_casella_af1152210738e385817ab45542a6d1dfc_cgraph.svg" width="406" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="a71d23296f7f301798dbbfa78632f37af" name="a71d23296f7f301798dbbfa78632f37af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71d23296f7f301798dbbfa78632f37af">&#9670;&#160;</a></span>actualitzarCrossChecks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void domini.scrabble.Casella.actualitzarCrossChecks </td>
+          <td>(</td>
+          <td class="paramtype">boolean[]</td>          <td class="paramname"><span class="paramname"><em>new_cross</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Actualitza els cross_checks després d'inserir una <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html" title="Representa una fitxa d&#39;Scrabble.">Fitxa</a>. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new_cross</td><td>Indica les lletres valides. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae94af6eaee262037bde9380a4c86ce7f" name="ae94af6eaee262037bde9380a4c86ce7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae94af6eaee262037bde9380a4c86ce7f">&#9670;&#160;</a></span>afegirFitxa()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean domini.scrabble.Casella.afegirFitxa </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a></td>          <td class="paramname"><span class="paramname"><em>fitxa</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Afegeix una fitxa a la casella. </p>
+<p>Aquest mètode assigna una fitxa a la casella.</p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fitxa</td><td>La fitxa que es vol afegir a la casella. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>true si la fitxa s'ha afegit correctament, false si la casella ja estava ocupada. </dd></dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classdomini_1_1scrabble_1_1_casella_ae94af6eaee262037bde9380a4c86ce7f_cgraph.svg" width="420" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a45ad0a3aaeacf1bc4896a7a99c068dd3" name="a45ad0a3aaeacf1bc4896a7a99c068dd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45ad0a3aaeacf1bc4896a7a99c068dd3">&#9670;&#160;</a></span>EstaOcupat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean domini.scrabble.Casella.EstaOcupat </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Comprova si la casella està ocupada per una fitxa. </p>
+<p>Aquest mètode retorna true si la casella conté una fitxa, i false si està buida.</p>
+<dl class="section return"><dt>Retorna</dt><dd>true si la casella està ocupada per una fitxa, false si està buida. </dd></dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1scrabble_1_1_casella_a45ad0a3aaeacf1bc4896a7a99c068dd3_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a04a05f1900b428d60a3dd7abaf5f22da" name="a04a05f1900b428d60a3dd7abaf5f22da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04a05f1900b428d60a3dd7abaf5f22da">&#9670;&#160;</a></span>getCoord()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classdomini_1_1auxiliars_1_1_pair.html">Pair</a>&lt; Integer, Integer &gt; domini.scrabble.Casella.getCoord </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retorna l'identificador de la casella. </p>
+<dl class="section return"><dt>Retorna</dt><dd>L'identificador de la casella. </dd></dl>
+
+</div>
+</div>
+<a id="a88e3c9b33749333aa3ec4df8c8bbd806" name="a88e3c9b33749333aa3ec4df8c8bbd806"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88e3c9b33749333aa3ec4df8c8bbd806">&#9670;&#160;</a></span>getCrossChecks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean[] domini.scrabble.Casella.getCrossChecks </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retorna el vector de cross_checks. </p>
+<dl class="section return"><dt>Retorna</dt><dd>El vector de booleans cross_checks associat a la casella. </dd></dl>
+
+</div>
+</div>
+<a id="ad6fa4e60f906cde260a175354e4fda22" name="ad6fa4e60f906cde260a175354e4fda22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6fa4e60f906cde260a175354e4fda22">&#9670;&#160;</a></span>getFitxa()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> domini.scrabble.Casella.getFitxa </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retorna la fitxa de la casella. </p>
+<dl class="section return"><dt>Retorna</dt><dd>La fitxa continguda en la casella, o null si està buida. </dd></dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1scrabble_1_1_casella_ad6fa4e60f906cde260a175354e4fda22_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a2ce7db6c414e455606dfbd8ee8056a3b" name="a2ce7db6c414e455606dfbd8ee8056a3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ce7db6c414e455606dfbd8ee8056a3b">&#9670;&#160;</a></span>getMultiplicador()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="enumdomini_1_1scrabble_1_1_multiplicador.html">Multiplicador</a> domini.scrabble.Casella.getMultiplicador </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retorna el multiplicador de la casella. </p>
+<dl class="section return"><dt>Retorna</dt><dd>El multiplicador associat a la casella. </dd></dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1scrabble_1_1_casella_a2ce7db6c414e455606dfbd8ee8056a3b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a1ed8e8ca20184dfafc007cf7b85a9e4e" name="a1ed8e8ca20184dfafc007cf7b85a9e4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ed8e8ca20184dfafc007cf7b85a9e4e">&#9670;&#160;</a></span>isAnchor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean domini.scrabble.Casella.isAnchor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mètode que indica si la casella es anchor. </p>
+<dl class="section return"><dt>Retorna</dt><dd>True si és anchor, false en cas contrari. </dd></dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1scrabble_1_1_casella_a1ed8e8ca20184dfafc007cf7b85a9e4e_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a7570b2b0babf8052e4bad2e197de4ef1" name="a7570b2b0babf8052e4bad2e197de4ef1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7570b2b0babf8052e4bad2e197de4ef1">&#9670;&#160;</a></span>reiniciarCrossCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void domini.scrabble.Casella.reiniciarCrossCheck </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reinicia els cross_cheks després de retirar una <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html" title="Representa una fitxa d&#39;Scrabble.">Fitxa</a>. </p>
+
+</div>
+</div>
+<a id="aa5404796578555563e719f875b3b8239" name="aa5404796578555563e719f875b3b8239"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5404796578555563e719f875b3b8239">&#9670;&#160;</a></span>retirarFitxa()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean domini.scrabble.Casella.retirarFitxa </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a></td>          <td class="paramname"><span class="paramname"><em>fitxaARetirar</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Treure fitxa de la casella. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fitxaARetirar</td><td>La fitxa que es vol retirar de la casella. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>true si la fitxa s'ha retirat correctament, false en cas contrari. </dd></dl>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1scrabble_1_1_casella_aa5404796578555563e719f875b3b8239_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="add2c913eb7c346cc651b14b5b2b0a541" name="add2c913eb7c346cc651b14b5b2b0a541"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add2c913eb7c346cc651b14b5b2b0a541">&#9670;&#160;</a></span>setAnchor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void domini.scrabble.Casella.setAnchor </td>
+          <td>(</td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>anchor</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Canvia el valor de anchor. </p>
+<p>Aquest mètode estableix el valor de anchor.</p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">anchor</td><td>El valor que prendrà el camp anchor de la <a class="el" href="classdomini_1_1scrabble_1_1_casella.html" title="Representa una casella del tauler d&#39;Scrabble.">Casella</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab4777c8d207856ac173fe16784487243" name="ab4777c8d207856ac173fe16784487243"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4777c8d207856ac173fe16784487243">&#9670;&#160;</a></span>setMultiplicador()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="enumdomini_1_1scrabble_1_1_multiplicador.html">Multiplicador</a> domini.scrabble.Casella.setMultiplicador </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>j</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assigna un multiplicador a la casella. </p>
+<p>Aquest mètode afegeix un multiplicador a la casella segons la seva posició al taulell.</p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>posició i del taulell. </td></tr>
+    <tr><td class="paramname">j</td><td>posició j del taulell. </td></tr>
+    <tr><td class="paramname">n</td><td>mida del taulell. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classdomini_1_1scrabble_1_1_casella_ab4777c8d207856ac173fe16784487243_icgraph.svg" width="406" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="a40cc02046c25b9411dbfe14e6523c09f" name="a40cc02046c25b9411dbfe14e6523c09f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40cc02046c25b9411dbfe14e6523c09f">&#9670;&#160;</a></span>anchor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean domini.scrabble.Casella.anchor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c9f360f0909b56f96d7c3964addecd2" name="a8c9f360f0909b56f96d7c3964addecd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c9f360f0909b56f96d7c3964addecd2">&#9670;&#160;</a></span>coordenades</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classdomini_1_1auxiliars_1_1_pair.html">Pair</a>&lt;Integer, Integer&gt; domini.scrabble.Casella.coordenades</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef5bf03b17b75cf44b0389b3b2036e89" name="aef5bf03b17b75cf44b0389b3b2036e89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef5bf03b17b75cf44b0389b3b2036e89">&#9670;&#160;</a></span>cross_checks</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean [] domini.scrabble.Casella.cross_checks</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abad3307a93ff95ff34a355563ce8728f" name="abad3307a93ff95ff34a355563ce8728f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abad3307a93ff95ff34a355563ce8728f">&#9670;&#160;</a></span>fitxa</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> domini.scrabble.Casella.fitxa</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2ae6927a666f86e589a583d9f6760b8a" name="a2ae6927a666f86e589a583d9f6760b8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ae6927a666f86e589a583d9f6760b8a">&#9670;&#160;</a></span>multiplicador</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="enumdomini_1_1scrabble_1_1_multiplicador.html">Multiplicador</a> domini.scrabble.Casella.multiplicador</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentació d'aquesta classe es va generar a partir del següent fitxer:<ul>
+<li>FONTS/domini/scrabble/<a class="el" href="_casella_8java.html">Casella.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>domini</b></li><li class="navelem"><a class="el" href="namespacedomini_1_1scrabble.html">scrabble</a></li><li class="navelem"><a class="el" href="classdomini_1_1scrabble_1_1_casella.html">Casella</a></li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+  </ul>
+</div>
+</body>
+</html>

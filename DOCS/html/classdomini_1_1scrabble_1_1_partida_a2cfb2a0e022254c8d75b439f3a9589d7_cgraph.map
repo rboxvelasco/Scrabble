@@ -1,0 +1,7 @@
+<map id="domini.scrabble.Partida.getFitxesActuals" name="domini.scrabble.Partida.getFitxesActuals">
+<area shape="rect" id="Node000001" title="Retorna la llista de fitxes actuals del jugador que té el torn." alt="" coords="5,39,185,81"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1jugadors_1_1_jugador.html#acf9520ec234c3f2cc52e1b79b85a008e" title="Retorna la llista amb les fitxes actuals del jugador." alt="" coords="233,5,417,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,44,217,40,217,45,185,50"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1scrabble_1_1_partida.html#a97c82dc47217e0515691e5c2ffaa3626" title="Obté el jugador que està jugant el torn." alt="" coords="235,72,414,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,70,220,75,219,81,184,76"/>
+</map>

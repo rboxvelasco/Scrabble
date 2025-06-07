@@ -1,0 +1,12 @@
+digraph "domini.scrabble.Fitxa.equals"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="domini.scrabble.Fitxa.equals",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Compara un objecte amb una instància de Fitxa."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="domini.scrabble.Casella.retirar\lFitxa",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1scrabble_1_1_casella.html#aa5404796578555563e719f875b3b8239",tooltip="Treure fitxa de la casella."];
+}

@@ -1,0 +1,5 @@
+<map id="controladors.CtrlPartida.comprova_paraula" name="controladors.CtrlPartida.comprova_paraula">
+<area shape="rect" id="Node000001" title="Comprova si una paraula és vàlida." alt="" coords="258,5,477,48"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_partida.html#ad0f7d5edb502bc4956cfd54612209ea7" title="Col·loca una paraula al taulell." alt="" coords="5,5,210,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,29,210,29,210,24,242,24"/>
+</map>

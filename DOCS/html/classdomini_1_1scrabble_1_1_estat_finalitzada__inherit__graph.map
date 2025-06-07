@@ -1,0 +1,5 @@
+<map id="domini.scrabble.EstatFinalitzada" name="domini.scrabble.EstatFinalitzada">
+<area shape="rect" id="Node000001" title="Representa l&#39;estat &#39;Finalitzada&#39; d&#39;una partida." alt="" coords="5,229,205,384"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1scrabble_1_1_estat.html" title="Classe abstracta que defineix el comportament genèric per als diferents estats d&#39;una partida." alt="" coords="37,5,174,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,196,108,230,102,230,102,196"/>
+</map>

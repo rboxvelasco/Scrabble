@@ -1,0 +1,9 @@
+<map id="domini.jugadors.Avatar.incrementarPartidesJugadesMaquina" name="domini.jugadors.Avatar.incrementarPartidesJugadesMaquina">
+<area shape="rect" id="Node000001" title="Incrementa el nombre de partides jugades contra la màquina." alt="" coords="543,39,769,81"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1scrabble_1_1_partida.html#a94aba33b1a4414cd7e64d73cf8b84aac" title="Constructor de la classe &quot;Partida&quot;." alt="" coords="305,5,466,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="527,47,466,39,467,34,528,42"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_domini.html#a635aeffb46f12e2188110476c797a038" title="Processa els resultats d&#39;una partida contra la màquina." alt="" coords="276,72,495,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="528,78,496,82,495,77,527,73"/>
+<area shape="rect" id="Node000004" href="$classcontroladors_1_1_ctrl_domini.html#af2774b364abee1ac4832823ff1b0d556" title="Actualitza el rànquing després d&#39;una partida." alt="" coords="5,72,228,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="260,96,228,96,228,91,260,91"/>
+</map>

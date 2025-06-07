@@ -1,0 +1,5 @@
+<map id="interficie.VistaCrearPartida.PlaceholderTextField" name="interficie.VistaCrearPartida.PlaceholderTextField">
+<area shape="rect" id="Node000001" title="JTextField personalitzat que mostra un text &quot;placeholder&quot; quan el camp està buit i no té el focus,..." alt="" coords="5,123,176,229"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="55,5,126,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,90,93,123,88,123,88,90"/>
+</map>

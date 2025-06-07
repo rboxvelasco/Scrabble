@@ -1,0 +1,11 @@
+<map id="domini.scrabble.Taulell.getAnchors" name="domini.scrabble.Taulell.getAnchors">
+<area shape="rect" id="Node000001" title="Retorna un Set amb les coordenades de les caselles que son anchors." alt="" coords="5,56,181,99"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1scrabble_1_1_taulell.html#a268ce8c62ca09000409a18be258fbc89" title="Comprova si el taulell està completament buit (cap casella ocupada)." alt="" coords="229,5,434,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,53,258,34,260,39,182,58"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1scrabble_1_1_taulell.html#a5be7b0143cecbce3e2f4dc4f53814879" title="Donades unes coordenades, retorna la Casella que es troba en aquelles coordenades." alt="" coords="244,56,419,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,75,228,75,228,80,181,80"/>
+<area shape="rect" id="Node000005" href="$classdomini_1_1scrabble_1_1_taulell.html#a28a346ace920ef6a74f94825249d671c" title="Mètode que calcula les coordenades del centre del taulell." alt="" coords="244,123,419,165"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="172,97,239,115,237,121,171,102"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1scrabble_1_1_taulell.html#afc2d8dcd225b683aa00af9ce2075ad79" title=" " alt="" coords="482,64,670,91"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="419,75,467,75,467,80,419,80"/>
+</map>

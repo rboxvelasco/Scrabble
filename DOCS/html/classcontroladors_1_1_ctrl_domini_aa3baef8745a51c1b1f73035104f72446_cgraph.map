@@ -1,0 +1,5 @@
+<map id="controladors.CtrlDomini.jugadorsRegistratsValids" name="controladors.CtrlDomini.jugadorsRegistratsValids">
+<area shape="rect" id="Node000001" title="Comprova que els jugadors registrats siguin valids." alt="" coords="5,5,217,48"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1jugadors_1_1_jugador.html#afa999de0f50bb1671ac42dbe31388b01" title="Retorna l&#39;identificador del jugador." alt="" coords="265,5,449,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,24,249,24,249,29,217,29"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="controladors.CtrlDomini.obtenirNouIdJugador" name="controladors.CtrlDomini.obtenirNouIdJugador">
+<area shape="rect" id="Node000001" title="Assigna un id a un jugador." alt="" coords="245,5,446,48"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_domini.html#a7ee797a2519cf4765bbbcf674836a1a6" title="Crea un jugador associat a l&#39;usuari actiu." alt="" coords="5,5,197,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,29,197,29,197,24,229,24"/>
+</map>

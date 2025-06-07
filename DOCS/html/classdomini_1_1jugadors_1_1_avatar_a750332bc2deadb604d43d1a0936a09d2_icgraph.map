@@ -1,0 +1,11 @@
+<map id="domini.jugadors.Avatar.incrementarPartidesGuanyadesJugador" name="domini.jugadors.Avatar.incrementarPartidesGuanyadesJugador">
+<area shape="rect" id="Node000001" title="Incrementa el nombre de partides guanyades contra altres jugadors." alt="" coords="775,39,1002,81"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_partida.html#a15489fe587b7fe577bd1c4be09c58e6e" title="El jugador actual abandona la partida." alt="" coords="505,5,727,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="759,47,728,43,728,38,760,42"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_partida.html#a98e85139630d752ac3e94d8a540aba0c" title="Finalitza la partida si s&#39;han passat torns consecutius sense acció." alt="" coords="510,72,722,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="760,78,723,83,722,78,759,73"/>
+<area shape="rect" id="Node000004" href="$classcontroladors_1_1_ctrl_partida.html#a2c8fdc3b9f3ee33aae30bd0e0d1f09b7" title="Passa el torn al següent jugador." alt="" coords="231,80,457,107"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="495,96,457,96,457,91,495,91"/>
+<area shape="rect" id="Node000005" href="$classcontroladors_1_1_ctrl_partida.html#afa4340f6a2cb198455d536ccaf87717b" title="Gestiona el desenvolupament de la jugada de la màquina." alt="" coords="5,72,183,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="215,96,183,96,183,91,215,91"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="controladors.CtrlPersistencia.eliminarJugador" name="controladors.CtrlPersistencia.eliminarJugador">
+<area shape="rect" id="Node000001" title="Elimina un jugador de l&#39;emmagatzematge persistent." alt="" coords="5,5,244,48"/>
+<area shape="rect" id="Node000002" href="$classpersistencia_1_1_jugador_i_o.html#a33bb33e9446715359568286f85f9f307" title="Elimina un jugador esborrant el seu fitxer JSON." alt="" coords="292,5,496,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="244,24,276,24,276,29,244,29"/>
+</map>

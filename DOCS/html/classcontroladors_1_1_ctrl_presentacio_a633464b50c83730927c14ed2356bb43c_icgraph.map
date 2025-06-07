@@ -1,0 +1,12 @@
+<map id="controladors.CtrlPresentacio.sortir" name="controladors.CtrlPresentacio.sortir">
+<area shape="rect" id="Node000001" title="Tanca la sessió de l&#39;usuari, allibera els recursos gràfics i finalitza l&#39;execució de l&#39;aplicació." alt="" coords="498,83,717,109"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1_vista_menu_joc.html#afab63b4d82b26b00b711c7a5473d7707" title="Constructor de la classe VistaMenuJoc." alt="" coords="274,29,436,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="514,82,436,68,437,63,515,77"/>
+<area shape="rect" id="Node000004" href="$classinterficie_1_1_vista_menu_principal.html#a1775070c5caab55f6464ec2fae506c4e" title="Constructor de la classe VistaMenuPrincipal." alt="" coords="260,120,450,163"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="515,115,451,127,450,122,514,110"/>
+<area shape="poly" id="edge4_Node000002_Node000002" title=" " alt="" coords="395,16,380,10,355,8,332,10,317,15,312,21,313,28,308,29,306,19,314,10,330,5,355,3,381,5,397,11"/>
+<area shape="rect" id="Node000003" href="$classinterficie_1_1_vista_menu_joc.html#a357d2c3488fc972b443bb25cf44c8d1b" title="Lògica per eliminar el perfil." alt="" coords="5,29,212,72"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="259,62,212,62,212,57,259,57"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="227,39,274,39,274,45,227,44"/>
+<area shape="poly" id="edge6_Node000004_Node000004" title=" " alt="" coords="395,107,380,101,355,99,332,101,317,105,312,111,313,119,308,120,306,110,314,101,330,95,355,93,381,96,397,102"/>
+</map>

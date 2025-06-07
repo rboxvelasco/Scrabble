@@ -1,0 +1,15 @@
+<map id="FONTS/interficie/VistaCanviTorn.java" name="FONTS/interficie/VistaCanviTorn.java">
+<area shape="rect" id="Node000001" title=" " alt="" coords="345,5,533,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,105,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="346,50,121,97,120,92,345,45"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="128,96,315,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="384,51,271,93,269,88,382,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="339,96,419,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="426,50,400,85,395,82,421,47"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="443,96,558,123"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="457,47,484,82,479,85,453,50"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="582,96,666,123"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="488,46,582,87,580,92,486,51"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="691,96,798,123"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="518,46,682,89,681,94,517,51"/>
+</map>

@@ -1,0 +1,25 @@
+var classdomini_1_1jugadors_1_1_jugador =
+[
+    [ "Jugador", "classdomini_1_1jugadors_1_1_jugador.html#a1ec0271ac5579f7ac9e804e56e5f10ce", null ],
+    [ "afegirFitxa", "classdomini_1_1jugadors_1_1_jugador.html#a28fa4b7dcf1f5eabdc608591e61509ae", null ],
+    [ "buidarFitxesJugador", "classdomini_1_1jugadors_1_1_jugador.html#a6d77b2edccb47f99c509aff293a92ab9", null ],
+    [ "eliminarFitxa", "classdomini_1_1jugadors_1_1_jugador.html#a958cd1f187802e5dcd496be3d60f5c30", null ],
+    [ "getFitxes_actuals", "classdomini_1_1jugadors_1_1_jugador.html#acf9520ec234c3f2cc52e1b79b85a008e", null ],
+    [ "getIdJugador", "classdomini_1_1jugadors_1_1_jugador.html#afa999de0f50bb1671ac42dbe31388b01", null ],
+    [ "getNom", "classdomini_1_1jugadors_1_1_jugador.html#abd263319ed47cf1469e301659e15dd26", null ],
+    [ "getPuntuacio_actual", "classdomini_1_1jugadors_1_1_jugador.html#af5b78b5a60aa1845f6665113225281da", null ],
+    [ "getrutaImatge", "classdomini_1_1jugadors_1_1_jugador.html#ac629842bca37a6a17c8dbd5eb597e2e1", null ],
+    [ "getTornsPassatsConsecutius", "classdomini_1_1jugadors_1_1_jugador.html#a51e1ffeca2792578428eb24b63b35dba", null ],
+    [ "incrementar_puntuacio_actual", "classdomini_1_1jugadors_1_1_jugador.html#ac035aeae1fdd82b932fe2c717ae9b3d5", null ],
+    [ "incrementarTornsPassatsConsecutius", "classdomini_1_1jugadors_1_1_jugador.html#a7cc164a802db847d182dad2e8d799bbd", null ],
+    [ "reiniciarTornsPassatsConsecutius", "classdomini_1_1jugadors_1_1_jugador.html#a65f71c37c6890c64cc63ebf0a4d7e185", null ],
+    [ "setFitxesActuals", "classdomini_1_1jugadors_1_1_jugador.html#ae879e7f0bd87dc8b6e7cec537c00ac8f", null ],
+    [ "fitxes_actuals", "classdomini_1_1jugadors_1_1_jugador.html#a8f9b1adee1015980de342b32b12fa277", null ],
+    [ "idJugador", "classdomini_1_1jugadors_1_1_jugador.html#a1ac2dfbfd1d80eda33da3be88e0e7345", null ],
+    [ "MAX_FITXES", "classdomini_1_1jugadors_1_1_jugador.html#ab4a620e35c73ec500f8e63987ee66775", null ],
+    [ "nom", "classdomini_1_1jugadors_1_1_jugador.html#af1a4daa770f5af01589e00246bd9f21b", null ],
+    [ "puntuacio_actual", "classdomini_1_1jugadors_1_1_jugador.html#aa0c00ca939055cad513503f53742c849", null ],
+    [ "rutaImatge", "classdomini_1_1jugadors_1_1_jugador.html#a2510ac45c30b46cbbe7107ec764494be", null ],
+    [ "tipus", "classdomini_1_1jugadors_1_1_jugador.html#a93cb8964afb91a0b5d3a738675ca097a", null ],
+    [ "tornsPassatsConsecutius", "classdomini_1_1jugadors_1_1_jugador.html#a8ad8d549375fd3095bf24e0fc02d7d9c", null ]
+];

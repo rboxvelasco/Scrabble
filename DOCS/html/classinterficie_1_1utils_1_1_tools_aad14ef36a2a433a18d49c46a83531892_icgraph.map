@@ -1,0 +1,60 @@
+<map id="interficie.utils.Tools.actualitzarImatge" name="interficie.utils.Tools.actualitzarImatge">
+<area shape="rect" id="Node000001" title="Actualitza la imatge d&#39;un JLabel redimensionant&#45;la per adaptar&#45;se a les mides màximes indicades mante..." alt="" coords="844,416,1042,459"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1_vista_crear_avatar.html#a275c320ec75c735937be368a8becfb46" title="Escala i posiciona els components segons la mida actual." alt="" coords="552,5,772,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="935,401,923,331,898,241,880,194,857,148,828,106,795,69,768,51,771,46,798,65,833,103,861,146,885,192,903,239,928,329,940,400"/>
+<area shape="rect" id="Node000003" href="$classinterficie_1_1_vista_crear_avatar.html#ae0d9f95418da2ecb046e19ce8d9f8d0b" title="Constructor de la finestra VistaCrearAvatar." alt="" coords="288,49,466,92"/>
+<area shape="poly" id="edge33_Node000001_Node000003" title=" " alt="" coords="935,401,922,336,897,257,879,216,856,177,828,142,795,113,771,101,738,91,652,79,556,73,467,72,467,66,556,67,653,73,739,86,773,96,798,108,832,139,860,174,883,214,902,255,927,335,940,400"/>
+<area shape="rect" id="Node000005" href="$classinterficie_1_1_vista_crear_perfil.html#ab2dea48a192f08da5032b8c03bdaa697" title="Escala i reubica els components segons la mida actual de la finestra, mantenint proporcions relatives..." alt="" coords="556,123,768,165"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="928,402,910,353,881,295,843,236,820,209,795,186,764,168,767,164,798,182,824,206,847,233,886,292,914,351,933,400"/>
+<area shape="rect" id="Node000006" href="$classinterficie_1_1_vista_crear_perfil.html#aea921123ade57f0e42263807a1842aaf" title="Constructor que crea la finestra per crear un perfil." alt="" coords="292,153,462,196"/>
+<area shape="poly" id="edge36_Node000001_Node000006" title=" " alt="" coords="926,403,906,361,877,314,840,267,819,247,795,230,770,219,736,209,649,195,552,185,463,180,463,175,552,180,649,189,737,204,772,214,798,226,822,243,844,264,882,311,911,359,930,401"/>
+<area shape="rect" id="Node000007" href="$classinterficie_1_1_vista_iniciar_sessio.html#a71d2fc69c337099df6c2a8ba9c34eca0" title="Escala i recol·loca els components en funció de la mida actual de la finestra." alt="" coords="549,240,774,283"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="913,406,861,353,829,327,795,304,755,286,757,281,798,299,832,322,865,349,916,402"/>
+<area shape="rect" id="Node000008" href="$classinterficie_1_1_vista_iniciar_sessio.html#afc5613ff799374e1f28b0e885c6cc264" title="Constructor que crea la vista d&#39;iniciar sessió." alt="" coords="286,255,469,297"/>
+<area shape="poly" id="edge37_Node000001_Node000008" title=" " alt="" coords="901,409,852,376,795,348,748,337,664,322,469,292,470,286,665,317,749,331,797,343,855,371,904,404"/>
+<area shape="rect" id="Node000009" href="$classinterficie_1_1_vista_menu_joc.html#ab3bcca3e7fed0b4d01a642012ff7ac8f" title="Escala tots els components gràfics en funció de la mida de la finestra." alt="" coords="560,357,763,400"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="829,416,763,403,764,397,830,411"/>
+<area shape="rect" id="Node000010" href="$classinterficie_1_1_vista_menu_joc.html#afab63b4d82b26b00b711c7a5473d7707" title="Constructor de la classe VistaMenuJoc." alt="" coords="297,377,458,420"/>
+<area shape="poly" id="edge38_Node000001_Node000010" title=" " alt="" coords="829,434,527,415,458,409,459,404,527,409,829,429"/>
+<area shape="rect" id="Node000012" href="$classinterficie_1_1_vista_canvi_torn.html#a7a021fb53d7a4494561ea26609e3089c" title="Escala i posiciona els components segons la mida actual." alt="" coords="557,475,766,517"/>
+<area shape="poly" id="edge17_Node000001_Node000012" title=" " alt="" coords="830,464,767,477,766,472,828,458"/>
+<area shape="rect" id="Node000013" href="$classinterficie_1_1_vista_canvi_torn.html#ab4f3e4270b44c9acdc80f53af88263f2" title="Constructor de la classe VistaCanviTorn." alt="" coords="294,488,461,531"/>
+<area shape="poly" id="edge24_Node000001_Node000013" title=" " alt="" coords="907,471,857,505,828,520,797,532,754,542,709,548,619,550,534,543,461,531,462,526,534,538,619,545,708,543,753,537,796,527,826,515,854,500,904,466"/>
+<area shape="rect" id="Node000014" href="$classinterficie_1_1_vista_consultar_normes.html#aa2b3d841acae7945dad388f04b002967" title="Inicialitza els components gràfics de la vista." alt="" coords="580,592,743,635"/>
+<area shape="poly" id="edge20_Node000001_Node000014" title=" " alt="" coords="916,472,865,525,832,552,798,576,744,598,742,593,795,571,829,548,861,521,913,469"/>
+<area shape="rect" id="Node000016" href="$classinterficie_1_1_vista_consultar_avatars.html#aad0f3c358880880d6c374569d93117cd" title="Constructor de la vista que mostra la llista d&#39;avatares registrats." alt="" coords="561,683,762,725"/>
+<area shape="poly" id="edge25_Node000001_Node000016" title=" " alt="" coords="927,474,906,514,876,560,840,607,798,649,768,669,735,684,733,680,765,664,795,645,836,604,872,557,901,511,923,472"/>
+<area shape="rect" id="Node000017" href="$classinterficie_1_1_vista_consultar_estadistiques.html#a72ea2d682e9b49e5fa9a21c42187f581" title="Constructor principal de la vista." alt="" coords="527,773,796,816"/>
+<area shape="poly" id="edge27_Node000001_Node000017" title=" " alt="" coords="936,474,918,531,890,602,851,675,826,709,798,739,771,760,740,775,738,770,768,755,795,735,822,705,846,672,886,599,913,529,930,473"/>
+<area shape="rect" id="Node000018" href="$classinterficie_1_1_vista_consultar_ranking.html#a86d8edbe84e816fcf7c14b51a8d2e214" title="Constructor de la classe." alt="" coords="558,864,765,907"/>
+<area shape="poly" id="edge29_Node000001_Node000018" title=" " alt="" coords="940,475,928,547,903,642,884,692,861,741,832,788,798,830,773,851,744,866,741,861,770,846,794,826,828,785,856,739,879,690,897,640,922,546,935,474"/>
+<area shape="rect" id="Node000020" href="$classinterficie_1_1_vista_crear_partida.html#a2f8245af959f715f5a43d233fdf6a564" title="Crea una nova finestra per a la creació d&#39;una partida de Scrabble." alt="" coords="571,955,752,997"/>
+<area shape="poly" id="edge34_Node000001_Node000020" title=" " alt="" coords="943,475,936,563,914,681,895,744,870,807,838,867,798,920,774,941,746,956,743,952,771,937,794,917,834,864,866,805,890,743,908,680,930,562,938,474"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="536,49,467,60,467,54,535,43"/>
+<area shape="poly" id="edge5_Node000003_Node000003" title=" " alt="" coords="420,36,404,30,377,28,353,30,337,35,331,41,333,48,328,49,326,39,334,30,352,25,377,23,405,25,422,31"/>
+<area shape="rect" id="Node000004" href="$classinterficie_1_1_vista_crear_avatar.html#a8815061362fcbb6852ed1013c55cf773" title="Mostra un diàleg modal per seleccionar la imatge de perfil de l&#39;usuari." alt="" coords="5,49,228,92"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="272,82,228,82,228,77,272,77"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="243,59,288,59,287,65,243,64"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="540,160,463,168,462,163,540,154"/>
+<area shape="poly" id="edge8_Node000006_Node000006" title=" " alt="" coords="420,140,404,134,377,132,353,134,337,139,331,145,333,152,328,153,326,143,334,134,352,129,377,127,405,129,422,135"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="534,271,470,274,469,269,534,265"/>
+<area shape="poly" id="edge11_Node000008_Node000008" title=" " alt="" coords="420,242,404,236,377,233,353,235,337,240,331,246,333,253,328,255,326,245,334,236,352,230,377,228,405,230,422,237"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="545,390,459,396,458,390,544,384"/>
+<area shape="poly" id="edge16_Node000010_Node000010" title=" " alt="" coords="420,364,404,358,377,356,353,358,337,363,331,369,333,376,328,377,326,367,334,358,352,353,377,351,405,353,422,359"/>
+<area shape="rect" id="Node000011" href="$classinterficie_1_1_vista_menu_joc.html#a357d2c3488fc972b443bb25cf44c8d1b" title="Lògica per eliminar el perfil." alt="" coords="13,377,220,420"/>
+<area shape="poly" id="edge14_Node000010_Node000011" title=" " alt="" coords="281,410,220,410,220,405,281,405"/>
+<area shape="poly" id="edge15_Node000011_Node000010" title=" " alt="" coords="235,387,296,388,296,393,235,392"/>
+<area shape="poly" id="edge18_Node000012_Node000013" title=" " alt="" coords="542,504,462,508,461,503,541,499"/>
+<area shape="poly" id="edge19_Node000013_Node000013" title=" " alt="" coords="420,475,404,469,377,467,353,469,337,473,331,479,333,487,328,488,326,478,334,469,352,463,377,461,405,464,422,470"/>
+<area shape="rect" id="Node000015" href="$classinterficie_1_1_vista_consultar_normes.html#adfd2eba4d3f7f6f2d67a1655b14be2de" title="Constructora." alt="" coords="276,592,479,635"/>
+<area shape="poly" id="edge21_Node000014_Node000015" title=" " alt="" coords="565,625,479,625,479,619,565,619"/>
+<area shape="poly" id="edge22_Node000015_Node000014" title=" " alt="" coords="495,602,580,602,580,608,494,607"/>
+<area shape="poly" id="edge23_Node000015_Node000015" title=" " alt="" coords="420,579,404,573,377,571,353,573,337,577,331,583,333,591,328,592,326,582,334,573,352,567,377,565,405,568,422,574"/>
+<area shape="poly" id="edge26_Node000016_Node000016" title=" " alt="" coords="708,670,691,664,662,661,635,663,618,668,612,674,614,681,609,683,607,673,616,664,634,658,662,656,692,658,710,665"/>
+<area shape="poly" id="edge28_Node000017_Node000017" title=" " alt="" coords="708,760,691,754,662,752,635,754,618,759,612,765,614,772,609,773,607,763,616,754,634,749,662,747,692,749,710,755"/>
+<area shape="poly" id="edge32_Node000018_Node000018" title=" " alt="" coords="708,851,691,845,662,843,635,845,618,849,612,855,614,863,609,864,607,854,616,845,634,839,662,837,692,840,710,846"/>
+<area shape="rect" id="Node000019" href="$classinterficie_1_1_vista_consultar_ranking.html#ac8bcd1db92441badfd8650cd3c54025b" title="Carrega i mostra el rànquing a partir del límit indicat." alt="" coords="293,864,462,907"/>
+<area shape="poly" id="edge30_Node000018_Node000019" title=" " alt="" coords="542,897,462,896,462,891,542,892"/>
+<area shape="poly" id="edge31_Node000019_Node000018" title=" " alt="" coords="477,874,557,874,557,879,477,879"/>
+<area shape="poly" id="edge35_Node000020_Node000020" title=" " alt="" coords="708,942,691,936,662,933,635,935,618,940,612,946,614,953,609,955,607,945,616,936,634,930,662,928,692,930,710,937"/>
+</map>

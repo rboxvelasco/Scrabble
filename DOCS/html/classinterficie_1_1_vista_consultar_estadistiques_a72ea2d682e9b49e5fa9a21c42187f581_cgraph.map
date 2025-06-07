@@ -1,0 +1,34 @@
+<map id="interficie.VistaConsultarEstadistiques.VistaConsultarEstadistiques" name="interficie.VistaConsultarEstadistiques.VistaConsultarEstadistiques">
+<area shape="rect" id="Node000001" title="Constructor principal de la vista." alt="" coords="5,289,275,332"/>
+<area shape="poly" id="edge16_Node000001_Node000001" title=" " alt="" coords="85,289,83,279,92,270,111,265,140,263,172,265,190,271,189,276,170,270,140,268,112,270,95,275,88,281,90,288"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1utils_1_1_tools.html#aad14ef36a2a433a18d49c46a83531892" title="Actualitza la imatge d&#39;un JLabel redimensionant&#45;la per adaptar&#45;se a les mides màximes indicades mante..." alt="" coords="336,189,533,232"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,286,322,241,343,235,344,240,324,247,199,291"/>
+<area shape="rect" id="Node000003" href="$classinterficie_1_1_vista_consultar_estadistiques.html#a1f4f83c8a4fdc86e24ef38f338645fbf" title="Afegeix un listener a la llista per mostrar estadístiques quan es selecciona un avatar." alt="" coords="328,256,541,299"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="275,293,312,289,312,294,276,298"/>
+<area shape="rect" id="Node000014" href="$classinterficie_1_1_vista_consultar_estadistiques.html#a1750040263d1dc3000d715a201aee3b2" title="Carrega els avatars dels jugadors registrats al model de la llista." alt="" coords="336,323,532,365"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="276,323,321,328,320,334,275,329"/>
+<area shape="rect" id="Node000016" href="$classcontroladors_1_1_ctrl_presentacio.html#a66901a833c124fd1acc592cea93f4e6d" title="Torna a la vista anterior a l&#39;actual." alt="" coords="323,389,546,416"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="196,330,323,375,352,383,351,388,322,380,195,335"/>
+<area shape="rect" id="Node000004" href="$classinterficie_1_1_vista_consultar_estadistiques.html#a2d04a42f93b8d16629d5795a935ae87e" title="Mostra les estadístiques d’un avatar seleccionat a l’àrea d’estadístiques." alt="" coords="594,256,821,299"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="541,275,578,275,578,280,541,280"/>
+<area shape="rect" id="Node000005" href="$classdomini_1_1jugadors_1_1_jugador.html#abd263319ed47cf1469e301659e15dd26" title="Retorna el nom del jugador." alt="" coords="869,5,1082,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="715,255,736,210,768,152,812,92,839,65,868,42,876,37,879,41,871,46,842,69,816,96,773,155,740,212,720,257"/>
+<area shape="rect" id="Node000006" href="$classdomini_1_1jugadors_1_1_avatar.html#ae03a80bc5530cb674e348c164d5bce96" title="Obté el nombre de partides abandonades." alt="" coords="887,56,1064,99"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="722,254,781,183,822,143,868,108,877,103,879,108,871,113,825,147,785,186,726,257"/>
+<area shape="rect" id="Node000007" href="$classdomini_1_1jugadors_1_1_avatar.html#a09267d0c45d69d64bb99bdccc476f37f" title="Obté el nombre total de partides guanyades." alt="" coords="887,123,1064,165"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="738,253,797,214,868,175,883,169,885,174,871,180,799,219,741,258"/>
+<area shape="rect" id="Node000008" href="$classdomini_1_1jugadors_1_1_avatar.html#ab4f6aa10583b4cefd2fefcad13ef0a1d" title="Obté el nombre de partides guanyades contra altres jugadors." alt="" coords="881,189,1070,232"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="796,253,872,234,873,239,797,258"/>
+<area shape="rect" id="Node000009" href="$classdomini_1_1jugadors_1_1_avatar.html#aab66b96891906cf55c60e50ff8b8096d" title="Obté el nombre de partides guanyades contra la màquina." alt="" coords="878,256,1073,299"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="822,275,862,275,862,280,822,280"/>
+<area shape="rect" id="Node000010" href="$classdomini_1_1jugadors_1_1_avatar.html#a71b0c5addcb4d9e43dde6f2b21319849" title="Obté el nombre de partides jugades contra altres jugadors." alt="" coords="887,323,1064,365"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="797,297,873,316,872,321,796,302"/>
+<area shape="rect" id="Node000011" href="$classdomini_1_1jugadors_1_1_avatar.html#a9e6ce3724548357bff45d01a82757e98" title="Obté el nombre de partides jugades contra la màquina." alt="" coords="887,389,1064,432"/>
+<area shape="poly" id="edge10_Node000004_Node000011" title=" " alt="" coords="803,297,823,309,839,325,848,343,856,359,871,375,877,379,874,384,868,379,851,362,843,345,835,329,820,313,800,302"/>
+<area shape="rect" id="Node000012" href="$classdomini_1_1jugadors_1_1_avatar.html#a36dd848bbc2c712120c9c53d892cc5fd" title="Obté el nombre total de partides jugades." alt="" coords="887,456,1064,499"/>
+<area shape="poly" id="edge11_Node000004_Node000012" title=" " alt="" coords="808,297,823,309,837,326,844,343,848,377,852,410,858,426,871,442,876,446,873,451,867,446,854,429,847,411,843,377,839,344,832,328,819,313,805,301"/>
+<area shape="rect" id="Node000013" href="$classdomini_1_1jugadors_1_1_avatar.html#a34ab1967919207e6fbee5a4893579dc5" title="Obté la puntuació màxima obtinguda en una paraula." alt="" coords="887,523,1064,565"/>
+<area shape="poly" id="edge12_Node000004_Node000013" title=" " alt="" coords="809,297,823,309,841,334,849,360,850,386,848,411,846,436,847,460,854,484,871,509,877,514,873,518,867,512,850,487,842,461,841,435,843,410,845,385,844,361,837,337,819,312,806,301"/>
+<area shape="rect" id="Node000015" href="$classcontroladors_1_1_ctrl_presentacio.html#a1d233e08aadf10e279ffef4b329ffd8a" title="Retorna el conjunt de jugadors registrats al sistema." alt="" coords="604,323,812,365"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="533,341,588,341,588,347,533,347"/>
+</map>

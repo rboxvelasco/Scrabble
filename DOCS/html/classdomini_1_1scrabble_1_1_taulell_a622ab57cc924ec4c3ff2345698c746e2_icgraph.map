@@ -1,0 +1,9 @@
+<map id="domini.scrabble.Taulell.transpose" name="domini.scrabble.Taulell.transpose">
+<area shape="rect" id="Node000001" title="Retorna la transposició del taulell actual." alt="" coords="525,47,739,73"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_partida.html#a11dd5c5c7252681872e3ba7baf8213a8" title="Comprova si una paraula és vàlida." alt="" coords="258,5,477,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="509,47,477,43,478,38,510,42"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1jugadors_1_1_maquina.html#a8b1f4889bc62ca862e4f87e55c66871e" title="Busca la paraula amb la puntuació més alta donats un taulell i un diccionari." alt="" coords="275,72,460,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="510,78,460,84,460,79,509,73"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_partida.html#ad0f7d5edb502bc4956cfd54612209ea7" title="Col·loca una paraula al taulell." alt="" coords="5,5,210,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="242,29,210,29,210,24,242,24"/>
+</map>

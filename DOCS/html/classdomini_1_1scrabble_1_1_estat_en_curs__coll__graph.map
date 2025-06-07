@@ -1,0 +1,24 @@
+<map id="domini.scrabble.EstatEnCurs" name="domini.scrabble.EstatEnCurs">
+<area shape="rect" id="Node000001" title="Representa l&#39;estat &#39;EnCurs&#39; d&#39;una partida." alt="" coords="5,1397,186,1573"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1scrabble_1_1_estat.html" title="Classe abstracta que defineix el comportament genèric per als diferents estats d&#39;una partida." alt="" coords="27,861,164,1037"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,1052,98,1397,93,1397,93,1052"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1scrabble_1_1_partida.html" title="Classe que representa una partida d&#39;Scrabble." alt="" coords="234,1285,395,1685"/>
+<area shape="poly" id="edge11_Node000003_Node000002" title=" " alt="" coords="92,1037,94,1091,102,1150,120,1208,133,1235,149,1260,160,1269,172,1272,185,1275,200,1283,226,1310,222,1314,197,1287,184,1280,171,1277,157,1274,145,1263,128,1237,115,1210,97,1151,88,1092,86,1037"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="232,1319,187,1231,173,1206,144,1130,120,1054,125,1053,149,1128,178,1204,191,1228,236,1316"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1jugadors_1_1_jugador.html" title="Representa un jugador del joc de Scrabble." alt="" coords="188,693,441,1205"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="317,1205,317,1268,312,1268,312,1205"/>
+<area shape="rect" id="Node000005" href="$classdomini_1_1scrabble_1_1_taulell.html" title="Representa el Taulell d&#39;Scrabble." alt="" coords="464,797,607,1101"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="493,1102,455,1206,405,1318,400,1316,451,1204,488,1100"/>
+<area shape="rect" id="Node000006" href="$classdomini_1_1scrabble_1_1_casella.html" title="Representa una casella del tauler d&#39;Scrabble." alt="" coords="440,283,612,629"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="532,629,535,780,530,781,527,629"/>
+<area shape="rect" id="Node000007" href="$classdomini_1_1auxiliars_1_1_pair.html" title=" " alt="" coords="285,5,413,219"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="406,217,435,273,430,275,401,220"/>
+<area shape="rect" id="Node000008" href="$enumdomini_1_1scrabble_1_1_multiplicador.html" title="Representa els diferents tipus de multiplicadors d&#39;Scrabble." alt="" coords="437,13,616,211"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="529,210,529,266,524,266,524,210"/>
+<area shape="rect" id="Node000009" href="$classdomini_1_1scrabble_1_1_fitxa.html" title="Representa una fitxa d&#39;Scrabble." alt="" coords="640,13,775,211"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="659,211,623,279,618,276,654,209"/>
+<area shape="rect" id="Node000010" href="$classdomini_1_1scrabble_1_1_bossa.html" title="Representa la bossa de fitxes d&#39;Scrabble." alt="" coords="647,829,790,1069"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="688,1070,659,1140,622,1207,574,1268,519,1325,463,1376,410,1419,406,1415,460,1372,515,1322,570,1265,617,1204,655,1138,683,1068"/>
+<area shape="rect" id="Node000011" href="$classdomini_1_1auxiliars_1_1_fast_delete_list.html" title=" " alt="" coords="636,285,816,627"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="726,627,723,813,718,813,721,626"/>
+</map>

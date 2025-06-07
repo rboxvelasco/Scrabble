@@ -1,0 +1,50 @@
+<map id="interficie.VistaMenuJoc.VistaMenuJoc" name="interficie.VistaMenuJoc.VistaMenuJoc">
+<area shape="rect" id="Node000001" title="Constructor de la classe VistaMenuJoc." alt="" coords="5,460,167,503"/>
+<area shape="poly" id="edge25_Node000001_Node000001" title=" " alt="" coords="39,460,37,450,45,441,61,435,86,433,113,436,129,442,127,447,111,441,86,439,62,441,48,446,42,451,44,459"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1utils_1_1_tools.html#aad14ef36a2a433a18d49c46a83531892" title="Actualitza la imatge d&#39;un JLabel redimensionant&#45;la per adaptar&#45;se a les mides màximes indicades mante..." alt="" coords="530,248,727,291"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,459,102,368,128,242,146,179,165,122,188,76,213,46,245,25,275,12,304,4,333,3,362,7,392,16,459,46,488,63,514,84,558,135,592,187,615,233,610,235,587,190,554,138,510,88,485,67,457,51,390,21,361,13,332,9,305,10,276,17,247,30,216,50,192,79,170,124,151,180,134,243,108,369,93,460"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_presentacio.html#a6d07d9d8fd5d53a00f29b8c4ad566d89" title="Canvia la vista actual a VistaConsultarAvatars." alt="" coords="220,60,452,103"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="86,459,92,392,112,299,128,249,150,199,178,153,213,113,216,110,220,114,217,117,182,156,154,202,133,251,117,300,98,393,91,460"/>
+<area shape="rect" id="Node000004" href="$classcontroladors_1_1_ctrl_presentacio.html#ab855dc2f3b4843c43788473f2a300036" title="Canvia la vista actual a VistaConsultarEstadistiques." alt="" coords="220,127,452,169"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="87,459,98,403,120,328,137,287,157,248,183,211,213,180,217,176,220,180,216,183,187,215,162,251,141,290,125,329,103,404,93,460"/>
+<area shape="rect" id="Node000005" href="$classcontroladors_1_1_ctrl_presentacio.html#ae7604c8efc594b900e294b7ef853be0d" title="Canvia la vista actual a VistaConsultarRanking." alt="" coords="220,193,452,236"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="90,459,105,414,130,357,165,297,187,270,213,246,218,243,221,247,216,250,191,273,169,300,134,359,110,416,95,461"/>
+<area shape="rect" id="Node000006" href="$classcontroladors_1_1_ctrl_presentacio.html#a3458c7f14b142196b4ca4798da2ad9a1" title="Canvia la vista actual a VistaCrearAvatar." alt="" coords="220,260,452,303"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="95,459,114,426,140,387,173,347,213,313,221,308,224,312,216,317,177,350,144,390,118,429,100,461"/>
+<area shape="rect" id="Node000007" href="$classcontroladors_1_1_ctrl_presentacio.html#a57b6291aedc4d8df64f92df233c069fc" title="Canvia la vista actual a VistaCrearPartida." alt="" coords="220,327,452,369"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="108,458,154,418,213,379,226,373,229,378,216,384,157,422,111,462"/>
+<area shape="rect" id="Node000008" href="$classinterficie_1_1_vista_menu_joc.html#a75c64319a0877bfe1ea26fc51ac6f5c2" title="Configura el MouseListener per canviar colors al passar el ratolí." alt="" coords="227,393,446,436"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="166,457,238,438,239,443,168,463"/>
+<area shape="rect" id="Node000009" href="$classcontroladors_1_1_ctrl_presentacio.html#a59bc024fc88c820d5e40a44298c5c0e9" title="Mostra la vista de consulta de normes del joc." alt="" coords="215,460,458,503"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="167,479,199,479,199,484,167,484"/>
+<area shape="rect" id="Node000010" href="$classinterficie_1_1_vista_menu_joc.html#ac6f71c255275e13e9bad8d406c5600c3" title="Lògica per eliminar un avatar." alt="" coords="233,593,440,636"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="111,501,157,541,216,579,229,585,226,590,213,584,154,545,108,505"/>
+<area shape="rect" id="Node000012" href="$classinterficie_1_1_vista_menu_joc.html#a357d2c3488fc972b443bb25cf44c8d1b" title="Lògica per eliminar el perfil." alt="" coords="233,660,440,703"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="97,502,114,537,140,579,175,622,216,658,221,661,218,666,213,662,171,626,136,582,109,539,92,504"/>
+<area shape="rect" id="Node000014" href="$classinterficie_1_1_vista_menu_joc.html#ab3bcca3e7fed0b4d01a642012ff7ac8f" title="Escala tots els components gràfics en funció de la mida de la finestra." alt="" coords="235,527,438,569"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="168,500,239,520,238,525,166,506"/>
+<area shape="rect" id="Node000015" href="$classinterficie_1_1_vista_menu_joc.html#af4bea9351119f9746e8dc96671f7bff8" title="Lògica per reprendre una partida." alt="" coords="229,727,444,769"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="95,502,110,547,134,604,169,663,191,689,216,713,221,716,218,720,213,717,187,693,165,666,130,606,105,549,90,504"/>
+<area shape="rect" id="Node000021" href="$classcontroladors_1_1_ctrl_presentacio.html#a633464b50c83730927c14ed2356bb43c" title="Tanca la sessió de l&#39;usuari, allibera els recursos gràfics i finalitza l&#39;execució de l&#39;aplicació." alt="" coords="227,793,446,820"/>
+<area shape="poly" id="edge22_Node000001_Node000021" title=" " alt="" coords="92,503,102,559,124,635,140,675,161,713,186,749,216,779,221,783,218,787,213,783,182,752,156,716,135,677,119,636,97,560,87,504"/>
+<area shape="rect" id="Node000022" href="$classinterficie_1_1_vista_menu_joc.html#a62e98338bf23c9ce19e3c7ec87f3cca8" title="Lògica per tancar la sessió." alt="" coords="238,852,435,895"/>
+<area shape="poly" id="edge23_Node000001_Node000022" title=" " alt="" coords="92,503,100,567,120,654,136,702,158,748,184,792,217,830,231,842,228,846,213,834,180,795,153,751,132,704,115,656,95,568,86,504"/>
+<area shape="rect" id="Node000011" href="$classcontroladors_1_1_ctrl_presentacio.html#aad294011837fffb35248b3d654be5102" title="Elimina un avatar del sistema." alt="" coords="510,560,746,603"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="440,600,495,594,496,599,440,606"/>
+<area shape="poly" id="edge13_Node000012_Node000001" title=" " alt="" coords="267,662,239,652,213,638,180,611,151,579,108,518,112,515,155,576,184,607,216,634,241,647,269,657"/>
+<area shape="rect" id="Node000013" href="$classcontroladors_1_1_ctrl_presentacio.html#a6635d740d6fc762d245068684ba1f6bf" title="Elimina el perfil de l&#39;usuari actiu." alt="" coords="510,627,746,669"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="440,667,495,661,496,666,440,672"/>
+<area shape="poly" id="edge15_Node000014_Node000002" title=" " alt="" coords="437,524,456,513,484,490,509,465,553,408,586,352,610,304,614,306,591,354,557,411,513,468,487,494,460,517,439,529"/>
+<area shape="rect" id="Node000016" href="$classinterficie_1_1_selector_partida.html#abe61b878316263ec68854ac732c19187" title="Retorna l&#39;identificador de la partida seleccionada per reprendre." alt="" coords="536,693,721,736"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="444,733,520,724,520,730,445,738"/>
+<area shape="rect" id="Node000017" href="$classcontroladors_1_1_ctrl_presentacio.html#a7d80b96fb70eecd976aa1b1ba530d7a7" title="Retorna el nom de l&#39;usuari que té la sessió iniciada." alt="" coords="524,760,732,803"/>
+<area shape="poly" id="edge18_Node000015_Node000017" title=" " alt="" coords="445,758,509,765,509,771,444,763"/>
+<area shape="rect" id="Node000018" href="$classcontroladors_1_1_ctrl_presentacio.html#ad0c6a8a429d767f53f2e0fa4c6f8a5dc" title="Reprèn una partida existent identificada pel seu ID." alt="" coords="506,827,750,869"/>
+<area shape="poly" id="edge19_Node000015_Node000018" title=" " alt="" coords="431,768,459,779,484,796,507,812,522,819,519,823,505,817,480,800,457,784,429,773"/>
+<area shape="rect" id="Node000019" href="$classdomini_1_1scrabble_1_1_partida.html#a74ab1a1330297b7e2a8c16121db79faa" title="Retorna l&#39;idioma de la partida." alt="" coords="813,793,992,836"/>
+<area shape="poly" id="edge20_Node000018_Node000019" title=" " alt="" coords="750,831,797,825,798,830,751,836"/>
+<area shape="rect" id="Node000020" href="$classcontroladors_1_1_ctrl_presentacio.html#af18fe9d82387504c97bd73a19eaa15e8" title="Retorna la instància de la partida actual en curs." alt="" coords="798,860,1007,903"/>
+<area shape="poly" id="edge21_Node000018_Node000020" title=" " alt="" coords="751,860,783,864,782,870,750,866"/>
+<area shape="rect" id="Node000023" href="$classcontroladors_1_1_ctrl_presentacio.html#aa71bca5e297b5775bf22b0e9a0d00ced" title="Tanca la sessió de l&#39;usuari actual i retorna a la vista principal." alt="" coords="515,893,741,936"/>
+<area shape="poly" id="edge24_Node000022_Node000023" title=" " alt="" coords="436,885,500,894,499,899,435,890"/>
+</map>

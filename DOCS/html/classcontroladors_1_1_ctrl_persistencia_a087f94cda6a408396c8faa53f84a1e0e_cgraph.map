@@ -1,0 +1,5 @@
+<map id="controladors.CtrlPersistencia.guardarJugador" name="controladors.CtrlPersistencia.guardarJugador">
+<area shape="rect" id="Node000001" title="Desa un jugador a l&#39;emmagatzematge persistent." alt="" coords="5,5,242,48"/>
+<area shape="rect" id="Node000002" href="$classpersistencia_1_1_jugador_i_o.html#aeb13d0e82937696c7c053612278c6ee9" title="Desa un jugador a un fitxer JSON." alt="" coords="290,5,477,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,24,274,24,274,29,242,29"/>
+</map>

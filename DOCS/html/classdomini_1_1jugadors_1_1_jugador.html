@@ -1,0 +1,867 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ca">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Scrabble PROP: Referència de la Classe domini.jugadors.Jugador</title>
+<link rel="icon" href="icon2.png" type="image/x-icon" />
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Scrabble PROP
+   </div>
+   <div id="projectbrief">Subgrup 43.2: Raül Box, Aina Serra, Ada Peña &amp; Martina Cusidó</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat per Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classdomini_1_1jugadors_1_1_jugador.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregant...</div>
+<div class="SRStatus" id="Searching">Cercant...</div>
+<div class="SRStatus" id="NoMatches">Cap coincidència</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Mètodes públics</a> &#124;
+<a href="#pro-attribs">Atributs Protegits</a> &#124;
+<a href="#pro-static-attribs">Atributs Protegits Estàtics</a> &#124;
+<a href="#pri-attribs">Atributs Privats</a> &#124;
+<a href="classdomini_1_1jugadors_1_1_jugador-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle"><div class="title">Referència de la Classe domini.jugadors.Jugador<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Representa un jugador del joc de Scrabble.  
+ <a href="#details">Més...</a></p>
+<div class="dynheader">
+Diagrama d'Herència per a domini.jugadors.Jugador:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_jugador__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Diagrama de col·laboració per a domini.jugadors.Jugador:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_jugador__coll__graph.svg" width="264" height="523"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Mètodes públics</h2></td></tr>
+<tr class="memitem:a1ec0271ac5579f7ac9e804e56e5f10ce" id="r_a1ec0271ac5579f7ac9e804e56e5f10ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ec0271ac5579f7ac9e804e56e5f10ce">Jugador</a> (int <a class="el" href="#a1ac2dfbfd1d80eda33da3be88e0e7345">idJugador</a>, String <a class="el" href="#af1a4daa770f5af01589e00246bd9f21b">nom</a>, String <a class="el" href="#a2510ac45c30b46cbbe7107ec764494be">rutaImatge</a>)</td></tr>
+<tr class="memdesc:a1ec0271ac5579f7ac9e804e56e5f10ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor de la classe <a class="el" href="classdomini_1_1jugadors_1_1_jugador.html" title="Representa un jugador del joc de Scrabble.">Jugador</a>.  <br /></td></tr>
+<tr class="separator:a1ec0271ac5579f7ac9e804e56e5f10ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa999de0f50bb1671ac42dbe31388b01" id="r_afa999de0f50bb1671ac42dbe31388b01"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa999de0f50bb1671ac42dbe31388b01">getIdJugador</a> ()</td></tr>
+<tr class="memdesc:afa999de0f50bb1671ac42dbe31388b01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna l'identificador del jugador.  <br /></td></tr>
+<tr class="separator:afa999de0f50bb1671ac42dbe31388b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac629842bca37a6a17c8dbd5eb597e2e1" id="r_ac629842bca37a6a17c8dbd5eb597e2e1"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac629842bca37a6a17c8dbd5eb597e2e1">getrutaImatge</a> ()</td></tr>
+<tr class="memdesc:ac629842bca37a6a17c8dbd5eb597e2e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obté a ruta a la imatge de l'avatar.  <br /></td></tr>
+<tr class="separator:ac629842bca37a6a17c8dbd5eb597e2e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd263319ed47cf1469e301659e15dd26" id="r_abd263319ed47cf1469e301659e15dd26"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd263319ed47cf1469e301659e15dd26">getNom</a> ()</td></tr>
+<tr class="memdesc:abd263319ed47cf1469e301659e15dd26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna el nom del jugador.  <br /></td></tr>
+<tr class="separator:abd263319ed47cf1469e301659e15dd26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf9520ec234c3f2cc52e1b79b85a008e" id="r_acf9520ec234c3f2cc52e1b79b85a008e"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf9520ec234c3f2cc52e1b79b85a008e">getFitxes_actuals</a> ()</td></tr>
+<tr class="memdesc:acf9520ec234c3f2cc52e1b79b85a008e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna la llista amb les fitxes actuals del jugador.  <br /></td></tr>
+<tr class="separator:acf9520ec234c3f2cc52e1b79b85a008e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae879e7f0bd87dc8b6e7cec537c00ac8f" id="r_ae879e7f0bd87dc8b6e7cec537c00ac8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae879e7f0bd87dc8b6e7cec537c00ac8f">setFitxesActuals</a> (List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt; novesFitxes)</td></tr>
+<tr class="memdesc:ae879e7f0bd87dc8b6e7cec537c00ac8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigna una nova llista de fitxes al jugador.  <br /></td></tr>
+<tr class="separator:ae879e7f0bd87dc8b6e7cec537c00ac8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d77b2edccb47f99c509aff293a92ab9" id="r_a6d77b2edccb47f99c509aff293a92ab9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d77b2edccb47f99c509aff293a92ab9">buidarFitxesJugador</a> ()</td></tr>
+<tr class="memdesc:a6d77b2edccb47f99c509aff293a92ab9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Buida totes les fitxes del jugador.  <br /></td></tr>
+<tr class="separator:a6d77b2edccb47f99c509aff293a92ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5b78b5a60aa1845f6665113225281da" id="r_af5b78b5a60aa1845f6665113225281da"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5b78b5a60aa1845f6665113225281da">getPuntuacio_actual</a> ()</td></tr>
+<tr class="memdesc:af5b78b5a60aa1845f6665113225281da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna la puntuació actual del jugador.  <br /></td></tr>
+<tr class="separator:af5b78b5a60aa1845f6665113225281da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac035aeae1fdd82b932fe2c717ae9b3d5" id="r_ac035aeae1fdd82b932fe2c717ae9b3d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac035aeae1fdd82b932fe2c717ae9b3d5">incrementar_puntuacio_actual</a> (int punts)</td></tr>
+<tr class="memdesc:ac035aeae1fdd82b932fe2c717ae9b3d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Afegeix punts a la puntuació actual del jugador.  <br /></td></tr>
+<tr class="separator:ac035aeae1fdd82b932fe2c717ae9b3d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28fa4b7dcf1f5eabdc608591e61509ae" id="r_a28fa4b7dcf1f5eabdc608591e61509ae"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28fa4b7dcf1f5eabdc608591e61509ae">afegirFitxa</a> (<a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> fitxa)</td></tr>
+<tr class="memdesc:a28fa4b7dcf1f5eabdc608591e61509ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">El jugador afegeix una fitxa a la seva llista de fitxes.  <br /></td></tr>
+<tr class="separator:a28fa4b7dcf1f5eabdc608591e61509ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a958cd1f187802e5dcd496be3d60f5c30" id="r_a958cd1f187802e5dcd496be3d60f5c30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a958cd1f187802e5dcd496be3d60f5c30">eliminarFitxa</a> (String lletra)</td></tr>
+<tr class="memdesc:a958cd1f187802e5dcd496be3d60f5c30"><td class="mdescLeft">&#160;</td><td class="mdescRight">El jugador elimina una fitxa de la seva llista de fitxes.  <br /></td></tr>
+<tr class="separator:a958cd1f187802e5dcd496be3d60f5c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cc164a802db847d182dad2e8d799bbd" id="r_a7cc164a802db847d182dad2e8d799bbd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cc164a802db847d182dad2e8d799bbd">incrementarTornsPassatsConsecutius</a> ()</td></tr>
+<tr class="memdesc:a7cc164a802db847d182dad2e8d799bbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Incrementa el comptador de torns passats consecutius.  <br /></td></tr>
+<tr class="separator:a7cc164a802db847d182dad2e8d799bbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65f71c37c6890c64cc63ebf0a4d7e185" id="r_a65f71c37c6890c64cc63ebf0a4d7e185"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65f71c37c6890c64cc63ebf0a4d7e185">reiniciarTornsPassatsConsecutius</a> ()</td></tr>
+<tr class="memdesc:a65f71c37c6890c64cc63ebf0a4d7e185"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reinicia el comptador de torns passats consecutius.  <br /></td></tr>
+<tr class="separator:a65f71c37c6890c64cc63ebf0a4d7e185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51e1ffeca2792578428eb24b63b35dba" id="r_a51e1ffeca2792578428eb24b63b35dba"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51e1ffeca2792578428eb24b63b35dba">getTornsPassatsConsecutius</a> ()</td></tr>
+<tr class="memdesc:a51e1ffeca2792578428eb24b63b35dba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna el nombre de torns passats consecutius.  <br /></td></tr>
+<tr class="separator:a51e1ffeca2792578428eb24b63b35dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Atributs Protegits</h2></td></tr>
+<tr class="memitem:a1ac2dfbfd1d80eda33da3be88e0e7345" id="r_a1ac2dfbfd1d80eda33da3be88e0e7345"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ac2dfbfd1d80eda33da3be88e0e7345">idJugador</a></td></tr>
+<tr class="separator:a1ac2dfbfd1d80eda33da3be88e0e7345"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a4daa770f5af01589e00246bd9f21b" id="r_af1a4daa770f5af01589e00246bd9f21b"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1a4daa770f5af01589e00246bd9f21b">nom</a></td></tr>
+<tr class="separator:af1a4daa770f5af01589e00246bd9f21b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0c00ca939055cad513503f53742c849" id="r_aa0c00ca939055cad513503f53742c849"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0c00ca939055cad513503f53742c849">puntuacio_actual</a></td></tr>
+<tr class="separator:aa0c00ca939055cad513503f53742c849"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f9b1adee1015980de342b32b12fa277" id="r_a8f9b1adee1015980de342b32b12fa277"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f9b1adee1015980de342b32b12fa277">fitxes_actuals</a></td></tr>
+<tr class="separator:a8f9b1adee1015980de342b32b12fa277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ad8d549375fd3095bf24e0fc02d7d9c" id="r_a8ad8d549375fd3095bf24e0fc02d7d9c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ad8d549375fd3095bf24e0fc02d7d9c">tornsPassatsConsecutius</a></td></tr>
+<tr class="separator:a8ad8d549375fd3095bf24e0fc02d7d9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
+Atributs Protegits Estàtics</h2></td></tr>
+<tr class="memitem:ab4a620e35c73ec500f8e63987ee66775" id="r_ab4a620e35c73ec500f8e63987ee66775"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4a620e35c73ec500f8e63987ee66775">MAX_FITXES</a> = 7</td></tr>
+<tr class="separator:ab4a620e35c73ec500f8e63987ee66775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atributs Privats</h2></td></tr>
+<tr class="memitem:a93cb8964afb91a0b5d3a738675ca097a" id="r_a93cb8964afb91a0b5d3a738675ca097a"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93cb8964afb91a0b5d3a738675ca097a">tipus</a></td></tr>
+<tr class="separator:a93cb8964afb91a0b5d3a738675ca097a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2510ac45c30b46cbbe7107ec764494be" id="r_a2510ac45c30b46cbbe7107ec764494be"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2510ac45c30b46cbbe7107ec764494be">rutaImatge</a></td></tr>
+<tr class="separator:a2510ac45c30b46cbbe7107ec764494be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
+<div class="textblock"><p>Representa un jugador del joc de Scrabble. </p>
+<p>Cada jugador té un identificador, un nom, una puntuació i unes fitxes. També es gestionen els torns passats consecutius, els torns invàlids consecutius i la contrasenya associada al jugador. </p>
+</div><h2 class="groupheader">Documentació del Constructor i el Destructor</h2>
+<a id="a1ec0271ac5579f7ac9e804e56e5f10ce" name="a1ec0271ac5579f7ac9e804e56e5f10ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ec0271ac5579f7ac9e804e56e5f10ce">&#9670;&#160;</a></span>Jugador()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">domini.jugadors.Jugador.Jugador </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>idJugador</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>nom</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>rutaImatge</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor de la classe <a class="el" href="classdomini_1_1jugadors_1_1_jugador.html" title="Representa un jugador del joc de Scrabble.">Jugador</a>. </p>
+<p>Inicialitza un jugador amb un identificador, un nom i una contrasenya.</p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idJugador</td><td>L'identificador del jugador. </td></tr>
+    <tr><td class="paramname">nom</td><td>El nom del jugador. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="a28fa4b7dcf1f5eabdc608591e61509ae" name="a28fa4b7dcf1f5eabdc608591e61509ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28fa4b7dcf1f5eabdc608591e61509ae">&#9670;&#160;</a></span>afegirFitxa()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean domini.jugadors.Jugador.afegirFitxa </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a></td>          <td class="paramname"><span class="paramname"><em>fitxa</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>El jugador afegeix una fitxa a la seva llista de fitxes. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fitxa</td><td>És la nova fitxa que afegeix </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_jugador_a28fa4b7dcf1f5eabdc608591e61509ae_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a6d77b2edccb47f99c509aff293a92ab9" name="a6d77b2edccb47f99c509aff293a92ab9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d77b2edccb47f99c509aff293a92ab9">&#9670;&#160;</a></span>buidarFitxesJugador()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void domini.jugadors.Jugador.buidarFitxesJugador </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Buida totes les fitxes del jugador. </p>
+
+</div>
+</div>
+<a id="a958cd1f187802e5dcd496be3d60f5c30" name="a958cd1f187802e5dcd496be3d60f5c30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a958cd1f187802e5dcd496be3d60f5c30">&#9670;&#160;</a></span>eliminarFitxa()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> domini.jugadors.Jugador.eliminarFitxa </td>
+          <td>(</td>
+          <td class="paramtype">String</td>          <td class="paramname"><span class="paramname"><em>lletra</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>El jugador elimina una fitxa de la seva llista de fitxes. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lletra</td><td>És la fitxa que elimina </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_jugador_a958cd1f187802e5dcd496be3d60f5c30_icgraph.svg" width="100%" height="390"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="acf9520ec234c3f2cc52e1b79b85a008e" name="acf9520ec234c3f2cc52e1b79b85a008e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf9520ec234c3f2cc52e1b79b85a008e">&#9670;&#160;</a></span>getFitxes_actuals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt; domini.jugadors.Jugador.getFitxes_actuals </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retorna la llista amb les fitxes actuals del jugador. </p>
+<dl class="section return"><dt>Retorna</dt><dd>Torna les fitxes del jugador </dd></dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_jugador_acf9520ec234c3f2cc52e1b79b85a008e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="afa999de0f50bb1671ac42dbe31388b01" name="afa999de0f50bb1671ac42dbe31388b01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa999de0f50bb1671ac42dbe31388b01">&#9670;&#160;</a></span>getIdJugador()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int domini.jugadors.Jugador.getIdJugador </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retorna l'identificador del jugador. </p>
+<dl class="section return"><dt>Retorna</dt><dd>Torna l'identificador del jugador </dd></dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_jugador_afa999de0f50bb1671ac42dbe31388b01_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="abd263319ed47cf1469e301659e15dd26" name="abd263319ed47cf1469e301659e15dd26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd263319ed47cf1469e301659e15dd26">&#9670;&#160;</a></span>getNom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String domini.jugadors.Jugador.getNom </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retorna el nom del jugador. </p>
+<dl class="section return"><dt>Retorna</dt><dd>Torna el nom del jugador </dd></dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_jugador_abd263319ed47cf1469e301659e15dd26_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="af5b78b5a60aa1845f6665113225281da" name="af5b78b5a60aa1845f6665113225281da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5b78b5a60aa1845f6665113225281da">&#9670;&#160;</a></span>getPuntuacio_actual()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int domini.jugadors.Jugador.getPuntuacio_actual </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retorna la puntuació actual del jugador. </p>
+<dl class="section return"><dt>Retorna</dt><dd>Torna la puntuació del jugador </dd></dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_jugador_af5b78b5a60aa1845f6665113225281da_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ac629842bca37a6a17c8dbd5eb597e2e1" name="ac629842bca37a6a17c8dbd5eb597e2e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac629842bca37a6a17c8dbd5eb597e2e1">&#9670;&#160;</a></span>getrutaImatge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String domini.jugadors.Jugador.getrutaImatge </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Obté a ruta a la imatge de l'avatar. </p>
+<dl class="section return"><dt>Retorna</dt><dd>La ruta a la imatge de l'avatar. </dd></dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_jugador_ac629842bca37a6a17c8dbd5eb597e2e1_icgraph.svg" width="100%" height="560"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a51e1ffeca2792578428eb24b63b35dba" name="a51e1ffeca2792578428eb24b63b35dba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51e1ffeca2792578428eb24b63b35dba">&#9670;&#160;</a></span>getTornsPassatsConsecutius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int domini.jugadors.Jugador.getTornsPassatsConsecutius </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retorna el nombre de torns passats consecutius. </p>
+<dl class="section return"><dt>Retorna</dt><dd>El nombre de torns passats consecutius. </dd></dl>
+
+</div>
+</div>
+<a id="ac035aeae1fdd82b932fe2c717ae9b3d5" name="ac035aeae1fdd82b932fe2c717ae9b3d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac035aeae1fdd82b932fe2c717ae9b3d5">&#9670;&#160;</a></span>incrementar_puntuacio_actual()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void domini.jugadors.Jugador.incrementar_puntuacio_actual </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>punts</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Afegeix punts a la puntuació actual del jugador. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">punts</td><td>Els punts a afegir. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_jugador_ac035aeae1fdd82b932fe2c717ae9b3d5_icgraph.svg" width="100%" height="390"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a7cc164a802db847d182dad2e8d799bbd" name="a7cc164a802db847d182dad2e8d799bbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cc164a802db847d182dad2e8d799bbd">&#9670;&#160;</a></span>incrementarTornsPassatsConsecutius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void domini.jugadors.Jugador.incrementarTornsPassatsConsecutius </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Incrementa el comptador de torns passats consecutius. </p>
+
+</div>
+</div>
+<a id="a65f71c37c6890c64cc63ebf0a4d7e185" name="a65f71c37c6890c64cc63ebf0a4d7e185"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65f71c37c6890c64cc63ebf0a4d7e185">&#9670;&#160;</a></span>reiniciarTornsPassatsConsecutius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void domini.jugadors.Jugador.reiniciarTornsPassatsConsecutius </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reinicia el comptador de torns passats consecutius. </p>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classdomini_1_1jugadors_1_1_jugador_a65f71c37c6890c64cc63ebf0a4d7e185_icgraph.svg" width="100%" height="390"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ae879e7f0bd87dc8b6e7cec537c00ac8f" name="ae879e7f0bd87dc8b6e7cec537c00ac8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae879e7f0bd87dc8b6e7cec537c00ac8f">&#9670;&#160;</a></span>setFitxesActuals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void domini.jugadors.Jugador.setFitxesActuals </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>novesFitxes</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assigna una nova llista de fitxes al jugador. </p>
+<dl class="params"><dt>Paràmetres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">novesFitxes</td><td>La nova llista de fitxes. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Documentació de les Dades Membre</h2>
+<a id="a8f9b1adee1015980de342b32b12fa277" name="a8f9b1adee1015980de342b32b12fa277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f9b1adee1015980de342b32b12fa277">&#9670;&#160;</a></span>fitxes_actuals</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="classdomini_1_1scrabble_1_1_fitxa.html">Fitxa</a>&gt; domini.jugadors.Jugador.fitxes_actuals</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ac2dfbfd1d80eda33da3be88e0e7345" name="a1ac2dfbfd1d80eda33da3be88e0e7345"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ac2dfbfd1d80eda33da3be88e0e7345">&#9670;&#160;</a></span>idJugador</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int domini.jugadors.Jugador.idJugador</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4a620e35c73ec500f8e63987ee66775" name="ab4a620e35c73ec500f8e63987ee66775"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4a620e35c73ec500f8e63987ee66775">&#9670;&#160;</a></span>MAX_FITXES</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int domini.jugadors.Jugador.MAX_FITXES = 7</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1a4daa770f5af01589e00246bd9f21b" name="af1a4daa770f5af01589e00246bd9f21b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1a4daa770f5af01589e00246bd9f21b">&#9670;&#160;</a></span>nom</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String domini.jugadors.Jugador.nom</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa0c00ca939055cad513503f53742c849" name="aa0c00ca939055cad513503f53742c849"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0c00ca939055cad513503f53742c849">&#9670;&#160;</a></span>puntuacio_actual</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int domini.jugadors.Jugador.puntuacio_actual</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2510ac45c30b46cbbe7107ec764494be" name="a2510ac45c30b46cbbe7107ec764494be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2510ac45c30b46cbbe7107ec764494be">&#9670;&#160;</a></span>rutaImatge</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String domini.jugadors.Jugador.rutaImatge</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a93cb8964afb91a0b5d3a738675ca097a" name="a93cb8964afb91a0b5d3a738675ca097a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93cb8964afb91a0b5d3a738675ca097a">&#9670;&#160;</a></span>tipus</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String domini.jugadors.Jugador.tipus</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8ad8d549375fd3095bf24e0fc02d7d9c" name="a8ad8d549375fd3095bf24e0fc02d7d9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ad8d549375fd3095bf24e0fc02d7d9c">&#9670;&#160;</a></span>tornsPassatsConsecutius</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int domini.jugadors.Jugador.tornsPassatsConsecutius</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentació d'aquesta classe es va generar a partir del següent fitxer:<ul>
+<li>FONTS/domini/jugadors/<a class="el" href="_jugador_8java.html">Jugador.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>domini</b></li><li class="navelem"><a class="el" href="namespacedomini_1_1jugadors.html">jugadors</a></li><li class="navelem"><a class="el" href="classdomini_1_1jugadors_1_1_jugador.html">Jugador</a></li>
+    <li class="footer">Generat per <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+  </ul>
+</div>
+</body>
+</html>

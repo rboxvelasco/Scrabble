@@ -1,0 +1,5 @@
+<map id="domini.jugadors.Avatar" name="domini.jugadors.Avatar">
+<area shape="rect" id="Node000001" title="Representa un jugador del tipus Avatar." alt="" coords="37,565,226,1115"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1jugadors_1_1_jugador.html" title="Representa un jugador del joc de Scrabble." alt="" coords="5,5,258,517"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,532,134,566,129,566,129,532"/>
+</map>

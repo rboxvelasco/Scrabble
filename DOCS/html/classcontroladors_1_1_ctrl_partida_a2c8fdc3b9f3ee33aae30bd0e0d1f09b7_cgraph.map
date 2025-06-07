@@ -1,0 +1,11 @@
+<map id="controladors.CtrlPartida.passarTorn" name="controladors.CtrlPartida.passarTorn">
+<area shape="rect" id="Node000001" title="Passa el torn al següent jugador." alt="" coords="5,80,232,107"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_partida.html#a98e85139630d752ac3e94d8a540aba0c" title="Finalitza la partida si s&#39;han passat torns consecutius sense acció." alt="" coords="280,72,491,115"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,91,264,91,264,96,232,96"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1jugadors_1_1_avatar.html#a44e5e6a2ee9245697351fe390849b810" title="Incrementa el nombre total de partides guanyades." alt="" coords="539,5,765,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="473,69,548,50,550,55,474,74"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1jugadors_1_1_avatar.html#a750332bc2deadb604d43d1a0936a09d2" title="Incrementa el nombre de partides guanyades contra altres jugadors." alt="" coords="539,72,765,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="491,91,523,91,523,96,491,96"/>
+<area shape="rect" id="Node000005" href="$classdomini_1_1jugadors_1_1_avatar.html#aae510bc2635d40405e60a218b1b7c097" title="Incrementa el nombre de partides guanyades contra la màquina." alt="" coords="539,139,765,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="474,113,550,132,548,137,473,118"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="domini.scrabble.Taulell.getAnchors" name="domini.scrabble.Taulell.getAnchors">
+<area shape="rect" id="Node000001" title="Retorna un Set amb les coordenades de les caselles que son anchors." alt="" coords="494,5,669,48"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1jugadors_1_1_maquina.html#afe864f5cb4ab5895e149c5aad0235400" title="Busca la millor paraula en una direcció específica (horitzontal o vertical)." alt="" coords="238,5,446,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="478,29,447,29,447,24,478,24"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1jugadors_1_1_maquina.html#a8b1f4889bc62ca862e4f87e55c66871e" title="Busca la paraula amb la puntuació més alta donats un taulell i un diccionari." alt="" coords="5,5,190,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="222,29,190,29,190,24,222,24"/>
+</map>

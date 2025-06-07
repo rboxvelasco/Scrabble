@@ -1,0 +1,5 @@
+<map id="domini.scrabble.Partida.calcularPuntuacionsFitxes" name="domini.scrabble.Partida.calcularPuntuacionsFitxes">
+<area shape="rect" id="Node000001" title="Calcula la puntuació total de les fitxes restants d&#39;un jugador." alt="" coords="5,5,212,48"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1jugadors_1_1_jugador.html#acf9520ec234c3f2cc52e1b79b85a008e" title="Retorna la llista amb les fitxes actuals del jugador." alt="" coords="260,5,444,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,24,244,24,244,29,212,29"/>
+</map>

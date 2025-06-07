@@ -1,0 +1,5 @@
+<map id="controladors.CtrlPersistencia.guardarPartida" name="controladors.CtrlPersistencia.guardarPartida">
+<area shape="rect" id="Node000001" title="Desa una partida a l&#39;emmagatzematge persistent." alt="" coords="5,5,242,48"/>
+<area shape="rect" id="Node000002" href="$classpersistencia_1_1_partida_i_o.html#a67252911821e967acb539aa350b4f488" title="Desa una partida a un fitxer JSON." alt="" coords="290,5,472,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,24,274,24,274,29,242,29"/>
+</map>

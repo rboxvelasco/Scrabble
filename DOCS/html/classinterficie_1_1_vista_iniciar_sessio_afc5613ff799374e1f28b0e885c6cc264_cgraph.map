@@ -1,0 +1,17 @@
+<map id="interficie.VistaIniciarSessio.VistaIniciarSessio" name="interficie.VistaIniciarSessio.VistaIniciarSessio">
+<area shape="rect" id="Node000001" title="Constructor que crea la vista d&#39;iniciar sessió." alt="" coords="5,138,189,181"/>
+<area shape="poly" id="edge8_Node000001_Node000001" title=" " alt="" coords="49,138,47,128,55,119,72,114,97,112,124,114,141,120,139,125,123,119,97,117,73,119,58,124,52,130,54,137"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1utils_1_1_tools.html#aad14ef36a2a433a18d49c46a83531892" title="Actualitza la imatge d&#39;un JLabel redimensionant&#45;la per adaptar&#45;se a les mides màximes indicades mante..." alt="" coords="517,42,714,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,136,131,108,160,77,195,47,236,24,275,11,316,5,357,3,398,5,476,17,543,34,542,40,475,22,398,10,357,8,316,10,276,17,238,29,198,51,164,80,135,112,115,139"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_presentacio.html#a28d8149aa0fa44a898679b6a03d59ba0" title="Canvia la vista des de VistaIniciarSessio a VistaCrearPerfil." alt="" coords="237,38,469,81"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="138,135,236,90,255,83,257,89,238,95,140,140"/>
+<area shape="rect" id="Node000004" href="$classinterficie_1_1_vista_iniciar_sessio.html#a71d2fc69c337099df6c2a8ba9c34eca0" title="Escala i recol·loca els components en funció de la mida actual de la finestra." alt="" coords="240,105,466,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="189,145,224,140,225,146,189,150"/>
+<area shape="rect" id="Node000005" href="$classcontroladors_1_1_ctrl_presentacio.html#ada9c0d9a25124701e9b640403d3ffd6c" title="Inicia una sessió amb l&#39;usuari especificat." alt="" coords="241,172,465,214"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="189,169,226,174,225,179,189,174"/>
+<area shape="rect" id="Node000006" href="$classinterficie_1_1_vista_iniciar_sessio_1_1_placeholder_text_field.html#a4ea5492510e5e0fa948ae59b04477524" title="Estableix el text placeholder que es mostrarà quan el camp estigui buit." alt="" coords="237,238,469,281"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="140,179,238,224,257,231,255,236,236,229,138,184"/>
+<area shape="rect" id="Node000007" href="$classcontroladors_1_1_ctrl_presentacio.html#a66901a833c124fd1acc592cea93f4e6d" title="Torna a la vista anterior a l&#39;actual." alt="" coords="241,305,464,332"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="116,180,167,236,200,266,238,291,251,297,249,302,235,295,197,270,163,240,112,183"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="445,102,508,86,510,92,446,107"/>
+</map>

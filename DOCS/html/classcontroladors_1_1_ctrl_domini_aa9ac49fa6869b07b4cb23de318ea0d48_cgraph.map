@@ -1,0 +1,7 @@
+<map id="controladors.CtrlDomini.CrearPartida" name="controladors.CtrlDomini.CrearPartida">
+<area shape="rect" id="Node000001" title="Crear Partida." alt="" coords="5,39,168,81"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_domini.html#a06fdbc3f2ea636aedeb64b9265678f32" title="Obté l&#39;identificador d&#39;un jugador registrat." alt="" coords="216,5,417,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,46,200,41,201,46,168,51"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_domini.html#a133aba201b191d5f3ffecbfa94a9d922" title="Assigna un id a una partida." alt="" coords="216,72,417,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,69,201,74,200,79,168,74"/>
+</map>

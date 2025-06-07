@@ -1,0 +1,5 @@
+<map id="interficie.VistaMenuJoc.escalarComponentes" name="interficie.VistaMenuJoc.escalarComponentes">
+<area shape="rect" id="Node000001" title="Escala tots els components gràfics en funció de la mida de la finestra." alt="" coords="5,5,209,48"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1utils_1_1_tools.html#aad14ef36a2a433a18d49c46a83531892" title="Actualitza la imatge d&#39;un JLabel redimensionant&#45;la per adaptar&#45;se a les mides màximes indicades mante..." alt="" coords="257,5,454,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,24,241,24,241,29,209,29"/>
+</map>

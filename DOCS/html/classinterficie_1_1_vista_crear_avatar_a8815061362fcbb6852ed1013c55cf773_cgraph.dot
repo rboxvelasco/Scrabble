@@ -1,0 +1,23 @@
+digraph "interficie.VistaCrearAvatar.mostrarSelectorImagenes"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="interficie.VistaCrearAvatar.mostrar\lSelectorImagenes",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Mostra un diàleg modal per seleccionar la imatge de perfil de l'usuari."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="interficie.VistaCrearAvatar.\lVistaCrearAvatar",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_crear_avatar.html#ae0d9f95418da2ecb046e19ce8d9f8d0b",tooltip="Constructor de la finestra VistaCrearAvatar."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="interficie.utils.Tools.actualitzar\lImatge",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1utils_1_1_tools.html#aad14ef36a2a433a18d49c46a83531892",tooltip="Actualitza la imatge d'un JLabel redimensionant-la per adaptar-se a les mides màximes indicades mante..."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="controladors.CtrlPresentacio.crear\lAvatar",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#a4fa76d231d08867ff21eff04a379d280",tooltip="Crea un nou avatar amb el nom i la imatge especificats."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="interficie.VistaCrearAvatar.escalar\lComponentes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_crear_avatar.html#a275c320ec75c735937be368a8becfb46",tooltip="Escala i posiciona els components segons la mida actual."];
+  Node5 -> Node3 [id="edge5_Node000005_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node1 [id="edge6_Node000002_Node000001",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node6 [id="edge7_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="controladors.CtrlPresentacio.tornar",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#a66901a833c124fd1acc592cea93f4e6d",tooltip="Torna a la vista anterior a l'actual."];
+  Node2 -> Node2 [id="edge8_Node000002_Node000002",color="steelblue1",style="solid",tooltip=" "];
+}

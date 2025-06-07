@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+#projectname {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: #2c3e50;
+  padding-bottom: 5px;
+}
+
+#projectbrief {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #34495e;
+  font-style: italic;
+}
+
+#side-nav {
+  background-color: #eaf0f6;
+  border-right: 1px solid #ccc;
+}
+
+#nav-tree a {
+  color: #2c3e50;
+}
+
+#nav-tree a:hover {
+  background-color: #dce4ec;
+  color: #000;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9fb;
+  color: #2c3e50;
+}
+
+#projectlogo img
+{
+    max-height: 130px;
+    height: auto;
+}

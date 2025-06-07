@@ -1,0 +1,9 @@
+<map id="interficie.VistaCrearPerfil" name="interficie.VistaCrearPerfil">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,295,161,599"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="13,143,68,212"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="51,226,62,294,56,295,46,227"/>
+<area shape="rect" id="Node000003" href="$classinterficie_1_1_vista_crear_perfil_1_1_placeholder_text_field.html" title="Camp de text personalitzat que mostra un placeholder quan està buit i no té focus." alt="" coords="91,124,251,231"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="157,231,141,279,136,278,152,229"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="136,5,206,75"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="174,90,174,124,168,124,168,90"/>
+</map>

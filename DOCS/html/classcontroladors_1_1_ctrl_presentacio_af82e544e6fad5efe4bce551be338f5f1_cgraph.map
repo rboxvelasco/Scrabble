@@ -1,0 +1,13 @@
+<map id="controladors.CtrlPresentacio.canviRankingPartida" name="controladors.CtrlPresentacio.canviRankingPartida">
+<area shape="rect" id="Node000001" title="Canvia la vista a la pantalla de rànquing final un cop acabada la partida." alt="" coords="5,139,227,181"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1scrabble_1_1_partida.html#aa70bb260790c2c58f008a3a5acf4d14c" title="Retorna el jugador 1 de la partida." alt="" coords="289,5,468,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,136,203,97,273,58,287,52,289,56,276,62,206,101,148,140"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1scrabble_1_1_partida.html#a0b74d361ee022b4e90911616286443aa" title="Retorna el jugador 2 de la partida." alt="" coords="289,72,468,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,135,277,116,278,122,204,141"/>
+<area shape="rect" id="Node000004" href="$classcontroladors_1_1_ctrl_presentacio.html#af18fe9d82387504c97bd73a19eaa15e8" title="Retorna la instància de la partida actual en curs." alt="" coords="275,139,483,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="227,157,259,157,259,163,227,163"/>
+<area shape="rect" id="Node000005" href="$classdomini_1_1scrabble_1_1_partida.html#a974f15ba9601af217cd16510b3009343" title="Retorna la puntuació del jugador 1." alt="" coords="289,205,468,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="204,179,278,198,277,204,202,185"/>
+<area shape="rect" id="Node000006" href="$classdomini_1_1scrabble_1_1_partida.html#a7e2de1d70128d27e1477c2e4b144569e" title="Retorna la puntuació del jugador 2." alt="" coords="289,272,468,315"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="148,180,206,219,276,258,289,264,287,268,273,262,203,223,145,184"/>
+</map>

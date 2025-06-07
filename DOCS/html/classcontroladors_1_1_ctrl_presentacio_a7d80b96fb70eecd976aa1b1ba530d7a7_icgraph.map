@@ -1,0 +1,37 @@
+<map id="controladors.CtrlPresentacio.getNomUsuariActiu" name="controladors.CtrlPresentacio.getNomUsuariActiu">
+<area shape="rect" id="Node000001" title="Retorna el nom de l&#39;usuari que té la sessió iniciada." alt="" coords="1229,301,1437,343"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1_vista_partida.html#a7855e7a9cc41e1450c37054781ba6309" title="Inicialitza els components de la interfície gràfica." alt="" coords="983,175,1164,202"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1275,296,1100,205,1103,200,1278,291"/>
+<area shape="rect" id="Node000010" href="$classinterficie_1_1_vista_menu_joc.html#af4bea9351119f9746e8dc96671f7bff8" title="Lògica per reprendre una partida." alt="" coords="966,330,1181,373"/>
+<area shape="poly" id="edge19_Node000001_Node000010" title=" " alt="" coords="1214,338,1182,342,1181,336,1213,333"/>
+<area shape="rect" id="Node000003" href="$classinterficie_1_1_vista_partida.html#abce8626a6a3750affe851e1f8bea2cb3" title="Constructor de la classe VistaPartida." alt="" coords="762,167,912,210"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="968,200,912,200,912,194,968,195"/>
+<area shape="poly" id="edge17_Node000003_Node000002" title=" " alt="" coords="927,177,983,177,983,182,927,182"/>
+<area shape="poly" id="edge18_Node000003_Node000003" title=" " alt="" coords="875,154,860,148,837,146,815,148,802,153,796,159,798,166,793,167,791,157,799,148,814,143,837,141,862,143,877,149"/>
+<area shape="rect" id="Node000004" href="$classinterficie_1_1_vista_partida.html#a6bd7550fc714ba5195c8b55ffe3d973c" title="Afegeix les fitxes d&#39;un jugador al seu rack." alt="" coords="514,251,696,294"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="763,218,667,253,665,248,761,213"/>
+<area shape="rect" id="Node000007" href="$classinterficie_1_1_vista_partida.html#ae6809bc2e7efc03077c111367571f788" title="Afegeix maquetes al rack de l&#39;oponent." alt="" coords="514,318,696,361"/>
+<area shape="poly" id="edge11_Node000003_Node000007" title=" " alt="" coords="809,223,765,267,710,308,686,320,684,315,707,304,762,263,806,220"/>
+<area shape="rect" id="Node000008" href="$classinterficie_1_1_vista_partida.html#a8ebc9da2a2b927ba87ed97ad85ae44e8" title="Confirma l&#39;acció de guardar la partida." alt="" coords="504,33,707,75"/>
+<area shape="poly" id="edge13_Node000003_Node000008" title=" " alt="" coords="797,159,755,127,707,96,668,78,671,73,710,92,758,123,801,155"/>
+<area shape="rect" id="Node000009" href="$classinterficie_1_1_vista_partida.html#ab47b596fbbd6a79289d4b9d7f5b5e068" title="Crea un panell amb la informació d&#39;un jugador." alt="" coords="265,83,443,126"/>
+<area shape="poly" id="edge15_Node000003_Node000009" title=" " alt="" coords="766,164,708,147,569,124,443,112,444,107,570,119,709,142,767,159"/>
+<area shape="rect" id="Node000005" href="$classinterficie_1_1_vista_partida.html#a0698d192124492ebfd8a3b029a6fa23c" title="Actualitza els racks dels jugadors." alt="" coords="254,251,454,294"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="499,275,454,275,454,270,499,270"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="391,302,441,340,471,357,503,370,559,384,605,388,650,383,708,370,761,355,814,334,913,286,996,238,1051,200,1054,205,998,242,916,291,816,339,763,360,709,375,651,388,605,393,558,390,501,375,469,362,438,345,388,307"/>
+<area shape="poly" id="edge10_Node000005_Node000003" title=" " alt="" coords="461,245,502,237,639,213,761,196,762,201,640,219,502,242,462,250"/>
+<area shape="rect" id="Node000006" href="$classinterficie_1_1_vista_partida.html#a485041b781e81c64fb5414207ff21d2a" title="Actualitza la informació de la partida." alt="" coords="5,113,206,155"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="299,246,144,158,147,153,302,241"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="164,103,253,69,378,31,478,8,527,4,580,3,709,18,770,30,817,44,919,89,996,132,1055,173,1052,177,993,137,916,94,815,49,769,35,708,23,580,9,528,9,479,14,379,36,255,74,166,108"/>
+<area shape="poly" id="edge9_Node000006_Node000003" title=" " alt="" coords="221,140,762,180,762,186,221,145"/>
+<area shape="poly" id="edge8_Node000006_Node000006" title=" " alt="" coords="146,99,131,93,105,91,82,93,68,98,62,104,64,111,59,113,57,103,65,93,81,88,106,86,132,88,148,95"/>
+<area shape="poly" id="edge12_Node000007_Node000005" title=" " alt="" coords="507,316,436,297,438,292,508,311"/>
+<area shape="poly" id="edge14_Node000008_Node000002" title=" " alt="" coords="722,77,819,100,918,129,1039,172,1037,177,917,134,817,106,721,82"/>
+<area shape="poly" id="edge16_Node000009_Node000006" title=" " alt="" coords="249,120,206,125,206,119,249,114"/>
+<area shape="rect" id="Node000011" href="$classinterficie_1_1_vista_menu_joc.html#afab63b4d82b26b00b711c7a5473d7707" title="Constructor de la classe VistaMenuJoc." alt="" coords="756,459,918,502"/>
+<area shape="poly" id="edge20_Node000010_Node000011" title=" " alt="" coords="1020,383,879,461,876,456,1018,378"/>
+<area shape="poly" id="edge23_Node000011_Node000011" title=" " alt="" coords="875,446,860,440,837,438,815,440,802,445,796,451,798,458,793,459,791,449,799,440,814,435,837,433,862,435,877,441"/>
+<area shape="rect" id="Node000012" href="$classinterficie_1_1_vista_menu_joc.html#a357d2c3488fc972b443bb25cf44c8d1b" title="Lògica per eliminar el perfil." alt="" coords="502,459,708,502"/>
+<area shape="poly" id="edge21_Node000011_Node000012" title=" " alt="" coords="741,492,709,492,709,487,741,487"/>
+<area shape="poly" id="edge22_Node000012_Node000011" title=" " alt="" coords="724,469,756,469,756,475,724,474"/>
+</map>

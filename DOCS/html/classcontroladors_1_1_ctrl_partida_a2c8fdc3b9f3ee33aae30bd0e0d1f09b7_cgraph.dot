@@ -1,0 +1,18 @@
+digraph "controladors.CtrlPartida.passarTorn"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="controladors.CtrlPartida.passarTorn",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Passa el torn al següent jugador."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="controladors.CtrlPartida.finalitzar\lPerTornsConsecutius",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_partida.html#a98e85139630d752ac3e94d8a540aba0c",tooltip="Finalitza la partida si s'han passat torns consecutius sense acció."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="domini.jugadors.Avatar.incrementar\lPartidesGuanyades",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1jugadors_1_1_avatar.html#a44e5e6a2ee9245697351fe390849b810",tooltip="Incrementa el nombre total de partides guanyades."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="domini.jugadors.Avatar.incrementar\lPartidesGuanyadesJugador",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1jugadors_1_1_avatar.html#a750332bc2deadb604d43d1a0936a09d2",tooltip="Incrementa el nombre de partides guanyades contra altres jugadors."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="domini.jugadors.Avatar.incrementar\lPartidesGuanyadesMaquina",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1jugadors_1_1_avatar.html#aae510bc2635d40405e60a218b1b7c097",tooltip="Incrementa el nombre de partides guanyades contra la màquina."];
+}

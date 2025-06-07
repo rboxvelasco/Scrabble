@@ -1,0 +1,7 @@
+<map id="domini.scrabble.Casella.retirarFitxa" name="domini.scrabble.Casella.retirarFitxa">
+<area shape="rect" id="Node000001" title="Treure fitxa de la casella." alt="" coords="5,5,203,48"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1scrabble_1_1_fitxa.html#a71d279974b0e03a2865efc28229403ff" title="Compara un objecte amb una instància de Fitxa." alt="" coords="251,13,438,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,24,235,24,235,29,203,29"/>
+<area shape="rect" id="Node000003" href="$classdomini_1_1scrabble_1_1_fitxa.html#af0f9ae950a7802db8313cd71c45de3f2" title="Constructor de la classe Fitxa." alt="" coords="486,13,664,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="438,24,471,24,471,29,438,29"/>
+</map>

@@ -1,0 +1,32 @@
+<map id="domini.jugadors.Jugador.getIdJugador" name="domini.jugadors.Jugador.getIdJugador">
+<area shape="rect" id="Node000001" title="Retorna l&#39;identificador del jugador." alt="" coords="816,336,1001,379"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_partida.html#a15489fe587b7fe577bd1c4be09c58e6e" title="El jugador actual abandona la partida." alt="" coords="546,5,768,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="897,322,881,266,855,198,817,129,794,97,767,69,740,51,743,46,770,65,798,94,822,126,860,196,886,265,902,320"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_domini.html#a9b8102ac23ea03ea525c42517a8dbbbc" title="Actualitza les dades globals dels jugadors després d&#39;una partida." alt="" coords="276,123,498,165"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="896,322,881,271,855,213,818,156,794,133,767,113,726,95,683,85,638,82,593,85,508,102,439,125,438,120,507,97,593,80,638,77,684,80,728,90,770,108,798,128,822,153,860,210,886,269,902,320"/>
+<area shape="rect" id="Node000004" href="$classcontroladors_1_1_ctrl_domini.html#af2774b364abee1ac4832823ff1b0d556" title="Actualitza el rànquing després d&#39;una partida." alt="" coords="5,365,228,408"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="881,325,833,273,802,249,767,230,708,213,659,211,609,218,547,231,435,258,327,295,233,334,162,367,160,362,231,329,326,290,434,253,545,225,608,213,659,205,709,208,769,226,805,244,836,269,885,322"/>
+<area shape="rect" id="Node000005" href="$classcontroladors_1_1_ctrl_domini.html#a96336985c6a802beb79a7a9a9f82b3d4" title="Actualitza les dades globals d&#39;un jugador." alt="" coords="546,123,768,165"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="885,324,836,254,804,218,767,186,734,168,737,164,770,182,807,214,841,251,889,321"/>
+<area shape="rect" id="Node000006" href="$classdomini_1_1sessio_1_1_usuari.html#a8e2e78072c91b5124791949c8f7ee2ae" title="Afegim un jugador a la llista de jugadors de l&#39;usuari." alt="" coords="568,240,747,283"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="848,331,767,297,734,286,736,281,769,292,850,327"/>
+<area shape="rect" id="Node000007" href="$classcontroladors_1_1_ctrl_partida.html#ad0f7d5edb502bc4956cfd54612209ea7" title="Col·loca una paraula al taulell." alt="" coords="555,307,759,349"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="800,347,759,343,760,337,801,342"/>
+<area shape="rect" id="Node000008" href="$classcontroladors_1_1_ctrl_domini.html#aac72588aa6810f2eb705116646a3a40b" title="Comprova si la partida és contra la màquina." alt="" coords="299,365,475,408"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="801,366,476,384,475,379,801,361"/>
+<area shape="rect" id="Node000009" href="$classcontroladors_1_1_ctrl_partida.html#afa4340f6a2cb198455d536ccaf87717b" title="Gestiona el desenvolupament de la jugada de la màquina." alt="" coords="568,424,746,467"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="832,387,721,426,719,421,830,382"/>
+<area shape="rect" id="Node000010" href="$classcontroladors_1_1_ctrl_partida.html#a7478be76eed4811d7b93e3d8865b8622" title="Finalitza la partida si les fitxes s&#39;han esgotat." alt="" coords="552,491,763,533"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="879,392,830,438,770,481,745,492,743,488,767,476,827,434,876,388"/>
+<area shape="rect" id="Node000011" href="$classcontroladors_1_1_ctrl_partida.html#a418a06894a327cb03d3ad62185c714b9" title="Obté l&#39;identificador del jugador actual." alt="" coords="555,557,759,600"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="893,393,872,430,845,471,810,512,770,548,750,559,747,555,767,543,806,509,840,468,868,427,888,391"/>
+<area shape="rect" id="Node000012" href="$classcontroladors_1_1_ctrl_domini.html#aa3baef8745a51c1b1f73035104f72446" title="Comprova que els jugadors registrats siguin valids." alt="" coords="281,516,492,559"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="902,395,887,447,861,508,844,539,823,568,798,593,770,614,725,633,677,640,628,638,579,629,532,614,489,597,422,561,424,557,492,592,534,609,580,624,628,633,676,635,723,628,767,610,795,589,819,564,839,536,856,506,882,445,897,393"/>
+<area shape="rect" id="Node000013" href="$classcontroladors_1_1_ctrl_domini.html#a635aeffb46f12e2188110476c797a038" title="Processa els resultats d&#39;una partida contra la màquina." alt="" coords="277,624,496,667"/>
+<area shape="poly" id="edge16_Node000001_Node000013" title=" " alt="" coords="904,395,891,453,867,523,849,559,827,592,801,622,770,646,733,665,694,677,654,684,613,687,533,682,464,670,465,665,534,677,613,682,653,679,693,672,731,660,767,642,797,618,823,589,844,556,862,521,886,452,899,393"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="296,175,277,186,229,230,187,280,154,328,131,366,127,364,150,325,183,277,225,226,274,182,293,170"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="530,147,498,147,498,141,530,141"/>
+<area shape="poly" id="edge10_Node000008_Node000004" title=" " alt="" coords="283,389,228,389,228,384,283,384"/>
+<area shape="poly" id="edge15_Node000012_Node000004" title=" " alt="" coords="332,510,155,411,158,406,335,506"/>
+<area shape="poly" id="edge17_Node000013_Node000004" title=" " alt="" coords="334,618,274,573,230,530,190,485,131,410,135,406,194,482,234,526,277,569,337,613"/>
+</map>

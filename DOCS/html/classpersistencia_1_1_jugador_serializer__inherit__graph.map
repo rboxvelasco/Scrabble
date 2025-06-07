@@ -1,0 +1,5 @@
+<map id="persistencia.JugadorSerializer" name="persistencia.JugadorSerializer">
+<area shape="rect" id="Node000001" title="Classe per serialitzar instàncies de Jugador a JSON utilitzant GSON." alt="" coords="5,123,190,192"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="16,5,179,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,90,100,123,95,123,95,90"/>
+</map>

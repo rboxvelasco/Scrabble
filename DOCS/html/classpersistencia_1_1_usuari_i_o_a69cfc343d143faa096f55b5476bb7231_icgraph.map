@@ -1,0 +1,7 @@
+<map id="persistencia.UsuariIO.eliminarUsuari" name="persistencia.UsuariIO.eliminarUsuari">
+<area shape="rect" id="Node000001" title="Elimina un usuari esborrant el seu fitxer JSON." alt="" coords="547,5,743,48"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_persistencia.html#ae1e8c88230469b75e9aece365028e9ad" title="Elimina un usuari de l&#39;emmagatzematge persistent." alt="" coords="261,5,499,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="531,29,499,29,499,24,531,24"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_domini.html#a34432049ad1864a2b638b590d38b343d" title="Elimina un usuari." alt="" coords="5,5,213,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="245,29,213,29,213,24,245,24"/>
+</map>

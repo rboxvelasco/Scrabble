@@ -1,0 +1,9 @@
+SUBGRUP-PROP43.2
+
+Descripcio del directori: Directori on s'emmagatzemaran les dades persistents de l'aplicació.
+
+data
+│
+├── jugadors // Carpeta que guarda els jugadors de cada usuari, estruturada en una subcarpeta per usuari.
+├── partides // Carpeta que guarda les partides de cada usuari, estruturada en una subcarpeta per usuari.
+└── usuaris  // Carpeta que guarda la informació relativa als usuaris/perfils enregistrats a l'aplicacio.

@@ -1,0 +1,5 @@
+<map id="controladors.CtrlPartida.passarTorn" name="controladors.CtrlPartida.passarTorn">
+<area shape="rect" id="Node000001" title="Passa el torn al següent jugador." alt="" coords="231,13,457,40"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_partida.html#afa4340f6a2cb198455d536ccaf87717b" title="Gestiona el desenvolupament de la jugada de la màquina." alt="" coords="5,5,183,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,29,183,29,183,24,215,24"/>
+</map>

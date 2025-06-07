@@ -1,0 +1,3 @@
+SUBGRUP-PROP43.2
+
+Descripcio del directori: Aquest directori conte els .class i .jar necessaris per executar el nostre codi.

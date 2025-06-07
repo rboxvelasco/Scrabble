@@ -1,0 +1,13 @@
+<map id="domini.scrabble.Taulell.estaBuit" name="domini.scrabble.Taulell.estaBuit">
+<area shape="rect" id="Node000001" title="Comprova si el taulell està completament buit (cap casella ocupada)." alt="" coords="761,47,967,73"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_partida.html#a11dd5c5c7252681872e3ba7baf8213a8" title="Comprova si una paraula és vàlida." alt="" coords="494,5,713,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="745,48,713,43,714,38,746,42"/>
+<area shape="rect" id="Node000004" href="$classdomini_1_1scrabble_1_1_taulell.html#ad10763e1db2abab4a552e5d99b693db7" title="Retorna un Set amb les coordenades de les caselles que son anchors." alt="" coords="516,72,691,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="746,78,692,85,692,79,745,72"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_partida.html#ad0f7d5edb502bc4956cfd54612209ea7" title="Col·loca una paraula al taulell." alt="" coords="240,5,444,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="478,29,445,29,445,24,478,24"/>
+<area shape="rect" id="Node000005" href="$classdomini_1_1jugadors_1_1_maquina.html#afe864f5cb4ab5895e149c5aad0235400" title="Busca la millor paraula en una direcció específica (horitzontal o vertical)." alt="" coords="238,72,446,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="501,96,446,96,446,91,501,91"/>
+<area shape="rect" id="Node000006" href="$classdomini_1_1jugadors_1_1_maquina.html#a8b1f4889bc62ca862e4f87e55c66871e" title="Busca la paraula amb la puntuació més alta donats un taulell i un diccionari." alt="" coords="5,72,190,115"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="222,96,190,96,190,91,222,91"/>
+</map>

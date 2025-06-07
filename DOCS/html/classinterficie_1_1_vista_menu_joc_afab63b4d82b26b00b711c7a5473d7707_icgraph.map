@@ -1,0 +1,7 @@
+<map id="interficie.VistaMenuJoc.VistaMenuJoc" name="interficie.VistaMenuJoc.VistaMenuJoc">
+<area shape="rect" id="Node000001" title="Constructor de la classe VistaMenuJoc." alt="" coords="260,29,421,72"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="378,16,364,10,340,8,318,10,305,15,300,21,302,28,296,29,295,19,302,10,317,5,340,3,365,5,380,11"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1_vista_menu_joc.html#a357d2c3488fc972b443bb25cf44c8d1b" title="Lògica per eliminar el perfil." alt="" coords="5,29,212,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="244,62,212,62,212,57,244,57"/>
+<area shape="poly" id="edge2_Node000002_Node000001" title=" " alt="" coords="228,39,260,39,259,45,227,44"/>
+</map>

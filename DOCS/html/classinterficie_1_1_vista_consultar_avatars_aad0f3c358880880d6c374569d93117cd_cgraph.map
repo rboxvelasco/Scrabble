@@ -1,0 +1,16 @@
+<map id="interficie.VistaConsultarAvatars.VistaConsultarAvatars" name="interficie.VistaConsultarAvatars.VistaConsultarAvatars">
+<area shape="rect" id="Node000001" title="Constructor de la vista que mostra la llista d&#39;avatares registrats." alt="" coords="5,72,207,115"/>
+<area shape="poly" id="edge7_Node000001_Node000001" title=" " alt="" coords="57,72,55,62,63,53,80,47,106,45,134,48,150,54,148,59,133,53,106,51,81,53,66,57,60,63,62,71"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1utils_1_1_tools.html#aad14ef36a2a433a18d49c46a83531892" title="Actualitza la imatge d&#39;un JLabel redimensionant&#45;la per adaptar&#45;se a les mides màximes indicades mante..." alt="" coords="268,5,465,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,69,265,50,266,55,193,74"/>
+<area shape="rect" id="Node000003" href="$classinterficie_1_1_vista_consultar_avatars.html#a2a900bc768080abeed9eb8f61321dbb0" title="Carrega i mostra visualment tots els avatars registrats en un panell donat." alt="" coords="285,72,448,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="207,91,269,91,269,96,207,96"/>
+<area shape="rect" id="Node000007" href="$classcontroladors_1_1_ctrl_presentacio.html#a66901a833c124fd1acc592cea93f4e6d" title="Torna a la vista anterior a l&#39;actual." alt="" coords="255,139,478,165"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="204,113,289,132,288,137,203,118"/>
+<area shape="rect" id="Node000004" href="$classcontroladors_1_1_ctrl_presentacio.html#a1d233e08aadf10e279ffef4b329ffd8a" title="Retorna el conjunt de jugadors registrats al sistema." alt="" coords="528,13,736,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="447,73,517,57,518,62,449,78"/>
+<area shape="rect" id="Node000005" href="$classdomini_1_1jugadors_1_1_jugador.html#abd263319ed47cf1469e301659e15dd26" title="Retorna el nom del jugador." alt="" coords="526,80,738,107"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="448,91,510,91,510,96,448,96"/>
+<area shape="rect" id="Node000006" href="$classdomini_1_1jugadors_1_1_jugador.html#ac629842bca37a6a17c8dbd5eb597e2e1" title="Obté a ruta a la imatge de l&#39;avatar." alt="" coords="529,131,735,173"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="449,109,518,124,517,129,447,114"/>
+</map>

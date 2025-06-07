@@ -1,0 +1,57 @@
+digraph "interficie.VistaMenuJoc.eliminarPerfil"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="interficie.VistaMenuJoc.eliminar\lPerfil",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Lògica per eliminar el perfil."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="controladors.CtrlPresentacio.eliminar\lPerfil",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#a6635d740d6fc762d245068684ba1f6bf",tooltip="Elimina el perfil de l'usuari actiu."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="interficie.VistaMenuJoc.\lVistaMenuJoc",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_menu_joc.html#afab63b4d82b26b00b711c7a5473d7707",tooltip="Constructor de la classe VistaMenuJoc."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="interficie.utils.Tools.actualitzar\lImatge",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1utils_1_1_tools.html#aad14ef36a2a433a18d49c46a83531892",tooltip="Actualitza la imatge d'un JLabel redimensionant-la per adaptar-se a les mides màximes indicades mante..."];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="controladors.CtrlPresentacio.canviar\lConsultarAvatars",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#a6d07d9d8fd5d53a00f29b8c4ad566d89",tooltip="Canvia la vista actual a VistaConsultarAvatars."];
+  Node3 -> Node6 [id="edge5_Node000003_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="controladors.CtrlPresentacio.canviar\lConsultarEstadistiques",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#ab855dc2f3b4843c43788473f2a300036",tooltip="Canvia la vista actual a VistaConsultarEstadistiques."];
+  Node3 -> Node7 [id="edge6_Node000003_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="controladors.CtrlPresentacio.canviar\lConsultarRanking",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#ae7604c8efc594b900e294b7ef853be0d",tooltip="Canvia la vista actual a VistaConsultarRanking."];
+  Node3 -> Node8 [id="edge7_Node000003_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="controladors.CtrlPresentacio.canviar\lCrearAvatar",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#a3458c7f14b142196b4ca4798da2ad9a1",tooltip="Canvia la vista actual a VistaCrearAvatar."];
+  Node3 -> Node9 [id="edge8_Node000003_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="controladors.CtrlPresentacio.canviar\lCrearPartida",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#a57b6291aedc4d8df64f92df233c069fc",tooltip="Canvia la vista actual a VistaCrearPartida."];
+  Node3 -> Node10 [id="edge9_Node000003_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="interficie.VistaMenuJoc.configurar\lMouseListener",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_menu_joc.html#a75c64319a0877bfe1ea26fc51ac6f5c2",tooltip="Configura el MouseListener per canviar colors al passar el ratolí."];
+  Node3 -> Node11 [id="edge10_Node000003_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="controladors.CtrlPresentacio.consultar\lNormes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#a59bc024fc88c820d5e40a44298c5c0e9",tooltip="Mostra la vista de consulta de normes del joc."];
+  Node3 -> Node12 [id="edge11_Node000003_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="interficie.VistaMenuJoc.eliminar\lAvatar",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_menu_joc.html#ac6f71c255275e13e9bad8d406c5600c3",tooltip="Lògica per eliminar un avatar."];
+  Node12 -> Node13 [id="edge12_Node000012_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="controladors.CtrlPresentacio.eliminar\lAvatar",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#aad294011837fffb35248b3d654be5102",tooltip="Elimina un avatar del sistema."];
+  Node3 -> Node1 [id="edge13_Node000003_Node000001",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node14 [id="edge14_Node000003_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="interficie.VistaMenuJoc.escalar\lComponentes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_menu_joc.html#ab3bcca3e7fed0b4d01a642012ff7ac8f",tooltip="Escala tots els components gràfics en funció de la mida de la finestra."];
+  Node14 -> Node4 [id="edge15_Node000014_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node15 [id="edge16_Node000003_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="interficie.VistaMenuJoc.reprendre\lPartida",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_menu_joc.html#af4bea9351119f9746e8dc96671f7bff8",tooltip="Lògica per reprendre una partida."];
+  Node15 -> Node16 [id="edge17_Node000015_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="interficie.SelectorPartida.get\lIdPartida",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_selector_partida.html#abe61b878316263ec68854ac732c19187",tooltip="Retorna l'identificador de la partida seleccionada per reprendre."];
+  Node15 -> Node17 [id="edge18_Node000015_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="controladors.CtrlPresentacio.get\lNomUsuariActiu",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#a7d80b96fb70eecd976aa1b1ba530d7a7",tooltip="Retorna el nom de l'usuari que té la sessió iniciada."];
+  Node15 -> Node18 [id="edge19_Node000015_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="controladors.CtrlPresentacio.reprendre\lPartida",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#ad0c6a8a429d767f53f2e0fa4c6f8a5dc",tooltip="Reprèn una partida existent identificada pel seu ID."];
+  Node18 -> Node19 [id="edge20_Node000018_Node000019",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="domini.scrabble.Partida.get\lIdioma",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1scrabble_1_1_partida.html#a74ab1a1330297b7e2a8c16121db79faa",tooltip="Retorna l'idioma de la partida."];
+  Node18 -> Node20 [id="edge21_Node000018_Node000020",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="controladors.CtrlPresentacio.get\lPartida",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#af18fe9d82387504c97bd73a19eaa15e8",tooltip="Retorna la instància de la partida actual en curs."];
+  Node3 -> Node21 [id="edge22_Node000003_Node000021",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="controladors.CtrlPresentacio.sortir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#a633464b50c83730927c14ed2356bb43c",tooltip="Tanca la sessió de l'usuari, allibera els recursos gràfics i finalitza l'execució de l'aplicació."];
+  Node3 -> Node22 [id="edge23_Node000003_Node000022",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="interficie.VistaMenuJoc.tancar\lSessio",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_vista_menu_joc.html#a62e98338bf23c9ce19e3c7ec87f3cca8",tooltip="Lògica per tancar la sessió."];
+  Node22 -> Node23 [id="edge24_Node000022_Node000023",color="steelblue1",style="solid",tooltip=" "];
+  Node23 [id="Node000023",label="controladors.CtrlPresentacio.tancar\lSessio",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#aa71bca5e297b5775bf22b0e9a0d00ced",tooltip="Tanca la sessió de l'usuari actual i retorna a la vista principal."];
+  Node3 -> Node3 [id="edge25_Node000003_Node000003",color="steelblue1",style="solid",tooltip=" "];
+}

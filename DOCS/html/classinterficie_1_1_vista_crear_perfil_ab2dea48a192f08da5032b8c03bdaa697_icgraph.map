@@ -1,0 +1,6 @@
+<map id="interficie.VistaCrearPerfil.escalarComponentes" name="interficie.VistaCrearPerfil.escalarComponentes">
+<area shape="rect" id="Node000001" title="Escala i reubica els components segons la mida actual de la finestra, mantenint proporcions relatives..." alt="" coords="224,29,436,72"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1_vista_crear_perfil.html#aea921123ade57f0e42263807a1842aaf" title="Constructor que crea la finestra per crear un perfil." alt="" coords="5,29,176,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,53,176,53,176,48,208,48"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="129,16,115,10,90,8,68,10,54,15,49,21,50,28,45,29,43,19,51,10,67,5,91,3,116,5,131,11"/>
+</map>

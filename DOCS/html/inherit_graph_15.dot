@@ -1,0 +1,16 @@
+digraph "Jerarquia Gràfica de la Classe"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="domini.scrabble.Estat",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1scrabble_1_1_estat.html",tooltip="Classe abstracta que defineix el comportament genèric per als diferents estats d'una partida."];
+  Node0 -> Node1 [id="edge4_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="domini.scrabble.EstatEnCurs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1scrabble_1_1_estat_en_curs.html",tooltip="Representa l'estat 'EnCurs' d'una partida."];
+  Node0 -> Node2 [id="edge5_Node000000_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="domini.scrabble.EstatFinalitzada",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1scrabble_1_1_estat_finalitzada.html",tooltip="Representa l'estat 'Finalitzada' d'una partida."];
+  Node0 -> Node3 [id="edge6_Node000000_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="domini.scrabble.EstatPausada",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1scrabble_1_1_estat_pausada.html",tooltip="Representa l'estat 'Pausada' d'una partida."];
+}

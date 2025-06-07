@@ -1,0 +1,7 @@
+<map id="domini.sessio.Usuari.getJugadors" name="domini.sessio.Usuari.getJugadors">
+<area shape="rect" id="Node000001" title="Retorna els jugadors que té guardats l&#39;usuari." alt="" coords="5,27,171,69"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1sessio_1_1_usuari.html#a0268a823e2a2431d8260cddc9f3b522e" title="Retorna el nom de l&#39;usuari." alt="" coords="219,5,412,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,35,203,31,203,36,171,40"/>
+<area shape="rect" id="Node000003" href="$classpersistencia_1_1_jugador_i_o.html#a106d66ddcbb5a4af122f1630f5aaad6c" title="Carrega un jugador des d&#39;un fitxer JSON." alt="" coords="224,56,407,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,56,208,61,208,66,171,61"/>
+</map>

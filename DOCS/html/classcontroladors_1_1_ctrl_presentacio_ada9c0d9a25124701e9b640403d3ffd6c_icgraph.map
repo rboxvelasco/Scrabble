@@ -1,0 +1,9 @@
+<map id="controladors.CtrlPresentacio.iniciarSessio" name="controladors.CtrlPresentacio.iniciarSessio">
+<area shape="rect" id="Node000001" title="Inicia una sessió amb l&#39;usuari especificat." alt="" coords="237,75,461,117"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1_vista_crear_perfil.html#aea921123ade57f0e42263807a1842aaf" title="Constructor que crea la finestra per crear un perfil." alt="" coords="12,29,182,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="221,76,182,69,183,63,222,70"/>
+<area shape="rect" id="Node000003" href="$classinterficie_1_1_vista_iniciar_sessio.html#afc5613ff799374e1f28b0e885c6cc264" title="Constructor que crea la vista d&#39;iniciar sessió." alt="" coords="5,120,189,163"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="222,122,190,127,189,122,221,116"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="138,16,123,10,97,8,73,10,58,15,53,21,55,28,49,29,48,19,56,10,72,5,97,3,124,5,140,11"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="138,107,123,101,97,99,73,101,58,105,53,111,55,119,49,120,48,110,56,101,72,95,97,93,124,96,140,102"/>
+</map>

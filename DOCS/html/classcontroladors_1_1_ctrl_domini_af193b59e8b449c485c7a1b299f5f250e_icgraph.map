@@ -1,0 +1,11 @@
+<map id="controladors.CtrlDomini.getRankingGlobalLimitat" name="controladors.CtrlDomini.getRankingGlobalLimitat">
+<area shape="rect" id="Node000001" title="Obté el ranking del numero de jugadors indicat." alt="" coords="733,29,914,72"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_presentacio.html#acaf9b6cf3f40d88428b5d77b735e8856" title="Obté el rànquing global d&#39;avatares limitat a un cert nombre." alt="" coords="477,29,685,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="718,53,686,53,686,48,718,48"/>
+<area shape="rect" id="Node000003" href="$classinterficie_1_1_vista_consultar_ranking.html#ac8bcd1db92441badfd8650cd3c54025b" title="Carrega i mostra el rànquing a partir del límit indicat." alt="" coords="261,29,429,72"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="461,53,430,53,430,48,461,48"/>
+<area shape="rect" id="Node000004" href="$classinterficie_1_1_vista_consultar_ranking.html#a86d8edbe84e816fcf7c14b51a8d2e214" title="Constructor de la classe." alt="" coords="5,29,213,72"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="245,62,213,62,213,57,245,57"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="229,39,261,39,261,45,229,44"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="147,16,133,10,109,8,87,10,73,15,68,21,70,28,64,29,63,19,70,10,86,5,109,3,134,5,149,11"/>
+</map>

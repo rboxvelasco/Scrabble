@@ -1,0 +1,9 @@
+<map id="interficie.VistaCanviTorn.VistaCanviTorn" name="interficie.VistaCanviTorn.VistaCanviTorn">
+<area shape="rect" id="Node000001" title="Constructor de la classe VistaCanviTorn." alt="" coords="5,29,173,72"/>
+<area shape="poly" id="edge4_Node000001_Node000001" title=" " alt="" coords="44,29,42,19,50,10,66,5,89,3,114,5,129,11,127,16,113,10,89,8,67,10,53,15,48,21,49,28"/>
+<area shape="rect" id="Node000002" href="$classinterficie_1_1utils_1_1_tools.html#aad14ef36a2a433a18d49c46a83531892" title="Actualitza la imatge d&#39;un JLabel redimensionant&#45;la per adaptar&#45;se a les mides màximes indicades mante..." alt="" coords="478,29,675,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,45,221,44,430,44,463,45,463,50,430,49,221,49,173,50"/>
+<area shape="rect" id="Node000003" href="$classinterficie_1_1_vista_canvi_torn.html#a7a021fb53d7a4494561ea26609e3089c" title="Escala i posiciona els components segons la mida actual." alt="" coords="221,59,430,101"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,58,206,62,205,68,172,64"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="430,65,462,61,463,67,431,70"/>
+</map>
