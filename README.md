@@ -27,6 +27,7 @@ A cross‑platform Scrabble application (Windows & Linux) letting you play again
 - Play in **Catalan**, **Spanish**, or **English** 🌍  
 - Human vs. **Bot** 🤖 or Human vs. **Human** 👥  
 - Profile management with different avatars and personal statistics 📊  
+- For a better experience, turn on the sound on your computer 🔊
 - Full Swing-based GUI, identical on Linux and Windows 🖥️  
 
 ---
@@ -47,7 +48,7 @@ A cross‑platform Scrabble application (Windows & Linux) letting you play again
 
 ## 🚀 Installation & Running
 
-> All compile/run commands should be executed from the `FONTS` directory.
+> All compile/run commands should be executed from the `SRC` directory.
 
 ### 🐧 Linux
 
@@ -69,81 +70,44 @@ make
 .\scrabble.bat
 # (or double‑click the “Scrabble – PROP” shortcut in Explorer)
 ```
-
----
-
-## 🧪 Running Tests & Demo Games
-
-> **Note:** Java error messages alone do not mean test failures. Only JUnit messages matter.
-
-### Unit Tests
-
-- **Linux:**  
-  ```bash
-  ./test.sh
-  ```
-- **Windows:**  
-  ```powershell
-  .\test.bat
-  ```
-
-### Demo Game Driver
-
-1. Launch via `scrabble.sh` / `scrabble.bat`  
-2. Choose the “Demo Games” option 🎮. Two windows will open:  
-   - **Input selector** 🗂️  
-   - **Expected‑output selector** ✅  
-3. The driver compares actual vs. expected outputs automatically 🔄.  
-4. (*No full-game demos included, due to randomness 🎲.*)  
-
 ---
 
 ## 📂 Project Structure
 
+> ⚠️ **Note:** Most of the source code is written in **Catalan**, as the project was developed in a trilingual academic environment.
+
 ```
 SUBGRUP-PROP43.2/
 │
-├── DOCS/                     # Project documentation
-│   ├── html/                 # Doxygen HTML files
-│   ├── "Documentació Doxygen"/
-│   ├── "Documentació"/       # Test plans & write‑up
-│   ├── "Manual d'Usuari"/    # User manual
-│   └── index.txt
+├── DOCS/                     # Project documentation: UML's, algorithm rationale and Doxygen.
 │
 ├── EXE/                      # Compiled classes & runtime files
 │
-├── FONTS/                    # Source code & build scripts
+├── SRC/                      # Source code & build scripts
 │   ├── domini/               # Domain layer
 │   │   ├── auxiliars/
+│   │   ├── diccionari/
+│   │   ├── excepcions/
 │   │   ├── jugadors/
 │   │   ├── scrabble/
-│   │   ├── sessio/
-│   │   ├── excepcions/
-│   │   └── diccionari/
+│   │   └── sessio/
 │   │
-│   ├── controladors/         # Controllers
 │   ├── persistencia/         # Persistence layer
 │   ├── interficie/           # Presentation layer (Swing)
+│   ├── controladors/         # Controllers
+│   │
 │   ├── lib/                  # Third‑party JARs
 │   ├── resources/            # Images, .txt, Doxygen assets
 │   ├── data/                 # Persistent data store
-│   ├── tests/                # JUnit 4 unit tests
-│   ├── drivers/              # Driver & demo‑game code
-│   │   └── "jocs de prova"/  
-│   │        └── README       # Demo‑game descriptions
 │   │
 │   ├── Makefile              # Linux build
 │   ├── compilar.bat          # Windows build
 │   ├── scrabble.sh           # Linux launcher
 │   ├── scrabble.bat          # Windows launcher (with debug)
 │   ├── scrabble.vbs          # Windows launcher (no debug)
-│   ├── "Scrabble - PROP.lnk" # Windows shortcut
-│   ├── test.sh               # Linux test runner
-│   ├── test.bat              # Windows test runner
-│   └── index.txt
+│   └── "Scrabble - PROP.lnk" # Windows shortcut
 │
-├── Doxyfile                  # Doxygen configuration
-└── index.txt
+└── Doxyfile                  # Doxygen configuration
 ```
 
 ---
@@ -154,8 +118,8 @@ Place your GUI screenshots in a folder (e.g. `DOCS/screenshots/`) and reference 
 
 ```markdown
 ![Main Game Window](DOCS/screenshots/main_window.png)
-![Profile Manager](DOCS/screenshots/profile_manager.png)
-![Demo Games Driver](DOCS/screenshots/demo_driver.png)
+![Profile Manager](DOCS/screenshots/game_window.png)
+![Demo Games Driver](DOCS/screenshots/avatars_statistics.png)
 ```
 
 ---
