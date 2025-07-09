@@ -120,9 +120,9 @@ SUBGRUP-PROP43.2/
 
 ## 📸 Screenshots
 
-![Main Window](SRC/resources/screenshots/main_window.png)
-![Game Window](SRC/resources/screenshots/game_window.png)
-![Statistics Window](SRC/resources/screenshots/avatars_statistics.png)
+![Main Window](src/resources/screenshots/main_window.png)
+![Game Window](src/resources/screenshots/game_window.png)
+![Statistics Window](src/resources/screenshots/avatars_statistics.png)
 
 ---
 
