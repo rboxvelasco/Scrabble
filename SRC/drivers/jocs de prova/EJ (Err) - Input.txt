@@ -1,5 +1,0 @@
-4
-nomJugadorAEliminar
-contrasenyaAEliminar
-\n
-0

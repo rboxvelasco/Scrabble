@@ -114,19 +114,15 @@ SUBGRUP-PROP43.2/
 
 ## 📸 Screenshots
 
-Place your GUI screenshots in a folder (e.g. `DOCS/screenshots/`) and reference them here:
-
-```markdown
-![Main Game Window](DOCS/screenshots/main_window.png)
-![Profile Manager](DOCS/screenshots/game_window.png)
-![Demo Games Driver](DOCS/screenshots/avatars_statistics.png)
-```
+![Main Window](DOCS/screenshots/main_window.png)
+![Game Window](DOCS/screenshots/game_window.png)
+![Statistics Window](DOCS/screenshots/avatars_statistics.png)
 
 ---
 
 ## 🤝 Contributing
 
-Feel free to fork the repository, improve the code, add features or fix bugs, and open a pull request! 🚀
+Feel free to fork the repository, improve the code, add features or fix bugs! 🚀
 
 ---
 

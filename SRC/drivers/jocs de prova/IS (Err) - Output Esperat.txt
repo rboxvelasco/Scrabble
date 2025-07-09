@@ -1,8 +1,0 @@
-[0;31m
-Error: Usuari o contrasenya incorrectes.
-[0m
-[0;35m
-Prem 'Enter' per tornar a intentar-ho...[0m
-
-[0;35m
-Fi del fitxer

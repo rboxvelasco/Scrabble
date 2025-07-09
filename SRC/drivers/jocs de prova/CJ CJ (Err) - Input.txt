@@ -1,9 +1,0 @@
-1
-nomProva
-1234
-\n
-1
-nomProva
-exit
-0
-
