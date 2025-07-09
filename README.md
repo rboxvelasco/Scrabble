@@ -13,7 +13,6 @@ A cross‑platform Scrabble application (Windows & Linux) letting you play again
 - [🚀 Installation & Running](#🚀-installation--running)  
   - [🐧 Linux](#🐧-linux)  
   - [🪟 Windows](#🪟-windows)  
-- [🧪 Running Tests & Demo Games](#🧪-running-tests--demo-games)  
 - [📂 Project Structure](#📂-project-structure)  
 - [📸 Screenshots](#📸-screenshots)  
 - [🤝 Contributing](#🤝-contributing)  
