@@ -106,6 +106,8 @@ SUBGRUP-PROP43.2/
 │   │
 │   ├── Makefile              # Linux build
 │   ├── compilar.bat          # Windows build
+│   ├── get_deps.sh           # Linux dependencies installer
+│   ├── get_deps.bat          # Windows dependencies installer
 │   ├── scrabble.sh           # Linux launcher
 │   ├── scrabble.bat          # Windows launcher (with debug)
 │   ├── scrabble.vbs          # Windows launcher (no debug)
