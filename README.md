@@ -15,6 +15,7 @@ A cross‑platform Scrabble application (Windows & Linux) letting you play again
 - [🚀 Installation & Running](#🚀-installation--running)  
   - [🐧 Linux](#🐧-linux)  
   - [🪟 Windows](#🪟-windows)  
+- [📄 Documentation](#📄-documentation)
 - [📂 Project Structure](#📂-project-structure)  
 - [📸 Screenshots](#📸-screenshots)  
 - [🤝 Contributing](#🤝-contributing)  
@@ -76,9 +77,17 @@ make
 ```
 ---
 
-## 📂 Project Structure
+## 📄 Documentation
 
-> **Note:** Most of the source code is written in **Catalan**, as the project was developed in a trilingual academic environment.
+You can browse the full Doxygen-generated source code documentation here:
+
+> 📚 Online documentation generated with Doxygen is available [here](https://rboxvelasco.github.io/Scrabble/).
+
+> **Note**: Most of the source code and comments are written in Catalan, as the project was developed in a trilingual academic environment.
+
+---
+
+## 📂 Project Structure
 
 ```
 SUBGRUP-PROP43.2/
