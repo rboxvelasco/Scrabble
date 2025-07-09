@@ -74,7 +74,7 @@ make
 
 ## 📂 Project Structure
 
-> ⚠️ **Note:** Most of the source code is written in **Catalan**, as the project was developed in a trilingual academic environment.
+> **Note:** Most of the source code is written in **Catalan**, as the project was developed in a trilingual academic environment.
 
 ```
 SUBGRUP-PROP43.2/
