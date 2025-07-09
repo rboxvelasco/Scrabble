@@ -83,11 +83,11 @@ make
 ```
 SUBGRUP-PROP43.2/
 │
-├── DOCS/                     # Project documentation: UML's, algorithm rationale and Doxygen.
-│
+├── docs/                     # Project Doxygen documentation.
+├── design/                   # UML's & algorithm rationale.
 ├── EXE/                      # Compiled classes & runtime files
 │
-├── SRC/                      # Source code & build scripts
+├── src/                      # Source code & build scripts
 │   ├── domini/               # Domain layer
 │   │   ├── auxiliars/
 │   │   ├── diccionari/
@@ -118,9 +118,9 @@ SUBGRUP-PROP43.2/
 
 ## 📸 Screenshots
 
-![Main Window](DOCS/screenshots/main_window.png)
-![Game Window](DOCS/screenshots/game_window.png)
-![Statistics Window](DOCS/screenshots/avatars_statistics.png)
+![Main Window](SRC/resources/screenshots/main_window.png)
+![Game Window](SRC/resources/screenshots/game_window.png)
+![Statistics Window](SRC/resources/screenshots/avatars_statistics.png)
 
 ---
 
