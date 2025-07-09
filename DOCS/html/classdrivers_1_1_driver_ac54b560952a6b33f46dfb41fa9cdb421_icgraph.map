@@ -1,0 +1,12 @@
+<map id="drivers.Driver.guardarPartida" name="drivers.Driver.guardarPartida">
+<area shape="rect" id="Node000001" title="Permet guardar la partida i torna a la pantalla d&#39;inici." alt="" coords="864,5,1051,32"/>
+<area shape="rect" id="Node000002" href="$classdrivers_1_1_driver.html#a13e38153634507d9ad6e24cb267237b9" title="Juga una partida." alt="" coords="185,5,357,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="848,18,816,17,566,17,357,20,357,14,566,12,816,12,848,13"/>
+<area shape="rect" id="Node000004" href="$classdrivers_1_1_driver.html#a65d5cdb033b4f42c0a2adf1fabb7b6ff" title="Mostra el menú de pausa." alt="" coords="636,27,816,69"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="849,35,817,39,816,34,848,30"/>
+<area shape="rect" id="Node000003" href="$classdrivers_1_1_driver.html#a3f94ce3595725e82b34c92548e071d04" title="Inici del driver." alt="" coords="5,5,137,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="169,21,137,21,137,16,169,16"/>
+<area shape="rect" id="Node000005" href="$classdrivers_1_1_driver.html#a5bdeffe74ac8e28325692a231275787b" title="Pausa la partida actual." alt="" coords="405,31,588,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="620,49,589,48,589,43,620,43"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="389,35,357,31,358,26,390,29"/>
+</map>

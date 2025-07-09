@@ -9,6 +9,7 @@ var namespaces_dup =
       [ "scrabble", "namespacedomini_1_1scrabble.html", "namespacedomini_1_1scrabble" ],
       [ "sessio", "namespacedomini_1_1sessio.html", "namespacedomini_1_1sessio" ]
     ] ],
+    [ "drivers", "namespacedrivers.html", "namespacedrivers" ],
     [ "interficie", "namespaceinterficie.html", "namespaceinterficie" ],
     [ "persistencia", "namespacepersistencia.html", "namespacepersistencia" ]
 ];

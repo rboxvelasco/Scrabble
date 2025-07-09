@@ -1,0 +1,48 @@
+<map id="drivers.Driver.jugarPartida" name="drivers.Driver.jugarPartida">
+<area shape="rect" id="Node000001" title="Juga una partida." alt="" coords="5,315,178,341"/>
+<area shape="rect" id="Node000002" href="$classdrivers_1_1_driver.html#ac619a13f9534e9347b26fae373236cfd" title="Abandona la partida actual." alt="" coords="750,201,913,244"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,312,173,295,225,281,363,257,501,240,734,223,735,229,502,245,363,262,226,287,175,301,129,317"/>
+<area shape="rect" id="Node000003" href="$classdrivers_1_1_driver.html#a8bc044826a5994373681c23cc5555bce" title="Neteja la pantalla del terminal." alt="" coords="1012,381,1184,408"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="95,313,111,276,137,226,175,176,198,154,224,136,327,83,422,43,511,16,597,4,682,8,770,28,863,65,963,120,994,144,1020,174,1041,207,1059,242,1083,311,1095,366,1090,367,1078,312,1054,244,1037,210,1016,177,990,148,960,125,861,70,769,33,682,13,597,9,512,21,423,48,329,88,227,141,201,158,179,180,142,229,115,278,100,315"/>
+<area shape="rect" id="Node000004" href="$classdrivers_1_1_driver.html#a511e05515632a6b31d522a3faa1998a8" title="Canvia fitxes del jugador actual." alt="" coords="741,553,922,580"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="103,340,150,405,186,442,227,472,288,503,353,526,420,544,487,557,616,569,725,571,725,576,616,575,486,562,418,549,351,532,286,508,224,477,182,446,146,408,99,343"/>
+<area shape="rect" id="Node000007" href="$classdrivers_1_1_driver.html#a2e8cde796339c2db37f3e7332bf695ea" title="Col·loca una paraula al taulell." alt="" coords="229,436,418,463"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="113,340,164,373,227,410,268,428,266,433,224,414,161,378,110,344"/>
+<area shape="rect" id="Node000013" href="$classdrivers_1_1_driver.html#af17ae20af9da7fe473559b18f57b3846" title="Consulta les normes del joc." alt="" coords="483,307,639,349"/>
+<area shape="poly" id="edge17_Node000001_Node000013" title=" " alt="" coords="178,325,467,325,467,331,178,331"/>
+<area shape="rect" id="Node000014" href="$classdrivers_1_1_driver.html#ac54b560952a6b33f46dfb41fa9cdb421" title="Permet guardar la partida i torna a la pantalla d&#39;inici." alt="" coords="738,268,925,295"/>
+<area shape="poly" id="edge19_Node000001_Node000014" title=" " alt="" coords="178,312,225,307,493,288,722,280,722,286,494,293,226,312,178,318"/>
+<area shape="rect" id="Node000015" href="$classdrivers_1_1_driver.html#a016b62cedb8884ea6333d8c8506d73ee" title="Mostra per pantalla les opcions de les que disposa un jugador durant la partida." alt="" coords="226,592,421,635"/>
+<area shape="poly" id="edge20_Node000001_Node000015" title=" " alt="" coords="99,341,114,385,140,446,177,513,201,544,227,571,241,582,238,586,224,575,197,547,173,515,135,448,109,386,94,343"/>
+<area shape="rect" id="Node000016" href="$classdrivers_1_1_driver.html#a1349f8ca44272d07a91da7c4a689ce2e" title="Passa el torn del jugador actual." alt="" coords="240,373,407,400"/>
+<area shape="poly" id="edge21_Node000001_Node000016" title=" " alt="" coords="148,339,254,366,252,372,146,344"/>
+<area shape="rect" id="Node000017" href="$classdrivers_1_1_driver.html#a5bdeffe74ac8e28325692a231275787b" title="Pausa la partida actual." alt="" coords="232,151,415,177"/>
+<area shape="poly" id="edge23_Node000001_Node000017" title=" " alt="" coords="102,312,151,258,186,226,224,198,258,181,260,186,227,202,189,230,155,262,106,316"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="915,234,963,254,999,279,1032,310,1081,367,1077,370,1028,313,996,283,960,258,912,239"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="922,557,942,550,960,539,978,518,985,496,991,471,1008,445,1028,427,1050,413,1052,418,1031,432,1012,448,996,473,990,497,983,521,963,543,944,555,923,562"/>
+<area shape="rect" id="Node000005" href="$classdrivers_1_1_driver.html#a922b257b3c0425d1b3a89e6202abb26a" title="Identifica els caràcters del paràmetre d&#39;entrada que hauríen de correspondre&#39;s amb &#39;Ç&#39; i els substitu..." alt="" coords="1019,576,1178,619"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="923,574,1003,584,1003,589,922,580"/>
+<area shape="rect" id="Node000006" href="$classdrivers_1_1_driver.html#a5786bc8fc6091766d21fc7e775c38b45" title="Donada una seqüència de caràcters identifica qualsevol submot &quot;LxL&quot; on x no pertany al conjunt {A&#45;Z}..." alt="" coords="1010,525,1187,552"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="922,554,994,547,994,552,923,560"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="418,441,653,425,996,400,997,405,654,431,419,446"/>
+<area shape="rect" id="Node000008" href="$classdrivers_1_1_driver.html#a735bc9f4183f4abd4c702da4c62b0ce8" title="Mostra la pantalla de canvi de torn donant temps per a que el jugador es retiri i no vegi la pantalla..." alt="" coords="469,373,653,416"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="384,433,453,417,454,422,385,438"/>
+<area shape="rect" id="Node000010" href="$classdrivers_1_1_driver.html#a0ebb5e3010ea1f086dc4fd28df56ae54" title="Genera una llista amb les lletres i dígrafs del paràmetre." alt="" coords="485,491,637,517"/>
+<area shape="poly" id="edge13_Node000007_Node000010" title=" " alt="" coords="385,461,486,484,485,489,384,466"/>
+<area shape="poly" id="edge12_Node000008_Node000003" title=" " alt="" coords="654,392,997,392,997,397,654,397"/>
+<area shape="rect" id="Node000009" href="$classdomini_1_1auxiliars_1_1_color_terminal.html#a2fe2444decaa0df626b98d7e35637dbb" title="Centra el text en una línia de la terminal." alt="" coords="701,323,962,349"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="653,372,751,351,753,356,654,377"/>
+<area shape="rect" id="Node000011" href="$classdrivers_1_1_driver.html#a1f0852212ac7d690fe9c705f9eadd737" title="Donat un text entrat per terminal, és possible que el charSet de la consola no reconegui correctament..." alt="" coords="735,487,928,529"/>
+<area shape="poly" id="edge14_Node000010_Node000011" title=" " alt="" coords="638,502,719,504,719,509,638,508"/>
+<area shape="poly" id="edge16_Node000011_Node000006" title=" " alt="" coords="929,516,995,524,994,529,928,522"/>
+<area shape="rect" id="Node000012" href="$classdrivers_1_1_driver.html#a5337e850da710900d1ef6e2c4455a416" title="Donada una seqüència de caràcters identifica qualsevol submot &quot;[VOCAL]?&quot; o &quot;?[VOCAL]&quot; i ho substituei..." alt="" coords="1020,459,1176,501"/>
+<area shape="poly" id="edge15_Node000011_Node000012" title=" " alt="" coords="928,495,1004,487,1005,492,929,500"/>
+<area shape="poly" id="edge18_Node000013_Node000009" title=" " alt="" coords="640,328,686,329,686,334,640,333"/>
+<area shape="poly" id="edge22_Node000016_Node000008" title=" " alt="" coords="408,387,453,388,453,394,407,392"/>
+<area shape="rect" id="Node000018" href="$classdrivers_1_1_driver.html#a65d5cdb033b4f42c0a2adf1fabb7b6ff" title="Mostra el menú de pausa." alt="" coords="472,139,651,181"/>
+<area shape="poly" id="edge24_Node000017_Node000018" title=" " alt="" coords="416,160,456,159,456,164,416,165"/>
+<area shape="poly" id="edge25_Node000018_Node000002" title=" " alt="" coords="652,178,735,198,734,203,651,183"/>
+<area shape="poly" id="edge26_Node000018_Node000014" title=" " alt="" coords="589,180,639,218,702,254,724,261,722,266,700,258,636,223,586,184"/>
+<area shape="rect" id="Node000019" href="$classdrivers_1_1_driver.html#a54fdfdd4f8f7e6333ada1d3dee920f44" title="Reanuda una partida pausada." alt="" coords="753,135,910,177"/>
+<area shape="poly" id="edge27_Node000018_Node000019" title=" " alt="" coords="651,156,737,155,737,160,651,161"/>
+</map>

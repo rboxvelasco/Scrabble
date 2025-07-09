@@ -10,7 +10,7 @@ var searchData=
   ['tipus_7',['tipus',['../classdomini_1_1jugadors_1_1_jugador.html#a93cb8964afb91a0b5d3a738675ca097a',1,'domini::jugadors::Jugador']]],
   ['tocalletra_8',['tocaLletra',['../classcontroladors_1_1_ctrl_partida.html#ab2365dd846883b62c30985d553d5e0da',1,'controladors::CtrlPartida']]],
   ['togglejugador2_9',['toggleJugador2',['../classinterficie_1_1_vista_crear_partida.html#aa98d9506a67c02b747a12eeccd605bd2',1,'interficie::VistaCrearPartida']]],
-  ['tokenize_10',['tokenize',['../classcontroladors_1_1_ctrl_partida.html#ad67666cc359a9cb6bd8eed674e25a2a4',1,'controladors.CtrlPartida.tokenize()'],['../classdomini_1_1diccionari_1_1_d_a_w_g.html#ad5db7cc629d77068e51ccae18f9bfebd',1,'domini.diccionari.DAWG.tokenize()']]],
+  ['tokenize_10',['tokenize',['../classcontroladors_1_1_ctrl_partida.html#ad67666cc359a9cb6bd8eed674e25a2a4',1,'controladors.CtrlPartida.tokenize()'],['../classdomini_1_1diccionari_1_1_d_a_w_g.html#ad5db7cc629d77068e51ccae18f9bfebd',1,'domini.diccionari.DAWG.tokenize()'],['../classdrivers_1_1_driver.html#a0ebb5e3010ea1f086dc4fd28df56ae54',1,'drivers.Driver.tokenize()']]],
   ['tools_11',['Tools',['../classinterficie_1_1utils_1_1_tools.html',1,'interficie::utils']]],
   ['tools_2ejava_12',['Tools.java',['../_tools_8java.html',1,'']]],
   ['torn_13',['torn',['../classdomini_1_1scrabble_1_1_partida.html#ab184461d61044565ad3dedf582ebfb57',1,'domini::scrabble::Partida']]],

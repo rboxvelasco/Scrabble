@@ -385,7 +385,6 @@ public class VistaPartida extends JFrame {
                         panelFitxes.setLayout(new BoxLayout(panelFitxes, BoxLayout.Y_AXIS));
                         panelFitxes.add(new JLabel("Fitxes a canviar (separades per espais):"));
                         panelFitxes.add(fichasField);
-                        panelFitxes.setBackground(Colors.GREEN_BACKGROUND);
 
                         int resultFitxes = JOptionPane.showOptionDialog(null, panelFitxes, "Indica les fitxes",
                                 JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE, null, options, options[0]);

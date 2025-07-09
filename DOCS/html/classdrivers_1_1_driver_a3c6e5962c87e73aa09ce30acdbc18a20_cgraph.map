@@ -1,0 +1,5 @@
+<map id="drivers.Driver.mostrarOpcions" name="drivers.Driver.mostrarOpcions">
+<area shape="rect" id="Node000001" title="Mostrar les opcions disponibles al menú principal." alt="" coords="5,5,201,32"/>
+<area shape="rect" id="Node000002" href="$classdrivers_1_1_driver.html#a8bc044826a5994373681c23cc5555bce" title="Neteja la pantalla del terminal." alt="" coords="249,5,421,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,16,233,16,233,21,201,21"/>
+</map>

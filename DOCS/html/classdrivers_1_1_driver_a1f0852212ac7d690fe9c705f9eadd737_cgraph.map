@@ -1,0 +1,7 @@
+<map id="drivers.Driver.corregir_caracters_terminal_windows" name="drivers.Driver.corregir_caracters_terminal_windows">
+<area shape="rect" id="Node000001" title="Donat un text entrat per terminal, és possible que el charSet de la consola no reconegui correctament..." alt="" coords="5,35,199,77"/>
+<area shape="rect" id="Node000002" href="$classdrivers_1_1_driver.html#a5337e850da710900d1ef6e2c4455a416" title="Donada una seqüència de caràcters identifica qualsevol submot &quot;[VOCAL]?&quot; o &quot;?[VOCAL]&quot; i ho substituei..." alt="" coords="257,5,414,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,41,241,36,242,41,199,46"/>
+<area shape="rect" id="Node000003" href="$classdrivers_1_1_driver.html#a5786bc8fc6091766d21fc7e775c38b45" title="Donada una seqüència de caràcters identifica qualsevol submot &quot;LxL&quot; on x no pertany al conjunt {A&#45;Z}..." alt="" coords="247,72,424,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,66,232,70,231,75,199,71"/>
+</map>

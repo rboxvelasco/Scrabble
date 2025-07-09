@@ -6,5 +6,5 @@ digraph "Jerarquia Gràfica de la Classe"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [id="Node000000",label="interficie.utils.Tools",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1utils_1_1_tools.html",tooltip="Classe d'utilitats gràfiques per a la interfície d'usuari."];
+  Node0 [id="Node000000",label="interficie.utils.Colors",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1utils_1_1_colors.html",tooltip="Classe utilitària que defineix constants de colors reutilitzables per a la interfície gràfica."];
 }

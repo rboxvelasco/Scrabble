@@ -43,6 +43,9 @@ var annotated_dup =
         [ "Usuari", "classdomini_1_1sessio_1_1_usuari.html", "classdomini_1_1sessio_1_1_usuari" ]
       ] ]
     ] ],
+    [ "drivers", "namespacedrivers.html", [
+      [ "Driver", "classdrivers_1_1_driver.html", "classdrivers_1_1_driver" ]
+    ] ],
     [ "interficie", "namespaceinterficie.html", [
       [ "utils", "namespaceinterficie_1_1utils.html", [
         [ "Colors", "classinterficie_1_1utils_1_1_colors.html", "classinterficie_1_1utils_1_1_colors" ],

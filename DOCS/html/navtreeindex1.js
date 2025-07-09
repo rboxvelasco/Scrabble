@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"classcontroladors_1_1_ctrl_presentacio.html#a28d8149aa0fa44a898679b6a03d59ba0":[0,0,0,3,8],
 "classcontroladors_1_1_ctrl_presentacio.html#a28d8149aa0fa44a898679b6a03d59ba0":[1,0,0,3,8],
 "classcontroladors_1_1_ctrl_presentacio.html#a3276c424f81ae1fd55629c120f70824f":[0,0,0,3,7],
 "classcontroladors_1_1_ctrl_presentacio.html#a3276c424f81ae1fd55629c120f70824f":[1,0,0,3,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "classdomini_1_1diccionari_1_1_d_a_w_g_1_1_node.html#af9d0a2d56aff2a71a1be8d02a7f24bcd":[0,0,1,1,0,1,1],
 "classdomini_1_1diccionari_1_1_d_a_w_g_1_1_node.html#af9d0a2d56aff2a71a1be8d02a7f24bcd":[1,0,1,1,0,1,1],
 "classdomini_1_1excepcions_1_1_excepcio_arxiu_bossa.html":[0,0,1,2,0],
-"classdomini_1_1excepcions_1_1_excepcio_arxiu_bossa.html":[1,0,1,2,0],
-"classdomini_1_1excepcions_1_1_excepcio_arxiu_bossa.html#a7eba96a24a151df1c739b721de77bf37":[0,0,1,2,0,0]
+"classdomini_1_1excepcions_1_1_excepcio_arxiu_bossa.html":[1,0,1,2,0]
 };

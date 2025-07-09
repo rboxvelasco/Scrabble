@@ -1,0 +1,14 @@
+digraph "interficie.VistaConsultarEstadistiques.AvatarRenderer.getListCellRendererComponent"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="interficie.VistaConsultar\lEstadistiques.AvatarRenderer.get\lListCellRendererComponent",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="domini.jugadors.Jugador.getNom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1jugadors_1_1_jugador.html#abd263319ed47cf1469e301659e15dd26",tooltip="Retorna el nom del jugador."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="domini.jugadors.Jugador.getruta\lImatge",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1jugadors_1_1_jugador.html#ac629842bca37a6a17c8dbd5eb597e2e1",tooltip="Obté a ruta a la imatge de l'avatar."];
+}

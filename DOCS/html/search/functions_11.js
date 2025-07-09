@@ -22,5 +22,7 @@ var searchData=
   ['setword_19',['setWord',['../classdomini_1_1auxiliars_1_1_max_word.html#a452955f9d5f0cfedcab85fd1c74609c6',1,'domini::auxiliars::MaxWord']]],
   ['showfallbackmessage_20',['showFallbackMessage',['../classinterficie_1_1_vista_consultar_normes.html#ad1a9a84d1daa2ec0cc320272d3752489',1,'interficie::VistaConsultarNormes']]],
   ['size_21',['size',['../classdomini_1_1auxiliars_1_1_fast_delete_list.html#ae08f04c14054d74f14ab6241e023b95a',1,'domini::auxiliars::FastDeleteList']]],
-  ['sortir_22',['sortir',['../classcontroladors_1_1_ctrl_presentacio.html#a633464b50c83730927c14ed2356bb43c',1,'controladors::CtrlPresentacio']]]
+  ['sortir_22',['sortir',['../classcontroladors_1_1_ctrl_presentacio.html#a633464b50c83730927c14ed2356bb43c',1,'controladors::CtrlPresentacio']]],
+  ['substituirctrencada_23',['substituirCtrencada',['../classdrivers_1_1_driver.html#a5337e850da710900d1ef6e2c4455a416',1,'drivers::Driver']]],
+  ['substituirlxl_24',['substituirLxL',['../classdrivers_1_1_driver.html#a5786bc8fc6091766d21fc7e775c38b45',1,'drivers::Driver']]]
 ];

@@ -18,5 +18,6 @@ var searchData=
   ['jugadorserializer_15',['JugadorSerializer',['../classpersistencia_1_1_jugador_serializer.html',1,'persistencia']]],
   ['jugadorserializer_2ejava_16',['JugadorSerializer.java',['../_jugador_serializer_8java.html',1,'']]],
   ['jugadorsregistrats_17',['jugadorsRegistrats',['../classdomini_1_1scrabble_1_1_ranking.html#a96223219f28f92f3a3ebbf8f1bd0ba7b',1,'domini::scrabble::Ranking']]],
-  ['jugadorsregistratsvalids_18',['jugadorsRegistratsValids',['../classcontroladors_1_1_ctrl_domini.html#aa3baef8745a51c1b1f73035104f72446',1,'controladors::CtrlDomini']]]
+  ['jugadorsregistratsvalids_18',['jugadorsRegistratsValids',['../classcontroladors_1_1_ctrl_domini.html#aa3baef8745a51c1b1f73035104f72446',1,'controladors::CtrlDomini']]],
+  ['jugarpartida_19',['jugarPartida',['../classdrivers_1_1_driver.html#a13e38153634507d9ad6e24cb267237b9',1,'drivers::Driver']]]
 ];

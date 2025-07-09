@@ -1,0 +1,7 @@
+<map id="drivers.Driver.PantallaCanviDeTorn" name="drivers.Driver.PantallaCanviDeTorn">
+<area shape="rect" id="Node000001" title="Mostra la pantalla de canvi de torn donant temps per a que el jugador es retiri i no vegi la pantalla..." alt="" coords="5,23,190,65"/>
+<area shape="rect" id="Node000002" href="$classdomini_1_1auxiliars_1_1_color_terminal.html#a2fe2444decaa0df626b98d7e35637dbb" title="Centra el text en una línia de la terminal." alt="" coords="238,5,498,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,33,222,30,222,35,190,38"/>
+<area shape="rect" id="Node000003" href="$classdrivers_1_1_driver.html#a8bc044826a5994373681c23cc5555bce" title="Neteja la pantalla del terminal." alt="" coords="282,56,454,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,50,266,57,266,62,190,55"/>
+</map>

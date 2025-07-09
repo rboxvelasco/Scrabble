@@ -6,7 +6,11 @@ digraph "Jerarquia Gràfica de la Classe"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [id="Node000000",label="InstanceCreator",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
-  Node0 -> Node1 [id="edge10_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node1 [id="Node000001",label="persistencia.EstatInstance\lCreator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpersistencia_1_1_estat_instance_creator.html",tooltip="Implementació de la interfície InstanceCreator per proporcionar una instància d'EstatEnCurs quan es d..."];
+  Node0 [id="Node000000",label="Exception",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node0 -> Node1 [id="edge7_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="domini.excepcions.Excepcio\lDomini",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1excepcions_1_1_excepcio_domini.html",tooltip="Excepció arrel de tot el paquet domini."];
+  Node1 -> Node2 [id="edge8_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="domini.excepcions.Excepcio\lArxiuBossa",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1excepcions_1_1_excepcio_arxiu_bossa.html",tooltip="Problemes al carregar el fitxer del set de fitxes."];
+  Node1 -> Node3 [id="edge9_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="domini.excepcions.Excepcio\lArxiuDiccionari",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1excepcions_1_1_excepcio_arxiu_diccionari.html",tooltip="Problemes al carregar el fitxer de diccionari."];
 }

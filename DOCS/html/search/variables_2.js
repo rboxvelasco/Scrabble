@@ -16,12 +16,14 @@ var searchData=
   ['crear_5fpartida_5fx_13',['CREAR_PARTIDA_X',['../classinterficie_1_1_vista_menu_joc.html#ab6fe41be96cd6b22ede1e823ae935b19',1,'interficie::VistaMenuJoc']]],
   ['crear_5fpartida_5fy_14',['CREAR_PARTIDA_Y',['../classinterficie_1_1_vista_menu_joc.html#a22a4f585917f3f69753822c81b8c5f6e',1,'interficie::VistaMenuJoc']]],
   ['cross_5fchecks_15',['cross_checks',['../classdomini_1_1scrabble_1_1_casella.html#aef5bf03b17b75cf44b0389b3b2036e89',1,'domini::scrabble::Casella']]],
-  ['ctrldomini_16',['CtrlDomini',['../classcontroladors_1_1_ctrl_partida.html#a8e356e03da269422dbedbb979c15d949',1,'controladors::CtrlPartida']]],
-  ['ctrldomini_17',['ctrlDomini',['../classcontroladors_1_1_ctrl_presentacio.html#a6c1cb2f1dc2f98f7f1addc7939552979',1,'controladors::CtrlPresentacio']]],
-  ['ctrlpartida_18',['CtrlPartida',['../classcontroladors_1_1_ctrl_domini.html#ae321af20a3708e596eb657309e0d3b51',1,'controladors::CtrlDomini']]],
-  ['ctrlpartida_19',['ctrlPartida',['../classcontroladors_1_1_ctrl_presentacio.html#a1c5196a282115deba278beff121d4e03',1,'controladors::CtrlPresentacio']]],
-  ['ctrlpresentacio_20',['ctrlPresentacio',['../classinterficie_1_1_vista_canvi_torn.html#a8fa0f57c2a4e58957ba89cd4a21d9b10',1,'interficie::VistaCanviTorn']]],
-  ['cyan_21',['CYAN',['../classdomini_1_1auxiliars_1_1_color_terminal.html#ae232629a454d4b2a437db275ae3aa9ce',1,'domini::auxiliars::ColorTerminal']]],
-  ['cyan_5fbackground_22',['CYAN_BACKGROUND',['../classdomini_1_1auxiliars_1_1_color_terminal.html#a02f32c5b824760bb5277b02e9b82f946',1,'domini::auxiliars::ColorTerminal']]],
-  ['cyan_5fbold_23',['CYAN_BOLD',['../classdomini_1_1auxiliars_1_1_color_terminal.html#a2fd8c04ebb6dc9b7f41a3e7d030bf0df',1,'domini::auxiliars::ColorTerminal']]]
+  ['ctrl_5fdom_16',['ctrl_dom',['../classdrivers_1_1_driver.html#aeee0f8440b195496ae4df270ac182c4d',1,'drivers::Driver']]],
+  ['ctrl_5fpartida_17',['ctrl_partida',['../classdrivers_1_1_driver.html#a48ed232a25dc8ddf6e450ba743b7fd4a',1,'drivers::Driver']]],
+  ['ctrldomini_18',['CtrlDomini',['../classcontroladors_1_1_ctrl_partida.html#a8e356e03da269422dbedbb979c15d949',1,'controladors::CtrlPartida']]],
+  ['ctrldomini_19',['ctrlDomini',['../classcontroladors_1_1_ctrl_presentacio.html#a6c1cb2f1dc2f98f7f1addc7939552979',1,'controladors::CtrlPresentacio']]],
+  ['ctrlpartida_20',['CtrlPartida',['../classcontroladors_1_1_ctrl_domini.html#ae321af20a3708e596eb657309e0d3b51',1,'controladors::CtrlDomini']]],
+  ['ctrlpartida_21',['ctrlPartida',['../classcontroladors_1_1_ctrl_presentacio.html#a1c5196a282115deba278beff121d4e03',1,'controladors::CtrlPresentacio']]],
+  ['ctrlpresentacio_22',['ctrlPresentacio',['../classinterficie_1_1_vista_canvi_torn.html#a8fa0f57c2a4e58957ba89cd4a21d9b10',1,'interficie::VistaCanviTorn']]],
+  ['cyan_23',['CYAN',['../classdomini_1_1auxiliars_1_1_color_terminal.html#ae232629a454d4b2a437db275ae3aa9ce',1,'domini::auxiliars::ColorTerminal']]],
+  ['cyan_5fbackground_24',['CYAN_BACKGROUND',['../classdomini_1_1auxiliars_1_1_color_terminal.html#a02f32c5b824760bb5277b02e9b82f946',1,'domini::auxiliars::ColorTerminal']]],
+  ['cyan_5fbold_25',['CYAN_BOLD',['../classdomini_1_1auxiliars_1_1_color_terminal.html#a2fd8c04ebb6dc9b7f41a3e7d030bf0df',1,'domini::auxiliars::ColorTerminal']]]
 ];

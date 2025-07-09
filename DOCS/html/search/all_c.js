@@ -3,7 +3,7 @@ var searchData=
   ['magenta_0',['MAGENTA',['../classdomini_1_1auxiliars_1_1_color_terminal.html#afe5e357f1f260f7b4a4431a972d23f22',1,'domini::auxiliars::ColorTerminal']]],
   ['magenta_5fbackground_1',['MAGENTA_BACKGROUND',['../classdomini_1_1auxiliars_1_1_color_terminal.html#ade94aae2e33388d4c19a670f72388c54',1,'domini::auxiliars::ColorTerminal']]],
   ['magenta_5fbold_2',['MAGENTA_BOLD',['../classdomini_1_1auxiliars_1_1_color_terminal.html#a2fc3be6768bd8062839ed064f06895bc',1,'domini::auxiliars::ColorTerminal']]],
-  ['main_3',['main',['../classinterficie_1_1_main_g_u_i.html#ae12d6baaff26bc828aa5d7b411923165',1,'interficie::MainGUI']]],
+  ['main_3',['main',['../classdrivers_1_1_driver.html#a3f94ce3595725e82b34c92548e071d04',1,'drivers.Driver.main()'],['../classinterficie_1_1_main_g_u_i.html#ae12d6baaff26bc828aa5d7b411923165',1,'interficie.MainGUI.main()']]],
   ['maingui_4',['MainGUI',['../classinterficie_1_1_main_g_u_i.html',1,'interficie']]],
   ['maingui_2ejava_5',['MainGUI.java',['../_main_g_u_i_8java.html',1,'']]],
   ['mapapuntuacions_6',['mapaPuntuacions',['../classdomini_1_1scrabble_1_1_bossa.html#a2e24fa510f678d09736ae7f5b23992b4',1,'domini::scrabble::Bossa']]],
@@ -16,9 +16,13 @@ var searchData=
   ['maxword_2ejava_13',['MaxWord.java',['../_max_word_8java.html',1,'']]],
   ['mida_14',['mida',['../classcontroladors_1_1_ctrl_partida.html#aab9bb968e427448102eb7ab1e6a691d9',1,'controladors::CtrlPartida']]],
   ['modelllista_15',['modelLlista',['../classinterficie_1_1_vista_consultar_avatars.html#afdd08ff45a71ca562ff3d31ed3202703',1,'interficie.VistaConsultarAvatars.modelLlista'],['../classinterficie_1_1_vista_consultar_estadistiques.html#a57a35be4f3c8b90fd635ae7f12f775c9',1,'interficie.VistaConsultarEstadistiques.modelLlista']]],
-  ['mostrarestadistiques_16',['mostrarEstadistiques',['../classinterficie_1_1_vista_consultar_estadistiques.html#a2d04a42f93b8d16629d5795a935ae87e',1,'interficie::VistaConsultarEstadistiques']]],
-  ['mostrarselectorimagenes_17',['mostrarSelectorImagenes',['../classinterficie_1_1_vista_crear_avatar.html#a8815061362fcbb6852ed1013c55cf773',1,'interficie::VistaCrearAvatar']]],
-  ['multiplicador_18',['Multiplicador',['../enumdomini_1_1scrabble_1_1_multiplicador.html',1,'domini.scrabble.Multiplicador'],['../enumdomini_1_1scrabble_1_1_multiplicador.html#a58be371c86176a66c3915feb82bf94d4',1,'domini.scrabble.Multiplicador.Multiplicador()']]],
-  ['multiplicador_19',['multiplicador',['../classdomini_1_1scrabble_1_1_casella.html#a2ae6927a666f86e589a583d9f6760b8a',1,'domini.scrabble.Casella.multiplicador'],['../enumdomini_1_1scrabble_1_1_multiplicador.html#ac45253ee58de3aea4336f6ebdea25067',1,'domini.scrabble.Multiplicador.multiplicador']]],
-  ['multiplicador_2ejava_20',['Multiplicador.java',['../_multiplicador_8java.html',1,'']]]
+  ['mostrarestadistiques_16',['mostrarEstadistiques',['../classdrivers_1_1_driver.html#a0411868fb5e262af5563f7926ab25d48',1,'drivers.Driver.mostrarEstadistiques()'],['../classinterficie_1_1_vista_consultar_estadistiques.html#a2d04a42f93b8d16629d5795a935ae87e',1,'interficie.VistaConsultarEstadistiques.mostrarEstadistiques()']]],
+  ['mostrarmenupausa_17',['mostrarMenuPausa',['../classdrivers_1_1_driver.html#a65d5cdb033b4f42c0a2adf1fabb7b6ff',1,'drivers::Driver']]],
+  ['mostraropcions_18',['mostrarOpcions',['../classdrivers_1_1_driver.html#a3c6e5962c87e73aa09ce30acdbc18a20',1,'drivers::Driver']]],
+  ['mostraropcionspartida_19',['mostrarOpcionsPartida',['../classdrivers_1_1_driver.html#a016b62cedb8884ea6333d8c8506d73ee',1,'drivers::Driver']]],
+  ['mostrarrankings_20',['mostrarRankings',['../classdrivers_1_1_driver.html#a7476cfc83bad8b4d1ba7204c750db2c2',1,'drivers::Driver']]],
+  ['mostrarselectorimagenes_21',['mostrarSelectorImagenes',['../classinterficie_1_1_vista_crear_avatar.html#a8815061362fcbb6852ed1013c55cf773',1,'interficie::VistaCrearAvatar']]],
+  ['multiplicador_22',['Multiplicador',['../enumdomini_1_1scrabble_1_1_multiplicador.html',1,'domini.scrabble.Multiplicador'],['../enumdomini_1_1scrabble_1_1_multiplicador.html#a58be371c86176a66c3915feb82bf94d4',1,'domini.scrabble.Multiplicador.Multiplicador()']]],
+  ['multiplicador_23',['multiplicador',['../classdomini_1_1scrabble_1_1_casella.html#a2ae6927a666f86e589a583d9f6760b8a',1,'domini.scrabble.Casella.multiplicador'],['../enumdomini_1_1scrabble_1_1_multiplicador.html#ac45253ee58de3aea4336f6ebdea25067',1,'domini.scrabble.Multiplicador.multiplicador']]],
+  ['multiplicador_2ejava_24',['Multiplicador.java',['../_multiplicador_8java.html',1,'']]]
 ];

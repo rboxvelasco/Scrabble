@@ -12,6 +12,7 @@ var hierarchy =
     [ "controladors.CtrlPersistencia", "classcontroladors_1_1_ctrl_persistencia.html", null ],
     [ "controladors.CtrlPresentacio", "classcontroladors_1_1_ctrl_presentacio.html", null ],
     [ "domini.diccionari.DAWG", "classdomini_1_1diccionari_1_1_d_a_w_g.html", null ],
+    [ "drivers.Driver", "classdrivers_1_1_driver.html", null ],
     [ "domini.diccionari.DAWG.Edge", "classdomini_1_1diccionari_1_1_d_a_w_g_1_1_edge.html", null ],
     [ "domini.scrabble.Estat", "classdomini_1_1scrabble_1_1_estat.html", [
       [ "domini.scrabble.EstatEnCurs", "classdomini_1_1scrabble_1_1_estat_en_curs.html", null ],

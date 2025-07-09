@@ -1,0 +1,5 @@
+<map id="drivers.Driver.IniciReprendrePartida" name="drivers.Driver.IniciReprendrePartida">
+<area shape="rect" id="Node000001" title="Reprén una partida que s&#39;ha deixat a mitges (no implementada)." alt="" coords="185,5,372,48"/>
+<area shape="rect" id="Node000002" href="$classdrivers_1_1_driver.html#a3f94ce3595725e82b34c92548e071d04" title="Inici del driver." alt="" coords="5,13,137,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,29,137,29,137,24,169,24"/>
+</map>

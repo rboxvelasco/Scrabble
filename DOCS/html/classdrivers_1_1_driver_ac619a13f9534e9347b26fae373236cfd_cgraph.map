@@ -1,0 +1,5 @@
+<map id="drivers.Driver.abandonarPartida" name="drivers.Driver.abandonarPartida">
+<area shape="rect" id="Node000001" title="Abandona la partida actual." alt="" coords="5,5,169,48"/>
+<area shape="rect" id="Node000002" href="$classdrivers_1_1_driver.html#a8bc044826a5994373681c23cc5555bce" title="Neteja la pantalla del terminal." alt="" coords="217,13,389,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,24,201,24,201,29,169,29"/>
+</map>

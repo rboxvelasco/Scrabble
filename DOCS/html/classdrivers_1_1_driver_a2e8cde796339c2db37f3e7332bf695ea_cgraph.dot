@@ -1,0 +1,25 @@
+digraph "drivers.Driver.colocarParaula"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="drivers.Driver.colocarParaula",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Col·loca una paraula al taulell."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="drivers.Driver.clearScreen",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdrivers_1_1_driver.html#a8bc044826a5994373681c23cc5555bce",tooltip="Neteja la pantalla del terminal."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="drivers.Driver.PantallaCanvi\lDeTorn",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdrivers_1_1_driver.html#a735bc9f4183f4abd4c702da4c62b0ce8",tooltip="Mostra la pantalla de canvi de torn donant temps per a que el jugador es retiri i no vegi la pantalla..."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="domini.auxiliars.ColorTerminal.centerText",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdomini_1_1auxiliars_1_1_color_terminal.html#a2fe2444decaa0df626b98d7e35637dbb",tooltip="Centra el text en una línia de la terminal."];
+  Node3 -> Node2 [id="edge4_Node000003_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="drivers.Driver.tokenize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdrivers_1_1_driver.html#a0ebb5e3010ea1f086dc4fd28df56ae54",tooltip="Genera una llista amb les lletres i dígrafs del paràmetre."];
+  Node5 -> Node6 [id="edge6_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="drivers.Driver.corregir\l_caracters_terminal_windows",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdrivers_1_1_driver.html#a1f0852212ac7d690fe9c705f9eadd737",tooltip="Donat un text entrat per terminal, és possible que el charSet de la consola no reconegui correctament..."];
+  Node6 -> Node7 [id="edge7_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="drivers.Driver.substituir\lCtrencada",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdrivers_1_1_driver.html#a5337e850da710900d1ef6e2c4455a416",tooltip="Donada una seqüència de caràcters identifica qualsevol submot \"[VOCAL]?\" o \"?[VOCAL]\" i ho substituei..."];
+  Node6 -> Node8 [id="edge8_Node000006_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="drivers.Driver.substituirLxL",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdrivers_1_1_driver.html#a5786bc8fc6091766d21fc7e775c38b45",tooltip="Donada una seqüència de caràcters identifica qualsevol submot \"LxL\" on x no pertany al conjunt {A-Z}..."];
+}

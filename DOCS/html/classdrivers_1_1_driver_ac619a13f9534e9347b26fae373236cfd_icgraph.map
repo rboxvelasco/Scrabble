@@ -1,0 +1,12 @@
+<map id="drivers.Driver.abandonarPartida" name="drivers.Driver.abandonarPartida">
+<area shape="rect" id="Node000001" title="Abandona la partida actual." alt="" coords="864,5,1027,48"/>
+<area shape="rect" id="Node000002" href="$classdrivers_1_1_driver.html#a13e38153634507d9ad6e24cb267237b9" title="Juga una partida." alt="" coords="185,13,357,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="848,26,816,25,566,25,357,27,357,22,566,19,816,20,848,21"/>
+<area shape="rect" id="Node000004" href="$classdrivers_1_1_driver.html#a65d5cdb033b4f42c0a2adf1fabb7b6ff" title="Mostra el menú de pausa." alt="" coords="636,35,816,77"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="849,42,816,47,816,41,848,37"/>
+<area shape="rect" id="Node000003" href="$classdrivers_1_1_driver.html#a3f94ce3595725e82b34c92548e071d04" title="Inici del driver." alt="" coords="5,13,137,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="169,29,137,29,137,24,169,24"/>
+<area shape="rect" id="Node000005" href="$classdrivers_1_1_driver.html#a5bdeffe74ac8e28325692a231275787b" title="Pausa la partida actual." alt="" coords="405,39,588,65"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="620,57,589,56,589,51,620,51"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="389,43,357,39,358,34,390,37"/>
+</map>

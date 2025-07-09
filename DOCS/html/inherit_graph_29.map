@@ -1,29 +1,5 @@
 <map id="Jerarquia Gràfica de la Classe" name="Jerarquia Gràfica de la Classe">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,373,71,400"/>
-<area shape="rect" id="Node000001" href="$classinterficie_1_1_vista_canvi_torn.html" title="Mostra una finestra indicant que un jugador ha de passar el dispositiu a un altre." alt="" coords="134,5,297,32"/>
-<area shape="poly" id="edge13_Node000000_Node000001" title=" " alt="" coords="40,357,49,283,64,189,87,101,101,66,117,42,132,30,135,35,121,46,106,69,92,102,70,190,54,284,45,358"/>
-<area shape="rect" id="Node000002" href="$classinterficie_1_1_vista_consultar_avatars.html" title="Mostra una finestra llistant els avatars disponibles." alt="" coords="135,56,296,99"/>
-<area shape="poly" id="edge14_Node000000_Node000002" title=" " alt="" coords="37,358,40,305,52,239,76,170,94,138,117,109,133,96,136,100,121,113,99,141,81,172,57,241,46,306,42,358"/>
-<area shape="rect" id="Node000003" href="$classinterficie_1_1_vista_consultar_estadistiques.html" title="Mostra una finestra amb les estadístiques dels avatars de l&#39;usuari registrat." alt="" coords="135,123,296,165"/>
-<area shape="poly" id="edge15_Node000000_Node000003" title=" " alt="" coords="40,357,47,317,61,269,84,219,117,175,133,163,136,167,121,179,88,222,66,270,53,318,45,358"/>
-<area shape="rect" id="Node000004" href="$classinterficie_1_1_vista_consultar_normes.html" title="Mostra una finestra amb les normes del joc Scrabble en format HTML." alt="" coords="135,189,296,232"/>
-<area shape="poly" id="edge16_Node000000_Node000004" title=" " alt="" coords="46,357,72,299,92,269,117,242,134,230,137,235,120,246,96,272,76,302,51,359"/>
-<area shape="rect" id="Node000005" href="$classinterficie_1_1_vista_consultar_ranking.html" title="Vista gràfica que mostra el rànquing d&#39;avatars dels jugadors, ordenats per puntuació." alt="" coords="135,256,296,299"/>
-<area shape="poly" id="edge17_Node000000_Node000005" title=" " alt="" coords="58,360,85,333,117,308,139,297,142,302,120,313,88,337,62,363"/>
-<area shape="rect" id="Node000006" href="$classinterficie_1_1_vista_crear_avatar.html" title=" " alt="" coords="128,323,302,349"/>
-<area shape="poly" id="edge18_Node000000_Node000006" title=" " alt="" coords="85,369,118,359,159,347,161,352,119,364,87,374"/>
-<area shape="rect" id="Node000007" href="$classinterficie_1_1_vista_crear_partida.html" title=" " alt="" coords="127,373,304,400"/>
-<area shape="poly" id="edge19_Node000000_Node000007" title=" " alt="" coords="86,384,126,384,126,389,86,389"/>
-<area shape="rect" id="Node000008" href="$classinterficie_1_1_vista_crear_perfil.html" title=" " alt="" coords="132,424,298,451"/>
-<area shape="poly" id="edge20_Node000000_Node000008" title=" " alt="" coords="87,399,119,409,161,421,159,426,118,415,85,404"/>
-<area shape="rect" id="Node000009" href="$classinterficie_1_1_vista_iniciar_sessio.html" title="Classe que representa la finestra principal del menú de l&#39;aplicació Scrabble un cop s&#39;ha iniciat sess..." alt="" coords="126,475,305,501"/>
-<area shape="poly" id="edge21_Node000000_Node000009" title=" " alt="" coords="62,410,88,437,120,460,146,472,144,476,117,465,85,441,58,414"/>
-<area shape="rect" id="Node000010" href="$classinterficie_1_1_vista_menu_joc.html" title="Classe que representa la finestra principal del menú de l&#39;aplicació Scrabble un cop s&#39;ha iniciat sess..." alt="" coords="137,525,294,552"/>
-<area shape="poly" id="edge22_Node000000_Node000010" title=" " alt="" coords="52,413,78,464,97,490,120,511,140,522,138,527,117,515,93,493,74,467,47,416"/>
-<area shape="rect" id="Node000011" href="$classinterficie_1_1_vista_menu_principal.html" title="Classe que representa la finestra principal del menú de l&#39;aplicació Scrabble." alt="" coords="122,576,308,603"/>
-<area shape="poly" id="edge23_Node000000_Node000011" title=" " alt="" coords="47,415,56,449,70,489,91,528,120,562,138,573,135,578,117,566,87,531,65,491,50,451,42,416"/>
-<area shape="rect" id="Node000012" href="$classinterficie_1_1_vista_partida.html" title="Classe que representa la interfície gràfica d&#39;una partida de Scrabble." alt="" coords="143,627,288,653"/>
-<area shape="poly" id="edge24_Node000000_Node000012" title=" " alt="" coords="44,415,49,459,62,512,85,566,101,591,120,613,144,627,141,632,117,617,97,594,80,569,57,514,44,460,38,416"/>
-<area shape="rect" id="Node000013" href="$classinterficie_1_1_vista_ranking_partida.html" title="Finestra que mostra el rànquing i el resultat final d&#39;una partida de Scrabble." alt="" coords="119,677,312,704"/>
-<area shape="poly" id="edge25_Node000000_Node000013" title=" " alt="" coords="41,416,44,469,55,536,65,570,79,604,97,636,120,663,136,675,133,679,117,667,93,639,75,607,60,572,50,537,39,469,36,416"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,5,71,32"/>
+<area shape="rect" id="Node000001" href="$classinterficie_1_1_selector_partida.html" title="Diàleg modal Swing per seleccionar una partida guardada d&#39;un usuari concret." alt="" coords="119,5,282,32"/>
+<area shape="poly" id="edge12_Node000000_Node000001" title=" " alt="" coords="86,16,118,16,118,21,86,21"/>
 </map>

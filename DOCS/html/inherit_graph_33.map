@@ -1,11 +1,5 @@
 <map id="Jerarquia Gràfica de la Classe" name="Jerarquia Gràfica de la Classe">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,113,87,140"/>
-<area shape="rect" id="Node000001" href="$classinterficie_1_1_vista_crear_avatar_1_1_placeholder_text_field.html" title="JTextField amb suport per a un text placeholder." alt="" coords="137,5,316,48"/>
-<area shape="poly" id="edge30_Node000000_Node000001" title=" " alt="" coords="72,101,101,79,133,58,157,46,160,51,136,62,104,83,76,105"/>
-<area shape="rect" id="Node000002" href="$classinterficie_1_1_vista_crear_partida_1_1_placeholder_text_field.html" title="JTextField personalitzat que mostra un text &quot;placeholder&quot; quan el camp està buit i no té el focus,..." alt="" coords="136,72,317,115"/>
-<area shape="poly" id="edge31_Node000000_Node000002" title=" " alt="" coords="102,114,135,108,136,113,103,119"/>
-<area shape="rect" id="Node000003" href="$classinterficie_1_1_vista_crear_perfil_1_1_placeholder_text_field.html" title="Camp de text personalitzat que mostra un placeholder quan està buit i no té focus." alt="" coords="141,139,312,181"/>
-<area shape="poly" id="edge32_Node000000_Node000003" title=" " alt="" coords="103,134,141,142,140,147,102,140"/>
-<area shape="rect" id="Node000004" href="$classinterficie_1_1_vista_iniciar_sessio_1_1_placeholder_text_field.html" title="Classe interna que permet mostrar un placeholder (text predefinit i en gris) dins d&#39;un JTextField qua..." alt="" coords="135,205,318,248"/>
-<area shape="poly" id="edge33_Node000000_Node000004" title=" " alt="" coords="76,148,104,170,136,191,160,202,157,207,133,196,101,175,72,152"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,5,109,32"/>
+<area shape="rect" id="Node000001" href="$classpersistencia_1_1_jugador_serializer.html" title="Classe per serialitzar instàncies de Jugador a JSON utilitzant GSON." alt="" coords="157,5,352,32"/>
+<area shape="poly" id="edge29_Node000000_Node000001" title=" " alt="" coords="124,16,156,16,156,21,124,21"/>
 </map>

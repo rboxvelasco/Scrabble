@@ -1,23 +1,27 @@
 <map id="persistencia.UsuariIO.loadUsuari" name="persistencia.UsuariIO.loadUsuari">
-<area shape="rect" id="Node000001" title="Carrega un usuari des d&#39;un fitxer JSON." alt="" coords="1772,59,1947,101"/>
-<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_persistencia.html#a06c847181ea13b0c7dde8a61b47f0a0b" title="Carrega els usuaris guardats a la capa de persistència." alt="" coords="1483,59,1724,101"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1756,83,1724,83,1724,77,1756,77"/>
-<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_domini.html#ab06c2680b60a9e0864d8470f4888e8e9" title="Carrega els usuaris cada cop que executem el joc." alt="" coords="1215,59,1435,101"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1468,83,1436,83,1436,77,1468,77"/>
-<area shape="rect" id="Node000004" href="$classcontroladors_1_1_ctrl_domini.html#a7648cc0064b988072993a90846e84d38" title="Constructor de la classe Ctrl_Domini." alt="" coords="1005,59,1167,101"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1199,83,1167,83,1167,77,1199,77"/>
-<area shape="rect" id="Node000005" href="$classcontroladors_1_1_ctrl_domini.html#ab9f3147d91bf87174cee2fbad80eebd0" title="Retorna la instancia del controlador de domini." alt="" coords="776,59,957,101"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="989,83,957,83,957,77,989,77"/>
+<area shape="rect" id="Node000001" title="Carrega un usuari des d&#39;un fitxer JSON." alt="" coords="1772,88,1947,131"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_persistencia.html#a06c847181ea13b0c7dde8a61b47f0a0b" title="Carrega els usuaris guardats a la capa de persistència." alt="" coords="1483,88,1724,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1756,112,1724,112,1724,107,1756,107"/>
+<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_domini.html#ab06c2680b60a9e0864d8470f4888e8e9" title="Carrega els usuaris cada cop que executem el joc." alt="" coords="1215,88,1435,131"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1468,112,1436,112,1436,107,1468,107"/>
+<area shape="rect" id="Node000004" href="$classcontroladors_1_1_ctrl_domini.html#a7648cc0064b988072993a90846e84d38" title="Constructor de la classe Ctrl_Domini." alt="" coords="1005,88,1167,131"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1199,112,1167,112,1167,107,1199,107"/>
+<area shape="rect" id="Node000005" href="$classcontroladors_1_1_ctrl_domini.html#ab9f3147d91bf87174cee2fbad80eebd0" title="Retorna la instancia del controlador de domini." alt="" coords="776,88,957,131"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="989,112,957,112,957,107,989,107"/>
 <area shape="rect" id="Node000006" href="$classcontroladors_1_1_ctrl_presentacio.html#acaf9b6cf3f40d88428b5d77b735e8856" title="Obté el rànquing global d&#39;avatares limitat a un cert nombre." alt="" coords="498,29,707,72"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="761,71,707,65,707,60,762,66"/>
-<area shape="rect" id="Node000009" href="$classcontroladors_1_1_ctrl_presentacio.html#ae660314487eb1c9764a52ac98b431108" title="Inicialitza l&#39;aplicació creant les instàncies del controlador de domini i de partida,..." alt="" coords="477,96,728,123"/>
-<area shape="poly" id="edge10_Node000005_Node000009" title=" " alt="" coords="761,94,729,98,728,93,761,89"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="761,89,701,75,702,70,762,83"/>
+<area shape="rect" id="Node000009" href="$classdrivers_1_1_driver.html#a2cf45ad0923853bf6a6ffec27822acfc" title="Inicialitza el driver." alt="" coords="542,96,663,123"/>
+<area shape="poly" id="edge10_Node000005_Node000009" title=" " alt="" coords="761,112,663,112,663,107,761,107"/>
+<area shape="rect" id="Node000011" href="$classcontroladors_1_1_ctrl_presentacio.html#ae660314487eb1c9764a52ac98b431108" title="Inicialitza l&#39;aplicació creant les instàncies del controlador de domini i de partida,..." alt="" coords="477,147,728,173"/>
+<area shape="poly" id="edge12_Node000005_Node000011" title=" " alt="" coords="762,132,676,149,675,143,761,127"/>
 <area shape="rect" id="Node000007" href="$classinterficie_1_1_vista_consultar_ranking.html#ac8bcd1db92441badfd8650cd3c54025b" title="Carrega i mostra el rànquing a partir del límit indicat." alt="" coords="261,29,429,72"/>
 <area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="483,53,429,53,429,48,483,48"/>
 <area shape="rect" id="Node000008" href="$classinterficie_1_1_vista_consultar_ranking.html#a86d8edbe84e816fcf7c14b51a8d2e214" title="Constructor de la classe." alt="" coords="5,29,213,72"/>
 <area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="245,62,213,62,213,57,245,57"/>
 <area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="229,39,261,39,261,45,229,44"/>
 <area shape="poly" id="edge9_Node000008_Node000008" title=" " alt="" coords="147,16,133,10,109,8,87,10,73,15,68,21,70,28,64,29,63,19,70,10,86,5,109,3,134,5,149,11"/>
-<area shape="rect" id="Node000010" href="$classinterficie_1_1_main_g_u_i.html#ae12d6baaff26bc828aa5d7b411923165" title="Punt d&#39;entrada principal del programa." alt="" coords="266,96,424,123"/>
-<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="461,112,424,112,424,107,461,107"/>
+<area shape="rect" id="Node000010" href="$classdrivers_1_1_driver.html#a3f94ce3595725e82b34c92548e071d04" title="Inici del driver." alt="" coords="279,96,410,123"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="527,112,411,112,411,107,527,107"/>
+<area shape="rect" id="Node000012" href="$classinterficie_1_1_main_g_u_i.html#ae12d6baaff26bc828aa5d7b411923165" title="Punt d&#39;entrada principal del programa." alt="" coords="266,147,424,173"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="461,163,424,163,424,157,461,157"/>
 </map>

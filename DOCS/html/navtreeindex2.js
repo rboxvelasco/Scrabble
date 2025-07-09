@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"classdomini_1_1excepcions_1_1_excepcio_arxiu_bossa.html#a7eba96a24a151df1c739b721de77bf37":[0,0,1,2,0,0],
 "classdomini_1_1excepcions_1_1_excepcio_arxiu_bossa.html#a7eba96a24a151df1c739b721de77bf37":[1,0,1,2,0,0],
 "classdomini_1_1excepcions_1_1_excepcio_arxiu_diccionari.html":[0,0,1,2,1],
 "classdomini_1_1excepcions_1_1_excepcio_arxiu_diccionari.html":[1,0,1,2,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "classdomini_1_1scrabble_1_1_estat_pausada.html#a19bad34f143eb8b65977c6d397f5fa29":[0,0,1,4,5,4],
 "classdomini_1_1scrabble_1_1_estat_pausada.html#a19bad34f143eb8b65977c6d397f5fa29":[1,0,1,4,5,4],
 "classdomini_1_1scrabble_1_1_estat_pausada.html#a58f63b9343c2c89b8cb79cda44b41aad":[0,0,1,4,5,2],
-"classdomini_1_1scrabble_1_1_estat_pausada.html#a58f63b9343c2c89b8cb79cda44b41aad":[1,0,1,4,5,2],
-"classdomini_1_1scrabble_1_1_estat_pausada.html#a61aef9b095c724cd148eabfcf61f85ab":[0,0,1,4,5,3]
+"classdomini_1_1scrabble_1_1_estat_pausada.html#a58f63b9343c2c89b8cb79cda44b41aad":[1,0,1,4,5,2]
 };

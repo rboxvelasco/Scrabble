@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['abandonarpartida_0',['abandonarPartida',['../classcontroladors_1_1_ctrl_partida.html#a15489fe587b7fe577bd1c4be09c58e6e',1,'controladors.CtrlPartida.abandonarPartida()'],['../classcontroladors_1_1_ctrl_presentacio.html#aade10ef9769feff03c1bed6677942541',1,'controladors.CtrlPresentacio.abandonarPartida()']]],
+  ['abandonarpartida_0',['abandonarPartida',['../classcontroladors_1_1_ctrl_partida.html#a15489fe587b7fe577bd1c4be09c58e6e',1,'controladors.CtrlPartida.abandonarPartida()'],['../classcontroladors_1_1_ctrl_presentacio.html#aade10ef9769feff03c1bed6677942541',1,'controladors.CtrlPresentacio.abandonarPartida()'],['../classdrivers_1_1_driver.html#ac619a13f9534e9347b26fae373236cfd',1,'drivers.Driver.abandonarPartida()']]],
   ['actualitzarcrosschecks_1',['actualitzarCrossChecks',['../classdomini_1_1scrabble_1_1_casella.html#a71d23296f7f301798dbbfa78632f37af',1,'domini::scrabble::Casella']]],
   ['actualitzardadesglobals_2',['actualitzarDadesGlobals',['../classcontroladors_1_1_ctrl_domini.html#a9b8102ac23ea03ea525c42517a8dbbbc',1,'controladors::CtrlDomini']]],
   ['actualitzarimatge_3',['actualitzarImatge',['../classinterficie_1_1utils_1_1_tools.html#aad14ef36a2a433a18d49c46a83531892',1,'interficie.utils.Tools.actualitzarImatge()'],['../classinterficie_1_1_vista_menu_principal.html#a9fadc5a8b4c73d3b1ed8b8006e451595',1,'interficie.VistaMenuPrincipal.actualitzarImatge()']]],

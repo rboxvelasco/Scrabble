@@ -1,0 +1,9 @@
+<map id="drivers.Driver.tokenize" name="drivers.Driver.tokenize">
+<area shape="rect" id="Node000001" title="Genera una llista amb les lletres i dígrafs del paràmetre." alt="" coords="5,43,158,69"/>
+<area shape="rect" id="Node000002" href="$classdrivers_1_1_driver.html#a1f0852212ac7d690fe9c705f9eadd737" title="Donat un text entrat per terminal, és possible que el charSet de la consola no reconegui correctament..." alt="" coords="206,35,399,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,53,190,53,190,59,158,59"/>
+<area shape="rect" id="Node000003" href="$classdrivers_1_1_driver.html#a5337e850da710900d1ef6e2c4455a416" title="Donada una seqüència de caràcters identifica qualsevol submot &quot;[VOCAL]?&quot; o &quot;?[VOCAL]&quot; i ho substituei..." alt="" coords="458,5,614,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="399,41,442,36,442,41,400,46"/>
+<area shape="rect" id="Node000004" href="$classdrivers_1_1_driver.html#a5786bc8fc6091766d21fc7e775c38b45" title="Donada una seqüència de caràcters identifica qualsevol submot &quot;LxL&quot; on x no pertany al conjunt {A&#45;Z}..." alt="" coords="447,72,624,99"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="400,66,432,70,431,75,399,71"/>
+</map>

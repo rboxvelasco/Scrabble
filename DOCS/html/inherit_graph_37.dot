@@ -6,5 +6,5 @@ digraph "Jerarquia Gràfica de la Classe"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [id="Node000000",label="VistaCrearAvatars",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_vista_crear_avatars.html",tooltip="Mostra una finestra que demana les dades necessaries per a crear un Avatar."];
+  Node0 [id="Node000000",label="persistencia.UsuariIO",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpersistencia_1_1_usuari_i_o.html",tooltip="Gestor de persistència per a usuaris."];
 }

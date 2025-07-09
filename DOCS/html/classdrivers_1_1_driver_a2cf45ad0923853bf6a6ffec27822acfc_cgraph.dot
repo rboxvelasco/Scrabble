@@ -1,0 +1,24 @@
+digraph "drivers.Driver.init"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="drivers.Driver.init",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Inicialitza el driver."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="controladors.CtrlDomini.get\lInstancia",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_domini.html#ab9f3147d91bf87174cee2fbad80eebd0",tooltip="Retorna la instancia del controlador de domini."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="controladors.CtrlDomini.\lCtrlDomini",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_domini.html#a7648cc0064b988072993a90846e84d38",tooltip="Constructor de la classe Ctrl_Domini."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="controladors.CtrlDomini.inicialitzar\lUsuaris",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_domini.html#ab06c2680b60a9e0864d8470f4888e8e9",tooltip="Carrega els usuaris cada cop que executem el joc."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="controladors.CtrlPersistencia.carregar\lUsuarisRegistrats",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_persistencia.html#a06c847181ea13b0c7dde8a61b47f0a0b",tooltip="Carrega els usuaris guardats a la capa de persistència."];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="persistencia.UsuariIO.load\lUsuari",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpersistencia_1_1_usuari_i_o.html#a29677f40d007ca66a5ec1b0926e16da4",tooltip="Carrega un usuari des d'un fitxer JSON."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="controladors.CtrlPartida.get\lInstancia",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_partida.html#acc3f8d0c1620b0c1befc2c1a550a23a8",tooltip="Obté la instància única del controlador de partida."];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="controladors.CtrlPartida.\lCtrlPartida",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_partida.html#a8f5583dd87ab70723d68c87c1fefb5f4",tooltip="Constructor del controlador de la partida."];
+}

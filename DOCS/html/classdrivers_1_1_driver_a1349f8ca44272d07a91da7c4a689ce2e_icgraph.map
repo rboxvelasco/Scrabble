@@ -1,0 +1,7 @@
+<map id="drivers.Driver.passarTorn" name="drivers.Driver.passarTorn">
+<area shape="rect" id="Node000001" title="Passa el torn del jugador actual." alt="" coords="405,5,572,32"/>
+<area shape="rect" id="Node000002" href="$classdrivers_1_1_driver.html#a13e38153634507d9ad6e24cb267237b9" title="Juga una partida." alt="" coords="185,5,357,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="390,21,357,21,357,16,390,16"/>
+<area shape="rect" id="Node000003" href="$classdrivers_1_1_driver.html#a3f94ce3595725e82b34c92548e071d04" title="Inici del driver." alt="" coords="5,5,137,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="169,21,137,21,137,16,169,16"/>
+</map>

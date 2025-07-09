@@ -1,0 +1,25 @@
+digraph "domini.auxiliars.ColorTerminal.centerText"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="domini.auxiliars.ColorTerminal.centerText",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Centra el text en una línia de la terminal."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="drivers.Driver.consultar\lNormes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdrivers_1_1_driver.html#af17ae20af9da7fe473559b18f57b3846",tooltip="Consulta les normes del joc."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="drivers.Driver.jugarPartida",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdrivers_1_1_driver.html#a13e38153634507d9ad6e24cb267237b9",tooltip="Juga una partida."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="drivers.Driver.main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdrivers_1_1_driver.html#a3f94ce3595725e82b34c92548e071d04",tooltip="Inici del driver."];
+  Node2 -> Node4 [id="edge4_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="drivers.Driver.PantallaCanvi\lDeTorn",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdrivers_1_1_driver.html#a735bc9f4183f4abd4c702da4c62b0ce8",tooltip="Mostra la pantalla de canvi de torn donant temps per a que el jugador es retiri i no vegi la pantalla..."];
+  Node5 -> Node6 [id="edge6_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="drivers.Driver.colocarParaula",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdrivers_1_1_driver.html#a2e8cde796339c2db37f3e7332bf695ea",tooltip="Col·loca una paraula al taulell."];
+  Node6 -> Node3 [id="edge7_Node000006_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 -> Node7 [id="edge8_Node000005_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="drivers.Driver.passarTorn",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdrivers_1_1_driver.html#a1349f8ca44272d07a91da7c4a689ce2e",tooltip="Passa el torn del jugador actual."];
+  Node7 -> Node3 [id="edge9_Node000007_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

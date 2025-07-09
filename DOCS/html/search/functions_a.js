@@ -7,5 +7,6 @@ var searchData=
   ['jugadorio_4',['JugadorIO',['../classpersistencia_1_1_jugador_i_o.html#aa08aedf0bec150730893180a24f41670',1,'persistencia::JugadorIO']]],
   ['jugadornoactual_5fcontroladornom_5',['jugadorNoActual_controladorNOM',['../classcontroladors_1_1_ctrl_partida.html#a61fb4e56de4f9925e7931e2d86d90fc7',1,'controladors::CtrlPartida']]],
   ['jugadorpuntuacio_6',['JugadorPuntuacio',['../classdomini_1_1scrabble_1_1_ranking_1_1_jugador_puntuacio.html#a722e8f1196ae0ff9a69d8cc23b546423',1,'domini::scrabble::Ranking::JugadorPuntuacio']]],
-  ['jugadorsregistratsvalids_7',['jugadorsRegistratsValids',['../classcontroladors_1_1_ctrl_domini.html#aa3baef8745a51c1b1f73035104f72446',1,'controladors::CtrlDomini']]]
+  ['jugadorsregistratsvalids_7',['jugadorsRegistratsValids',['../classcontroladors_1_1_ctrl_domini.html#aa3baef8745a51c1b1f73035104f72446',1,'controladors::CtrlDomini']]],
+  ['jugarpartida_8',['jugarPartida',['../classdrivers_1_1_driver.html#a13e38153634507d9ad6e24cb267237b9',1,'drivers::Driver']]]
 ];

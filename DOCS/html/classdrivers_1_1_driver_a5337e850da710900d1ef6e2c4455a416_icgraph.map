@@ -1,0 +1,13 @@
+<map id="drivers.Driver.substituirCtrencada" name="drivers.Driver.substituirCtrencada">
+<area shape="rect" id="Node000001" title="Donada una seqüència de caràcters identifica qualsevol submot &quot;[VOCAL]?&quot; o &quot;?[VOCAL]&quot; i ho substituei..." alt="" coords="1084,5,1240,48"/>
+<area shape="rect" id="Node000002" href="$classdrivers_1_1_driver.html#a1f0852212ac7d690fe9c705f9eadd737" title="Donat un text entrat per terminal, és possible que el charSet de la consola no reconegui correctament..." alt="" coords="843,5,1036,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1069,29,1037,29,1037,24,1069,24"/>
+<area shape="rect" id="Node000003" href="$classdrivers_1_1_driver.html#a0ebb5e3010ea1f086dc4fd28df56ae54" title="Genera una llista amb les lletres i dígrafs del paràmetre." alt="" coords="642,13,795,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="827,29,795,29,795,24,827,24"/>
+<area shape="rect" id="Node000004" href="$classdrivers_1_1_driver.html#a2e8cde796339c2db37f3e7332bf695ea" title="Col·loca una paraula al taulell." alt="" coords="405,13,594,40"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="627,29,595,29,595,24,627,24"/>
+<area shape="rect" id="Node000005" href="$classdrivers_1_1_driver.html#a13e38153634507d9ad6e24cb267237b9" title="Juga una partida." alt="" coords="185,13,357,40"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="389,29,358,29,358,24,389,24"/>
+<area shape="rect" id="Node000006" href="$classdrivers_1_1_driver.html#a3f94ce3595725e82b34c92548e071d04" title="Inici del driver." alt="" coords="5,13,137,40"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="169,29,137,29,137,24,169,24"/>
+</map>

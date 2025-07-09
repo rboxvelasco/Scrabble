@@ -16,7 +16,11 @@ digraph "controladors.CtrlDomini.getInstancia"
   Node4 -> Node3 [id="edge4_Node000004_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node4 -> Node4 [id="edge5_Node000004_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node1 -> Node5 [id="edge6_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node5 [id="Node000005",label="controladors.CtrlPresentacio.launchApp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#ae660314487eb1c9764a52ac98b431108",tooltip="Inicialitza l'aplicació creant les instàncies del controlador de domini i de partida,..."];
+  Node5 [id="Node000005",label="drivers.Driver.init",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdrivers_1_1_driver.html#a2cf45ad0923853bf6a6ffec27822acfc",tooltip="Inicialitza el driver."];
   Node5 -> Node6 [id="edge7_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node6 [id="Node000006",label="interficie.MainGUI.main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_main_g_u_i.html#ae12d6baaff26bc828aa5d7b411923165",tooltip="Punt d'entrada principal del programa."];
+  Node6 [id="Node000006",label="drivers.Driver.main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdrivers_1_1_driver.html#a3f94ce3595725e82b34c92548e071d04",tooltip="Inici del driver."];
+  Node1 -> Node7 [id="edge8_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="controladors.CtrlPresentacio.launchApp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcontroladors_1_1_ctrl_presentacio.html#ae660314487eb1c9764a52ac98b431108",tooltip="Inicialitza l'aplicació creant les instàncies del controlador de domini i de partida,..."];
+  Node7 -> Node8 [id="edge9_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="interficie.MainGUI.main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classinterficie_1_1_main_g_u_i.html#ae12d6baaff26bc828aa5d7b411923165",tooltip="Punt d'entrada principal del programa."];
 }

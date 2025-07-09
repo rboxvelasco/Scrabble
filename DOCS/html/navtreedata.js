@@ -50,9 +50,10 @@ var NAVTREEINDEX =
 "classcontroladors_1_1_ctrl_presentacio.html#a28d8149aa0fa44a898679b6a03d59ba0",
 "classdomini_1_1excepcions_1_1_excepcio_arxiu_bossa.html#a7eba96a24a151df1c739b721de77bf37",
 "classdomini_1_1scrabble_1_1_estat_pausada.html#a61aef9b095c724cd148eabfcf61f85ab",
-"classinterficie_1_1_vista_canvi_torn.html#af300fe6251fc72d43b8237b051fa5b75",
-"classinterficie_1_1_vista_crear_perfil.html#abafe5e53f574555b51764d1fe3a18ec8",
-"classinterficie_1_1_vista_partida.html#a6bd7550fc714ba5195c8b55ffe3d973c"
+"classdrivers_1_1_driver.html#a8650da42c38e1a93a7f90ca30a952e5f",
+"classinterficie_1_1_vista_crear_avatar_1_1_placeholder_text_field.html#a27995aadab3a842f352d8f8024e9a4dc",
+"classinterficie_1_1_vista_menu_joc.html#aed861afb71e1782ad04850ecc188dfa1",
+"functions_func_v.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

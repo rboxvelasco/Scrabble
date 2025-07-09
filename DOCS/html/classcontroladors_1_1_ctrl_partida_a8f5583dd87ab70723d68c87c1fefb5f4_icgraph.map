@@ -1,9 +1,13 @@
 <map id="controladors.CtrlPartida.CtrlPartida" name="controladors.CtrlPartida.CtrlPartida">
-<area shape="rect" id="Node000001" title="Constructor del controlador de la partida." alt="" coords="739,5,902,48"/>
-<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_partida.html#acc3f8d0c1620b0c1befc2c1a550a23a8" title="Obté la instància única del controlador de partida." alt="" coords="511,5,691,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="724,29,692,29,692,24,724,24"/>
-<area shape="rect" id="Node000003" href="$classcontroladors_1_1_ctrl_presentacio.html#ae660314487eb1c9764a52ac98b431108" title="Inicialitza l&#39;aplicació creant les instàncies del controlador de domini i de partida,..." alt="" coords="212,13,463,40"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="495,29,463,29,463,24,495,24"/>
-<area shape="rect" id="Node000004" href="$classinterficie_1_1_main_g_u_i.html#ae12d6baaff26bc828aa5d7b411923165" title="Punt d&#39;entrada principal del programa." alt="" coords="5,13,164,40"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="196,29,164,29,164,24,196,24"/>
+<area shape="rect" id="Node000001" title="Constructor del controlador de la partida." alt="" coords="739,23,902,65"/>
+<area shape="rect" id="Node000002" href="$classcontroladors_1_1_ctrl_partida.html#acc3f8d0c1620b0c1befc2c1a550a23a8" title="Obté la instància única del controlador de partida." alt="" coords="511,23,691,65"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="724,47,692,47,692,41,724,41"/>
+<area shape="rect" id="Node000003" href="$classdrivers_1_1_driver.html#a2cf45ad0923853bf6a6ffec27822acfc" title="Inicialitza el driver." alt="" coords="277,5,398,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="495,37,398,27,398,22,496,31"/>
+<area shape="rect" id="Node000005" href="$classcontroladors_1_1_ctrl_presentacio.html#ae660314487eb1c9764a52ac98b431108" title="Inicialitza l&#39;aplicació creant les instàncies del controlador de domini i de partida,..." alt="" coords="212,56,463,83"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="496,57,464,60,463,55,495,51"/>
+<area shape="rect" id="Node000004" href="$classdrivers_1_1_driver.html#a3f94ce3595725e82b34c92548e071d04" title="Inici del driver." alt="" coords="19,5,150,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="262,21,150,21,150,16,262,16"/>
+<area shape="rect" id="Node000006" href="$classinterficie_1_1_main_g_u_i.html#ae12d6baaff26bc828aa5d7b411923165" title="Punt d&#39;entrada principal del programa." alt="" coords="5,56,164,83"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="196,72,164,72,164,67,196,67"/>
 </map>

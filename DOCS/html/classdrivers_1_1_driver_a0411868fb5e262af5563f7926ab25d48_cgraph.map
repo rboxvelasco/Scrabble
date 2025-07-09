@@ -1,0 +1,5 @@
+<map id="drivers.Driver.mostrarEstadistiques" name="drivers.Driver.mostrarEstadistiques">
+<area shape="rect" id="Node000001" title="Mostra les estadístiques d&#39;un jugador." alt="" coords="5,5,232,32"/>
+<area shape="rect" id="Node000002" href="$classdrivers_1_1_driver.html#a8bc044826a5994373681c23cc5555bce" title="Neteja la pantalla del terminal." alt="" coords="280,5,452,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,16,264,16,264,21,232,21"/>
+</map>

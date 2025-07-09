@@ -1,0 +1,9 @@
+<map id="drivers.Driver.canviarFitxes" name="drivers.Driver.canviarFitxes">
+<area shape="rect" id="Node000001" title="Canvia fitxes del jugador actual." alt="" coords="5,64,187,91"/>
+<area shape="rect" id="Node000002" href="$classdrivers_1_1_driver.html#a8bc044826a5994373681c23cc5555bce" title="Neteja la pantalla del terminal." alt="" coords="237,5,410,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,61,253,34,255,39,151,66"/>
+<area shape="rect" id="Node000003" href="$classdrivers_1_1_driver.html#a922b257b3c0425d1b3a89e6202abb26a" title="Identifica els caràcters del paràmetre d&#39;entrada que hauríen de correspondre&#39;s amb &#39;Ç&#39; i els substitu..." alt="" coords="244,56,403,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,75,228,75,228,80,187,80"/>
+<area shape="rect" id="Node000004" href="$classdrivers_1_1_driver.html#a5786bc8fc6091766d21fc7e775c38b45" title="Donada una seqüència de caràcters identifica qualsevol submot &quot;LxL&quot; on x no pertany al conjunt {A&#45;Z}..." alt="" coords="235,123,412,149"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="151,89,255,116,253,121,150,94"/>
+</map>
