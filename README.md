@@ -36,13 +36,16 @@ A cross‑platform Scrabble application (Windows & Linux) letting you play again
 
 - ☕ **Java 11** (or higher)
 - 📦 **Gson 2.9** (for JSON load/save)
-- 🧪 **JUnit 4** & related libraries (for unit tests only):  
-  - `objenesis-3.3`  
-  - `mockito-core-4.9.0`  
-  - `junit-4.12`  
-  - `hamcrest-core-1.3`  
-  - `byte-buddy-agent-1.12.16`  
-  - `byte-buddy-1.12.16`  
+
+### 📥 Downloading Required Libraries
+
+Before compiling, make sure to download the necessary `.jar` files:
+
+- On **Linux/macOS**: run `./get_libs.sh`
+- On **Windows**: run `get_libs.bat`
+
+This will download Gson libraries into the `FONTS/lib/` directory.
+
 
 ---
 
