@@ -1,6 +1,8 @@
 # Scrabble PROP
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+![Java](https://img.shields.io/badge/Java-11+-blue?logo=java)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-green)
+![License](https://img.shields.io/badge/License-GPL%20v3-blue)
 
 A cross‑platform Scrabble application (Windows & Linux) letting you play against a bot 🤖 or a friend 👥.
 
