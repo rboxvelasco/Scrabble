@@ -46,14 +46,14 @@ Before compiling, make sure to download the necessary `.jar` files:
 - On **Linux/macOS**: run `./get_libs.sh`
 - On **Windows**: run `get_libs.bat`
 
-This will download Gson libraries into the `FONTS/lib/` directory.
+This will download Gson libraries into the `src/lib/` directory.
 
 
 ---
 
 ## 🚀 Installation & Running
 
-> All compile/run commands should be executed from the `SRC` directory.
+> All compile/run commands should be executed from the `src` directory.
 
 ### 🐧 Linux
 
@@ -115,13 +115,13 @@ SUBGRUP-PROP43.2/
 │   │
 │   ├── Makefile              # Linux build
 │   ├── compilar.bat          # Windows build
-│   ├── get_deps.sh           # Linux dependencies installer
-│   ├── get_deps.bat          # Windows dependencies installer
 │   ├── scrabble.sh           # Linux launcher
 │   ├── scrabble.bat          # Windows launcher (with debug)
 │   ├── scrabble.vbs          # Windows launcher (no debug)
 │   └── "Scrabble - PROP.lnk" # Windows shortcut
 │
+├── get_deps.sh               # Linux dependencies installer
+├── get_deps.bat              # Windows dependencies installer
 └── Doxyfile                  # Doxygen configuration
 ```
 
