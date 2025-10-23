@@ -22,7 +22,6 @@ A cross‑platform Scrabble application (Windows & Linux) letting you play again
 - [👥 Authors](#👥-authors)  
 - [📝 License](#📝-license)  
 
----
 
 ## ✨ Features
 
@@ -32,7 +31,6 @@ A cross‑platform Scrabble application (Windows & Linux) letting you play again
 - For a better experience, turn on the sound on your computer 🔊
 - Full Swing-based GUI, identical on Linux and Windows 🖥️  
 
----
 
 ## ⚙️ Prerequisites
 
@@ -48,8 +46,6 @@ Before compiling, make sure to download the necessary `.jar` files:
 
 This will download Gson libraries into the `src/lib/` directory.
 
-
----
 
 ## 🚀 Installation & Running
 
@@ -75,7 +71,6 @@ make
 .\scrabble.bat
 # (or double‑click the “Scrabble – PROP” shortcut in Explorer)
 ```
----
 
 ## 📄 Documentation
 
@@ -85,7 +80,6 @@ You can browse the full Doxygen-generated source code documentation here:
 
 > **Note**: Most of the source code and comments are written in Catalan, as the project was developed in a trilingual academic environment.
 
----
 
 ## 📂 Project Structure
 
@@ -125,7 +119,6 @@ SUBGRUP-PROP43.2/
 └── Doxyfile                  # Doxygen configuration
 ```
 
----
 
 ## 📸 Screenshots
 
@@ -133,13 +126,10 @@ SUBGRUP-PROP43.2/
 ![Game Window](src/resources/screenshots/game_window.png)
 ![Statistics Window](src/resources/screenshots/avatars_statistics.png)
 
----
-
 ## 🤝 Contributing
 
-Feel free to fork the repository, improve the code, add features or fix bugs! 🚀
+Feel free to fork the repository, improve the code, add features or fix bugs!
 
----
 
 ## 👥 Authors
 
@@ -148,7 +138,6 @@ Feel free to fork the repository, improve the code, add features or fix bugs! �
 - Ada Peña  
 - Martina Cusidó  
 
----
 
 ## 📝 License
 
