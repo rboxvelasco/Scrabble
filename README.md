@@ -13,14 +13,14 @@ A cross‑platform Scrabble application (Windows & Linux) letting you play again
 - [Features](#features)  
 - [Prerequisites](#prerequisites)  
 - [Installation & Running](#installation--running)  
-  - [🐧 Linux](#🐧-linux)  
+  - [🐧 Linux](#linux)  
   - [🪟 Windows](#windows)  
 - [Documentation](#documentation)
 - [Project Structure](#project-structure)  
-- [Screenshots](#📸-screenshots)  
-- [Contributing](#🤝-contributing)  
-- [Authors](#👥-authors)  
-- [License](#📝-license)  
+- [Screenshots](#screenshots)  
+- [Contributing](#contributing)  
+- [Authors](#authors)  
+- [License](#license)  
 
 
 ## Features
@@ -51,7 +51,7 @@ This will download Gson libraries into the `src/lib/` directory.
 
 > All compile/run commands should be executed from the `src` directory.
 
-#### 🐧 Linux
+#### Linux 🐧
 
 ```bash
 # Compile
@@ -61,7 +61,7 @@ make
 ./scrabble.sh
 ```
 
-#### 🪟 Windows
+#### Windows 🪟
 
 ```powershell
 # Compile
@@ -120,18 +120,18 @@ You can browse the full Doxygen-generated source code documentation here:
 ```
 
 
-## 📸 Screenshots
+## Screenshots 📸
 
 ![Main Window](src/resources/screenshots/main_window.png)
 ![Game Window](src/resources/screenshots/game_window.png)
 ![Statistics Window](src/resources/screenshots/avatars_statistics.png)
 
-## 🤝 Contributing
+## Contributing 🤝
 
 Feel free to fork the repository, improve the code, add features or fix bugs!
 
 
-## 👥 Authors
+## Authors 👥
 
 - Raül Box  
 - Aina Serra  
@@ -139,6 +139,6 @@ Feel free to fork the repository, improve the code, add features or fix bugs!
 - Martina Cusidó  
 
 
-## 📝 License
+## License 📝
 
 This project is licensed under the **GNU GPL v3**. See [LICENSE](./LICENSE) for details.
