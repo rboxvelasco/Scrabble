@@ -13,8 +13,8 @@ A cross‑platform Scrabble application (Windows & Linux) letting you play again
 - [Features](#features)  
 - [Prerequisites](#prerequisites)  
 - [Installation & Running](#installation--running)  
-  - [🐧 Linux](#linux-)  
-  - [🪟 Windows](#windows-)  
+  - [🐧 Linux](#-linux)  
+  - [🪟 Windows](#-windows)  
 - [Documentation](#documentation)
 - [Project Structure](#project-structure)  
 - [Screenshots](#screenshots)  
@@ -51,7 +51,7 @@ This will download Gson libraries into the `src/lib/` directory.
 
 > All compile/run commands should be executed from the `src` directory.
 
-#### Linux 🐧
+#### 🐧 Linux
 
 ```bash
 # Compile
@@ -61,7 +61,7 @@ make
 ./scrabble.sh
 ```
 
-#### Windows 🪟
+#### 🪟 Windows
 
 ```powershell
 # Compile
