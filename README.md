@@ -14,7 +14,7 @@ A cross‑platform Scrabble application (Windows & Linux) letting you play again
 - [Prerequisites](#prerequisites)  
 - [Installation & Running](#installation--running)  
   - [🐧 Linux](#🐧-linux)  
-  - [🪟 Windows](#🪟-windows)  
+  - [🪟 Windows](#windows)  
 - [Documentation](#documentation)
 - [Project Structure](#project-structure)  
 - [Screenshots](#📸-screenshots)  
