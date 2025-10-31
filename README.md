@@ -10,13 +10,13 @@ A cross‑platform Scrabble application (Windows & Linux) letting you play again
 
 ## 📋 Table of Contents
 
-- [Features](#✨-features)  
-- [Prerequisites](#⚙️-prerequisites)  
-- [Installation & Running](#🚀-installation--running)  
+- [Features](#features)  
+- [Prerequisites](#prerequisites)  
+- [Installation & Running](#installation--running)  
   - [🐧 Linux](#🐧-linux)  
   - [🪟 Windows](#🪟-windows)  
-- [Documentation](#📄-documentation)
-- [Project Structure](#📂-project-structure)  
+- [Documentation](#documentation)
+- [Project Structure](#project-structure)  
 - [Screenshots](#📸-screenshots)  
 - [Contributing](#🤝-contributing)  
 - [Authors](#👥-authors)  
