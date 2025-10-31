@@ -4,26 +4,26 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-green)
 ![License](https://img.shields.io/badge/License-GPL%20v3-blue)
 
-A cross‑platform Scrabble application (Windows & Linux) letting you play against a bot 🤖 or a friend 👥.
+A cross‑platform Scrabble application (Windows & Linux) letting you play against a bot or a friend.
 
 ---
 
 ## 📋 Table of Contents
 
-- [✨ Features](#✨-features)  
-- [⚙️ Prerequisites](#⚙️-prerequisites)  
-- [🚀 Installation & Running](#🚀-installation--running)  
+- [Features](#✨-features)  
+- [Prerequisites](#⚙️-prerequisites)  
+- [Installation & Running](#🚀-installation--running)  
   - [🐧 Linux](#🐧-linux)  
   - [🪟 Windows](#🪟-windows)  
-- [📄 Documentation](#📄-documentation)
-- [📂 Project Structure](#📂-project-structure)  
-- [📸 Screenshots](#📸-screenshots)  
-- [🤝 Contributing](#🤝-contributing)  
-- [👥 Authors](#👥-authors)  
-- [📝 License](#📝-license)  
+- [Documentation](#📄-documentation)
+- [Project Structure](#📂-project-structure)  
+- [Screenshots](#📸-screenshots)  
+- [Contributing](#🤝-contributing)  
+- [Authors](#👥-authors)  
+- [License](#📝-license)  
 
 
-## ✨ Features
+## Features
 
 - Play in **Catalan**, **Spanish**, or **English** 🌍  
 - Human vs. **Bot** 🤖 or Human vs. **Human** 👥  
@@ -32,7 +32,7 @@ A cross‑platform Scrabble application (Windows & Linux) letting you play again
 - Full Swing-based GUI, identical on Linux and Windows 🖥️  
 
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 - ☕ **Java 11** (or higher)
 - 📦 **Gson 2.9** (for JSON load/save)
@@ -47,11 +47,11 @@ Before compiling, make sure to download the necessary `.jar` files:
 This will download Gson libraries into the `src/lib/` directory.
 
 
-## 🚀 Installation & Running
+## Installation & Running
 
 > All compile/run commands should be executed from the `src` directory.
 
-### 🐧 Linux
+#### 🐧 Linux
 
 ```bash
 # Compile
@@ -61,7 +61,7 @@ make
 ./scrabble.sh
 ```
 
-### 🪟 Windows
+#### 🪟 Windows
 
 ```powershell
 # Compile
@@ -72,19 +72,19 @@ make
 # (or double‑click the “Scrabble – PROP” shortcut in Explorer)
 ```
 
-## 📄 Documentation
+## Documentation
 
 You can browse the full Doxygen-generated source code documentation here:
 
-> 📚 Online documentation generated with Doxygen is available [here](https://rboxvelasco.github.io/Scrabble/).
+> 📄 Online documentation generated with Doxygen is available [here](https://rboxvelasco.github.io/Scrabble/).
 
 > **Note**: Most of the source code and comments are written in Catalan, as the project was developed in a trilingual academic environment.
 
 
-## 📂 Project Structure
+## Project Structure
 
 ```
-SUBGRUP-PROP43.2/
+📂
 │
 ├── docs/                     # Project Doxygen documentation.
 ├── design/                   # UML's & algorithm rationale.
